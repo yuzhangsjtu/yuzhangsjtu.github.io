@@ -36,7 +36,7 @@ The authors obtained nearly all criminal judgments for 2012–2018 from **China 
 
 Notably, since China Judgements Online launched in late 2013, early uploads may be **incomplete** — 2012–2013 records are sparse, rising sharply after 2014. Re-estimating on a **truncated sample** (2014 onward) confirms this representativeness issue does not affect the conclusions. The authors further compare national totals against official filing counts and prosecuted-suspect counts in the *Law Yearbook of China*, finding closely matching trends — the judgment-document data reliably track actual crime. In sum, the judicial-document crime measure is broad in coverage, fine in granularity, and credible, providing a solid foundation.
 
-![](/images/posts/ej-export-crime/image-20250416152259309.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416152259309.png)
 
 Figure 1 ⬆️: Spatial distribution of crime rates across Chinese prefecture-level cities, 2012–2018 (criminal cases per thousand people)
 
@@ -50,7 +50,7 @@ $$
 
 where $Export_{c,t}$ is city $c$'s total exports in year $t$ (in thousands of USD) and $L_{c,2010}$ is the city's working-age population in 2010. The measure captures each city's exposure to the global trade slump — positive for export growth, negative for decline.
 
-![](/images/posts/ej-export-crime/image-20250416152823062.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416152823062.png)
 
 Figure 3 ⬆️: Dynamics of China's manufacturing export growth, 2012–2019
 
@@ -94,7 +94,7 @@ Empirically, the authors first estimate the baseline by 2SLS, testing the averag
 
 Table 2 reports baseline effects. OLS (column 1) shows a positive but insignificant association between export decline and crime. The weak correlation likely reflects omitted variables and reverse causality: **technological progress** or **automation** can raise export competitiveness while increasing unemployment and crime, masking the true effect; cities with better **public order** may attract investment and expand exports, generating reverse causation. OLS therefore cannot identify the causal effect. The 2SLS estimate with the exogenous instrument (column 2) is significant: **export decline markedly increases crime**. Concretely, when a city's per-capita exports fall by $1,000 from the previous year, the next year's criminal-case rate rises by about 0.143 per thousand people — i.e., 143 more cases per million. The estimate is significant at 1% and economically large: against a mean of 447 cases per million, +143 is a 32% increase. Of the cross-city variation in crime, export decline alone explains about 13%. Put differently, had China maintained its pre-crisis 20% annual export growth, urban crime would be roughly 12.1% lower than it is.
 
-![](/images/posts/ej-export-crime/image-20250416155756068.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416155756068.png)
 
 Note that the 2SLS coefficient (−0.143) exceeds OLS in absolute value, implying OLS underestimated the true impact — as expected, since omitted positive factors (e.g., technology upgrading) raise both exports and crime, partially offsetting the crime increase from export decline in OLS. The corrected 2SLS impact is larger, meaning the social cost of export slowdown had been understated. The baseline thus establishes a **causal relationship** from export decline to rising crime with strong statistical and economic significance.
 
@@ -109,7 +109,7 @@ Using the granular data, the authors examine heterogeneity by **city characteris
 - **By region:** classifying cities into East, Central, and West. **Eastern coastal** cities (Beijing, Shanghai, Jiangsu, Guangdong, etc.) show significant crime increases under export slowdown; Central and West are generally insignificant — matching common sense, as the East concentrates manufacturing and exports, while the interior is more domestic-demand or resource driven.
 - **By initial public order:** splitting by 2014 initial crime rates, the increase from export decline is slightly larger in initially high-crime cities, suggesting bigger social backlash where order was already weaker. However, bootstrap tests of cross-group coefficient differences find most insignificant — only the migrant-share split is statistically significant. The heterogeneity results are thus mainly directional, flagging high-risk city profiles.
 
-![](/images/posts/ej-export-crime/image-20250416160314347.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416160314347.png)
 
 #### **Which crimes**
 
@@ -120,7 +120,7 @@ Classifying offenses into 14 statutory types (Table 4), export decline raises ma
 - **Prostitution and gambling offenses**: cases of *"prostitution and gambling"* also rise significantly — in hard times some risk illegal sex work or gambling scams, or pressure drives more participation in these activities.
 - **Serious traffic offenses**: **traffic-crime** rates (e.g., drunk driving causing major casualties) also climb after export shocks. These are impulsive or negligent acts plausibly tied to stress-induced drinking and risk-taking; in downturns, people in poor spirits take more risks (drunk driving), producing severe accidents.
 
-![](/images/posts/ej-export-crime/image-20250416160756338.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416160756338.png)
 
 These categories span **"subsistence"** crimes (theft, robbery) and **"affective"** crimes (violence, dangerous driving), matching the proposed mechanisms: economic hardship lowers the opportunity cost of crime, directly inducing property offenses; economic stress degrades mental health, indirectly producing loss of control and impulsive offenses. By contrast, crimes weakly linked to the economy (high-tech, environmental) show no clear change. Overall, the public-order impact of export slowdown is multidimensional — more crime both from **making ends meet** and from **losing control** — showing that a worsening economy raises crime through several channels.
 
@@ -128,7 +128,7 @@ These categories span **"subsistence"** crimes (theft, robbery) and **"affective
 
 Extensive checks confirm the reliability of the baseline and the validity of the instrument.
 
-- **Pre-trends:** The key step is verifying no systematic differences in crime trends across cities before the shock. Two approaches: first, adding multiple lags and leads of the export shock to the baseline. As Figure 4 shows, the shock significantly affects crime one year later (the estimate at −1 lies clearly below zero, meaning last year's export decline raises this year's crime), while leads (+1, +2, …) hover around zero and stay insignificant — no pre-existing upward trend, supporting causality. Second, using official provincial crime data for 2001–2009: regressing 2002–2009 provincial crime changes on the 2011–2018 shocks (nine years ahead) yields insignificant coefficients — again, no systematic differences between high- and low-exposure cities before the big slowdown. ![image-20250416161750837](/images/posts/ej-export-crime/image-20250416161750837.png)
+- **Pre-trends:** The key step is verifying no systematic differences in crime trends across cities before the shock. Two approaches: first, adding multiple lags and leads of the export shock to the baseline. As Figure 4 shows, the shock significantly affects crime one year later (the estimate at −1 lies clearly below zero, meaning last year's export decline raises this year's crime), while leads (+1, +2, …) hover around zero and stay insignificant — no pre-existing upward trend, supporting causality. Second, using official provincial crime data for 2001–2009: regressing 2002–2009 provincial crime changes on the 2011–2018 shocks (nine years ahead) yields insignificant coefficients — again, no systematic differences between high- and low-exposure cities before the big slowdown. ![image-20250416161750837](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416161750837.png)
 
   Figure 4 ⬆️: Lagged and lead effects of export shocks on crime. The x-axis is time (shock year = 0; negative values are pre-shock years), the y-axis the estimated effect on crime changes, with 95% CIs. Coefficients in the shock year (0) and earlier years are near zero and insignificant, while the coefficient one year after the shock (−1, i.e., last year's shock) is negative and significant: only after exports decline does city crime rise significantly — no systematic pre-shock differences, supporting parallel trends and the causal reading.
 
@@ -145,8 +145,8 @@ Extensive checks confirm the reliability of the baseline and the validity of the
 Starting from Becker's (1968) model of criminal choice: when legal jobs shrink and wages fall, potential offenders' legal returns drop, the opportunity cost of crime falls, and offenses become likelier. Using the *China City Statistical Yearbook* and the National Tax Survey, the authors link city-level employment and wages to export shocks. Key findings:
 
 - **Employment falls**: cities facing worse export declines see significant drops in total employment, with manufacturing hit hardest. Estimates imply that a $1,000 fall in per-capita exports lowers total employment about 12% on average, with manufacturing declines especially sharp. Services employment also falls, slightly less than manufacturing — consistent with manufacturing's dominance of Chinese exports.
-- **Migrants and rural migrant workers suffer more**: export slowdown costs some migrant workers their urban jobs, reducing inflows and increasing outflows. Over time, since migrant workers are mostly low-skill with thin social protection, job loss leaves them returning home or moving on — generating public-order pressure locally. ![](/images/posts/ej-export-crime/image-20250416162916313.png)
-- **Wages fall, migrant earnings hit hardest**: using the National Tax Survey and the China Migrants Dynamic Survey to measure average city wages and migrant wages, negative export shocks significantly correlate with declines in both. Estimates: a $1,000 fall in per-capita exports cuts migrant workers' average wages about 8.8%. Low-education, young, manufacturing-employed migrants suffer most — consistent with their weak social and economic protections. ![](/images/posts/ej-export-crime/image-20250416162941218.png)
+- **Migrants and rural migrant workers suffer more**: export slowdown costs some migrant workers their urban jobs, reducing inflows and increasing outflows. Over time, since migrant workers are mostly low-skill with thin social protection, job loss leaves them returning home or moving on — generating public-order pressure locally. ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416162916313.png)
+- **Wages fall, migrant earnings hit hardest**: using the National Tax Survey and the China Migrants Dynamic Survey to measure average city wages and migrant wages, negative export shocks significantly correlate with declines in both. Estimates: a $1,000 fall in per-capita exports cuts migrant workers' average wages about 8.8%. Low-education, young, manufacturing-employed migrants suffer most — consistent with their weak social and economic protections. ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416162941218.png)
 
 #### **The mental-health channel**
 
@@ -155,7 +155,7 @@ Beyond the Beckerian motive, downturns can raise stress, anxiety, and depression
 - **Distress rises overall**: where export declines are worse, average K6 scores rise — deeper depression and anxiety — though the full-sample coefficient is not quite significant.
 - **Manufacturing workers and the young deteriorate significantly**: splitting by manufacturing employment and by age (16–30 "young" vs. 30+), K6 increases are largest and statistically significant for manufacturing workers **and** the young. The young are most exposed to job and income losses, and their strain converts into higher violent/impulsive crime risk; manufacturing workers bear the brunt of shrinking employment and most readily develop mental-health problems.
 
-![](/images/posts/ej-export-crime/image-20250416163315187.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416163315187.png)
 
 The results support a rise in **"affective"/"impulsive"** crime: export decline stimulates property crime via the jobs-and-income path, and also violence, brawls, and drunk-driving casualties via deteriorating mental health.
 
@@ -166,7 +166,7 @@ From a public-economics angle, if shrinking exports cut local revenue and govern
 - **No significant fiscal squeeze**: cities with stronger negative shocks see mild declines in revenue and total spending, but **no significant cut** to "public security" line items — sometimes slight increases. "Social spending" significantly increases in some specifications, read as: once crime starts rising, local governments tend to add stability-maintenance and social-service inputs.
 - **Stability spending rises overall**: summing public-security and social spending into "stability spending," cities increase such budgets after export declines. The fiscal channel does not aggravate crime; if anything, governments add "stability" resources.
 
-![](/images/posts/ej-export-crime/image-20250416163647826.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416163647826.png)
 
 In sum, cuts to public services or security are not the main mechanism behind rising crime. In the Chinese system, local governments are sensitive to public-order pressure and typically expand police and judicial inputs when crime spikes. Fiscal tightening exists only at the margin and cannot explain the surge in criminal cases.
 
@@ -187,4 +187,4 @@ In sum, cuts to public services or security are not the main mechanism behind ri
 
 Hong Ma, Yu Pan, Mingzhi (Jimmy) Xu, The Criminogenic Consequence of Export Slowdown: Evidence from Millions of Court Judgment Documents in China, *The Economic Journal*, 2025;, ueaf024, https://doi.org/10.1093/ej/ueaf024
 
-![](/images/posts/ej-export-crime/image-20250416142722460.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20250416142722460.png)

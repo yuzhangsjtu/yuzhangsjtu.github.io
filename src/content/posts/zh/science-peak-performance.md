@@ -59,7 +59,7 @@ summary: 那么什么是世界级成就的早期信号呢？
 
 本综述总共包含19项数据集，涵盖34,839名成年国际顶级表现者（详见Table 1），为了与以往研究进行对比，本文还回顾了66项针对年轻人和**次级精英表现者**的代表性研究。在研究设计上，综合了前瞻性研究（追踪青少年时期的卓越表现者，观察其成年后的成就）与回溯性研究（追溯成年时期的卓越表现者，考察其青少年时期的成就）两类数据。通过结合这两类研究，研究者得以运用特定公式，精确量化早期与后期卓越表现者之间的个体成员重合程度。
 
-![](/images/posts/science-peak-performance/image-20251221163251564.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221163251564.png)
 
 ## 核心发现
 
@@ -71,7 +71,7 @@ summary: 那么什么是世界级成就的早期信号呢？
 
 跨领域的差异通常很小，表明这一模式具有高度的普遍性。尽管在**古典音乐**领域缺乏等效的量化数据，但描述性研究同样支持这一结论，许多儿童时期的音乐神童未能成为成年顶级音乐家，而许多成年顶级音乐家在童年时期也并非神童。
 
-![](/images/posts/science-peak-performance/image-20251221163840868.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221163840868.png)
 
 当然，这一发现并不否认早期卓越表现者比普通人有**更高概率**成为成年精英。
 
@@ -87,7 +87,7 @@ summary: 那么什么是世界级成就的早期信号呢？
 
 在**科学**领域，一项比较了330名诺贝尔奖得主与1595名诺贝尔奖提名者（未获奖）的研究同样揭示了类似的模式。**诺贝尔奖得主在学术生涯早期的引用排名增长速度更慢**，他们也更不容易在学生时代获得奖学金，并且获得第一个正教授职位的年龄也更晚（见Figure 2B）。
 
-![](/images/posts/science-peak-performance/image-20251221165157842.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221165157842.png)
 
 在**国际象棋**领域，通过比较世界排名前3的棋手与排名第4至10的棋手，研究发现，顶尖棋手在14岁时的Elo分数平均比次级顶尖棋手低62分，但在其职业生涯巅峰期，他们的Elo分数则平均高出48分。
 
@@ -101,9 +101,9 @@ summary: 那么什么是世界级成就的早期信号呢？
 
 对于想**在青少年阶段取得好成绩**的孩子来说，最佳策略是：尽早开始、尽早进入专业队、尽快出成绩、把所有时间都花在主项上，不要分心。但对于那些**志在达到世界之巅**的未来大师而言，最佳策略恰恰相反：不必过早开始主项、不必过早进入专业体系、早期进步可以更平缓、在主项上投入的练习时间相对较少，但要花大量时间去尝试和参与其他不同领域的活动。
 
-![](/images/posts/science-peak-performance/image-20251221173932931.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221173932931.png)
 
-![](/images/posts/science-peak-performance/image-20251221173500694.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221173500694.png)
 
 具体来看，数据显示：
 
@@ -195,4 +195,4 @@ summary: 那么什么是世界级成就的早期信号呢？
 
 Güllich, Arne, Michael Barth, David Z. Hambrick, and Brooke N. Macnamara. "Recent discoveries on the acquisition of the highest levels of human performance." *Science* 390, no. 6779 (2025): eadt7790. [https://www.science.org/doi/10.1126/science.adt7790](https://www.science.org/doi/10.1126/science.adt7790)
 
-![](/images/posts/science-peak-performance/image-20251221140823038.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221140823038.png)

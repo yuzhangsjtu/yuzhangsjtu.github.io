@@ -96,7 +96,7 @@ summary: Vibe一时爽，长期……很危险。
 
 参与者通过第三方众包平台招募，报酬为150美元。招募标准包括：一年以上Python编程经验、每周至少编程一次、使用过AI编程辅助工具、从未使用过Trio库。最终，52名参与者完成了全部实验流程，处理组和控制组各26人。参与者的人口统计特征显示，大多数年龄在25-35岁之间，持有学士学位，职业为自由职业者或专业软件开发者。平均任务时长为58.5分钟。
 
-![](/images/posts/anthropic-vibe-coding/image-20260201165536448.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20260201165536448.png)
 
 #### 预试研究结果
 
@@ -110,7 +110,7 @@ summary: Vibe一时爽，长期……很危险。
 
 **预试D**（n=20）的结果预示了主研究的发现：在35分钟时限内，控制组的任务完成率仅为60%，而处理组为90%；处理组完成任务更快（Cohen's d = 1.11, p = 0.03），但处理组的测验分数显著更差（Cohen's d = 1.7, p = 0.003）。
 
-![](/images/posts/anthropic-vibe-coding/image-20260201165713402.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20260201165713402.png)
 
 ## 主要结果
 
@@ -122,7 +122,7 @@ summary: Vibe一时爽，长期……很危险。
 
 作者推测，在**更具重复性**或参与者已经**熟悉**的任务中，AI更有可能显著提高生产力。而在学习新技能的场景下，与AI交互本身就需要投入大量的认知资源和时间。
 
-![](/images/posts/anthropic-vibe-coding/image-20260201170811661.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20260201170811661.png)
 
 #### **AI辅助对技能掌握有负面影响**
 
@@ -160,7 +160,7 @@ summary: Vibe一时爽，长期……很危险。
 
 这一发现是本文的核心贡献之一。它表明，AI对技能形成的影响并非铁板一块，而是高度依赖于**用户与AI的交互方式**。当用户将AI作为探索和理解的工具时，学习效果得以保全甚至增强；而当用户将AI纯粹作为任务完成的快捷方式时，技能形成便会受到抑制。高分模式的共同特征是用户展示了高度的认知参与，无论是通过追问解释、请求概念澄清，还是独立解决错误。
 
-![](/images/posts/anthropic-vibe-coding/image-20260201212505597.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20260201212505597.png)
 
 #### **AI查询类型**
 
@@ -230,4 +230,4 @@ summary: Vibe一时爽，长期……很危险。
 
 Shen, J. H., & Tamkin, A. (2026). *How AI Impacts Skill Formation*. arXiv preprint arXiv:2601.20245. [https://arxiv.org/abs/2601.20245](https://arxiv.org/abs/2601.20245)
 
-![](/images/posts/anthropic-vibe-coding/image-20260201154744141.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20260201154744141.png)

@@ -60,7 +60,7 @@ Placing TVI and LLM exposure in the same coordinate system, the 923 occupations 
 
 **Figure 1: Task Verifiability vs. LLM Exposure (923 U.S. occupations)**
 
-![](/images/posts/verifiers-law/tvi_exposure_gamma_scatter.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/tvi_exposure_gamma_scatter.png)
 
 #### **The Displacement Zone (high verifiability + high exposure, 103 occupations)**
 
@@ -82,7 +82,7 @@ Marriage and family therapists (TVI = 2.56, E = 0.26), clergy (TVI = 2.63, E = 0
 
 **Figure 2: Mean TVI and LLM exposure by major occupational group**
 
-![](/images/posts/verifiers-law/occupation_group_comparison.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/occupation_group_comparison.png)
 
 Viewed by major group, "Computer and Mathematical" has the highest LLM exposure (0.94) with middling-to-low TVI (3.30), straddling the premium and displacement zones; "Business and Financial" likewise has high exposure (0.85) and low TVI (3.18) — the heartland of the premium zone. "Production" and "Construction and Extraction" have the highest TVI (4.00 and 3.81) and the lowest exposure (0.17 and 0.11) — the classic robotics zone. Cognition-intensive industries and physical-operation industries form a clean mirror-image distribution on these two dimensions. Worth attention is "Community and Social Service" (TVI = 2.79, E = 0.52), the lowest TVI of any major group — a direct reflection of how hard interpersonal services are to evaluate.
 

@@ -59,7 +59,7 @@ By these criteria, **sport** satisfies all four conditions, making it the ideal 
 
 The review includes 19 datasets totaling 34,839 adult international top performers (see Table 1). For comparison with prior research, it also reviews 66 representative studies of youth and **sub-elite performers**. The design combines prospective studies (tracking youth standouts into adulthood) and retrospective studies (tracing adult standouts back to their youth records). Combining the two allows a formula-based, precise quantification of the individual overlap between early and later top performers.
 
-![](/images/posts/science-peak-performance/image-20251221163251564.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221163251564.png)
 
 ## Core Findings
 
@@ -71,7 +71,7 @@ The pattern holds elsewhere. In **chess**, analyzing FIDE public ratings, resear
 
 Cross-domain differences are generally small, indicating high generality. **Classical music** lacks equivalent quantitative data, but descriptive research supports the same conclusion: many child prodigies never became top adult musicians, and many top adult musicians were not prodigies.
 
-![](/images/posts/science-peak-performance/image-20251221163840868.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221163840868.png)
 
 To be clear, this does not deny that early standouts have a **higher probability** than the general population of becoming adult elites.
 
@@ -87,7 +87,7 @@ In **sport**, a study comparing 508 world-class athletes with 420 national-class
 
 In **science**, a study comparing 330 Nobel laureates with 1,595 Nobel nominees (non-winners) reveals a similar pattern. **Laureates' citation rankings grew more slowly early in their careers**; they were less likely to win scholarships as students, and obtained their first full professorship later (see Figure 2B).
 
-![](/images/posts/science-peak-performance/image-20251221165157842.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221165157842.png)
 
 In **chess**, comparing the world's top-3 players with those ranked 4–10: at age 14 the eventual top players' Elo averaged 62 points *lower* than the next tier's, yet at career peak it averaged 48 points *higher*.
 
@@ -101,9 +101,9 @@ Synthesizing multiple meta-analyses, the review compares how a series of develop
 
 For a child aiming at **strong results in adolescence**, the optimal strategy is: start early, enter a professional program early, produce results fast, pour all hours into the main event, don't get distracted. For future masters **aiming at the world's summit**, the optimal strategy is the reverse: no need to start the main event early or enter the professional system early; early progress can be gentler; relatively fewer practice hours in the main event — but spend ample time trying and participating in other domains.
 
-![](/images/posts/science-peak-performance/image-20251221173932931.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221173932931.png)
 
-![](/images/posts/science-peak-performance/image-20251221173500694.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221173500694.png)
 
 Specifically, the data show:
 
@@ -195,4 +195,4 @@ In other words, **early excellence is a positive signal — but neither a suffic
 
 Güllich, Arne, Michael Barth, David Z. Hambrick, and Brooke N. Macnamara. "Recent discoveries on the acquisition of the highest levels of human performance." *Science* 390, no. 6779 (2025): eadt7790. [https://www.science.org/doi/10.1126/science.adt7790](https://www.science.org/doi/10.1126/science.adt7790)
 
-![](/images/posts/science-peak-performance/image-20251221140823038.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20251221140823038.png)

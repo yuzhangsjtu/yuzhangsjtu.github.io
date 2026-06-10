@@ -96,7 +96,7 @@ A between-subjects design randomly assigned participants to a **treatment group*
 
 Participants were recruited via a third-party crowdsourcing platform and paid $150. Criteria: 1+ years of Python, coding at least weekly, prior use of AI coding tools, never used Trio. Ultimately 52 participants completed the full protocol, 26 per group. Most were 25–35, held bachelor's degrees, and worked as freelancers or professional software developers. Mean task duration was 58.5 minutes.
 
-![](/images/posts/anthropic-vibe-coding/image-20260201165536448.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20260201165536448.png)
 
 #### Pilot results
 
@@ -110,7 +110,7 @@ Before the main study, four pilots refined the design.
 
 **Pilot D** (n=20) foreshadowed the main findings: within the 35-minute limit, control completion was 60% vs. 90% for treatment; treatment finished faster (Cohen's d = 1.11, p = 0.03) but scored markedly worse on the quiz (Cohen's d = 1.7, p = 0.003).
 
-![](/images/posts/anthropic-vibe-coding/image-20260201165713402.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20260201165713402.png)
 
 ## Main Results
 
@@ -122,7 +122,7 @@ Qualitative analysis explains the apparent contradiction. Many participants spen
 
 The authors conjecture AI is likelier to raise productivity on **more repetitive** or already **familiar** tasks. When learning something new, interacting with AI itself consumes considerable cognitive resources and time.
 
-![](/images/posts/anthropic-vibe-coding/image-20260201170811661.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20260201170811661.png)
 
 #### **AI assistance hurts skill mastery**
 
@@ -160,7 +160,7 @@ Not all AI use leads to bad outcomes. The authors identify six distinct **AI-int
 
 This is one of the paper's core contributions: AI's effect on skill formation is not monolithic — it depends heavily on **how the user interacts with AI**. Used as a tool for exploration and understanding, AI preserves or even enhances learning; used purely as a task-completion shortcut, it suppresses skill formation. The common thread of high scorers is high cognitive engagement — follow-up explanations, conceptual clarification, or independently resolving errors.
 
-![](/images/posts/anthropic-vibe-coding/image-20260201212505597.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20260201212505597.png)
 
 #### **Query types**
 
@@ -230,4 +230,4 @@ Ultimately, adapting skill development to AI's presence requires a wider view of
 
 Shen, J. H., & Tamkin, A. (2026). *How AI Impacts Skill Formation*. arXiv preprint arXiv:2601.20245. [https://arxiv.org/abs/2601.20245](https://arxiv.org/abs/2601.20245)
 
-![](/images/posts/anthropic-vibe-coding/image-20260201154744141.png)
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/image-20260201154744141.png)
