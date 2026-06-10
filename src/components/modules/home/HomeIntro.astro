@@ -1,0 +1,99 @@
+---
+// Homepage self-introduction, written from the owner's CV (2026-04).
+// Prose-only block — rendered inside Hero, directly under the slogan.
+import type { Locale } from '~/i18n/config'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+
+const SCHOLAR = 'https://scholar.google.com/citations?user=nyGUv2kAAAAJ&hl=en'
+---
+
+<div
+  class="intro-prose mx-auto max-w-[44rem] space-y-5 text-left font-serif text-copy-15 leading-loose text-neutral-8 lg:text-copy-16"
+>
+  {
+    locale === 'en' ? (
+      <>
+        <p>
+          I am a postdoctoral researcher (Shuimu Scholar) at Tsinghua
+          University's School of Public Policy and Management, working
+          with Prof. Tang Xiao. I previously interned at MiniMax, working
+          on post-training data algorithms — a spell of amphibious life
+          between academia and the AI industry. Before this I earned my
+          PhD in public administration at Shanghai Jiao Tong University
+          under Prof. Chen Jie, after studying land resource management
+          at Nanjing University and real estate at Central China Normal
+          University.
+        </p>
+        <p>
+          I'm drawn to whatever research is interesting. I like answering
+          questions with survey experiments, causal inference, and lately
+          LLM-agent simulations — how the rise and fall of housing prices
+          shapes ordinary people's political trust, whether victories on
+          the Olympic field convert into a "political dividend", and
+          whether AI agents can stand in for human subjects in behavioral
+          experiments. This work has appeared in <em>The China Quarterly</em>,{' '}
+          <em>Policy Sciences</em>, <em>Chinese Political Science Review</em>{' '}
+          and elsewhere. A full publication list lives on{' '}
+          <a href={SCHOLAR} rel="noreferrer" target="_blank">
+            Google Scholar
+          </a>
+          .
+        </p>
+        <p>
+          Outside research, I run the WeChat account
+          「人类有趣行为实验室」 (Human Intriguing Behavior Lab), where I
+          unpack important and interesting economics papers and share AI
+          tools and techniques. This blog shelters the rest of my writing:
+          research notes, essays on daily life, and murmurs that refuse to
+          be lost.
+        </p>
+        <p>
+          If any of this interests you, feel free to reach me through any
+          of the icons below.
+        </p>
+      </>
+    ) : (
+      <>
+        <p>
+          我目前在清华大学公共管理学院做博士后研究（助理研究员、水木学者），合作导师是唐啸老师；曾经在
+          MiniMax 实习，做后训练数据算法——在学术界与 AI
+          业界之间过了一段两栖生活。在此之前，我在上海交通大学取得公共管理博士学位（师从陈杰教授），更早则在南京大学读土地资源管理、在华中师范大学读房地产开发与管理。
+        </p>
+        <p>
+          我关注有趣的研究，习惯用调查实验、因果推断，以及最近的大模型智能体模拟来回答问题——房价的涨落如何塑造普通人的政治信任？奥运赛场上的胜利能否转化为「政治红利」？AI
+          智能体能不能替人类受试者完成行为实验？相关工作发表在{' '}
+          <em>The China Quarterly</em>、<em>Policy Sciences</em>、
+          <em>Chinese Political Science Review</em>{' '}
+          等期刊，完整的论文列表在{' '}
+          <a href={SCHOLAR} rel="noreferrer" target="_blank">
+            Google Scholar
+          </a>
+          。
+        </p>
+        <p>
+          研究之外，我运营公众号「人类有趣行为实验室」，解读重要而有趣的经济学论文，也分享
+          AI
+          技术与工具。这个博客则收留更多样的文字：研究笔记、生活随笔，以及一些不愿散佚的呓语。
+        </p>
+        <p>如果你对这些话题感兴趣，欢迎通过下方的任意图标找到我。</p>
+      </>
+    )
+  }
+</div>
+
+<style>
+  .intro-prose a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-color: color-mix(in oklab, currentColor 30%, transparent);
+    transition: text-decoration-color 0.2s;
+  }
+  .intro-prose a:hover {
+    text-decoration-color: currentColor;
+  }
+</style>

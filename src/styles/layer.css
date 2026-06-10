@@ -657,7 +657,9 @@
   }
 
   .fill-content {
-    min-height: calc(100vh - 17.5rem);
+    /* 100vh minus the footer block (fade boundary + switcher bar) so the
+       footer bottoms out at the viewport edge on short pages. */
+    min-height: calc(100vh - 6rem);
   }
 
   .card-shadow {

@@ -25,7 +25,10 @@ export const siteConfig = {
     socialIds: {
       github: 'yuzhangnju',
       mail: 'yuzhangsjtu@sjtu.edu.cn',
-      rss: '/feed.xml',
+      // QR-popover entries: the value is the QR image path, not a profile id.
+      wechat: '/images/wechat-qr.jpg',
+      wechatMp: '/images/wechat-mp-qr.png',
+      bilibili: '34994155',
     } as Record<string, string>,
   },
   footer: {

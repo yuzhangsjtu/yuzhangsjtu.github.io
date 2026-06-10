@@ -1,52 +1,99 @@
 ---
 // Ported from modules/home/SocialIcon.tsx (mono variant). The JS hover
-// color swap becomes a CSS custom property; brand-SVG-only entries
-// (bilibili/netease/bluesky/steam/x) are omitted — mingcute icons kept.
+// color swap becomes a CSS custom property. Entries with `qr: true` have
+// no profile URL — `id` is a QR image path shown in a hover/focus popover.
+import type { Locale } from '~/i18n/config'
+
 interface Props {
   id: string
   type: string
+  locale: Locale
 }
 
-const { id, type } = Astro.props
+const { id, type, locale } = Astro.props
 
-const socialIconSet: Record<string, [string, string, string, (id: string) => string]> = {
-  github: ['Github', 'i-mingcute-github-line', '#181717', (id) => `https://github.com/${id}`],
-  twitter: ['Twitter', 'i-mingcute-twitter-line', '#1DA1F2', (id) => `https://twitter.com/${id}`],
-  telegram: ['Telegram', 'i-mingcute-telegram-line', '#0088cc', (id) => `https://t.me/${id}`],
-  mail: ['Email', 'i-mingcute-mail-line', '#D44638', (id) => `mailto:${id}`],
-  email: ['Email', 'i-mingcute-mail-line', '#D44638', (id) => `mailto:${id}`],
-  rss: ['RSS', 'i-mingcute-rss-line', '#FFA500', (id) => id],
-  feed: ['RSS', 'i-mingcute-rss-line', '#FFA500', (id) => id],
-  qq: ['QQ', 'i-mingcute-qq-fill', '#1e6fff', (id) => `https://wpa.qq.com/msgrd?v=3&uin=${id}&site=qq&menu=yes`],
-  wechat: ['微信', 'i-mingcute-wechat-fill', '#2DC100', (id) => id],
-  weibo: ['微博', 'i-mingcute-weibo-line', '#E6162D', (id) => `https://weibo.com/${id}`],
-  discord: ['Discord', 'i-mingcute-discord-fill', '#7289DA', (id) => `https://discord.gg/${id}`],
+interface SocialEntry {
+  label: string | Record<Locale, string>
+  icon: string
+  color: string
+  href?: (id: string) => string
+  qr?: boolean
+}
+
+const socialIconSet: Record<string, SocialEntry> = {
+  github: { label: 'Github', icon: 'i-mingcute-github-line', color: '#181717', href: (id) => `https://github.com/${id}` },
+  twitter: { label: 'Twitter', icon: 'i-mingcute-twitter-line', color: '#1DA1F2', href: (id) => `https://twitter.com/${id}` },
+  telegram: { label: 'Telegram', icon: 'i-mingcute-telegram-line', color: '#0088cc', href: (id) => `https://t.me/${id}` },
+  mail: { label: 'Email', icon: 'i-mingcute-mail-line', color: '#D44638', href: (id) => `mailto:${id}` },
+  email: { label: 'Email', icon: 'i-mingcute-mail-line', color: '#D44638', href: (id) => `mailto:${id}` },
+  rss: { label: 'RSS', icon: 'i-mingcute-rss-line', color: '#FFA500', href: (id) => id },
+  feed: { label: 'RSS', icon: 'i-mingcute-rss-line', color: '#FFA500', href: (id) => id },
+  qq: { label: 'QQ', icon: 'i-mingcute-qq-fill', color: '#1e6fff', href: (id) => `https://wpa.qq.com/msgrd?v=3&uin=${id}&site=qq&menu=yes` },
+  wechat: { label: { zh: '微信', en: 'WeChat' }, icon: 'i-mingcute-wechat-fill', color: '#2DC100', qr: true },
+  wechatMp: { label: { zh: '公众号', en: 'WeChat Official Account' }, icon: 'i-mingcute-wechat-line', color: '#2DC100', qr: true },
+  weibo: { label: { zh: '微博', en: 'Weibo' }, icon: 'i-mingcute-weibo-line', color: '#E6162D', href: (id) => `https://weibo.com/${id}` },
+  bilibili: { label: 'bilibili', icon: 'i-mingcute-bilibili-line', color: '#00A1D6', href: (id) => `https://space.bilibili.com/${id}` },
+  discord: { label: 'Discord', icon: 'i-mingcute-discord-fill', color: '#7289DA', href: (id) => `https://discord.gg/${id}` },
 }
 
 const entry = socialIconSet[type]
+const label =
+  entry && typeof entry.label === 'object' ? entry.label[locale] : entry?.label
 ---
 
 {
-  entry && (
+  entry && entry.qr && (
+    <span
+      aria-label={label}
+      title={label}
+      tabindex="0"
+      class="social-icon-mono qr-host center relative flex size-9 cursor-pointer rounded-full border border-neutral-4 text-neutral-6 transition-colors duration-300"
+      style={`--hover-color: ${entry.color}`}
+    >
+      <span class="flex items-center justify-center [&_i]:text-copy-14">
+        <i class={entry.icon} />
+      </span>
+      {/* pb (not margin) keeps the hover bridge between icon and card */}
+      <span class="qr-pop absolute bottom-full left-1/2 z-50 hidden -translate-x-1/2 pb-2.5">
+        <span class="block rounded-xl bg-white p-2 shadow-[0_8px_32px_rgba(0,0,0,0.12),0_2px_8px_rgba(0,0,0,0.06)] dark:bg-neutral-2 dark:shadow-[0_8px_32px_rgba(0,0,0,0.4)]">
+          <img
+            alt={`${label} QR code`}
+            class="block w-56 max-w-none rounded-lg"
+            decoding="async"
+            loading="lazy"
+            src={id}
+          />
+        </span>
+      </span>
+    </span>
+  )
+}
+{
+  entry && !entry.qr && (
     <a
-      aria-label={entry[0]}
-      title={entry[0]}
+      aria-label={label}
+      title={label}
       class="social-icon-mono center flex size-9 rounded-full border border-neutral-4 text-neutral-6 transition-colors duration-300"
-      href={entry[3](id)}
+      href={entry.href!(id)}
       rel="noreferrer"
       target="_blank"
-      style={`--hover-color: ${entry[2]}`}
+      style={`--hover-color: ${entry.color}`}
     >
       <span class="flex items-center justify-center [&_svg]:size-4 [&_i]:text-copy-14">
-        <i class={entry[1]} />
+        <i class={entry.icon} />
       </span>
     </a>
   )
 }
 
 <style>
-  .social-icon-mono:hover {
+  .social-icon-mono:hover,
+  .social-icon-mono:focus-within {
     border-color: var(--hover-color);
     color: var(--hover-color);
+  }
+  .qr-host:hover .qr-pop,
+  .qr-host:focus-within .qr-pop {
+    display: block;
   }
 </style>

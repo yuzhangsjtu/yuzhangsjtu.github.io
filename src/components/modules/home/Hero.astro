@@ -7,6 +7,7 @@ import type { Locale } from '~/i18n/config'
 import { useTranslations } from '~/i18n'
 import { countWords, getNotes, getPosts } from '~/lib/content'
 import { localizedSite, siteConfig } from '~/site.config'
+import HomeIntro from './HomeIntro.astro'
 import SocialIcon from './SocialIcon.astro'
 
 interface Props {
@@ -74,16 +75,14 @@ const titleNodes = title.template.map((node) => {
 <div
   class="relative mx-auto min-w-0 max-w-[1400px] px-6 lg:px-12 xl:px-16 2xl:px-24"
 >
-  <!-- Paper glow — static center light -->
+  <!-- Paper glow — static light behind the avatar/title block -->
   <div
-    class="yohaku-fade-in pointer-events-none absolute -z-10 left-1/2 top-[42%] -translate-x-1/2 -translate-y-1/2 rounded-full size-[250px] lg:size-[450px] bg-[radial-gradient(ellipse,rgba(255,240,210,0.15)_0%,transparent_55%)] dark:bg-[radial-gradient(ellipse,rgba(180,200,255,0.08)_0%,transparent_55%)]"
+    class="yohaku-fade-in pointer-events-none absolute -z-10 left-1/2 top-[180px] lg:top-[230px] -translate-x-1/2 -translate-y-1/2 rounded-full size-[250px] lg:size-[450px] bg-[radial-gradient(ellipse,rgba(255,240,210,0.15)_0%,transparent_55%)] dark:bg-[radial-gradient(ellipse,rgba(180,200,255,0.08)_0%,transparent_55%)]"
   >
   </div>
 
-  <!-- Two-zone layout: focal center + whisper footer -->
-  <div class="flex min-h-[80vh] flex-col items-center justify-center py-16">
-    <div class="flex-1"></div>
-
+  <!-- Single column: identity block, intro prose, whisper footer -->
+  <div class="flex flex-col items-center py-16">
     {
       avatar && (
         <div class="yohaku-rise mb-8" style="--rise-delay: 0.1s">
@@ -122,9 +121,11 @@ const titleNodes = title.template.map((node) => {
       {description}
     </div>
 
-    <div class="flex-[1.5]"></div>
+    <div class="yohaku-rise mt-10 w-full lg:mt-12" style="--rise-delay: 0.5s">
+      <HomeIntro locale={locale} />
+    </div>
 
-    <div class="yohaku-rise text-center" style="--rise-delay: 0.6s">
+    <div class="yohaku-rise mt-12 text-center lg:mt-14" style="--rise-delay: 0.6s">
       <!-- HeroHitokoto -->
       <div
         class="min-h-[1.5em] max-w-[65ch] font-serif text-label-12 italic text-neutral-5"
@@ -154,7 +155,7 @@ const titleNodes = title.template.map((node) => {
       <div class="flex justify-center gap-5">
         {
           Object.entries(socialIds).map(([type, id]) => (
-            <SocialIcon id={id} type={type} />
+            <SocialIcon id={id} type={type} locale={locale} />
           ))
         }
       </div>
