@@ -1,0 +1,116 @@
+---
+// Ports posts/(post-detail) — Container + layout grid + PostTitle +
+// PostMetaBar + article.prose, plus the seed-driven PageColorGradient.
+// Comments, presence, copyright card, action asides and the yohaku
+// annotation drawer are backend features and are removed.
+import { render } from 'astro:content'
+import type { Locale } from '~/i18n/config'
+import { useTranslations } from '~/i18n'
+import type { PostEntry } from '~/lib/content'
+import { slugOf } from '~/lib/content'
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import PageColorGradient from '~/components/common/PageColorGradient.astro'
+import Toc from '~/components/modules/toc/Toc.astro'
+
+interface Props {
+  locale: Locale
+  post: PostEntry
+}
+
+const { locale, post } = Astro.props
+const t = useTranslations(locale, 'common')
+const data = post.data
+
+const { Content, headings } = await render(post)
+const summary = data.summary ?? ''
+---
+
+<BaseLayout locale={locale} title={data.title} description={summary}>
+  <PageColorGradient seed={`${slugOf(post.id)}${data.title}`} slot="page-glow" />
+  <!-- (post-detail)/Container.tsx -->
+  <div
+    class="container m-auto mt-[120px] max-w-[calc(80rem+32px)] px-0 md:px-6 lg:px-4 xl:px-0"
+  >
+    <div class="yohaku-post-layout-grid relative flex min-h-[120px]">
+      <!-- 952px cap + auto margins replicate the original
+           body[data-yohaku-mode='post'] .yohaku-paper-main-slot rule
+           (920px content target + 16px × 2 padding) -->
+      <div
+        class="yohaku-paper-main-slot relative min-w-0 max-w-[952px] flex-1 mx-auto px-0 md:px-4"
+      >
+        <div class="relative w-full min-w-0">
+          <div>
+            <div class="mb-8">
+              <!-- PostTitle (pageExtra.tsx) -->
+              <h1
+                class="mb-3 text-balance text-center text-display-36 font-bold leading-tight"
+              >
+                {data.title}
+              </h1>
+
+              <!-- PostMetaBarInternal → PostMetaBar -->
+              <div
+                class="mb-8 flex min-w-0 shrink grow flex-wrap items-center justify-center gap-2 text-label-12 text-neutral-6"
+              >
+                <span>
+                  <time data-relative-time datetime={data.date.toISOString()}
+                  ></time>
+                </span>
+                {
+                  data.modified && (
+                    <>
+                      <span class="text-neutral-5">·</span>
+                      <span>{t('edited')}</span>
+                    </>
+                  )
+                }
+                {
+                  data.category && (
+                    <>
+                      <span class="text-neutral-5">·</span>
+                      <span class="min-w-0 truncate">
+                        <span class="yohaku-link--underline font-normal text-accent">
+                          {data.category.name}
+                        </span>
+                        {data.tags?.length ? (
+                          <>
+                            {' / '}
+                            {data.tags.map((tag, index) => (
+                              <>
+                                <span class="yohaku-link--underline">
+                                  {tag}
+                                </span>
+                                {index < data.tags.length - 1 && ', '}
+                              </>
+                            ))}
+                          </>
+                        ) : null}
+                      </span>
+                    </>
+                  )
+                }
+              </div>
+            </div>
+
+            <article class="prose">
+              <div class="sr-only">
+                <h1>{data.title}</h1>
+              </div>
+              <Content />
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <aside
+        class="yohaku-post-toc-col relative hidden w-[200px] shrink-0 lg:block"
+      >
+        <div
+          class="sticky top-[120px] max-h-[calc(100vh-160px)] overflow-y-auto overscroll-contain pr-1"
+        >
+          <Toc headings={headings} />
+        </div>
+      </aside>
+    </div>
+  </div>
+</BaseLayout>

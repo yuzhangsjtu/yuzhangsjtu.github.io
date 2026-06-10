@@ -1,0 +1,238 @@
+---
+// Ported from components/layout/header/{Header,internal/*}.tsx.
+// Backend-driven parts (UserAuth, Activity, OwnerStatus, live state,
+// dropdown mega-menus) are removed; markup/classes are otherwise verbatim.
+import type { Locale } from '~/i18n/config'
+import { localizePath, unlocalizePath, useTranslations } from '~/i18n'
+import { siteConfig, localizedSite } from '~/site.config'
+
+interface Props {
+  locale: Locale
+  pathname: string
+}
+
+const { locale, pathname } = Astro.props
+const t = useTranslations(locale, 'common')
+
+// headerMenuConfig (header/config.ts), narrowed to pages that exist without
+// the mx-space backend. Friends is promoted from the "More" submenu.
+const headerMenuConfig = [
+  {
+    title: t('nav_home'),
+    path: '/',
+    icon: 'i-mingcute-home-4-line',
+  },
+  {
+    title: t('nav_posts'),
+    path: '/posts',
+    icon: 'i-mingcute-news-line',
+  },
+  {
+    title: t('nav_notes'),
+    path: '/notes',
+    icon: 'i-mingcute-quill-pen-line',
+  },
+  {
+    title: t('nav_timeline'),
+    path: '/timeline',
+    icon: 'i-mingcute-history-line',
+  },
+  {
+    title: t('nav_projects'),
+    path: '/projects',
+    icon: 'i-mingcute-flask-line',
+  },
+  {
+    title: t('nav_friends'),
+    path: '/friends',
+    icon: 'i-mingcute-group-line',
+  },
+]
+
+const currentPath = unlocalizePath(pathname).replace(/\/$/, '') || '/'
+const isActive = (path: string) =>
+  currentPath === path || (path !== '/' && currentPath.startsWith(`${path}/`))
+
+const siteTitle = localizedSite[locale].seo.title
+const { avatar } = siteConfig.user
+---
+
+<!-- Mobile header (MobileHeader.tsx) -->
+<div
+  id="mobile-header"
+  role="banner"
+  data-open="false"
+  class="fixed inset-x-0 top-0 z-[9] px-3.5 pt-2.5 lg:hidden transition-[opacity,transform] duration-[350ms] ease-[cubic-bezier(0.22,1,0.36,1)]"
+>
+  <div
+    class:list={[
+      'rounded-[20px]',
+      'bg-[#fefefb] dark:bg-neutral-2',
+      'border border-black/5 dark:border-white/[0.04]',
+      'shadow-[0_1px_2px_rgba(0,0,0,0.04),0_4px_14px_rgba(0,0,0,0.06)]',
+      'dark:shadow-[0_1px_2px_rgba(0,0,0,0.15),0_4px_12px_rgba(0,0,0,0.1)]',
+    ]}
+  >
+    <button
+      id="mobile-header-toggle"
+      aria-expanded="false"
+      class="flex w-full items-center justify-between px-4 py-2.5"
+    >
+      <span
+        class="font-serif text-copy-15 tracking-[0.05em] text-neutral-8 dark:text-neutral-8"
+        >{siteTitle}</span
+      >
+      <div class="flex items-center gap-2">
+        <span class="flex size-8 items-center justify-center text-neutral-5">
+          <i class="i-mingcute-menu-line text-icon-md"></i>
+        </span>
+      </div>
+    </button>
+
+    <div
+      id="mobile-header-panel"
+      class="overflow-hidden transition-[height,opacity] duration-[250ms] ease-[cubic-bezier(0.22,1,0.36,1)]"
+      style="height: 0px; opacity: 0;"
+    >
+      <div class="mx-4 h-px bg-neutral-9/[0.05] dark:bg-white/[0.05]"></div>
+      <nav class="px-3 py-2">
+        {
+          headerMenuConfig.map((section) => (
+            <a
+              href={localizePath(locale, section.path)}
+              class:list={[
+                'flex items-center gap-3 rounded-xl px-3 py-2.5 text-copy-14',
+                isActive(section.path)
+                  ? 'text-neutral-9 bg-black/[0.03] dark:bg-white/[0.06]'
+                  : 'text-neutral-7',
+              ]}
+            >
+              <i class={`${section.icon} text-icon-md text-neutral-6`} />
+              <span>{section.title}</span>
+            </a>
+          ))
+        }
+      </nav>
+    </div>
+  </div>
+</div>
+
+<!-- Desktop fixed bar: logo / spacer / (auth removed) (Header.tsx) -->
+<div
+  data-hide-print
+  class="yohaku-page-right-inset fixed top-0 z-[9] hidden h-[4.5rem] lg:inset-x-0 lg:block"
+>
+  <div
+    class="header--grid relative mx-auto grid h-full min-h-0 max-w-7xl grid-cols-[4.5rem_1fr_4.5rem] px-8"
+  >
+    <div id="header-logo-area" class="header--grid__logo relative">
+      <div class="relative flex size-full items-center justify-center">
+        <!-- SiteOwnerAvatar.tsx (live/status removed) -->
+        <a
+          href={localizePath(locale, '/')}
+          class="relative z-[9] size-[40px] select-none"
+          aria-label={t('aria_site_owner_avatar')}
+        >
+          <div class="mask mask-squircle overflow-hidden">
+            <img
+              alt={t('aria_site_owner_avatar')}
+              class="ring-2 ring-neutral-3"
+              height="40"
+              width="40"
+              src={avatar}
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div></div>
+
+    <div class="flex size-full items-center"></div>
+  </div>
+</div>
+
+<!-- Floating centered nav (HeaderContent.tsx → ForDesktop) -->
+<div
+  id="header-nav-portal"
+  class="yohaku-page-right-inset pointer-events-none fixed inset-x-0 top-4 z-10 mr-[var(--removed-body-scroll-bar-size)] hidden justify-center lg:flex transition-[opacity,transform] duration-200"
+>
+  <nav
+    id="header-nav-root"
+    class:list={[
+      'relative',
+      'rounded-sm',
+      'bg-white/[0.38] dark:bg-neutral-900/[0.38] backdrop-blur-lg',
+      'border border-[rgba(200,180,160,0.08)] dark:border-neutral-700/20',
+      'pointer-events-auto duration-200',
+    ]}
+  >
+    <ul class="flex list-none items-center px-2 font-medium text-neutral-9">
+      {
+        headerMenuConfig.map((section, index) => (
+          <>
+            {index > 0 && (
+              <li aria-hidden class="contents">
+                <div class="h-3.5 w-px shrink-0 bg-gradient-to-b from-transparent via-black/[0.06] to-transparent dark:via-white/[0.06]" />
+              </li>
+            )}
+            <li class="contents">
+              <a
+                href={localizePath(locale, section.path)}
+                class:list={[
+                  'relative z-[1] block whitespace-nowrap px-3 py-1.5 transition-colors duration-200',
+                  isActive(section.path)
+                    ? 'text-neutral-9'
+                    : 'text-neutral-7 hover:text-neutral-9',
+                ]}
+              >
+                {
+                  isActive(section.path) && (
+                    <span
+                      aria-hidden
+                      class:list={[
+                        'pointer-events-none absolute inset-[2px] rounded-[2px]',
+                        'bg-white shadow-[0_1px_4px_rgba(0,0,0,0.10),0_0_0_0.5px_rgba(0,0,0,0.06)]',
+                        'dark:bg-white/[0.12] dark:shadow-[0_1px_4px_rgba(0,0,0,0.3),0_0_0_0.5px_rgba(255,255,255,0.05)]',
+                      ]}
+                    />
+                  )
+                }
+                <span class="relative flex items-center">
+                  {
+                    isActive(section.path) && (
+                      <span
+                        aria-hidden
+                        class="mr-2 inline-flex w-[1em] shrink-0 items-center justify-center"
+                      >
+                        <i class={section.icon} />
+                      </span>
+                    )
+                  }
+                  <span>{section.title}</span>
+                </span>
+              </a>
+            </li>
+          </>
+        ))
+      }
+    </ul>
+  </nav>
+</div>
+
+<style>
+  /* Solid nav state (HeaderContent.tsx `solid` classes) */
+  #header-nav-root.nav-solid {
+    background-color: #fff;
+    box-shadow:
+      0 6px 20px -10px rgba(0, 0, 0, 0.12),
+      0 2px 6px -3px rgba(0, 0, 0, 0.06);
+    backdrop-filter: none;
+  }
+  :global([data-theme='dark']) #header-nav-root.nav-solid {
+    background-color: var(--color-neutral-900, #171717);
+    box-shadow:
+      0 6px 20px -10px rgba(0, 0, 0, 0.4),
+      0 2px 6px -3px rgba(0, 0, 0, 0.25);
+  }
+</style>

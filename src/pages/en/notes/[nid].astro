@@ -1,0 +1,17 @@
+---
+import type { GetStaticPaths } from 'astro'
+import NoteDetailPage from '~/components/pages/NoteDetailPage.astro'
+import { getNotes } from '~/lib/content'
+
+export const getStaticPaths = (async () => {
+  const notes = await getNotes('en')
+  return notes.map((note, i) => ({
+    params: { nid: String(note.data.nid) },
+    props: { note, prev: notes[i + 1] ?? null, next: notes[i - 1] ?? null },
+  }))
+}) satisfies GetStaticPaths
+
+const { note, prev, next } = Astro.props
+---
+
+<NoteDetailPage locale="en" note={note} prev={prev} next={next} />

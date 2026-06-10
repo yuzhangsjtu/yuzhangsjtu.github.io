@@ -1,0 +1,17 @@
+---
+import type { GetStaticPaths } from 'astro'
+import PageDetailPage from '~/components/pages/PageDetailPage.astro'
+import { getPages, slugOf } from '~/lib/content'
+
+export const getStaticPaths = (async () => {
+  const pages = await getPages('en')
+  return pages.map((page) => ({
+    params: { slug: slugOf(page.id) },
+    props: { page },
+  }))
+}) satisfies GetStaticPaths
+
+const { page } = Astro.props
+---
+
+<PageDetailPage locale="en" page={page} />

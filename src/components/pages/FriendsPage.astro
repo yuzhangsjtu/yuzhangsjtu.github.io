@@ -1,0 +1,98 @@
+---
+// Ports app/[locale]/friends/page.tsx — header + FriendSection cards with
+// the per-friend hue gradient (getColorScheme × stringToHue, computed at
+// build for both themes). Apply-form, outdated/banned collapse and the
+// realtime checks are removed; data lives in src/data/friends.ts.
+import type { Locale } from '~/i18n/config'
+import { useTranslations } from '~/i18n'
+import { addAlphaToHSL, getColorScheme, stringToHue } from '~/lib/color'
+import { friends } from '~/data/friends'
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import NormalContainer from '~/components/layout/NormalContainer.astro'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+const t = useTranslations(locale, 'friends')
+const tCommon = useTranslations(locale, 'common')
+
+const cards = friends.map((link) => {
+  const { dark, light } = getColorScheme(stringToHue(link.url))
+  return {
+    ...link,
+    gradientLight: `linear-gradient(150deg, ${addAlphaToHSL(light.accent, 0.045)} 0%, transparent 55%)`,
+    gradientDark: `linear-gradient(150deg, ${addAlphaToHSL(dark.accent, 0.08)} 0%, transparent 55%)`,
+  }
+})
+---
+
+<BaseLayout locale={locale} title={t('page_title')}>
+  <NormalContainer>
+    <div>
+      <header class="prose prose-p:my-2">
+        <h1>{t('page_title')}</h1>
+        <h3>{t('page_subtitle')}</h3>
+      </header>
+
+      <main class="mt-10 flex w-full flex-col">
+        <section class="grid grid-cols-1 gap-4 md:grid-cols-2">
+          {
+            cards.map((link) => (
+              <a
+                aria-label={`Go to ${link.name}'s website`}
+                class="friend-card group relative flex items-center gap-3 overflow-hidden rounded-xl border border-black/5 bg-paper px-4 py-3.5 shadow-[0_1px_4px_rgba(0,0,0,0.05)] ring-[0.5px] ring-black/3 transition-shadow duration-300 hover:shadow-[0_2px_12px_rgba(0,0,0,0.04)] dark:border-white/8 dark:ring-white/5"
+                href={link.url}
+                rel="noreferrer"
+                target="_blank"
+                style={`--friend-gradient-light: ${link.gradientLight}; --friend-gradient-dark: ${link.gradientDark}`}
+              >
+                {link.avatar ? (
+                  <img
+                    alt={`Avatar of ${link.name}`}
+                    class="size-12 shrink-0 rounded-lg object-cover ring-2 ring-black/5 dark:ring-white/8"
+                    src={link.avatar}
+                    loading="lazy"
+                  />
+                ) : (
+                  <span class="flex size-12 shrink-0 items-center justify-center rounded-lg bg-neutral-2 text-copy-16 text-neutral-7 ring-2 ring-black/5 dark:ring-white/8">
+                    {link.name[0]}
+                  </span>
+                )}
+                <span class="flex min-w-0 flex-col gap-0.5">
+                  <span class="text-copy-13 font-medium">{link.name}</span>
+                  <span class="line-clamp-2 text-label-12 text-neutral-9/60">
+                    {link.description}
+                  </span>
+                </span>
+              </a>
+            ))
+          }
+        </section>
+      </main>
+
+      <div
+        class="mt-10 flex justify-center border-t border-black/[0.06] pt-6 dark:border-white/[0.06]"
+      >
+        <a
+          href="#top"
+          class="inline-flex items-center gap-2 rounded-md px-2.5 py-1.5 text-copy-13 text-neutral-10/55 transition-colors duration-200 hover:bg-black/[0.02] hover:text-neutral-10/85 dark:hover:bg-white/4"
+        >
+          <i class="i-mingcute-arrow-up-circle-line text-copy-14 opacity-70"
+          ></i>
+          <span>{tCommon('back_to_top')}</span>
+        </a>
+      </div>
+    </div>
+  </NormalContainer>
+</BaseLayout>
+
+<style>
+  .friend-card {
+    background-image: var(--friend-gradient-light);
+  }
+  :global([data-theme='dark']) .friend-card {
+    background-image: var(--friend-gradient-dark);
+  }
+</style>

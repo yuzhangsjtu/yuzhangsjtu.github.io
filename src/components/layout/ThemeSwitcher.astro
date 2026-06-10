@@ -1,0 +1,47 @@
+---
+// Ported from footer/FooterThemeSwitcher.tsx — light · system · dark text
+// buttons; active styling + view transition handled in scripts/app.ts.
+import type { Locale } from '~/i18n/config'
+import { useTranslations } from '~/i18n'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+const tc = useTranslations(locale, 'common')
+
+const themes = ['light', 'system', 'dark'] as const
+
+const labels: Record<string, string> = {
+  light: 'Light',
+  system: 'System',
+  dark: 'Dark',
+}
+
+const ariaLabels: Record<string, string> = {
+  light: tc('aria_theme_light'),
+  system: tc('aria_theme_system'),
+  dark: tc('aria_theme_dark'),
+}
+---
+
+<span class="inline-flex items-center" data-theme-switcher>
+  {
+    themes.map((t, i) => (
+      <span>
+        <button
+          aria-label={ariaLabels[t]}
+          type="button"
+          data-theme-value={t}
+          class="text-neutral-6 transition-colors duration-200 [transition-timing-function:cubic-bezier(0.22,1,0.36,1)] hover:text-neutral-8"
+        >
+          {labels[t]}
+        </button>
+        {i < themes.length - 1 && (
+          <span class="mx-1 select-none text-neutral-5">·</span>
+        )}
+      </span>
+    ))
+  }
+</span>

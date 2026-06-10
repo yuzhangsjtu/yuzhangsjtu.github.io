@@ -1,0 +1,206 @@
+---
+// Ported from (home)/components/HomePageTimeLine.tsx — last-year publication
+// rail. Data comes from content collections instead of
+// apiClient.activity.getLastYearPublication(); FloatPopover tooltips become
+// native title attributes; motion entrances become CSS animations.
+import type { Locale } from '~/i18n/config'
+import { localizePath, useTranslations } from '~/i18n'
+import { getNotes, getPosts, notePath, postPath } from '~/lib/content'
+import {
+  buildTimelineModel,
+  clusterRailItems,
+  localSeasonFraction,
+} from '~/lib/home-timeline.utils'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+const t = useTranslations(locale, 'home')
+
+const yearAgo = Date.now() - 365 * 86400000
+const posts = (await getPosts(locale)).filter(
+  (p) => p.data.date.getTime() >= yearAgo,
+)
+const notes = (await getNotes(locale)).filter(
+  (n) => n.data.date.getTime() >= yearAgo,
+)
+
+const model = buildTimelineModel([
+  ...posts.map((p) => ({
+    id: p.id,
+    title: p.data.title,
+    href: localizePath(locale, postPath(p)),
+    createdAt: p.data.date,
+  })),
+  ...notes.map((n) => ({
+    id: n.id,
+    title: n.data.title,
+    href: localizePath(locale, notePath(n)),
+    createdAt: n.data.date,
+  })),
+])
+
+const seasonLabels = {
+  spring: t('timeline_season_spring'),
+  summer: t('timeline_season_summer'),
+  autumn: t('timeline_season_autumn'),
+  winter: t('timeline_season_winter'),
+}
+const clampLabel = (fraction: number) =>
+  Math.min(Math.max(fraction, 0.04), 0.96)
+
+const dots = model ? clusterRailItems(model.items) : []
+---
+
+{
+  model && (
+    <section class="mx-auto mt-16 max-w-[1400px] px-6 lg:px-12">
+      <div class="text-center font-serif text-title-20 tracking-[2px] text-neutral-7 lg:text-title-24">
+        {t('timeline_title')}
+      </div>
+
+      <div class="mt-16 hidden lg:block">
+        <div>
+          <div class="relative h-8">
+            <div class="absolute inset-0 flex items-center">
+              <div class="h-px w-full bg-border" />
+            </div>
+
+            {model.currentSeasonStart !== null && (
+              <div
+                class="absolute top-1/2 h-1 -translate-y-1/2 rounded-full bg-accent/10"
+                style={`left: ${model.currentSeasonStart * 100}%; right: 0;`}
+              />
+            )}
+
+            <div class="absolute inset-0">
+              {dots.map((cluster) => (
+                <a
+                  aria-label={cluster.items.map((it) => it.title).join('、')}
+                  title={cluster.items.map((it) => it.title).join('\n')}
+                  href={cluster.items[0]!.href}
+                  class="group/dot absolute top-1/2 -translate-x-1/2 -translate-y-1/2 p-2"
+                  style={`left: ${cluster.fraction * 100}%`}
+                >
+                  <span
+                    class:list={[
+                      'block rounded-full transition-transform duration-200 group-hover/dot:scale-150',
+                      cluster.items.length > 1 ? 'size-2' : 'size-1.5',
+                      cluster.isCurrentSeason ? 'bg-accent/70' : 'bg-neutral-5',
+                    ]}
+                  />
+                </a>
+              ))}
+            </div>
+
+            <div>
+              <div class="absolute right-0 top-1/2 h-3 w-px -translate-y-1/2 bg-accent" />
+              <span class="absolute -top-0.5 right-0 text-caption-10 text-accent">
+                {t('timeline_season_current')}
+              </span>
+            </div>
+          </div>
+
+          <div class="relative mt-3 h-4">
+            {model.seasons.map((season) => (
+              <span
+                style={`left: ${clampLabel(season.labelFraction) * 100}%`}
+                class:list={[
+                  'absolute -translate-x-1/2 whitespace-nowrap text-caption-10 tracking-[2px]',
+                  season.isCurrent ? 'text-accent' : 'text-neutral-6',
+                ]}
+              >
+                {seasonLabels[season.season]}
+              </span>
+            ))}
+          </div>
+
+          <div class="mt-10 text-center text-copy-13 text-neutral-6">
+            {t('timeline_latest')}
+            {' · '}
+            <a
+              class="text-neutral-8 transition-colors hover:text-accent"
+              href={model.latest.href}
+            >
+              {model.latest.title}
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-12 lg:hidden">
+        <div class="flex flex-col gap-10">
+          {model.seasons.map((season) => (
+            <div>
+              <a class="block" href={localizePath(locale, '/timeline')}>
+                <div class="flex items-baseline justify-between">
+                  <span
+                    class:list={[
+                      'font-serif text-copy-14 tracking-[2px]',
+                      season.isCurrent ? 'text-accent' : 'text-neutral-7',
+                    ]}
+                  >
+                    {seasonLabels[season.season]}
+                  </span>
+                  <span class="text-label-12 text-neutral-5">
+                    {season.items.length} {t('hero_stat_posts')}
+                  </span>
+                </div>
+
+                <div class="relative mt-3 h-3">
+                  <div class="absolute inset-0 flex items-center">
+                    <div
+                      class:list={[
+                        'h-px w-full',
+                        season.isCurrent ? 'bg-accent/40' : 'bg-border',
+                      ]}
+                    />
+                  </div>
+                  {season.items.map((item) => (
+                    <span
+                      aria-hidden
+                      class:list={[
+                        'absolute top-1/2 size-1.5 -translate-x-1/2 -translate-y-1/2 rounded-full',
+                        season.isCurrent ? 'bg-accent/70' : 'bg-neutral-5',
+                      ]}
+                      style={`left: ${localSeasonFraction(item, season) * 100}%`}
+                    />
+                  ))}
+                  {season.isCurrent && (
+                    <span class="absolute right-0 top-1/2 h-2.5 w-px -translate-y-1/2 bg-accent" />
+                  )}
+                </div>
+
+                <div class="mt-2 text-caption-10 text-neutral-5">
+                  {season.yearLabel}
+                </div>
+
+                {season.isCurrent && (
+                  <div class="mt-2 text-copy-13 text-neutral-7">
+                    {t('timeline_latest')}
+                    {' · '}
+                    <span class="text-neutral-9">{model.latest.title}</span>
+                  </div>
+                )}
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div class="mt-12 text-center font-serif text-copy-13 italic text-neutral-6">
+        {t('timeline_year_total', { count: model.total })}
+        {' · '}
+        <a
+          class="text-accent transition-opacity not-italic hover:opacity-70"
+          href={localizePath(locale, '/timeline')}
+        >
+          {t('timeline_view_all')}
+          <i class="i-mingcute-arrow-right-line ml-0.5 text-label-12" />
+        </a>
+      </div>
+    </section>
+  )
+}

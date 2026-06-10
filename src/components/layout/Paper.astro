@@ -1,0 +1,150 @@
+---
+// Ported from layout/container/{Paper,PaperSheet,PaperStackBackingLayers}.tsx
+// — deckle-edge paper with 3D backing stack. The React entrance timing
+// (flat → stacked after hydration) becomes a CSS keyframe.
+type StackSheetCount = 1 | 2 | 3
+
+interface Props {
+  stackSheetCount?: StackSheetCount
+  class?: string
+  contentClass?: string
+}
+
+const {
+  stackSheetCount = 1,
+  class: className,
+  contentClass,
+} = Astro.props
+
+type BackLayer = {
+  tz: number
+  tx: number
+  ty?: number
+  rot: number
+  z: number
+  ribbed?: boolean
+}
+
+const STACK_BACK_FOR_THREE: readonly BackLayer[] = [
+  { tz: -17, tx: 10, rot: 1.2, z: -5 },
+  { tz: -8, tx: 18, rot: 2.5, ty: 5, z: -3, ribbed: true },
+]
+const STACK_BACK_FOR_TWO: readonly BackLayer[] = [
+  { tz: -8, tx: 14, rot: 1.8, ty: 5, z: -3, ribbed: true },
+]
+
+const backLayers =
+  stackSheetCount <= 1
+    ? []
+    : stackSheetCount === 2
+      ? STACK_BACK_FOR_TWO
+      : STACK_BACK_FOR_THREE
+const useStack3d = backLayers.length > 0
+
+const BACKING_LAYER_HEIGHT = 820
+---
+
+<main
+  class:list={[
+    'relative md:col-start-1 lg:col-auto',
+    '-m-4 md:m-0',
+    'note-layout-main',
+    'min-w-0',
+    useStack3d && 'lg:[perspective:2000px]',
+    className,
+  ]}
+>
+  <!-- DeckleFilter -->
+  <svg aria-hidden class="absolute" height="0" width="0">
+    <defs>
+      <filter id="deckle-edge">
+        <feTurbulence
+          baseFrequency="0.04"
+          numOctaves="3"
+          result="turb"
+          seed="7"
+          type="turbulence"></feTurbulence>
+        <feDisplacementMap
+          in="SourceGraphic"
+          in2="turb"
+          scale="1.5"
+          xChannelSelector="R"
+          yChannelSelector="G"></feDisplacementMap>
+      </filter>
+    </defs>
+  </svg>
+
+  {
+    backLayers.length > 0 && (
+      <div
+        aria-hidden
+        class="pointer-events-none absolute inset-0 -z-10 hidden lg:block [clip-path:inset(0_-100px_0_0)]"
+      >
+        {backLayers.map(({ tz, tx, ty = 0, rot, z, ribbed }) => (
+          <div
+            aria-hidden
+            class="paper-back-layer pointer-events-none absolute inset-x-0 top-0 print:hidden! motion-reduce:transition-none"
+            style={`z-index: ${z}; height: ${BACKING_LAYER_HEIGHT}px; max-height: 100%; --stacked-transform: translateZ(${tz}px) translateX(${tx}px) translateY(${ty}px) rotate(${rot}deg); transform-origin: top left;`}
+          >
+            <div
+              aria-hidden
+              class="absolute inset-0 h-full bg-white dark:bg-[var(--surface-paper)] shadow-paper-contact [filter:url(#deckle-edge)] print:bg-transparent! print:shadow-none! print:[filter:none]!"
+            />
+            {ribbed ? (
+              <div
+                aria-hidden
+                class:list={[
+                  'absolute inset-0 opacity-[0.055]',
+                  'dark:opacity-[0.1]',
+                  '[background-image:repeating-linear-gradient(90deg,transparent_0_5px,rgba(0,0,0,0.055)_5px_6px)]',
+                  'dark:[background-image:repeating-linear-gradient(90deg,transparent_0_5px,rgba(255,255,255,0.06)_5px_6px)]',
+                ]}
+              />
+            ) : null}
+          </div>
+        ))}
+      </div>
+    )
+  }
+
+  <!-- PaperSheet -->
+  <div
+    aria-hidden
+    class:list={[
+      'absolute inset-0',
+      'bg-white dark:bg-[var(--surface-paper)]',
+      'shadow-paper-contact',
+      '[filter:url(#deckle-edge)]',
+      'print:bg-transparent! print:shadow-none! print:[filter:none]!',
+      '-z-1',
+      useStack3d && 'lg:[transform:translateZ(0)]',
+    ]}
+  >
+  </div>
+
+  <!-- Content layer — always crisp, no filter -->
+  <div class:list={['relative p-[2rem_1rem] md:p-[30px_45px]', contentClass]}>
+    <slot />
+  </div>
+</main>
+
+<style>
+  /* PaperStackBackingLayers reveal — flat → stacked, 520ms, after the paper
+     entrance settles (PAPER_ENTRANCE.duration ≈ 700ms delay). */
+  .paper-back-layer {
+    transform: translateZ(0) translateX(0) translateY(0) rotate(0deg);
+    animation: paper-stack-reveal 520ms cubic-bezier(0.33, 1, 0.68, 1) 700ms
+      forwards;
+  }
+  @keyframes paper-stack-reveal {
+    to {
+      transform: var(--stacked-transform);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .paper-back-layer {
+      animation-duration: 0ms;
+      animation-delay: 0ms;
+    }
+  }
+</style>

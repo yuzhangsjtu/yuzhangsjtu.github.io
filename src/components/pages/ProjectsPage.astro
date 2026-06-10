@@ -1,0 +1,202 @@
+---
+// Ports app/[locale]/projects/{page,layout}.tsx — mono list with the
+// scramble-in name animation (text-scramble.ts ported to vanilla JS).
+// Data comes from src/data/projects.ts instead of apiClient.project.getAll().
+import type { Locale } from '~/i18n/config'
+import { useTranslations } from '~/i18n'
+import { projects } from '~/data/projects'
+import { siteConfig } from '~/site.config'
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import WiderContainer from '~/components/layout/WiderContainer.astro'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+const t = useTranslations(locale, 'projects')
+const tCommon = useTranslations(locale, 'common')
+
+const githubUsername = siteConfig.user.socialIds.github
+
+function formatDate(dateStr?: string): string {
+  if (!dateStr) return ''
+  const d = new Date(dateStr)
+  return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, '0')}`
+}
+
+const mid = Math.ceil(projects.length / 2)
+const columns = {
+  left: projects.slice(0, mid),
+  right: projects.slice(mid),
+}
+
+const rowDelay = 80
+---
+
+<BaseLayout locale={locale} title={tCommon('page_title_projects')}>
+  <WiderContainer>
+    <div class="mt-10 font-mono">
+      <header class="mb-8 flex items-baseline gap-3">
+        <span class="text-label-12 tracking-[2px] text-neutral-6">
+          {t('page_title').toUpperCase()}
+        </span>
+        {
+          githubUsername && (
+            <>
+              <span class="text-label-12 text-neutral-6">—</span>
+              <a
+                class="text-label-12 text-neutral-6 transition-colors hover:text-accent"
+                href={`https://github.com/${githubUsername}`}
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                github.com/{githubUsername} ↗
+              </a>
+            </>
+          )
+        }
+      </header>
+
+      <main>
+        <!-- Desktop: 2 columns -->
+        <div class="hidden gap-14 lg:grid lg:grid-cols-2">
+          {
+            [columns.left, columns.right].map((items, col) => (
+              <div>
+                {items.map((project, i) => {
+                  const Tag = project.projectUrl ? 'a' : 'div'
+                  return (
+                    <Tag
+                      class:list={[
+                        'group -mx-3 block rounded-md px-3 py-3 transition-colors hover:bg-accent/6',
+                        i !== items.length - 1 && 'mb-4 border-b border-neutral-2',
+                        project.projectUrl && 'cursor-pointer',
+                      ]}
+                      href={project.projectUrl}
+                      rel={project.projectUrl ? 'noopener noreferrer' : undefined}
+                      target={project.projectUrl ? '_blank' : undefined}
+                    >
+                      <div class="flex items-center gap-2">
+                        <span
+                          class="text-copy-14 font-medium text-neutral-9"
+                          data-scramble
+                          data-delay={(col === 0 ? 0 : columns.left.length * rowDelay) + i * rowDelay}
+                        >
+                          <span class="invisible">{project.name}</span>
+                        </span>
+                        <span class="ml-auto shrink-0 text-label-12 text-neutral-6">
+                          {formatDate(project.createdAt)}
+                        </span>
+                      </div>
+                      {project.description && (
+                        <p class="mt-1.5 text-copy-13 leading-relaxed text-neutral-7 transition-colors group-hover:text-neutral-8">
+                          {project.description}
+                        </p>
+                      )}
+                    </Tag>
+                  )
+                })}
+              </div>
+            ))
+          }
+        </div>
+
+        <!-- Mobile: 1 column -->
+        <div class="lg:hidden">
+          {
+            projects.map((project, i) => {
+              const Tag = project.projectUrl ? 'a' : 'div'
+              return (
+                <Tag
+                  class:list={[
+                    'group -mx-3 block rounded-md px-3 py-3 transition-colors hover:bg-accent/6',
+                    i !== projects.length - 1 && 'mb-4 border-b border-neutral-2',
+                    project.projectUrl && 'cursor-pointer',
+                  ]}
+                  href={project.projectUrl}
+                  rel={project.projectUrl ? 'noopener noreferrer' : undefined}
+                  target={project.projectUrl ? '_blank' : undefined}
+                >
+                  <div class="flex items-center gap-2">
+                    <span
+                      class="text-copy-14 font-medium text-neutral-9"
+                      data-scramble
+                      data-delay={i * rowDelay}
+                    >
+                      <span class="invisible">{project.name}</span>
+                    </span>
+                    <span class="ml-auto shrink-0 text-label-12 text-neutral-6">
+                      {formatDate(project.createdAt)}
+                    </span>
+                  </div>
+                  {project.description && (
+                    <p class="mt-1.5 text-copy-13 leading-relaxed text-neutral-7 transition-colors group-hover:text-neutral-8">
+                      {project.description}
+                    </p>
+                  )}
+                </Tag>
+              )
+            })
+          }
+        </div>
+      </main>
+
+      <footer
+        class="mt-7 border-t border-neutral-2 pt-3 text-right text-label-12 text-neutral-6"
+      >
+        {projects.length} projects
+      </footer>
+    </div>
+  </WiderContainer>
+</BaseLayout>
+
+<script>
+  // text-scramble.ts port — six 50ms frames of random chars, then settle.
+  const SCRAMBLE_CHARS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#$%&*+?@'
+  const SCRAMBLE_FRAME_COUNT = 6
+  const SCRAMBLE_FRAME_INTERVAL_MS = 50
+
+  const buildScrambleFrame = (text: string): string =>
+    text
+      .split('')
+      .map((char) => {
+        if (/\s/.test(char)) return char
+        const index = Math.floor(Math.random() * SCRAMBLE_CHARS.length)
+        return SCRAMBLE_CHARS[index] || char
+      })
+      .join('')
+
+  const start = (el: HTMLElement) => {
+    const text = el.textContent?.trim() ?? ''
+    if (!text) return
+    let frame = 1
+    el.textContent = buildScrambleFrame(text)
+    const interval = setInterval(() => {
+      if (frame >= SCRAMBLE_FRAME_COUNT) {
+        el.textContent = text
+        clearInterval(interval)
+        return
+      }
+      frame += 1
+      el.textContent = buildScrambleFrame(text)
+    }, SCRAMBLE_FRAME_INTERVAL_MS)
+  }
+
+  const observer = new IntersectionObserver(
+    (entries, io) => {
+      for (const entry of entries) {
+        if (!entry.isIntersecting) continue
+        io.unobserve(entry.target)
+        const el = entry.target as HTMLElement
+        const delay = Number(el.dataset.delay ?? 0)
+        setTimeout(() => start(el), delay)
+      }
+    },
+    { threshold: 0.1 },
+  )
+
+  for (const el of document.querySelectorAll<HTMLElement>('[data-scramble]')) {
+    observer.observe(el)
+  }
+</script>

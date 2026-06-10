@@ -1,0 +1,200 @@
+---
+// Ported from (home)/components/Hero.tsx. Backend bits replaced:
+//  - site_info stats → computed from content collections
+//  - remote hitokoto → static custom quote (hero.hitokoto.custom)
+// Motion entrance props become the yohaku-fade-up CSS animation.
+import type { Locale } from '~/i18n/config'
+import { useTranslations } from '~/i18n'
+import { countWords, getNotes, getPosts } from '~/lib/content'
+import { localizedSite, siteConfig } from '~/site.config'
+import SocialIcon from './SocialIcon.astro'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+const tCommon = useTranslations(locale, 'common')
+const t = useTranslations(locale, 'home')
+
+const { title, description, hitokoto } = localizedSite[locale].hero
+const { avatar, socialIds } = siteConfig.user
+
+// HeroWritingStats — articleCount / word count / days since first publish
+const posts = await getPosts(locale)
+const notes = await getNotes(locale)
+const articleCount = posts.length + notes.length
+const totalWordCount =
+  posts.reduce((n, p) => n + countWords(p.body ?? ''), 0) +
+  notes.reduce((n, p) => n + countWords(p.body ?? ''), 0)
+const wordCountDisplay = totalWordCount
+  ? locale === 'en'
+    ? Math.round(totalWordCount / 1000)
+    : Math.round(totalWordCount / 10000)
+  : 0
+const days = siteConfig.firstPublishDate
+  ? Math.floor(
+      (Date.now() - new Date(siteConfig.firstPublishDate).getTime()) / 86400000,
+    )
+  : 0
+
+const statItems = [
+  { value: articleCount, label: t('hero_stat_posts') },
+  { value: wordCountDisplay, label: t('hero_stat_words_unit') },
+  { value: days, label: t('hero_stat_days') },
+]
+
+const hitokotoText = hitokoto?.custom ?? t('hero_default_hitokoto')
+
+const blockTags = new Set([
+  'h1',
+  'h2',
+  'h3',
+  'h4',
+  'h5',
+  'h6',
+  'div',
+  'p',
+  'section',
+  'article',
+])
+const titleNodes = title.template.map((node) => {
+  if (node.type === 'br') return { tag: 'br' as const }
+  const rawTag = node.type && node.type !== 'br' ? node.type : 'span'
+  const needsInline = blockTags.has(rawTag)
+  return {
+    tag: needsInline ? 'span' : rawTag,
+    text: node.text,
+    class: node.class,
+    style: needsInline ? 'display: inline' : undefined,
+  }
+})
+---
+
+<div
+  class="relative mx-auto min-w-0 max-w-[1400px] px-6 lg:px-12 xl:px-16 2xl:px-24"
+>
+  <!-- Paper glow — static center light -->
+  <div
+    class="yohaku-fade-in pointer-events-none absolute -z-10 left-1/2 top-[42%] -translate-x-1/2 -translate-y-1/2 rounded-full size-[250px] lg:size-[450px] bg-[radial-gradient(ellipse,rgba(255,240,210,0.15)_0%,transparent_55%)] dark:bg-[radial-gradient(ellipse,rgba(180,200,255,0.08)_0%,transparent_55%)]"
+  >
+  </div>
+
+  <!-- Two-zone layout: focal center + whisper footer -->
+  <div class="flex min-h-[80vh] flex-col items-center justify-center py-16">
+    <div class="flex-1"></div>
+
+    {
+      avatar && (
+        <div class="yohaku-rise mb-8" style="--rise-delay: 0.1s">
+          <img
+            alt={tCommon('aria_site_owner_avatar')}
+            class="rounded-full shadow-[inset_0_0_0_1px_rgba(0,0,0,0.06)] dark:shadow-[inset_0_0_0_1px_rgba(255,255,255,0.08)] size-20 lg:size-28"
+            height="112"
+            src={avatar}
+            width="112"
+          />
+        </div>
+      )
+    }
+
+    <h1
+      class="yohaku-fade-in text-center text-title-24 font-normal leading-relaxed text-neutral-9 lg:text-[2.5rem] lg:leading-snug"
+      style="--rise-delay: 0.2s"
+    >
+      {
+        titleNodes.map((node) => {
+          if (node.tag === 'br') return <br />
+          const Tag = node.tag as any
+          return (
+            <Tag class={node.class} style={node.style}>
+              {node.text}
+            </Tag>
+          )
+        })
+      }
+    </h1>
+
+    <div
+      class="yohaku-rise mt-4 text-center text-caption-10 uppercase tracking-[1.2px] text-neutral-5 lg:text-label-12 lg:tracking-[1.5px]"
+      style="--rise-delay: 0.4s"
+    >
+      {description}
+    </div>
+
+    <div class="flex-[1.5]"></div>
+
+    <div class="yohaku-rise text-center" style="--rise-delay: 0.6s">
+      <!-- HeroHitokoto -->
+      <div
+        class="min-h-[1.5em] max-w-[65ch] font-serif text-label-12 italic text-neutral-5"
+      >
+        「{hitokotoText}」
+      </div>
+      <div class="mt-2.5">
+        <!-- HeroWritingStats -->
+        <div
+          class="flex gap-3 justify-center text-caption-10 tracking-wide text-neutral-4"
+        >
+          {
+            statItems.map((item, index) => (
+              <>
+                {index > 0 && <span>·</span>}
+                <span>
+                  {item.value} {item.label}
+                </span>
+              </>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+
+    <div class="yohaku-rise mb-8 mt-7" style="--rise-delay: 0.8s">
+      <div class="flex justify-center gap-5">
+        {
+          Object.entries(socialIds).map(([type, id]) => (
+            <SocialIcon id={id} type={type} />
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Entrance animations standing in for motion's riseInLcpSafe /
+     fadeInLcpSafe (initial y:16 → 0 + fade, 0.5s ease-out curve). */
+  .yohaku-rise {
+    animation: yohaku-rise-in 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+    animation-delay: var(--rise-delay, 0s);
+  }
+  .yohaku-fade-in {
+    animation: yohaku-fade-in 0.5s ease both;
+    animation-delay: var(--rise-delay, 0s);
+  }
+  @keyframes yohaku-rise-in {
+    from {
+      opacity: 0;
+      transform: translateY(16px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes yohaku-fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .yohaku-rise,
+    .yohaku-fade-in {
+      animation: none;
+    }
+  }
+</style>

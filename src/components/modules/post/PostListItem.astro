@@ -1,0 +1,106 @@
+---
+// Ported from modules/post/PostListItem.tsx. Read/like counters and the
+// tag/category modals are backend features — tags render with the same
+// classes as inert text.
+import type { Locale } from '~/i18n/config'
+import { localizePath, useTranslations } from '~/i18n'
+import type { PostEntry } from '~/lib/content'
+import { postPath } from '~/lib/content'
+
+interface Props {
+  locale: Locale
+  post: PostEntry
+}
+
+const { locale, post } = Astro.props
+const t = useTranslations(locale, 'common')
+const data = post.data
+
+const postLink = localizePath(locale, postPath(post))
+const summary =
+  data.summary || (post.body ? post.body.replaceAll(/[#*`>\[\]]/g, '').trim().slice(0, 80) : '')
+
+// CJK char counts as 2 latin units; budget tuned for the post-list meta row.
+const TAG_VISIBLE_BUDGET = 24
+const CJK_RE = /[぀-ヿ一-鿿가-힯]/
+const weighTag = (s: string) =>
+  Array.from(s).reduce((n, c) => n + (CJK_RE.test(c) ? 2 : 1), 0)
+
+const partitionTags = (tags: string[]) => {
+  let used = 0
+  const visible: string[] = []
+  for (const tag of tags) {
+    const cost = weighTag(tag) + 2
+    if (used + cost > TAG_VISIBLE_BUDGET && visible.length > 0) break
+    visible.push(tag)
+    used += cost
+  }
+  return { visible, hiddenCount: tags.length - visible.length }
+}
+
+const { visible: visibleTags, hiddenCount } = data.tags?.length
+  ? partitionTags(data.tags)
+  : { visible: [], hiddenCount: 0 }
+---
+
+<a
+  href={postLink}
+  class:list={[
+    'block rounded-lg px-4 py-3.5 -mx-4 my-1',
+    'transition-all duration-250',
+    'hover:bg-white/70 hover:shadow-[0_2px_12px_rgba(0,0,0,0.04),0_0_0_1px_rgba(0,0,0,0.03)] hover:-translate-y-px',
+    'dark:hover:bg-white/5',
+  ]}
+>
+  <div class="flex items-baseline gap-2">
+    <h3 class="text-copy-16 font-medium text-neutral-9">
+      {data.title}
+    </h3>
+  </div>
+
+  {
+    summary && (
+      <p class="mt-1 line-clamp-1 text-copy-13 leading-normal text-neutral-6">
+        {summary}
+      </p>
+    )
+  }
+
+  <div class="mt-2 flex items-center justify-between">
+    <div class="flex items-center gap-2 text-label-12">
+      <span class="text-neutral-5">
+        <time data-relative-time datetime={data.date.toISOString()}></time>
+      </span>
+      {data.modified && <span class="text-neutral-4">{t('edited')}</span>}
+      {
+        data.category && (
+          <>
+            <span class="text-neutral-4">·</span>
+            <span class="yohaku-link--underline whitespace-nowrap text-accent">
+              {data.category.name}
+            </span>
+            {visibleTags.length > 0 ? (
+              <>
+                {' / '}
+                {visibleTags.map((tag, index) => (
+                  <>
+                    <span class="yohaku-link--underline whitespace-nowrap text-accent">
+                      {tag}
+                    </span>
+                    {index < visibleTags.length - 1 && ', '}
+                  </>
+                ))}
+                {hiddenCount > 0 && (
+                  <span class="ml-0.5 whitespace-nowrap tabular-nums text-neutral-6">
+                    +{hiddenCount}
+                  </span>
+                )}
+              </>
+            ) : null}
+          </>
+        )
+      }
+    </div>
+    <div class="flex items-center gap-2.5 text-label-12 text-neutral-4"></div>
+  </div>
+</a>

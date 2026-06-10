@@ -1,0 +1,104 @@
+---
+// The app shell — ports app/[locale]/layout.tsx + AppShell.tsx + Root.tsx
+// + Content.tsx. Backend providers (jotai/react-query/socket/auth/search)
+// are removed; html/body structure, classes and head wiring are verbatim.
+import '@fontsource/instrument-sans/400.css'
+import '@fontsource/instrument-sans/500.css'
+import '@fontsource/noto-serif-sc/400.css'
+import 'katex/dist/katex.min.css'
+import '~/styles/index.css'
+
+import themeInit from '~/scripts/theme-init.js?raw'
+import sayHi from '~/scripts/say-hi.js?raw'
+
+import type { Locale } from '~/i18n/config'
+import { useTranslations } from '~/i18n'
+import { buildAccentColorStyleTag } from '~/lib/accent-color'
+import { getLocaleFontStyle } from '~/lib/font-locale'
+import { localizedSite, siteConfig } from '~/site.config'
+import Header from '~/components/layout/Header.astro'
+import Footer from '~/components/layout/Footer.astro'
+
+interface Props {
+  locale: Locale
+  title?: string
+  description?: string
+  /** Pages that keep the nav permanently visible (post list/detail). */
+  headerFade?: boolean
+}
+
+const { locale, title, description, headerFade = true } = Astro.props
+const pathname = Astro.url.pathname
+
+const site = localizedSite[locale]
+const pageTitle = title ? `${title} - ${site.seo.title}` : site.seo.title
+const pageDescription = description ?? site.seo.description
+
+const localeFontStyle = getLocaleFontStyle(locale)
+const accentColorCss = await buildAccentColorStyleTag()
+const tDatetime = useTranslations(locale, 'datetime')
+const datetimeMessages = JSON.stringify({
+  relative_justNow: tDatetime('relative_justNow'),
+  relative_secondsAgo: tDatetime('relative_secondsAgo'),
+  relative_minutesAgo: tDatetime('relative_minutesAgo'),
+  relative_hoursAgo: tDatetime('relative_hoursAgo'),
+  relative_daysAgo: tDatetime('relative_daysAgo'),
+  relative_monthsAgo: tDatetime('relative_monthsAgo'),
+  relative_yearsAgo: tDatetime('relative_yearsAgo'),
+})
+
+const webSiteLdJson = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: site.seo.title,
+  url: siteConfig.url,
+  description: site.seo.description,
+  inLanguage: locale,
+}
+---
+
+<html class="themed noise" lang={locale}>
+  <head>
+    <meta charset="utf-8" />
+    <!-- generateViewport() in app/layout.tsx -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1c1c1e" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf7f0" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" href="/favicon.ico" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link crossorigin="" href="https://cdn.jsdelivr.net" rel="preconnect" />
+
+    <script is:inline set:html={themeInit}></script>
+    <script is:inline set:html={sayHi}></script>
+    <script type="application/ld+json" set:html={JSON.stringify(webSiteLdJson)}></script>
+
+    <!-- AccentColorStyleInjector -->
+    <style id="accent-color-style" set:html={accentColorCss}></style>
+  </head>
+  <body class="m-0 h-full p-0 font-sans" style={localeFontStyle} data-header-fade={String(headerFade)}>
+    <div data-theme id="root">
+      <slot name="page-glow" />
+      <Header locale={locale} pathname={pathname} />
+
+      <!-- Content.tsx -->
+      <main class="fill-content relative z-[1] flex pt-[4.5rem]">
+        <div class="min-w-0 flex-1 px-4 md:px-0">
+          <slot />
+        </div>
+      </main>
+
+      <Footer locale={locale} pathname={pathname} />
+    </div>
+
+    <script id="datetime-messages" type="application/json" set:html={datetimeMessages}></script>
+    <script>
+      import '~/scripts/app.ts'
+    </script>
+  </body>
+</html>

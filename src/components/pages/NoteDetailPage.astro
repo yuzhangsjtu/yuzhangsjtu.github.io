@@ -1,0 +1,184 @@
+---
+// Ports notes/(note-detail) — grid layout + Paper (with neighbor stack) +
+// NoteTitle + NoteMetaBar (date / weather / mood) + article.prose +
+// footer navigation. Comments, presence, AI summary, topics, password
+// protection and the annotation drawer are removed.
+import { render } from 'astro:content'
+import type { Locale } from '~/i18n/config'
+import { localizePath, useTranslations } from '~/i18n'
+import type { NoteEntry } from '~/lib/content'
+import { notePath } from '~/lib/content'
+import {
+  getMoodLabel,
+  getWeatherLabel,
+  mood2hue,
+  weather2hue,
+} from '~/lib/meta-icon'
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import PageColorGradient from '~/components/common/PageColorGradient.astro'
+import Paper from '~/components/layout/Paper.astro'
+import Toc from '~/components/modules/toc/Toc.astro'
+
+interface Props {
+  locale: Locale
+  note: NoteEntry
+  prev?: NoteEntry | null
+  next?: NoteEntry | null
+}
+
+const { locale, note, prev = null, next = null } = Astro.props
+const t = useTranslations(locale, 'common')
+const tNote = useTranslations(locale, 'note')
+const data = note.data
+
+const { Content, headings } = await render(note)
+
+// paperStackSheetCountFromNeighbors
+let stackSheetCount: 1 | 2 | 3 = 1
+if (next) stackSheetCount++
+if (prev) stackSheetCount++
+
+const dateLocale = locale === 'zh' ? 'zh-CN' : 'en'
+const longDate = new Intl.DateTimeFormat(dateLocale, {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+  weekday: 'long',
+}).format(data.date)
+---
+
+<BaseLayout locale={locale} title={data.title} description={data.summary}>
+  <PageColorGradient
+    seed={`${data.nid}${data.title}`}
+    slot="page-glow"
+  />
+  <!-- notes/(note-detail)/layout.tsx -->
+  <div
+    class:list={[
+      'relative mx-auto grid min-h-[calc(100vh-6.5rem-10rem)] max-w-[60rem]',
+      'gap-4 md:grid-cols-1 xl:max-w-[calc(60rem+400px)] xl:grid-cols-[1fr_minmax(auto,60rem)_1fr]',
+      'mt-12',
+      'md:mt-24 print:block! print:max-w-full!',
+    ]}
+  >
+    <div data-hide-print class="relative hidden min-w-0 xl:block"></div>
+
+    <div class="min-w-0">
+      <div class="yohaku-paper-main-slot relative">
+        <Paper stackSheetCount={stackSheetCount}>
+          <div>
+            <!-- NoteTitle -->
+            <div class="relative">
+              <h1
+                class="mt-8 mb-3 tracking-wider text-balance text-left font-serif text-display-36 font-bold leading-tight text-neutral-9/95"
+              >
+                {data.title}
+              </h1>
+            </div>
+
+            <!-- NoteMetaBar -->
+            <div class="w-full font-sans text-copy-13">
+              <div
+                class="flex flex-wrap items-baseline gap-x-4 gap-y-1 md:grid md:grid-cols-[auto_1fr_auto]"
+              >
+                <time
+                  class="font-serif italic text-neutral-7"
+                  datetime={data.date.toISOString()}
+                >
+                  {longDate}
+                </time>
+                {
+                  data.weather || data.mood ? (
+                    <span class="font-serif italic text-neutral-7">
+                      {data.weather && (
+                        <span class="whitespace-nowrap">
+                          <span
+                            aria-hidden
+                            class="mr-1.5 inline-block size-1.5 translate-y-[-0.1em] rounded-full align-middle"
+                            style={`background: ${weather2hue(data.weather)}`}
+                          />
+                          {getWeatherLabel(data.weather, t)}
+                        </span>
+                      )}
+                      {data.weather && data.mood && (
+                        <span aria-hidden class="mx-2 opacity-50">
+                          ·
+                        </span>
+                      )}
+                      {data.mood && (
+                        <span class="whitespace-nowrap">
+                          <span
+                            aria-hidden
+                            class="mr-1.5 inline-block size-1.5 translate-y-[-0.1em] rounded-full align-middle"
+                            style={`background: ${mood2hue(data.mood)}`}
+                          />
+                          {getMoodLabel(data.mood, t)}
+                        </span>
+                      )}
+                    </span>
+                  ) : (
+                    <span aria-hidden class="hidden md:block" />
+                  )
+                }
+              </div>
+            </div>
+          </div>
+
+          <article class="prose mt-8">
+            <header class="sr-only">
+              <h1>{data.title}</h1>
+            </header>
+            <Content />
+          </article>
+
+          <!-- NoteFooterNavigation -->
+          {
+            (prev || next) && (
+              <div
+                data-hide-print
+                class="mt-12 flex items-center justify-between border-t border-[rgba(60,40,20,0.08)] pt-5 text-label-12 dark:border-white/[0.06]"
+              >
+                {next ? (
+                  <a
+                    class="inline-flex items-center gap-1.5 text-neutral-7 transition-colors hover:text-accent"
+                    href={localizePath(locale, notePath(next))}
+                  >
+                    <i aria-hidden class="i-mingcute-arrow-left-line" />
+                    <span>{next.data.title}</span>
+                  </a>
+                ) : (
+                  <span />
+                )}
+                {prev ? (
+                  <a
+                    class="inline-flex items-center gap-1.5 text-neutral-7 transition-colors hover:text-accent"
+                    href={localizePath(locale, notePath(prev))}
+                  >
+                    <span>{prev.data.title}</span>
+                    <i aria-hidden class="i-mingcute-arrow-right-line" />
+                  </a>
+                ) : (
+                  <span />
+                )}
+              </div>
+            )
+          }
+
+          <div class="mt-6 text-right text-caption-10 uppercase tracking-[0.22em] text-[#b09a78] dark:text-[#8a7860]">
+            Letter №<span class="tabular-nums">{data.nid}</span>
+            {' · '}
+            {tNote('mark_read')}
+          </div>
+        </Paper>
+      </div>
+    </div>
+
+    <div class="pointer-events-none relative hidden xl:block print:hidden!">
+      <div
+        class="yohaku-fadeable pointer-events-auto sticky top-[120px] max-h-[calc(100vh-160px)] overflow-y-auto overscroll-contain pr-1"
+      >
+        <Toc headings={headings} />
+      </div>
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,52 @@
+---
+// Ported from modules/home/SocialIcon.tsx (mono variant). The JS hover
+// color swap becomes a CSS custom property; brand-SVG-only entries
+// (bilibili/netease/bluesky/steam/x) are omitted — mingcute icons kept.
+interface Props {
+  id: string
+  type: string
+}
+
+const { id, type } = Astro.props
+
+const socialIconSet: Record<string, [string, string, string, (id: string) => string]> = {
+  github: ['Github', 'i-mingcute-github-line', '#181717', (id) => `https://github.com/${id}`],
+  twitter: ['Twitter', 'i-mingcute-twitter-line', '#1DA1F2', (id) => `https://twitter.com/${id}`],
+  telegram: ['Telegram', 'i-mingcute-telegram-line', '#0088cc', (id) => `https://t.me/${id}`],
+  mail: ['Email', 'i-mingcute-mail-line', '#D44638', (id) => `mailto:${id}`],
+  email: ['Email', 'i-mingcute-mail-line', '#D44638', (id) => `mailto:${id}`],
+  rss: ['RSS', 'i-mingcute-rss-line', '#FFA500', (id) => id],
+  feed: ['RSS', 'i-mingcute-rss-line', '#FFA500', (id) => id],
+  qq: ['QQ', 'i-mingcute-qq-fill', '#1e6fff', (id) => `https://wpa.qq.com/msgrd?v=3&uin=${id}&site=qq&menu=yes`],
+  wechat: ['微信', 'i-mingcute-wechat-fill', '#2DC100', (id) => id],
+  weibo: ['微博', 'i-mingcute-weibo-line', '#E6162D', (id) => `https://weibo.com/${id}`],
+  discord: ['Discord', 'i-mingcute-discord-fill', '#7289DA', (id) => `https://discord.gg/${id}`],
+}
+
+const entry = socialIconSet[type]
+---
+
+{
+  entry && (
+    <a
+      aria-label={entry[0]}
+      title={entry[0]}
+      class="social-icon-mono center flex size-9 rounded-full border border-neutral-4 text-neutral-6 transition-colors duration-300"
+      href={entry[3](id)}
+      rel="noreferrer"
+      target="_blank"
+      style={`--hover-color: ${entry[2]}`}
+    >
+      <span class="flex items-center justify-center [&_svg]:size-4 [&_i]:text-copy-14">
+        <i class={entry[1]} />
+      </span>
+    </a>
+  )
+}
+
+<style>
+  .social-icon-mono:hover {
+    border-color: var(--hover-color);
+    color: var(--hover-color);
+  }
+</style>

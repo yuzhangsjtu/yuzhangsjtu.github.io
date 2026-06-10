@@ -1,0 +1,76 @@
+---
+// Ported from footer/LocaleSwitcher.tsx + ui/language-selector — same trigger
+// markup; the Base UI dropdown is replaced by a static popup toggled in
+// scripts/app.ts. Switching locale preserves the current path (next-intl
+// router.push(pathname, { locale }) equivalent).
+import type { Locale } from '~/i18n/config'
+import {
+  defaultLocale,
+  localizePath,
+  locales,
+  unlocalizePath,
+  useTranslations,
+} from '~/i18n'
+
+interface Props {
+  locale: Locale
+  pathname: string
+}
+
+const { locale, pathname } = Astro.props
+const t = useTranslations(locale, 'common')
+
+const localeLabels: Record<Locale, string> = {
+  zh: t('locale_zh'),
+  en: t('locale_en'),
+}
+
+const basePath = unlocalizePath(pathname)
+const languages = locales.map((l) => ({
+  code: l,
+  label: localeLabels[l],
+  href: localizePath(l, basePath),
+}))
+const currentLabel = localeLabels[locale]
+---
+
+<span class="relative" data-locale-switcher>
+  <button
+    type="button"
+    class:list={[
+      'flex items-center gap-1 rounded-md px-1.5 py-0.5 text-copy-13 transition-colors',
+      'hover:bg-neutral-2 data-[popup-open]:bg-neutral-2',
+    ]}
+  >
+    <i class="i-mingcute-translate-2-fill"></i>
+    <span>{currentLabel}</span>
+    <i class="i-mingcute-down-line text-label-12 opacity-50"></i>
+  </button>
+  <div
+    data-locale-menu
+    class:list={[
+      'hidden absolute bottom-full left-0 z-50 mb-2 min-w-32 rounded-md p-1',
+      'bg-[var(--color-root-bg)] dark:bg-neutral-900',
+      'border border-[rgba(200,180,160,0.08)] dark:border-neutral-700/20',
+      'shadow-[0_8px_32px_rgba(0,0,0,0.06),0_2px_8px_rgba(0,0,0,0.02)]',
+      'dark:shadow-[0_8px_32px_rgba(0,0,0,0.3)]',
+    ]}
+  >
+    {
+      languages.map((lang) => (
+        <a
+          href={lang.href}
+          class:list={[
+            'flex w-full items-center justify-between gap-2 rounded px-2 py-1.5 text-copy-13 text-neutral-8 hover:bg-neutral-2',
+            lang.code === locale && 'bg-neutral-2/80',
+          ]}
+        >
+          <span class="flex items-center gap-2">{lang.label}</span>
+          {lang.code === locale && (
+            <i class="i-mingcute-check-line text-accent" />
+          )}
+        </a>
+      ))
+    }
+  </div>
+</span>

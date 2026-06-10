@@ -1,0 +1,10 @@
+/* next/font replacement — families ship via @fontsource (imported in
+   BaseLayout.astro); these variables keep the tokens.css contract:
+   --font-sans: var(--app-font-sans), var(--app-font-sans-cjk, …)
+   --font-serif: var(--app-font-serif, …)  (set per-locale on <body>) */
+:root {
+  --app-font-sans: 'Instrument Sans';
+  --app-font-sans-ja: 'Zen Kaku Gothic New';
+  --app-font-serif-sc: 'Noto Serif SC';
+  --app-font-serif-ja: 'Noto Serif JP';
+}

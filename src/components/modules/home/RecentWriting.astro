@@ -1,0 +1,134 @@
+---
+// Ported from (home)/components/RecentWriting.tsx — numbered vertical list
+// merging recent posts + notes (top 5), featured first item.
+import type { Locale } from '~/i18n/config'
+import { useTranslations } from '~/i18n'
+import { localizePath } from '~/i18n'
+import {
+  getNotes,
+  getPosts,
+  notePath,
+  postPath,
+} from '~/lib/content'
+import SectionHeading from './SectionHeading.astro'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+const t = useTranslations(locale, 'home')
+
+const posts = await getPosts(locale)
+const notes = await getNotes(locale)
+
+interface MergedItem {
+  type: 'post' | 'note'
+  title: string
+  href: string
+  createdAt: Date
+  weather?: string
+  summary?: string
+  categoryName?: string
+}
+
+const merged: MergedItem[] = [
+  ...posts.map((p) => ({
+    type: 'post' as const,
+    title: p.data.title,
+    href: localizePath(locale, postPath(p)),
+    createdAt: p.data.date,
+    summary: p.data.summary,
+    categoryName: p.data.category.name,
+  })),
+  ...notes.map((n) => ({
+    type: 'note' as const,
+    title: n.data.title,
+    href: localizePath(locale, notePath(n)),
+    createdAt: n.data.date,
+    weather: n.data.weather,
+    summary: n.data.summary,
+  })),
+]
+  .sort((a, b) => b.createdAt.getTime() - a.createdAt.getTime())
+  .slice(0, 5)
+---
+
+{
+  merged.length > 0 && (
+    <div>
+      <SectionHeading eyebrow="recentWriting" locale={locale}>
+        {t('second_recent_writing')}
+      </SectionHeading>
+
+      <div class="relative">
+        <span
+          aria-hidden
+          class="pointer-events-none absolute inset-y-2 left-[18px] w-0.5 bg-border"
+        />
+        <span
+          aria-hidden
+          class="pointer-events-none absolute left-[18px] top-2 h-[58%] w-0.5 bg-gradient-to-b from-accent to-transparent"
+        />
+        {merged.map((item, index) => {
+          const isFeatured = index === 0
+          const typeLabel =
+            item.type === 'post' ? t('second_post') : t('second_note')
+          return (
+            <div class="relative py-4 pl-10">
+              <span
+                class:list={[
+                  'absolute left-[19px] top-4 -translate-x-1/2 bg-paper px-1 text-label-12 font-medium tabular-nums tracking-[0.5px]',
+                  isFeatured ? 'text-accent' : 'text-neutral-6',
+                ]}
+              >
+                {String(index + 1).padStart(2, '0')}
+              </span>
+
+              {isFeatured ? (
+                <a class="block" href={item.href}>
+                  <div class="text-label-12 text-neutral-6">
+                    {typeLabel}
+                    {' · '}
+                    <time
+                      data-relative-time
+                      datetime={item.createdAt.toISOString()}
+                    />
+                    {item.weather && <> · {item.weather}</>}
+                  </div>
+                  <div class="mt-2 text-title-20 font-medium leading-normal text-neutral-9 transition-colors hover:text-accent">
+                    {item.title}
+                  </div>
+                  {item.summary && (
+                    <div class="mt-2.5 text-copy-13 leading-[1.8] text-neutral-7">
+                      {item.summary}
+                    </div>
+                  )}
+                </a>
+              ) : (
+                <a class="block" href={item.href}>
+                  <div class="flex items-baseline justify-between gap-5">
+                    <span class="text-copy-14 text-neutral-8 transition-colors hover:text-accent">
+                      {item.title}
+                    </span>
+                    <span class="shrink-0 whitespace-nowrap text-label-12 tabular-nums text-neutral-6">
+                      <time
+                        data-relative-time
+                        datetime={item.createdAt.toISOString()}
+                      />
+                    </span>
+                  </div>
+                  <div class="mt-1 text-label-12 text-neutral-6">
+                    {item.type === 'note'
+                      ? typeLabel
+                      : `${typeLabel}${item.categoryName ? ` · ${item.categoryName}` : ''}`}
+                  </div>
+                </a>
+              )}
+            </div>
+          )
+        })}
+      </div>
+    </div>
+  )
+}

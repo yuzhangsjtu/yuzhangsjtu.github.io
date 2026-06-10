@@ -1,0 +1,18 @@
+---
+import type { GetStaticPaths } from 'astro'
+import NoteDetailPage from '~/components/pages/NoteDetailPage.astro'
+import { getNotes } from '~/lib/content'
+
+export const getStaticPaths = (async () => {
+  const notes = await getNotes('zh')
+  return notes.map((note, i) => ({
+    params: { nid: String(note.data.nid) },
+    // notes are date-desc: i+1 is the older one (prev), i-1 the newer (next)
+    props: { note, prev: notes[i + 1] ?? null, next: notes[i - 1] ?? null },
+  }))
+}) satisfies GetStaticPaths
+
+const { note, prev, next } = Astro.props
+---
+
+<NoteDetailPage locale="zh" note={note} prev={prev} next={next} />

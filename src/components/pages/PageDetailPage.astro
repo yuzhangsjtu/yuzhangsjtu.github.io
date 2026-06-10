@@ -1,0 +1,43 @@
+---
+// Ports app/[locale]/(page-detail) — independent page (about etc.):
+// title + subtitle header and prose body in a NormalContainer.
+import { render } from 'astro:content'
+import type { Locale } from '~/i18n/config'
+import type { PageEntry } from '~/lib/content'
+import { slugOf } from '~/lib/content'
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import PageColorGradient from '~/components/common/PageColorGradient.astro'
+import NormalContainer from '~/components/layout/NormalContainer.astro'
+
+interface Props {
+  locale: Locale
+  page: PageEntry
+}
+
+const { locale, page } = Astro.props
+const { Content } = await render(page)
+---
+
+<BaseLayout locale={locale} title={page.data.title}>
+  <PageColorGradient
+    seed={`${slugOf(page.id)}${page.data.title}`}
+    slot="page-glow"
+  />
+  <NormalContainer>
+    <header class="mb-8">
+      <h1 class="text-title-28 font-normal text-neutral-9">
+        {page.data.title}
+      </h1>
+      {
+        page.data.subtitle && (
+          <p class="mt-2 font-serif text-copy-14 italic text-neutral-6">
+            {page.data.subtitle}
+          </p>
+        )
+      }
+    </header>
+    <article class="prose">
+      <Content />
+    </article>
+  </NormalContainer>
+</BaseLayout>

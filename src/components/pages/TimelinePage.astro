@@ -1,0 +1,240 @@
+---
+// Ports app/[locale]/timeline/page.tsx (relaxed view) + TimelineRelaxed +
+// TimelineYearRow/MonthGroup/Item + TimelineProgress. The view toggle
+// (dense/skim), search button and peek-preview are removed; data comes
+// from content collections instead of apiClient.aggregate.getTimeline().
+import type { Locale } from '~/i18n/config'
+import { localizePath, useTranslations } from '~/i18n'
+import { getNotes, getPosts, notePath, postPath } from '~/lib/content'
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import NormalContainer from '~/components/layout/NormalContainer.astro'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+const t = useTranslations(locale, 'home')
+const tCommon = useTranslations(locale, 'common')
+
+interface TimelineEntry {
+  title: string
+  meta: string[]
+  date: Date
+  href: string
+}
+
+const posts = await getPosts(locale)
+const notes = await getNotes(locale)
+
+const entries: TimelineEntry[] = [
+  ...posts.map((post) => ({
+    title: post.data.title,
+    meta: [post.data.category.name, t('timeline_post')],
+    date: post.data.date,
+    href: localizePath(locale, postPath(post)),
+  })),
+  ...notes.map((note) => ({
+    title: note.data.title,
+    meta: [
+      note.data.mood ? t('timeline_mood', { mood: note.data.mood }) : undefined,
+      note.data.weather
+        ? t('timeline_weather', { weather: note.data.weather })
+        : undefined,
+      t('timeline_note'),
+    ].filter(Boolean) as string[],
+    date: note.data.date,
+    href: localizePath(locale, notePath(note)),
+  })),
+]
+
+// groupByYearMonth (modules/timeline/utils.ts)
+const grouped = new Map<number, Map<number, TimelineEntry[]>>()
+for (const entry of entries) {
+  const year = entry.date.getFullYear()
+  const month = entry.date.getMonth() + 1
+  if (!grouped.has(year)) grouped.set(year, new Map())
+  const yearBucket = grouped.get(year)!
+  if (!yearBucket.has(month)) yearBucket.set(month, [])
+  yearBucket.get(month)!.push(entry)
+}
+for (const yearBucket of grouped.values()) {
+  for (const list of yearBucket.values()) {
+    list.sort((a, b) => b.date.getTime() - a.date.getTime())
+  }
+}
+
+const years = [...grouped.keys()].sort((a, b) => b - a)
+const totalCount = entries.length
+
+const dateLocale = locale === 'zh' ? 'zh-CN' : 'en'
+const formatMonthLabel = (year: number, month: number) =>
+  new Intl.DateTimeFormat(dateLocale, { month: 'long' }).format(
+    new Date(year, month - 1, 1),
+  )
+---
+
+<BaseLayout locale={locale} title={tCommon('page_title_timeline')}>
+  <NormalContainer>
+    <header class="mb-12">
+      <div class="mb-3 flex items-center justify-between gap-4">
+        <span class="text-copy-13 tracking-widest text-neutral-10/70 uppercase">
+          {t('timeline_page_title')}
+        </span>
+      </div>
+
+      <div class="mb-6 flex items-baseline gap-4">
+        <span
+          class="text-[4.5rem] leading-none font-extralight tracking-tighter text-neutral-10/85"
+        >
+          {totalCount}
+        </span>
+        <span class="text-copy-14 text-neutral-10/80">
+          {t('timeline_posts')}{t('timeline_keep_going')}
+        </span>
+      </div>
+
+      <!-- TimelineProgress -->
+      <div class="flex gap-8" id="timeline-progress">
+        <div>
+          <div
+            class="text-[2rem] leading-none font-light text-accent"
+            data-day-of-year
+          >
+          </div>
+          <div class="mt-1 text-label-12 text-neutral-10/55">
+            {t('timeline_stat_day')}
+          </div>
+        </div>
+        <div>
+          <div
+            class="text-[2rem] leading-none font-light text-neutral-10/80"
+          >
+            <span data-percent-of-year></span><span
+              class="ml-0.5 text-copy-14 text-neutral-10/55">%</span
+            >
+          </div>
+          <div class="mt-1 text-label-12 text-neutral-10/55">
+            {t('timeline_stat_year')}
+          </div>
+        </div>
+      </div>
+      <p class="mt-4 text-copy-13 text-neutral-10/65">
+        {t('timeline_live_present')}
+      </p>
+    </header>
+
+    <main class="text-neutral-10/90">
+      {
+        years.map((year) => {
+          const yearBucket = grouped.get(year)!
+          const months = [...yearBucket.keys()].sort((a, b) => b - a)
+          const yearCount = months.reduce(
+            (sum, m) => sum + yearBucket.get(m)!.length,
+            0,
+          )
+          return (
+            <section class="mb-8">
+              <div class="yohaku-tl-year-row mb-3">
+                <span class="yohaku-tl-year">{year}</span>
+                <span class="yohaku-tl-year-count">
+                  {t('timeline_year_total', { count: yearCount })}
+                </span>
+              </div>
+              {months.map((month) => (
+                <div data-tl-anchor={`${year}-${month}`}>
+                  <div class="yohaku-tl-month">
+                    {formatMonthLabel(year, month)}
+                  </div>
+                  {yearBucket.get(month)!.map((entry) => (
+                    <a class="yohaku-tl-item" href={entry.href}>
+                      <span class="yohaku-tl-date">
+                        {entry.date.getDate().toString().padStart(2, '0')}
+                      </span>
+                      <span class="yohaku-tl-title">{entry.title}</span>
+                      {entry.meta.length > 0 && (
+                        <span class="yohaku-tl-meta">
+                          {entry.meta.join(' · ')}
+                        </span>
+                      )}
+                    </a>
+                  ))}
+                </div>
+              ))}
+            </section>
+          )
+        })
+      }
+    </main>
+  </NormalContainer>
+</BaseLayout>
+
+<script>
+  // useTimelineReveal.ts port — IntersectionObserver adds data-tl-in with a
+  // batched stagger index (--tl-i), driving the yohaku-tl-fade-up entrance.
+  {
+    const STAGGER_CAP = 12
+    const BATCH_WINDOW_MS = 80
+    let batchCounter = 0
+    let batchTimer: ReturnType<typeof setTimeout> | null = null
+
+    const reveal = (target: HTMLElement) => {
+      if (target.dataset.tlIn !== undefined) return
+      const i = Math.min(batchCounter++, STAGGER_CAP)
+      target.style.setProperty('--tl-i', String(i))
+      target.dataset.tlIn = ''
+      if (batchTimer) clearTimeout(batchTimer)
+      batchTimer = setTimeout(() => {
+        batchCounter = 0
+        batchTimer = null
+      }, BATCH_WINDOW_MS)
+    }
+
+    const els = document.querySelectorAll<HTMLElement>(
+      '.yohaku-tl-year-row, .yohaku-tl-item, .yohaku-tl-month, .yohaku-tl-skim-row',
+    )
+    if (typeof IntersectionObserver === 'undefined') {
+      for (const el of els) el.dataset.tlIn = ''
+    } else {
+      const io = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (!entry.isIntersecting) continue
+            reveal(entry.target as HTMLElement)
+            io.unobserve(entry.target)
+          }
+        },
+        { rootMargin: '0px 0px -2% 0px', threshold: 0 },
+      )
+      for (const el of els) {
+        const rect = el.getBoundingClientRect()
+        if (rect.bottom < 0) {
+          el.dataset.tlIn = ''
+          el.style.setProperty('--tl-i', '0')
+          continue
+        }
+        io.observe(el)
+      }
+    }
+  }
+
+  // TimelineProgress — day-of-year + percent ticking (lib/datetime.ts port)
+  const dayEl = document.querySelector('[data-day-of-year]')
+  const pctEl = document.querySelector('[data-percent-of-year]')
+  if (dayEl && pctEl) {
+    const update = () => {
+      const now = new Date()
+      const start = new Date(now.getFullYear(), 0, 0)
+      const diff = now.getTime() - start.getTime()
+      const day = Math.floor(diff / 86400000)
+      const isLeap =
+        (now.getFullYear() % 4 === 0 && now.getFullYear() % 100 !== 0) ||
+        now.getFullYear() % 400 === 0
+      const days = isLeap ? 366 : 365
+      dayEl.textContent = String(day)
+      pctEl.textContent = String(Math.round((day / days) * 100))
+    }
+    update()
+    setInterval(update, 2000)
+  }
+</script>

@@ -1,0 +1,33 @@
+---
+// Ports app/[locale]/(home)/layout.tsx composition:
+// Hero + SecondScreen (RecentWriting) + HomePageTimeLine.
+// Windsock (festival hints) and BottomSection (recent activity feed,
+// backend-driven) are removed.
+import type { Locale } from '~/i18n/config'
+import BaseLayout from '~/layouts/BaseLayout.astro'
+import Hero from '~/components/modules/home/Hero.astro'
+import RecentWriting from '~/components/modules/home/RecentWriting.astro'
+import HomePageTimeLine from '~/components/modules/home/HomePageTimeLine.astro'
+
+interface Props {
+  locale: Locale
+}
+
+const { locale } = Astro.props
+---
+
+<BaseLayout locale={locale}>
+  <Hero locale={locale} />
+
+  <!-- SecondScreen.tsx -->
+  <section class="mx-auto mt-10 max-w-[1400px] px-4 font-serif lg:px-12">
+    <div class="grid grid-cols-1 gap-y-12 lg:grid-cols-[1.6fr_1fr]">
+      <div class="lg:pr-10">
+        <RecentWriting locale={locale} />
+      </div>
+      <div class="lg:border-l lg:border-border lg:pl-10"></div>
+    </div>
+  </section>
+
+  <HomePageTimeLine locale={locale} />
+</BaseLayout>

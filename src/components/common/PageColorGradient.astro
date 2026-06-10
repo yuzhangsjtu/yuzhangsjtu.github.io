@@ -1,0 +1,26 @@
+---
+// Ported from components/common/PageColorGradient.tsx — seed-driven page
+// glow + themed accent override. Generated at build time.
+import chroma from 'chroma-js'
+import { generateSingleColorStyle } from '~/lib/accent-color'
+import { resolveAccentHue } from '~/lib/glow'
+
+interface Props {
+  seed?: string
+  baseColor?: string
+}
+
+const { seed, baseColor } = Astro.props
+const { hue } = resolveAccentHue({ seed, baseColor })
+const accentHex = chroma.hsl(hue, 0.35, 0.5).hex()
+
+const cssContent = await generateSingleColorStyle(accentHex, {
+  useThemedClass: true,
+  mixRatio: { light: 0.0015, dark: 0.00075 },
+})
+---
+
+<div class="page-glow-container">
+  <div class="page-glow-accent" style={`--accent-hue: ${hue}`}></div>
+</div>
+<style id="accent-color-style" set:html={cssContent}></style>

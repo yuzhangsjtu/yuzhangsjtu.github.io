@@ -1,0 +1,126 @@
+@import 'tailwindcss' source('../');
+@import 'tw-animate-css';
+
+@import './loading.css';
+@import './checkbox.css';
+@import './layer.css';
+@import './animation.css';
+@import './image-zoom.css';
+@import './yohaku.css';
+
+@import './tokens.css';
+
+/* Directives must follow the import block — a CSS @import preceded by other
+   statements is invalid and gets dropped (which silently lost tokens.css). */
+@config "../../tailwind.config.ts";
+
+@source "../**/*.{astro,html,js,jsx,md,mdx,ts,tsx}";
+@source inline("w-full! w-full");
+
+@plugin "@tailwindcss/typography";
+
+html {
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+}
+
+html body {
+  @apply max-w-screen overflow-x-hidden;
+}
+
+@media print {
+  html {
+    font-size: 12px;
+  }
+}
+
+.rich-content {
+  text-autospace: normal;
+}
+
+.prose {
+  @apply dark:prose-invert text-copy-15;
+
+  max-width: 100% !important;
+  text-autospace: normal;
+
+  p {
+    @apply break-words;
+  }
+
+  figure img {
+    @apply mb-0 mt-0;
+  }
+}
+
+@layer utilities {
+  *:focus {
+    outline: none;
+  }
+
+  * {
+    tab-size: 2;
+
+    @apply border-neutral-9/10;
+    &:hover {
+      scrollbar-color: auto;
+    }
+  }
+}
+
+.animate-ping {
+  animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes ping {
+  75%,
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}
+
+@keyframes dotPulse {
+  0%,
+  100% {
+    box-shadow: 0 0 4px color-mix(in srgb, var(--color-accent) 20%, transparent);
+  }
+  50% {
+    box-shadow:
+      0 0 10px color-mix(in srgb, var(--color-accent) 45%, transparent),
+      0 0 20px color-mix(in srgb, var(--color-accent) 10%, transparent);
+  }
+}
+
+a {
+  @apply break-all;
+}
+
+@media (width >= 1024px) {
+  input,
+  textarea {
+    @apply text-copy-14;
+  }
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.prose
+  :where(blockquote):not(:where([class~='not-prose'], [class~='not-prose'] *)) {
+  @apply relative border-0;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: var(--color-accent);
+    border-radius: 1em;
+  }
+}

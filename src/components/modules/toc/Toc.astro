@@ -1,0 +1,83 @@
+---
+// Static port of modules/toc/{TocTree,TocItem}.tsx — same item classes;
+// active state driven by a small IntersectionObserver script.
+import type { MarkdownHeading } from 'astro'
+
+interface Props {
+  headings: MarkdownHeading[]
+}
+
+const { headings } = Astro.props
+const list = headings.filter((h) => h.depth <= 4)
+const rootDepth = list.length
+  ? Math.min(...list.map((h) => h.depth))
+  : 1
+---
+
+{
+  list.length > 0 && (
+    <nav class="flex flex-col" data-toc>
+      {list.map((heading) => (
+        <a
+          class:list={[
+            'relative mb-[1.5px] inline-block min-w-0 max-w-full leading-normal',
+            'truncate text-left tabular-nums',
+            'transition-[opacity,color] duration-300 ease-in-out',
+            'text-neutral-8 opacity-35 hover:opacity-80',
+            'text-copy-13',
+          ]}
+          data-depth={heading.depth}
+          href={`#${heading.slug}`}
+          title={heading.text}
+          style={`padding-left: ${(heading.depth - rootDepth) * 0.6 + 1}rem`}
+        >
+          <span class="cursor-pointer">{heading.text}</span>
+        </a>
+      ))}
+    </nav>
+  )
+}
+
+<script>
+  const setup = () => {
+    const toc = document.querySelector('[data-toc]')
+    if (!toc) return
+    const links = [...toc.querySelectorAll<HTMLAnchorElement>('a[href^="#"]')]
+    if (!links.length) return
+
+    const activeClasses = ['text-accent', 'font-medium', 'opacity-100']
+    const inactiveClasses = ['text-neutral-8', 'opacity-35']
+
+    const setActive = (id: string | null) => {
+      for (const link of links) {
+        const isActive = id !== null && link.hash === `#${CSS.escape(id)}`
+        link.classList.toggle('text-accent', isActive)
+        link.classList.toggle('font-medium', isActive)
+        link.classList.toggle('opacity-100', isActive)
+        link.classList.toggle('text-neutral-8', !isActive)
+        link.classList.toggle('opacity-35', !isActive)
+      }
+    }
+    void activeClasses
+    void inactiveClasses
+
+    const headings = links
+      .map((l) => document.getElementById(decodeURIComponent(l.hash.slice(1))))
+      .filter((el): el is HTMLElement => !!el)
+
+    const visible = new Set<string>()
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) visible.add(entry.target.id)
+          else visible.delete(entry.target.id)
+        }
+        const first = headings.find((h) => visible.has(h.id))
+        if (first) setActive(first.id)
+      },
+      { rootMargin: '-80px 0px -70% 0px' },
+    )
+    for (const h of headings) observer.observe(h)
+  }
+  setup()
+</script>
