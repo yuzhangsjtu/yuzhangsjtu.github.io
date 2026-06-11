@@ -1,154 +1,139 @@
 ---
-title: "Not Permanent “Permanent Basic Farmland” — Lecture Notes on Farmland Protection Policy Transformation"
+title: "Not Permanent \"Permanent Basic Farmland\""
 date: 2020-04-16T21:00:00+08:00
 category: { name: "Research Notes", slug: research }
-tags: ["lecture", "notes", "farmland"]
-summary: "Lecture notes on the transformation of China's farmland protection policy, discussing why and how to protect farmland, with a focus on grain security in special periods."
+tags: ["Lecture", "Notes", "Farmland"]
+summary: "An exploration of the transformation of farmland protection policy, focusing on food security in special periods and the dynamic adjustment of permanent basic farmland."
 ---
 
-# Not-So-Permanent "Permanent Basic Farmland" — Lecture Notes on *Transformation of Farmland Protection Policy*
+## Not Permanent "Permanent Basic Farmland" — Lecture Notes on "The Transformation of Farmland Protection Policy"
 
-**Speaker:** Wu Yuzhe (School of Public Affairs, Zhejiang University)  
-**Date:** April 15, 2020  
-**Platform:** Tencent Meeting (Voov Meeting)  
-**Topic:** The Transformation of Farmland Protection Policy — with a Discussion on Responding to the Global Pandemic
+Speaker: Wu Yuzhe (School of Public Affairs, Zhejiang University)
+
+Date: April 15, 2020
+
+Platform: Tencent Meeting
+
+Topic: The Transformation of Farmland Protection Policy — with a Discussion on Responding to the Global Pandemic Outbreak
 
 <img src="/img/image-20200415160200032.png" alt="image-20200415160200032" style="zoom:50%;" />
 
 #### Why Protect Farmland?
 
-"More people, less land" is one of China's fundamental national conditions. To ease the tension between people and land, China's development is based on the following two fundamental paths:
+"More people, less land" is one of China's fundamental national conditions. To ease the tension between people and land, China's development has been based on the following two basic paths:
 
 - Exporting labor-intensive light industrial products
 - Importing land-dependent agricultural products
 
-The two paths address "more people" and "less land" respectively. If we consider other possible options beyond these two paths, such as large-scale grain imports, careful reflection reveals that grain imports pose a fundamental threat to food security:
+These two paths address "more people" and "less land" respectively. When we consider other possible options beyond these two paths, such as large-scale grain imports, careful reflection reveals that grain imports face a fundamental threat to food security, namely:
 
-- Food is the paramount necessity of the people; the food bag cannot be held in others' hands.
-- The possibility of grain embargoes (under the pandemic, grain embargoes have become a topic of public discourse).
+- Food is the paramount necessity of the people; the grain bag cannot be held in others' hands.
+- The possibility of grain embargoes (under the pandemic, grain embargoes have become one of the topics of public discourse).
 
-Herein, the discussion of farmland protection takes on concrete and urgent practical significance.
+Herein lies the concrete and pressing practical urgency of discussing the topic of farmland protection.
 
-What to protect, why protect, and how to protect? Based on several fundamental stages in the transformation of farmland protection, the speaker will attempt to answer these questions.
-
-
-
-#### What to Protect: Food Security in Extraordinary Times
-
-Given the current economic development and grain supply structure (basic self-sufficiency in staple grains, partial import of feed grains), the most important objective of China's farmland protection is to ensure food security in extraordinary times. Possible extraordinary times include:
-
-- Disasters: historical mass migrations "Filling Sichuan," "Journey to the West," "Forays into Guandong," "Sailing to Southeast Asia"
-- Population peak: China's population is projected to reach a peak of 1.55 billion in 2030. Calculated at the standard of one *mu* per person, China would need 1.55 billion *mu* of permanent basic farmland.
-- Response to major public events such as grain embargoes: unpredictable, as exemplified by the current pandemic and the Sino-U.S. trade war (vulnerable pinch points such as soybeans and corn).
+Farmland protection — what to protect, why protect, how to protect? Based on several basic stages in the transformation of farmland protection, the speaker will attempt to answer the above questions.
 
 
 
-#### How to Protect: A Historical Examination of Farmland Protection Policy Transformation
+#### What to Protect: Food Security in Special Periods
+
+Given the current economic development and grain supply structure (basic self-sufficiency in staple grains, partial import of feed grains), the most important objective of China's farmland protection is to safeguard food security in special periods. Possible special periods are as follows:
+
+- Disasters: "Filling Sichuan," "Journeying through the Western Pass," "Forays into Guandong," "Sailing to Southeast Asia"
+- Population peak: a population peak of 1.55 billion in 2030 (projected). At the standard of one *mu* per person, China would need 1.55 billion *mu* of permanent basic farmland.
+- Response to major public events such as grain embargoes: unpredictable, such as the current pandemic and the Sino-U.S. trade war (with soybeans, corn, and so on being choke points).
+
+
+
+#### How to Protect: A Historical Examination of the Transformation of Farmland Protection Policy
 
 #### (I) Protecting Quantity: Dynamic Equilibrium of Total Farmland
 
-​		In 1995, Lester R. Brown's publication *Who Will Feed China?* triggered international concern about China's grain issue and heightened high-level domestic attention to the baseline state of China's farmland resources and grain production capacity. Starting in 1996, the former National Land Administration Bureau (NLAB) initiated satellite remote sensing monitoring of 66 cities nationwide, discovering that construction land in these areas severely exceeded standards and had already caused substantial damage to farmland resources. Subsequently, the state briefly adopted the measure of freezing examination and approval authority for construction land to curb farmland encroachment.
+​		In 1995, Lester Brown published *Who Will Feed China?*, which triggered international concern about China's grain problem and also prompted further attention from the domestic leadership to the baseline state of China's farmland resources and grain production capacity. Starting in 1996, the former National Land Administration Bureau began conducting satellite remote sensing monitoring of 66 cities nationwide, discovering that construction land in these areas severely exceeded standards and had already caused substantial damage to farmland resources. Subsequently, the state briefly adopted the measure of freezing the examination and approval authority for construction land to curb farmland encroachment.
 
-​		In 1997, the "Notice of the CPC Central Committee and the State Council on Further Strengthening Land Management and Effectively Protecting Farmland" (Zhongfa [1997] No. 11) was issued, marking a new step in farmland protection. The following year, the revision of the *Land Management Law* was completed, taking effect in 1999. "Dynamic equilibrium of total farmland" became the most prominent term in the 1998 version of the *Land Management Law*. However, the measure or concept of "dynamic equilibrium of total farmland" gave rise to a series of problems. Adhering to its literal meaning, we interpret "dynamic equilibrium of total farmland" from two perspectives. First is the determination of the total quantity. After a series of negotiations, the farmland red line was finally set at 1.8 billion *mu*, a figure reportedly resulting from Premier Wen's intervention. Second is the measure adopted to achieve equilibrium. The practical method is "requisition-compensation balance," meaning "compensating for the exact amount taken." Objectively, the farmland requisition-compensation balance increased the cost of occupying farmland. Particularly under circumstances where construction land quotas were controlled in a top-down manner, it held significant importance for curbing the sharp decline of farmland. However, its excessive operational feasibility in practice constituted a double-edged sword, instilling in local authorities a higher proactive willingness to implement higher-level policies, and also leading to difficulties in subsequent transformations of farmland protection policy. Specifically:
+​		In 1997, the "Notice of the CPC Central Committee and the State Council on Further Strengthening Land Management and Effectively Protecting Farmland" (Zhongfa [1997] No. 11) was issued, taking a new step in farmland protection. The following year, the revision of the *Land Management Law* was completed and took effect in 1999; "dynamic equilibrium of total farmland" became the most prominent term in the 1998 version of the *Land Management Law*. However, this measure or concept of "dynamic equilibrium of total farmland" gave rise to a series of problems. Adhering to its literal meaning, we interpret "dynamic equilibrium of total farmland" from two perspectives. First is the determination of the total quantity: after a series of negotiations, the farmland red line was finally set at 1.8 billion *mu*, a figure reportedly resulting from Premier Wen's intervention. Second is the question of what measure to adopt to achieve equilibrium: the practical method is the "requisition-compensation balance," meaning "compensate as much as is taken." Objectively, the farmland requisition-compensation balance increased the cost of occupying farmland, and especially under circumstances where construction land quotas were controlled in a top-down manner, it was of significant importance for curbing the sharp decline of farmland. But the requisition-compensation balance had excessively strong operability in practice, constituting a double-edged sword: it gave grassroots authorities a higher tendency toward proactive willingness to implement higher-level policies, but it also led to difficulties in the later transformation of farmland protection policy. Specifically:
 
-1. Requisition-Compensation Balance Contradicts Economic Principles
+1. The requisition-compensation balance does not conform to economic principles
 
-   ​		In economics, marginal land refers to the last tier of suitable areas that humans must develop and utilize to meet a specific purpose. The process of farmland requisition-compensation balance is not spontaneous market-driven development subject to economic laws but emerges passively under a specific institutional framework. This may cause it to exceed the last tier of suitable areas—that is, to transcend the extensive margin for rent associated with that use: the farmland being "compensated" might even fail to meet the conditions of marginal land. Land rent would be negative beyond the extensive margin for rent. "Compensating excellent quality land with inferior quality land" signifies using hillsides and sloping farmland to replace high-quality farmland that had been encroached upon.
+   ​		In economics, marginal land refers to the last tier of suitable area that people must develop and utilize in order to meet a certain use. With the farmland requisition-compensation balance, the land is not developed spontaneously by people according to market laws, but is passively produced under a certain institutional framework. This may cause it to exceed the last tier of suitable area — that is, to transcend the extensive margin (no-rent margin) for a certain use. The farmland being "compensated" may not even meet the conditions of marginal land, because beyond the no-rent margin the land yield is negative. "Compensating the superior with the inferior" means using mountain land and sloping farmland to replace the high-quality farmland that has been encroached upon.
 
-2. Requisition-Compensation Balance Potentially Triggers Negative Ecological Effects
+2. The requisition-compensation balance may lead to negative ecological effects
 
-   ​		The original land categories involved in farmland development are simply unutilized grassland, ponds, mudflats, or forest land and lakes are all possible sources slated for farmland conversion. We have already learned painful lessons from clearing forest land and reclaiming lakes onto new farmland through recurrent flood and waterlogging disasters they partly caused in those other contexts. Taking Zhejiang Province as an example, "up to the mountains, into the sea"—forested mountain land and coastal mudflats serve as the most direct sources for the offset quotas to replace high quality farmland under the program meant to be its replacement . The analysis of the two points above forms a crucial basis throughout subsequent historical trajectory forward that during later stages turning focus cultivated farming conservation measures increasingly stress food product quality along wholesome ecologies we aim protect most strongly..
+   ​		The original land categories involved in farmland development are nothing more than wild grassland, ponds, and mudflats, or forest land and lakes. As for the reclamation of forest land and lakes, we have already learned our lesson through repeated flood and waterlogging disasters. Taking Zhejiang Province as an example, "up the mountains and into the sea" — forested mountain land and coastal mudflats are the most direct sources for compensating farmland. The analysis of the above two points is precisely the important basis for the current and future shift of farmland protection toward an emphasis on quality and ecology.
 
-3. a Dual-land Development both times in Effect under Requirement,     Logical Land Clearing Scheme transforms Farmland And sequentially that ecologic ( type-) Habitation [*Wetland, Area , Marsh , Ditch Reed pool Reservoir region ,Deluvial swamps near tidelands etc.        et.* gets subjected al],   schema Goes Following:--),.
+3. The requisition-compensation balance is, in theory, "dual development"
 
-- Though Previously -They had deemed former farm from cultivation changed urban fabric future prospect sites.: built:--
+   - Farmland is developed into construction land
 
-Relevant converted --area also absorbs Ecology terrain farmland replaced--
+   - Ecological land is developed into farmland (up the mountains and into the sea)
 
-"--forest toward hill regime march crossing past rivers distant seashores over floodflat each seas onto: --> previously count system allocates strict allot"-->, there need rationality at each instance must prove beforehand thoroughly right economy ecologic assessment , validity level foundation standing actual for checking for instances recorded record  entire structure reference set as warranted never contra posed strictly warranted position place time location extent otherwise called into formal audit based formal method warrant review justly at regional stand across province & regional sections accordingly followed hereby all..
+     The necessity of dual development is questionable.
 
-  previously proper situation developing ratio balance exactly order meant correct performance regional guarantee...
+4. Purely emphasizing quantity protection leads to the awkward situation of incompatible farmland base figures
 
- previously too extent on large premise ; applied number instances though stand causing further correct balance existing total mass altogether . . matter purely numeric driven toward still stuck specific dead end leads those using earlier framework toward consequences ironically creates excessive numerator parameter unable correct while correctly plus minus existing sets -> obviously certain obsolete reading now obvious of position argument itself referencing bulk itself ; oversize available meaning  , from aggregate base count real measured datasets from actual reading . 
+   ​		According to the 2008 Land and Resources Bulletin, the national farmland area in 2008 was 1.826 billion *mu*. By 2013, according to the results of the Second National Land Survey, the national total farmland area for 2012 was 2.027 billion *mu*. Against this backdrop, the formulation of the 1.8-billion-*mu* farmland protection red line should reasonably be downplayed; otherwise, if there are 200 million *mu* of surplus farmland, why should more still be compensated? The dynamic equilibrium is not balanced — it is in surplus by 200 million *mu*. (The speaker believes that the farmland protection red line at this point should shift to the 1.546 billion *mu* of permanent basic farmland.)
 
- : excess sums added positions moot relative logic at sets produce rather sets inventory exceeding even more by claim case use measure :
+#### (II) Combining Quantity Protection with Quality Protection: Permanent Basic Farmland
 
-using inventory data matching better ver reference period readings hence making statements outright self stating weak relative perhaps , eventual slip obvious count lead older numeri c obviously now rather impractical actually even .. forcing point total aggregate exceeds sign edge albeit mere margins massive large leads toward suggesting self prior absolute reference useless obvious thus eventually which they now port actual measured  greater [ thus over projection target higher now indeed instead numerical reason behind call become fain result red bounds supposed boundary  base supply equ measures actually quite higher at that show already based by data... point earlier constraint dropped proper thus , shift permanent record reference ]
+- ##### What is permanent basic farmland
 
-dynamic quant approach contradictory
+  - More than two thousand years ago, China already had the expression "On superior land, one farmer feeds nine people; on inferior land, one farmer feeds five people." This shows that the protection of high-quality farmland is especially important, and "permanent basic farmland" is the current handle for protecting high-quality farmland.
+  - "Permanent basic farmland" was clearly proposed as early as 2008 in the "Decision of the CPC Central Committee on Several Major Issues Concerning Promoting Rural Reform and Development" at the Third Plenary Session of the 17th CPC Central Committee, but the substantive advancement of this work came in 2014, when the Ministry of Land and Resources and the Ministry of Agriculture jointly issued the "Notice on Further Improving the Demarcation of Permanent Basic Farmland."
+  - In 2016, the "Adjustment Plan for the National General Land Use Plan Outline (2006–2020)" adjusted the original nationwide ==1.560 billion *mu*== of basic farmland to ==1.546 billion *mu*==, requiring that the protection task be implemented down to use-control zones and down to specific map parcels.
 
- readings showing delta mismatch over demand against target versus earlier approach lacking match , now shifted focus finer measure ..
+  > From 1.560 to 1.546, the reduction of 14 million *mu* — though called permanent, is in fact not permanent.
 
- permanent point guard center  
+- ##### How to protect permanent basic farmland — using control planning as the handle
 
- by early thirties panel pl enum board leads over farming proper guard . idea pushed further steps real grounds heavy start jointly between departments ..
+  ​		Based on planning theory, regional spatial planning models can be divided into the development planning model and the control planning model. Development planning aims at regional development: it needs to arrange which spaces are to be developed, setting the type, intensity, and timing of development. Control planning stipulates which spaces cannot be developed, setting the type, grade, and time limit of protection. The demarcation of permanent basic farmland clearly belongs to the category of control planning.
 
-  mention measure over explicit scaling explicit yet formal scope leading set aims certain boundary against fixed size over reference schedule proper partition concrete design region plan in actual execution stage yield effective measurement schematic aimed completion cycle coverage fixed terminal during correct cycle..
+  ​		If basic farmland strictly adopted the control planning model, then the policy of farmland requisition-compensation balance would become redundant; or rather, only in this way can we truly protect high-quality farmland. Otherwise, even if we later draw an ecological red line, we will surely introduce a "forest land requisition-compensation balance policy" or a "wetland requisition-compensation balance policy."
 
--- Of that record permanent allocation though shift of yields , slight drop magnitude removed known showing reference term technically just fall term irony technically irony just term self against actual sense . = obviously ironic stance appearing !
+- ##### Permanent basic farmland and ordinary farmland — the transformation of dynamic equilibrium
 
- so plan methodology division overall over controlling aspect over modern aspect dynamic trends feature zoning against actual read scale schedule pattern graded.. space spec parameters fully. grading levels fully line system usage plan sche matching built hold phase type or terminal
+  ​		In terms of policy, permanent basic farmland is undoubtedly a strengthening of the concept of basic farmland, with stricter demarcation requirements and harsher regulatory measures. The permanent basic farmland policy is a kind of "mending the fold after the sheep are lost" following the failure of the basic farmland policy. Basic farmland is the higher-quality farmland among all farmland, accounting for 80% or more of the total farmland quantity. Permanent basic farmland is farmland whose use must be guaranteed not to change. If permanent basic farmland can be guaranteed not to change, then most of the grain supply can be secured, and the remaining grain can be left to market allocation.
 
- however measure taken strictly tight set exact deline plain proper only merit seems case whereby safeguards real intrinsic prime piece + thus basically avoids excessive further repeat buffer buffer for ranges alternate repeated conversion readings continually elsewhere , naturally easily obvious case to maintain ecosystems later scenario separately handle
+  ​		At this point, the functions and protection intensity of ordinary farmland and permanent basic farmland differ:
 
- high zone measure meaning controlling type set grade block base year tier etc fully essentially regulated shape del regime natural lead baseline clearly manner eventually completely robust guarantee primary crucial factor for primary selected essential quality produce best available productive outcome possible producing key benefit margin highest known proven effective
+  - Permanent basic farmland: control planning, strict regulation, untouchable under any circumstances
 
- across general zone difference non permanent difference emerges :
+  - Ordinary farmland: occupation approval system
 
- plain one assigned designated clearly bounding measured compartment measures highly prime dedicated - irrespective control status remain unaffected basically stable across contexts & never adjusted indeed fully while;
+  ​        Combining the relevant policies: (1) The occupation of ordinary farmland is subject to economic compensation, and this money is no longer used for developing additional farmland quantity, but can be used to improve the quality of permanent basic farmland, or used for transfer payments to the western regions to improve the quality of farmland in the west, serving rural revitalization and targeted poverty alleviation; (2) Linking it with land consolidation, high-standard farmland construction, and the like. Originally, high-standard farmland construction was carried out on ordinary farmland, but once the plan changed, this consolidated farmland was used for construction and development, causing serious waste of resources. If high-standard farmland construction is combined with permanent basic farmland, then the benefits of land consolidation can be locked in.
 
- otherwise allocated outer typical screening reference screening designated screening basis based usage planning regulation tools approved allocation methods via technical approval careful technical based sequences certain given basic permissions rated approved status while assigned;
+- ##### Time limit
 
- tied together then applied properly integrated carefully integration align parallel driven measures over enhanced quality efficient term zones increase concentrated major fixed red baseline alloc across primary alloc inside clearly core measurable dedicated inside baseline guarantee zone higher productive measure returns respective specific contributing region otherwise allocate carefully accordingly integration geographic allocation leading fairness distribution; aligned perfectly later as set against equal fully complete goal directed sustained baseline lift total; whilst plus case building measures effectively maintain stable protected over fully harness real actual that, prime enhancement goal / shape carefully distribution reading maintains directly lifted for core proper enhanced modern shape completely measurable compatible strong line across strong precision farming frameworks improving permanency allocated benefits tight therefore..
+  ​		Permanent basic farmland is not permanent, but it should have a protection time limit, and this time limit should be 2030, because: (1) 2030 coincides with the timeframe of the "National Land Plan Outline (2016–2030)"; (2) Based on China's population age structure and fertility attitudes, China's population is projected to reach its highest peak by 2030. The population peak is precisely the most critical period for China's food security.
 
- timeline clearly defined as non actual though from word sense from reality but finite measured across future read designated marker perhaps roughly placed half cycle maybe covering toward vision done perfectly synchronized across reference national conceptual completely encompassing time scale available half via high decade term precise endpoint design shape until year; reasoning = aligns framework aligned phase shape population highest sharply measuring matching match rough time equival straight design concept ~ numbers of extreme timing obviously from all positions reaching mark which thereafter obviously diminished significant therefore from extreme age configuration dynamic naturally conclusion naturally real phase essential set needed key marker
+#### (III) Protecting Ecology — Innovation in Farmland Protection Policy Guided by Ecological Civilization
 
- ultimate refinement green develop schema high : idea to moving eventually into vision framework toward shift total green enhancement framework over nature properly based pattern
+​		While emphasizing permanent basic farmland, the report of the 19th National Congress stressed establishing a system for recuperation and rehabilitation of farmland, grassland, forests, rivers, and lakes, and pointed out the need to expand the conversion of farmland back to forest and grassland and to expand pilots of crop rotation and fallowing, guided by ecological civilization, and to establish market-based, diversified ecological compensation mechanisms. One can imagine that in China, which will have basically realized socialist modernization by 2035, the population will by then have passed its peak, and the importance of food security will be replaced by ecological security.
 
-     basis planning entire deliberate integration focus continuing toward great perfect ecological precisely theme restoration-based frame actual ecosystem dynamic balances cycle sustain .. driving aside core to massive recover scheme ; obviously eventually after following essential initial fixed plan key after several time decades slightly scale model changed slowly shaping vision .. as food from position now gradually overridden onto nature focus = plainly environmental care supers essentially set far
+​		In 2017, the "Opinions of the CPC Central Committee and the State Council on Strengthening Farmland Protection and Improving the Requisition-Compensation Balance" put forward the basic intention of a trinity of quantity, quality, and ecology in farmland protection:
 
- shift doctrine
+- Quantity protection: considering the path dependence of protection policy reform
+- Combining quantity and quality: improving comprehensive grain production capacity and safeguarding national food security
+- Ecological protection: here there are again two layers of intention,
+  - Protecting farmland is itself protecting ecology
+  - Quantity protection of farmland must not ignore its negative effects on ecology
 
- At round higher party meet critical hallmark phases rolled emphasizing linkage great emphasis given round full permanent boundaries focus incorporating alongside fundamental longer restorative break system => ecological aspects recovery or converting prior damage case convert rest allowing structures now increasingly giving break crop-share test rota fully period rotation basis basis establishing fully dynamic sustaining equilibrium cycle via engaging free multi tier natural scheme market aspects handling funds fairly shaped distributed integrated green/payments mechanism accordingly 
+##### How to Innovate Farmland Protection by 2030
 
- clear shape for refined state year thirty basically four year round ten large program plain essential shift ready fundamental peak essential ahead overtaken better overall eco prioritization indeed now . ,
-
- indeed recent collective combined key direction clear pathway defining balanced triad direction shape careful forward combines maintain solid guard along the dependent necessary dependency matters historical reform certain reform load earlier enough presumably continue consistent focus but as plain adding steps upgrade quality building shift clearly read via increasing combined quality improving step focus totally anchoring secured extra supply stepping measured direction clear pathway forward fully ;
-
- finally emphasis clearly spread mapping completely: call protection => protection inherently being also nature plain piece itself step containing intact => hence essentially guard preserving essentially core => positive . .
-
-  + additionally safeguarding count elements deliberate omission bypass entirely avoiding possible negative essentially second level of requirement necessity deliberately factoring overt external assessment monitoring essentially safe ensuring step yields outcome aligned secondary aspect fully without sacrifice inadvertently enabling continued gains final ..
-
- subsequent early peak phase indeed continue strict shapes finely measure constraint applied advanced anchored robust -- remarkably, period stable now passed peak mode pressure declining baseline steady relatively comfortable --> . straightforward beneficial guideline continuous robust designation follow naturally; geographic map problems if some localized flaws observed manifest from errors incorrectly due areas mistakenly inside sensitive of balancing resetting reallocation across ecologic sensitive withdrawn toward type conversion properly restoring enabling correct prior corrected = still applicable absolute toward type revert scope; + rotation already widespread practice clear: promote improve condition safely reduce chemistry heavy loading wholly compatible wise low impact intelligent practice productive recovery built fully aligned equally forward beneficial advance aim beyond continued standard.
-
- extra baseline assigned regular typical allowable occupy condition attach firm step incorporate process must hold delivering absolutely double compensation channel:
-
- ~ prime permanent designated select region lifting essential
-
- ~ — parallel weight > ecosystem part upgraded plus
-
-finally pathway deliver preserving proportion forests areas restored proper form enabling plus ecological bearing overall effect upwards maintained equally sustained improving stable mode performance uplift equally fine ...
-
- extra final audience segment transcript snippet key dialog shortened ==>
-
- Q raise fine splitting permanent baseline inside capable?
-    thus respond capability under special rules basically involving evidential high tight argument shape : say e.g within zone large extent broad breakdown total collapse obvious sink unrecover scenario given accident large impact contamination land sand turning fatal obviously= override separate removal done available along need... .
+- By 2030, for permanent basic farmland, strict use control should still be maintained, and at that time, because urbanization will have entered a stable period, the pressure of construction occupying farmland will no longer be very great, so permanent basic farmland protection should reasonably continue to be implemented.
+- Apart from erroneous demarcations in some local areas caused by the limitations of understanding (such as ecologically sensitive areas being included in permanent basic farmland), which need to be revised and adjusted — that is, converting farmland back to forest and grassland — crop rotation and fallowing of permanent basic farmland should be broadly promoted, to protect soil fertility and reduce the use of chemical fertilizers and pesticides.
+- For ordinary farmland, occupation can be approved according to use control, but dual economic compensation must be provided:
+  -  Improving quality in the permanent basic farmland zones
+  - At the same time, the focus is on the ecological maintenance of forest land or wetlands, so that ecological effects can be enhanced
 
 
- Second clear ecologic possible dual priority might slip ask superior layout scheme answer clean plain prior over above necessarily sets preferential authority ecologic lines considered prime supers above prime (permanent) based reading scale reading calls direct response .
 
----
+Q&A:
 
- ### final general reading finalized
+(1) Q: Can permanent basic farmland be carved out?
 
- record presented framework toward thoughtful wide assessment upon necessary pathway pivot provided integral basis essential strong vivid lecture compact memory note..
+​		  A: Yes. Based on the principle of strong burden of proof, if, for example, the water source of a certain permanent basic farmland zone cannot be guaranteed, a major pollution event occurs, or the land undergoes desertification, then it can be carved out.
 
- topic reflective vision planned obvious -- deliberately slight ironic framed pose obvious reflective upon land naming
+(2) Q: The conflict between ecological restoration and permanent basic farmland
 
- for relative themes around earlier discourse strongly layered historical analysis powerful factual underrated approach 
-
- done approximately circa context term carefully date stamp lecture originally set April medium range session aligned virtual bridge linking various sections complete overview state ; aligned field land public discipline..
-
- all throughout content consistent pattern faithfully reporting coherent essential synthesis ready quickly scan retrieving eventually dynamic cross-refer step needed compact essential thought .. conclude covering finely.
-
----
+​		  A: The ecological red line takes precedence over permanent basic farmland.

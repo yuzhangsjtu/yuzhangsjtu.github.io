@@ -1,11 +1,11 @@
 ---
-title: "CIT5 — Historical Fertility Transition: RES and EJ Papers Discussion"
+title: "CIT5 — Historical Fertility Transition: A Joint Reading of RES and EJ Papers"
 date: 2023-09-23T22:00:00+08:00
 category: { name: "Research Notes", slug: research }
-tags: ["fertility", "causal inference", "DID"]
-summary: "Two complementary papers demonstrate that beyond economics, cultural factors significantly influenced the diffusion of modern low fertility across Europe."
+tags: ["Fertility Rate", "Causal Inference", "DID"]
+summary: "Two papers that echo each other tell the story of how the modern European low-fertility transition spread, showing that beyond economics, cultural factors also matter significantly for modernity."
 ---
 
-This session featured two papers related to historical fertility transition: the diffusion of low fertility across the British cultural sphere, and the spread of fertility decline across continental Europe following proximity in cultural distance to France. Both papers are truly fascinating!
+This session presented two papers related to the historical fertility transition: one on the spread of low fertility across the British cultural sphere, and the other on how fertility decline in continental Europe propagated along cultural distance from France. Both papers are very interesting!
 
 <iframe src="/pdfjs/web/viewer.html?file=/pdf/20230923-历史生育率转变.pdf"  style='width:100%;height:800px'></iframe>

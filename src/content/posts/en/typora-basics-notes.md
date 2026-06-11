@@ -3,186 +3,185 @@ title: "Typora Basics Notes"
 date: 2020-04-11T21:00:00+08:00
 category: { name: "Tech", slug: tech }
 tags: ["Typora", "Notes"]
-summary: "An introduction to Typora, a Markdown editor that emphasizes aesthetics and focus, covering its advantages and basic syntax for headings and text formatting."
+summary: "An introduction to the advantages and basic syntax of Typora, a Markdown editor."
 ---
 
 ## I. Introduction
 
-[Typora](https://www.typora.io/) is a Markdown text editor celebrated for the philosophy that “writing itself is aesthetics” — text is typeset the moment you type it[^1]. Among its many strengths:
+[Typora](https://www.typora.io/) is a text editor that supports Markdown syntax, celebrated for the idea that "writing is aesthetics" — your text is typeset the moment you type it[^1]. It has many advantages:
 
-- Frees you from the mouse so you can focus on writing (strictly speaking, this is more a virtue of Markdown itself?)  
-- True WYSIWYG: what you see while writing is what you get; the layout rarely breaks when uploading to the web  
-- Minimalist design, reminiscent of that “OnePlus burdenless speed” feeling  
-- No split source/preview pane — a more concentrated writing experience  
-- Compared with other editors, Typora supports a generous set of keyboard shortcuts  
-- Rich themes, a Help system, and extensive user-customizable settings  
-- Easy export and sharing  
+- Frees you from mouse operations so you can focus on writing (strictly speaking, isn't this an advantage of Markdown syntax?)
+- What you write is what you see, and the layout generally does not change when uploaded to the web
+- Minimalist design, giving a feeling akin to `the burdenless speed of OnePlus`
+- No separate source-code and rendered-output comparison mode, so writing is more focused
+- Compared with other editors, Typora supports a relatively large number of keyboard shortcuts
+- Rich themes, help, and other custom settings
+- Easy to export and share
 
 
 
 ## II. Basic Syntax
 
-### (I) Multi‑level headings
+### (1) Multi-level headings
 
-In native Markdown, multi‑level headings are achieved with `#` plus a space, for example:
-
-```
-# Heading level 1
-## Heading level 2
-### Heading level 3
-```
-
-The number of `#` signs determines the heading level. Typora supports up to six levels. You can also apply them with `Ctrl` + `1`–`6` — the digit represents the heading level:
+In native Markdown syntax, multi-level headings are achieved with `#` plus a space, for example:
 
 ```
-Ctrl+1  Heading 1  
-Ctrl+2  Heading 2  
-Ctrl+3  Heading 3, etc.  Result ↓
+# Heading 1
+## Heading 2
+### Heading 3
+```
+
+The number of `#` signs indicates the heading level. Typora supports up to six levels of headings. The above can also be done with `Ctrl+(1~6)`, where the digit indicates the heading level, for example:
+
+```
+Ctrl+1 Heading 1
+Ctrl+2 Heading 2
+Ctrl+3 Heading 3, and so on; the result ↓
 ```
 
 ###### ![image-20200411193702341](/img/image-20200411193702341.png)
 
-> Typora lets you adjust heading levels with `Ctrl` + `=` and `Ctrl` + `-`.
+> Typora supports adjusting the heading level via shortcut keys, done with `Ctrl+(=/-)`
 
 
 
-### (II) Special / emphasis display
+### (2) Emphasis / special display
 
-- *Italic* : `*text to italicize*` — wrap the text in single asterisks. Shortcut `Ctrl+I`
-- **Bold** : `**text to bold**` — wrap the text in double asterisks. Shortcut `Ctrl+B`
-- ***Bold italic*** : `***text to make bold‑italic***` — wrap the text in triple asterisks `***`
-- ==Highlight== : `==highlight==` — wrap the text in double equals signs
-- ~~Strikethrough~~ : `~~strikethrough~~` — wrap the text in double tildes. Shortcut `Alt+Shift+5`
-- <u>Underline</u> : `<u>underline</u>` — note the forward slash `/`; the opening tag is `<u>` and the closing tag is `</u>`. Shortcut `Ctrl+U`
-- `Code` : Place the content you want to show as inline code between two backticks `` ` `` (the key below Esc in English input mode). Shortcut `` Ctrl+Shift+` ``
-- Superscript, e.g. $$e^x$$ : Place superscript content inside two carets `^`, for example `e^x^`
-- Subscript, e.g. $$y_{t-1}$$ : Place subscript content inside two tildes `~`, for example `y~t-1~`
+- *Italic*: `*text to italicize*` — enter one * before and after the text to be italicized; the shortcut is `Ctrl+I`
+- **Bold**: `**text to bold** ` — enter two * before and after the text to be bolded; the shortcut is `Ctrl+B`
+- ***Bold italic***: `***text to bold and italicize***` — enter three *** before and after the text to be made bold-italic
+- ==Highlight==: `==text to highlight==` — enter two = before and after the text to be highlighted
+- ~~Strikethrough~~: `~~text to strike through~~` — enter two ~ before and after the text to be struck through; the shortcut is `Alt+Shift+5`
+- <u>Underline</u>: `<u>text to underline</u>` — note the slash /; the text is preceded by `<u>` and followed by `</u>`; the shortcut is `Ctrl+U`
+- `Code`: insert the content you want to display between two \` backticks (the key below Esc in English input mode); the shortcut is `Ctrl+Shift+backtick`
+- $$e^x$$: superscript, ^^ — enter the content to be superscripted inside the two little carets, for example `e^x^`
+- $$y_{t-1}$$: subscript, \~\~ — enter the content to be subscripted between the two tildes, for example `y~t-1~`
 
-> Highlight may not render correctly on this blog; HTML‑based highlight text requires a different approach.
+> Highlight cannot display correctly on this blog; HTML highlight text requires additional steps
 
-> Some features (e.g., highlight) must first be enabled in Preferences (under Markdown’s Extend Syntax).
+> Some features, such as highlight, must be enabled in Preferences (Markdown extended syntax)
 
-> Shortcut keys are usually the initials of the corresponding English names — for example **B**old (`Ctrl+B`), **I**talic (`Ctrl+I`).
+> The content following a shortcut key is usually the initial letter of the corresponding English term, such as Bold for bold, Italic for italic
 
-> No spaces may appear between the text and the surrounding symbols, or the syntax will be invalid. For instance, `== highlight ==` will not highlight correctly.
+> There must be no spaces where the above text meets the symbols, otherwise the syntax is invalid — for example `==highlight ==` cannot highlight correctly
 
-> To display markdown symbols literally, type them inside a code segment, or insert a backslash `\` before the symbol to escape it.
+> If you want to display markup language or original text containing symbols, you can do so by writing inside a code segment or by inserting a backslash \  before the symbol to escape it
 
 
 
-### (III) Lists
+### (3) Lists
 
 #### 1. Unordered lists
 
-Section II’s presentation used unordered lists – lists without numerical order. They can be created with a plus sign `+`, a minus sign `‑`, or an asterisk `*`, each followed by a space:
+The presentation in Section II used unordered lists, that is, markers without sequence. They can be created with plus + space, or minus + space, or asterisk + space, for example:
 
-+ Unordered list item 1
-+ Unordered list item 2
-  - Unordered sub‑item 2.1
-    - Unordered sub‑item 2.1.1
++ Unordered list 1
++ Unordered list 2
+  - Unordered list 2.1
+    - Unordered list 2.1.1
 
-> They’re called “unordered”, but you can still express hierarchy by indentation.
+> Although called unordered, it is not entirely without order — you can express content hierarchy through indentation
 
-> The shortcut is `Ctrl+Shift+[`, which, if we’re being honest, is not that quick.
+> The shortcut is `Ctrl+Shift+[`; for a so-called shortcut, it is not actually that quick
 
 #### 2. Ordered lists
 
-Lists that follow a sequential order are made with a number, a period, and a space:
+That is, lists with a sequence, created with number + dot + space, for example:
 
-1. First‑level item
+1. First-level list
 
-2. Second‑level item
+2. Second-level list
 
-   2.1 Subordinate division
+   2.1 Second-level subdivision
 
-   2.2 Another subordinate division
+   2.2 Second-level subdivision
 
-   ​	2.2.1 Further subordinate division
+   ​	2.2.1 Second-level further subdivision
 
-> The not‑quick shortcut is `Ctrl+Shift+]`.
+> The not-quick shortcut is `Ctrl+Shift+]`
 
-> As with unordered lists, deeper nesting is achieved through indentation.
+> Similar to unordered lists, you can display more subdivision levels through indentation
 
 #### 3. Task lists
 
-These are check‑list items; the markdown syntax is `- [ ] ` (hyphen + space, square brackets with a space inside, and a trailing space). Insert an `x` inside the brackets to mark as checked.
+That is, lists that can be checked; the syntax is `- [ ] `, with one space after the minus, inside the brackets, and after the brackets. Enter an x inside the brackets to indicate a check.
 
-- [ ] Do exercise today
+- [ ] Exercise today
 
 
-- [x] Update blog this evening
+- [x] Update the blog tonight
 
-> Checking/unchecking the box can also be done with a mouse click.
+> Checking can also be done by clicking with the mouse
 
-> Task lists similarly support indentation for deeper levels, and auto‑filling works too.
+> Similarly, task lists can also use indentation to show more subdivision levels and support auto-filling
 
-> Task lists misbehave when displayed on this blog. Typora’s preview mode gives the following result:
+> Task lists will go wrong on this blog's web pages; the effect in Typora's preview mode is as follows:
 
 ![image-20200411204423067](/img/image-20200411204423067.png)
 
-### (IV) Inserting Content
+### (4) Inserting content
 
 #### 1. Tables
 
-​	The source notation looks like this. The shortcut is `Ctrl+T`. Alignment is controlled by the colons on the second separator line:
+​	The source notation is as follows; the shortcut is `Ctrl+T`. Alignment can be achieved by adjusting the position and number of colons on the second line.
 
 ```
 | Name | Age | Occupation |
 | :--- | :--: | ---: |
-| Yui  |  18  | Student    |
+| Yui  |  18  | Student |
 ```
 
-​	It renders as:
+​	The result is as follows:
 
 | Name | Age | Occupation |
 | :--- | :--: | ---: |
 | Yui  |  18  | Student |
 
-​	You can fill content directly into the table. The renderer this blog uses displays tables slightly differently from Typora’s preview.
+​	You can fill the corresponding content directly into the table. The table displayed by this blog's renderer differs somewhat from Typora's preview mode.
 
-​	Actions like changing alignment, adding, or removing rows / columns tend to be faster with mouse clicks.
+​	Operations such as adjusting alignment and changing the number of rows/columns seem faster done by clicking with the mouse.
 
 #### 2. Images
 
-Typora generally supports three ways to insert an image: absolute path, relative path, and an image‑hosting link (which may also be considered a relative link). The markdown syntax is `![ ]( )`, with the image description in the square brackets and the path or URL in the parentheses. If you append a `"title"`, hovering over the image will show the caption. The shortcut is `Ctrl+Shift+I`.
+Generally speaking, Typora has three main ways to insert images: absolute path, relative path, and image-hosting link (which can also count as a relative path). The syntax is `![]()`, with the image name in the square brackets and the image path or link in the parentheses; if you then append a "title", moving the cursor to the image will display the image's caption. The shortcut is `Ctrl+Shift+I`. The three paths are explained as follows:
 
-The three image referencing methods:
+- Absolute path, that is, the image's local path, which can be done directly by dragging or pasting
 
-- **Absolute path**: the exact local path to the image; images can be inserted by dragging or pasting.
-- **Relative path**: the relative relationship between the Markdown file and the image folder stays fixed; the reference isn’t broken when the entire project is moved.
-- **Image‑hosting link**: Upload the image to an image‑hosting service and use the URL. Alternatively you can point to an image URL elsewhere on the web.
+- Relative path, that is, only the relative position of the Markdown document and the image needs to stay unchanged; moving the file as a whole does not affect the reference
+- Image-hosting link, that is, uploading the image to the corresponding image-hosting provider and obtaining a link; you can also fill in the link of a relevant online image
 
-Using a relative path or an image‑hosting service is recommended. Here I’ll demonstrate the relative approach using Hexo as an example:
+Using a relative path or image hosting is recommended. Here, using Hexo as an example, I demonstrate the relative-path operation:
 
-1. In Typora, go to Format → Image → Global Image Settings, and use the following setup — specifying that copied images go to the blog’s root image folder, along with ticked relevant options.
+1. In the Typora software, go to Format → Image → Global Image Settings, and configure as follows, that is, specify copying the path to the blog's image root directory and tick the relevant options
 
-![image-20200411165759287](/img/image-20200411165759287.png "Image Settings")
+![image-20200411165759287](/img/image-20200411165759287.png "Image settings")
 
-2. To reference an image from the web, simply fill in the file name/description and URL as required by the syntax.
+2. To reference relevant online images, simply fill in the name and path according to the syntax
 
-#### 3. Hyperlinks  
+#### 3. Hyperlinks
 
-- For example, the address of this blog [yuzhang.pages.dev](https://yuzhang.pages.dev/) — clicking it jumps to the linked URL. Syntax: square brackets immediately followed by parentheses `[ ]( )`. The square brackets contain the text you want to display, the parentheses contain the link target.
+- For example, this blog's address [yuzhang.pages.dev](https://yuzhang.pages.dev/) — click it to jump there; its syntax is square brackets followed by parentheses, `[]()`, with the characters you want to display in the square brackets and the link address in the parentheses.
 
-- To display a URL that opens when clicked, you can write: `<https://yuzhang.pages.dev>`, which renders as <https://yuzhang.pages.dev>.
+- To set a click to jump to the original URL, you can write: `<https://yuzhang.pages.dev>`, which renders as <https://yuzhang.pages.dev>
 
-- To attach a hyperlink to an image, combine the image and hyperlink syntax. For instance, clicking the picture below should go to this blog’s About page (there is an error here whose cause I haven’t yet figured out):
+- To add a hyperlink to an image, combine the image-insertion and link-insertion syntax — for example, clicking the image below jumps to this blog's About page (there is an error here that I don't yet know how to handle):
 
-  Example syntax: `[ ![touxiang](/img/touxiang.jpg) ](https://yuzhang.pages.dev/about/)`
+  Syntax example: `[![touxiang](/img/touxiang.jpg)](https://yuzhang.pages.dev/about/)`
 
 [![touxiang](/img/touxiang.jpg)](https://www.yuzhangnju.me/about/)
 
-> All kinds of links can use reference‑style notation, placing the definition at the end of the post, which keeps the plain‑text body much tidier.
+> Various links can be expressed using reference links placed at the end of the article, making the body content more concise in source-code mode
 
-​	For instance: `[bilibili][B站]` renders as [bilibili][B站]
+​	For example: `[bilibili][B站]` displays as  [bilibili][B站]
 
-​				Reference definition: `[B站]: https://www.bilibili.com`
+​			`[B站]: https://www.bilibili.com `
 
 [B站]: https://www.bilibili.com
 
 #### 4. Code blocks
 
-Type three backticks or press `Ctrl+Shift+K` to insert a code block. Choose the language name to enable syntax highlighting:
+Three backticks or the shortcut `Ctrl+Shift+K` insert a code block; choosing the corresponding language name enables code highlighting:
 
 ```python
 hexo clean
@@ -193,79 +192,81 @@ print("hello world")
 
 #### 5. Formula blocks
 
-Place content between two pairs of dollar signs, or press the shortcut `Ctrl+Shift+M`:
+Insert between two pairs of dollar signs, or use the shortcut `Ctrl+Shift+M`:
 
 ```
 $$
-y=\alpha+\beta_1 x_1+\beta_2 x_2+...+\beta_{n-1} x_{n-1}+\beta_n x_n+u_i
+y=\alpha+\beta_1x_1+\beta_2x_2+...+\beta_{n-1}x_{n-1}+\beta_nx_n+u_i
 $$
 ```
 
 $$
-y=\alpha+\beta_1 x_1+\beta_2 x_2+...+\beta_{n-1} x_{n-1}+\beta_n x_n+u_i
+y=\alpha+\beta_1x_1+\beta_2x_2+...+\beta_{n-1}x_{n-1}+\beta_nx_n+u_i
 $$
 
-You can select a formula engine here; this article uses LaTeX syntax with the MathJax engine. Further formula syntax can be found in footnote [^2].
+You can select an engine here; this article uses LaTeX syntax and the MathJax engine. For more formula expressions, see footnote[^2]
 
 #### 6. Horizontal rules
 
-Typing `*`, `+`, or `‑` three or more times creates a horizontal rule (under this blog’s theme `+++` does not produce a rule). 
+*+-, three of any of these symbols in a row can insert a horizontal rule (within this blog's theme, +++ will not produce a rule)
 
 ***
 
 #### 7. Emoji
 
-You can directly paste externally‑sourced emoji, or enter them using `:keyword:` syntax, for example:
+You can directly import external emoji, or input them using the form colon + keyword + colon, for example:
 
-`:love_letter:` renders as the love‑letter emoji:  :love_letter:
+`:love_letter:` produces the love-letter emoji:   :love_letter:
 
-This function doesn’t work when displayed on this blog’s web page; you cannot see the love letter.
+This function cannot display on this blog's web page, so you cannot see the love letter (it can be seen locally)
 
 #### 8. Indentation
 
-​	Indent one Chinese‑character width:
+​	Indent one Chinese character
 
-​		`&emsp;` Chinese‑width character
+​		`&emsp; sample text`
 
-​	Indent half a Chinese‑character width:
+​	Indent half a Chinese character
 
-​		`&ensp;` Chinese‑width character
+​		`&ensp; sample text`
 
-​	Indent one‑quarter of a Chinese‑character width:
+​	Indent one quarter of a Chinese character
 
-​		`&nbsp;` Chinese‑width character
+​		`&nbsp; sample text`
 
-Result as follows:
+The result is as follows:
 
-&emsp; Chinese‑width character
+&emsp; sample text
 
-&ensp; Chinese‑width character
+&ensp; sample text
 
-&nbsp; Chinese‑width character
+&nbsp; sample text
 
 
 
 ## III. Miscellany
 
-As a feature‑rich editor, Typora also supports a subset of HTML, along with writing aids such as Typewriter mode and Focus mode[^3] — I look forward to further exploration and practice.
+As a powerful editor, Typora also supports some HTML, and has writing aids such as typewriter mode and focus mode[^3]; I look forward to further study and application.
 
-It does have some drawbacks, for instance footnote support seems less intuitive and less convenient than that of the Jian Shu editor, and certain formatting may distort or become unavailable when rendered as a webpage.
+But it also has certain problems — for example, its support for footnotes does not seem as intuitive and convenient as the Jianshu editor, and some formatting will distort or become unavailable on the web.
 
-Appendix: some Markdown resources
+Appendix:
 
-- <https://mdnice.com/> — makes WeChat typesetting a lot easier
-- <https://web.marp.app/> — use Markdown syntax to instantly write drafts for PPT/ slides
+Some Markdown resources
+
+- <https://mdnice.com/>, makes WeChat typesetting easier
+- <https://web.marp.app/>, use Markdown syntax to write slides on the fly
 
 
 
-References:
+Reference:
 
 1. <https://www.bilibili.com/video/BV1ox411y7Mc?from=search&seid=4186236951465042906>
+
 2. <https://blog.csdn.net/mingzhuo_126/article/details/82722455>
 3. <https://sspai.com/post/54912>
 
-[^1]: https://www.bilibili.com/video/BV1ox411y7Mc?from=search&seid=4186236951465042906
+[^1]:https://www.bilibili.com/video/BV1ox411y7Mc?from=search&seid=4186236951465042906
 
-[^2]: https://blog.csdn.net/mingzhuo_126/article/details/82722455
-
-[^3]: https://sspai.com/post/54912
+[^2]:https://blog.csdn.net/mingzhuo_126/article/details/82722455
+[^3]:https://sspai.com/post/54912

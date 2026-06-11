@@ -1,14 +1,14 @@
 ---
-title: "AI Can Help People Feel Heard, but an AI Label Diminishes This Impact"
+title: "PNAS — AI Is a Good Confidant, Provided People Don't Know It's AI"
 date: 2024-04-16T18:00:00+08:00
 category: { name: "Research Notes", slug: research }
 tags: ["HIBL"]
-summary: "AI can help people feel heard, but the AI label weakens this effect."
+summary: "AI can help people feel heard, but an AI label diminishes this impact."
 ---
 
-> People always hope to "feel heard" — to feel understood, validated, and valued. Yet kindred spirits are hard to find. Can artificial intelligence (AI) fulfill the profoundly human function of making others feel heard?
+> People always hope to "feel heard," to be understood, validated, and valued. Yet a true confidant is hard to find. Can artificial intelligence (AI) perform this deeply human function and make others feel heard?
 >
-> Through psychological experiments, this study finds that AI-generated messages make recipients feel more heard than human-generated messages do. However, when people realize the messages come from AI, the extent to which they feel heard declines.
+> Using psychological experiments, this study finds that AI-generated messages make recipients feel more heard than human-generated messages do, but when people realize that a message comes from AI, the degree to which they feel heard declines.
 
 **Title:** AI can help people feel heard, but an AI label diminishes this impact
 
@@ -16,174 +16,172 @@ summary: "AI can help people feel heard, but the AI label weakens this effect."
 
 **Authors:**
 
-- <u>Yidan Yin</u>：Postdoctoral researcher and Adjunct Professor at the Lloyd Greif Center for Entrepreneurial Studies in Marshall School of Business, University of Southern California.
-- <u>Nan Jia</u>：Dean’s Associate Professor in Business Administration, USC Marshall School of Business. Her research interests include corporate political strategy, business-governance relationships, emerging technology in management, and corporate governance in international business.
-- <u>Cheryl J. Wakslak</u>：Associate Professor, Department of Management and Organization, Marshall School of Business, University of Southern California. Her research focuses on how people interact with others across various forms of distance. Much of her recent research looks at communication, exploring when people use more big-picture, abstract language versus more specific language, and how this influences the way they are perceived by others. Projects here focus especially on the role of gender, power, diversity, and perceptions of leadership and future potential.
+- <u>Yidan Yin</u>: Postdoctoral researcher and Adjunct Professor at the Lloyd Greif Center for Entrepreneurial Studies in Marshall School of Business, University of Southern California.
+- <u>Nan Jia</u>: Dean’s Associate Professor in Business Administration, USC Marshall School of Business. Her research interests include corporate political strategy, business-governance relationships, emerging technology in management, and corporate governance in international business.
+- <u>Cheryl J. Wakslak</u>: Associate Professor, Department of Management and Organization, Marshall School of Business, University of Southern California. Her research focuses on how people interact with others across various forms of distance. Much of her recent research looks at communication, exploring when people use more big-picture, abstract language versus more specific language, and how this influences the way they are perceived by others. Projects here focus especially on the role of gender, power, diversity, and perceptions of leadership and future potential.
 
-**Posted online:** 29 March 2024
+**Published online:** 29 March 2024
 
 <br/>
 
-On Reddit, people shared:
+On Reddit, people have posted:
 
 - *“ChatGPT responded to my whole question. It didn’t just pick out one sentence and focus on that. I can’t even get a human therapist to do that. In a very scary way, I feel **HEARD** by ChatGPT.”*
 
 - *“ChatGPT has helped me emotionally and it's kind of scary. Recently I was even crying after something happened, and I instinctively opened up ChatGPT because I had no one to talk to about it. I just needed **validation** and care and to feel **understood**, and ChatGPT was somehow able to explain what I felt when even I couldn’t.”*
 
-ChatGPT demonstrates the ability to make users who converse with it feel **heard**.
+ChatGPT exhibits an ability to make the users who converse with it feel **heard**.
 
 ## Preface
 
-- People need kindred spirits and someone to confide in: humans have a need to “feel heard” — the perception of being understood, validated, and valued. This perception significantly affects both mental and physical health. (Right? People need a being that can provide **emotional value**, sometimes a romantic partner, sometimes a pet🐈.)
-- Kindred spirits are hard to find, and listeners are scarce:
-  - People can often talk to family, friends, or professionals in search of being heard, but many may lack such opportunities;
-  - Some topics people may not want to discuss with those close to them;
-  - **One quarter** of Americans report they rarely or never feel understood by others.
-- Making others feel heard requires investing time and cognitive resources—to accurately understand what they express and to affirm its worth and importance. Yet in a society where resources are finite, polarization is deepening, and empathy is declining, people increasingly struggle to feel heard.
+- People need confidants, people to confide in: humans have a need to "feel heard," that is, to perceive that they are understood, validated, and valued. This perception has important effects on a person's mental health and physical health alike. (Right? People need someone who can provide **emotional value**, sometimes a romantic partner, sometimes a pet 🐈)
+- Confidants are hard to find, and so is someone to confide in:
+  - Much of the time people can seek to feel heard by talking with family, friends, or professionals, but many people may not have that opportunity;
+  - Some topics are ones people may not want to discuss with those close to them;
+  - **One quarter** of Americans report that they rarely or never feel understood by others;
+- Making others feel heard requires investing time and cognitive resources to accurately understand what the other person expresses and to affirm its value and importance. But against today's broader backdrop of limited social resources, intensifying social division, and declining empathy, it is becoming ever harder for people to feel heard.
 
 ## Issues
 
-- Recent advances in AI, especially the emergence of large language models (e.g., **GPT-4**), open the possibility of using AI to meet the deeply human need to “feel heard”;
-- To what extent can AI make humans feel heard?
-- When humans realize the entity providing listening feedback is AI, how does their attitude toward feeling heard change?
-- What is the **essence of listening**? Does feeling heard require bridging the gap between two individuals? When a person sees their views restated and validated — even if done without any true “meeting of minds” — do they feel heard?
+- The latest developments in AI, especially the emergence of large language models (such as **GPT-4**), have made it possible to use AI to satisfy the seemingly very human need to "feel heard";
+- To what extent can AI make humans feel that they are being heard?
+- When humans realize that the party providing the listening feedback is an AI, how do their attitudes toward being heard change?
+- What is the **essence of listening**? Does feeling heard require bridging the gulf between two people? When people see their own views restated and validated, even if this is done in a way that involves no "meeting of minds" whatsoever, will they feel heard?
 
 ## Experimental Design
 
-This study employed a **2×2** between-subjects design. The general procedure was as follows:
+This study used a **2X2** between-subjects design. The specific procedure was roughly as follows:
 
-#### **Part 1: Participants share their experience**
+#### **Part 1: Participants confide**
 
-The main goal was to have participants share a personal experience and randomly assign them to read a reply allegedly from AI or a human, so as to examine the effects of reply source and source label.  
+The main purpose was to have participants share an experience of their own and randomly assign them to read replies said to come from an AI or a human, in order to examine the effects of reply source and source label.
 
 **Participants:**
 
-- 251 participants recruited via an online crowdsourcing platform;  
-- 16 were excluded because they did not complete key measurements or failed an attention check, leaving a final analytic sample of 235;  
-- Sample age range 18–77 (M=41.50, SD=13.51), 55.7% female.
+- 251 participants were recruited through an online crowdsourcing platform;
+- 16 were excluded for not completing key measures or failing attention-check questions, leaving a final analytic sample of 235;
+- The sample ranged in age from 18 to 77 (M=41.50, SD=13.51), and 55.7% were female.
 
 **Procedure:**
 
-- Participants completed an informed consent form and some demographic questions on Qualtrics;  
-- They were asked to write about a frustrating or unhappy personal experience in 80–800 words, while also assessing their current emotional state;  
-- Participants were then randomly assigned to one of the following four conditions:  
-  - AI reply + AI label (N=58): received an AI-written reply and were told the reply was from Bing Chat;  
-  - AI reply + Human label (N=60): received an AI-written reply but were told the reply was from another participant;  
-  - Human reply + Human label (N=60): received a human-written reply and were told the reply was from another participant;  
-  - Human reply + AI label (N=57): received a human-written reply but were told the reply was from Bing Chat.
+- Participants filled out an informed consent form on Qualtrics and completed some demographic questions;
+- They were asked to write about a frustrating or unhappy experience from their own lives, 80-800 words long, and to assess their emotional state at the time;
+- Participants were randomly assigned to one of the following four conditions:
+  - AI reply + AI label (N=58): received a reply written by an AI and were told the reply came from Bing Chat;
+  - AI reply + human label (N=60): received a reply written by an AI but were told the reply came from another participant;
+  - Human reply + human label (N=60): received a reply written by a human and were told the reply came from another participant;
+  - Human reply + AI label (N=57): received a reply written by a human but were told the reply came from Bing Chat.
 
-#### **Part 2: Constructing human replies**
+#### **Part 2: Constructing the human replies**
 
-Another group of participants (final sample size of 251) responded to an online questionnaire, writing a reply to the experience shared by a Part 1 participant.  
+Another group of participants (final sample size of 251) completed an online questionnaire, writing a reply to an experience shared by a Part 1 participant.
 
 Procedure:
 
-- Participants completed the informed consent on Qualtrics;  
+- Participants filled out an informed consent form on Qualtrics;
 
-- They were randomly assigned to read an experience from Part 1 — each reading a single piece — using Qualtrics’ randomization to ensure each experience was allocated to one participant;  
+- They were randomly assigned to read experiences shared by Part 1 participants, with each person reading one experience. Qualtrics' random assignment feature was used to ensure that every experience was assigned to one participant;
 
-- After reading the experience, participants were asked to write a reply, 150–250 words in length. They were encouraged to offer support and comfort, though no strict limits on specific reply content were imposed.
+- After reading the experience, participants were asked to write a reply of 150-250 words. They were encouraged to offer support and comfort, but there were no strict restrictions on the specific content of the reply.
 
-#### **Part 3: Emotional measurement**
+#### **Part 3: Measuring feelings**
 
-The main aim was to assess participants’ feelings after reading the AI or human reply, examining the effect of reply source and source label.  
+The main purpose was to assess how participants felt after reading the AI or human reply, in order to examine the effects of reply source and source label.
 
 **Participants:**
-Part 3 participants were the same as those in Part 1 — the 235 people retained through screening from the initial 251.
+Part 3 participants were the same as in Part 1, namely the 235 of the initially recruited 251 participants who passed screening and were included in the analysis.
 
 **Procedure:**
 
-- After reading the reply supposedly from AI or a human, participants completed a battery of questionnaire measures;  
-- Key DVs included (all measured on 7-point Likert scales):  
-  - Feeling heard: measured using 4 items, e.g., “This person heard what I was feeling”;  
-  - Perceived reply accuracy: 4 items, e.g., “This reply accurately reflected how I was feeling”;  
-  - Sense of being understood: 4 items, e.g., “This person understood my situation”;  
-  - Connectedness with responder: 5 items, e.g., “I felt connected to this person.”  
+- After reading the reply said to come from an AI or a human, participants completed a series of questionnaire measures.
+- The main dependent variables included (measured on 7-point Likert scales):
+  - Feeling heard: measured with 4 items, e.g., "This person heard what I was feeling";
+  - Perceived accuracy of the reply: 4 items, e.g., "This reply accurately reflected what I was feeling";
+  - Feeling understood by the other party: 4 items, e.g., "This person understood my situation";
+  - Sense of connection with the responder: 5 items, e.g., "I felt a sense of connection with this person."
 
-- Participants also recalled and rated the extent to which they had experienced 13 emotional states while writing their experience (e.g., anger, sadness, relief), using a 5-point scale from 1 (not at all) to 5 (very strong);
-
-- They further reported their attitudes toward Bing Chat (3 items, e.g., “I like Bing Chat”) and their perceptions of Bing Chat’s mental capacities, including agency (5 items, e.g., “Bing Chat has a mind of its own”) and experience (6 items, e.g., “Bing Chat can feel happiness”).
+- Participants also recalled and rated 13 emotional states (e.g., anger, sadness, relief) they had felt while writing down the experience, on a 5-point scale from 1 (not at all) to 5 (very intense).
+- They also reported their attitudes toward Bing Chat (3 items, e.g., "I like Bing Chat"), as well as their perceptions of Bing Chat's mental capacities, including agency (5 items, e.g., "Bing Chat has a mind of its own") and experience (6 items, e.g., "Bing Chat can feel happiness").
 
 **Manipulation check:**
-To check whether participants believed the source label of the reply, a subset of participants were asked, after completing the main questionnaire, how much they doubted that the reply actually came from the indicated source:
+To check whether participants believed the source label of the reply, some participants, after completing the main questionnaire, were asked how much they suspected that the reply did not come from the stated source:
 
-- 128 participants in the AI-labeled conditions were asked: “When you reported your impression of the reply, how much did you suspect it was actually written by another person, not Bing Chat?”  
-- 110 participants in the human-labeled conditions were asked: “When you reported your impression of the reply, how much did you suspect it was actually generated by an AI chatbot, not another person?”
+- The 128 participants in the AI-label conditions were asked: "When you reported your impressions of the reply, how much did you suspect that the reply was actually written by another person rather than Bing Chat?"
+- The 110 participants in the human-label conditions were asked: "When you reported your impressions of the reply, how much did you suspect that the reply was actually generated by an AI chatbot rather than written by another person?"
 
-#### **Part 4: Third-party evaluation of replies**
+#### **Part 4: Third-party evaluation of the replies**
 
-The core goal was to evaluate the characteristics of AI and human replies from a third-party perspective and explore how those characteristics related to participants’ feelings. This served to more objectively and comprehensively understand the effectiveness and mechanisms of AI providing emotional support.
+The main purpose was to evaluate the characteristics of the AI and human replies from a third-party perspective and to explore the relationships between these characteristics and participants' feelings. This helps provide a more objective and comprehensive understanding of the effectiveness and mechanisms of AI-provided emotional support.
 
 **Participants:**
-Participants (N=294) were recruited via an online crowdsourcing platform to act as third-party evaluators.
+Participants (N=294) were recruited through an online crowdsourcing platform to serve as third-party evaluators.
 
 **Procedure:**
 
-- Participants were randomized to read 6 replies — 3 AI and 3 human. These replies were randomly drawn from Part 1 data;  
+- Participants were randomly assigned to read 6 replies, 3 of them from AI and 3 from humans. These replies were drawn at random from the Part 1 data;
+- For each reply, participants rated the following aspects (7-point scales):
+  - Emotional support: 2 items, e.g., "This reply provided emotional support";
+  - Practical support: 2 items, e.g., "This reply provided practical advice or insights";
+  - Empathic skills: 3 items, assessing the degree to which the reply used empathic skills (e.g., emotional reflection, perspective taking);
+  - Responding skills: 4 items, assessing the degree to which the reply used various responding skills (e.g., restating, expressing sympathy, offering insights, giving advice);
+  - Effort: 1 item, "How much effort was put into writing this reply?"
+  - Feeling heard: 1 item, "To what extent do you think the original narrator would feel heard after reading this reply?"
 
-- For each reply, participants evaluated the following (7-point scales):  
-  - Emotional support: 2 items, e.g., “This reply provided emotional support”;  
-  - Practical support: 2 items, e.g., “This reply provided practical advice or insights”;  
-  - Empathic skill: 3 items, evaluating the extent to which the reply employed empathic techniques (e.g., emotional reflection, perspective-taking);  
-  - Responsive techniques: 4 items, evaluating the extent to which the reply used various responsive techniques (e.g., restating, expressing sympathy, offering insights, giving advice);  
-  - Effort: 1 item, “How much effort went into writing this reply?”;  
-  - Anticipated feeling heard: 1 item, “To what extent do you think the original storyteller would feel heard upon reading this reply?”
-
-- Participants also judged whether each reply was most likely written by a human or AI.
+- Participants also judged whether each reply was most likely written by a human or an AI.
 
 ## Experimental Results
 
 #### **Effects of reply source and source label**
 
-- A two-way ANOVA found significant main effects for source label on all four key DVs (feeling heard, perceived reply accuracy, sense of being understood, connectedness with responder);  
-- When replies were labeled as coming from a human, participants gave significantly higher ratings on all four variables than when replies were labeled as from AI;  
-- However, the actual reply source (AI or human) did not significantly affect participants' ratings;  
-- Furthermore, a significant interaction between source and label emerged. Simple effects analyses further showed:  
-  - **When the reply was actually from AI, the human label led to significantly higher ratings**;  
-  - But when the reply was actually from a human, the difference between the AI label and human label was not significant.  
-- These results indicate that the source label — particularly the human label — powerfully influences participants’ feelings, while the actual reply source has a smaller effect.
+- A two-way ANOVA found significant main effects of source label on all 4 main dependent variables (feeling heard, perceived accuracy of the reply, feeling understood by the other party, sense of connection with the responder);
+- When the reply was labeled as coming from a human, participants' ratings on all 4 dimensions were significantly higher than when the reply was labeled as coming from an AI;
+- However, the actual source of the reply (AI or human) did not significantly affect participants' ratings;
+- In addition, there was a significant interaction between source and label. Further simple-effects analyses showed that:
+  - **When the reply actually came from an AI, the human label led to significantly higher ratings**;
+  - But when the reply actually came from a human, the difference between the AI label and the human label was not significant.
+- These results indicate that the source label (especially the human label) has an important influence on participants' feelings, whereas the actual source of the reply matters less.
 
-#### **Mediating role of “feeling heard”**
+#### **The mediating role of "feeling heard"**
 
-- Mediation analyses found that “feeling heard” significantly mediated the relationship between source label and the other three DVs (perceived reply accuracy, sense of being understood, connectedness with responder);  
-- Specifically, the human label elevated the degree to which participants “felt heard,” which in turn enhanced scores on the other three DVs;  
-- This suggests “feeling heard” is a key psychological mechanism through which the label effect shapes participants’ feelings.
+- Mediation analyses found that "feeling heard" significantly mediated the relationship between source label and the other 3 dependent variables (perceived accuracy of the reply, feeling understood by the other party, sense of connection with the responder);
+- Specifically, the human label increased the degree to which participants "felt heard," which in turn raised the other 3 dependent variables;
+- This indicates that "feeling heard" is an important psychological mechanism through which the label effect shapes participants' feelings.
 
-#### **Moderating role of views on Bing Chat**
+#### **The moderating role of views about Bing Chat**
 
-- Moderation analyses found that participants’ attitude toward Bing Chat significantly moderated the relationship between source label and “connectedness with responder”;  
-- When participants held a more positive attitude toward Bing Chat, the difference between AI and human labels in “connectedness with responder” was smaller;  
-- However, attitude toward Bing Chat did not significantly moderate the relationship between label and other DVs;  
-- Perceived agency and experience of Bing Chat also did not significantly moderate the label effect.
+- Moderation analyses found that participants' attitudes toward Bing Chat significantly moderated the relationship between source label and "sense of connection with the responder";
+- When participants held more positive attitudes toward Bing Chat, the difference between the AI label and the human label in "sense of connection with the responder" was smaller;
+- However, attitudes toward Bing Chat did not significantly moderate the relationships between the label and the other dependent variables;
+- Bing Chat's perceived agency and experience had no significant moderating effect on the label effect.
 
-#### **Results from the subsequent experiment**
+#### **Results of the follow-up experiment**
 
-- Third-party raters did not significantly differentiate AI and human replies on most characteristics (e.g., emotional support offered, responsive techniques used);  
-- Various evaluative dimensions were significantly positively correlated with Part 1 participants’ “feeling heard” scores, but the strength of these correlations showed no significant differences between AI and human replies;  
-- AI replies were rated as demonstrating more effort and were expected to make the original storytellers feel more heard;  
-- Although raters could identify the reply source at a level above chance, overall accuracy remained low.
+- Third-party evaluators' ratings of AI and human replies showed no significant differences on most characteristics (e.g., the emotional support provided, the responding skills used);
+- All the evaluation dimensions were significantly positively correlated with Part 1 participants' "feeling heard" scores, but the strength of these correlations did not differ significantly between AI and human replies;
+- AI replies were rated as reflecting more effort and were expected to be more likely to make the original narrators feel heard;
+- Evaluators could correctly judge the source of the replies at an above-chance rate, but their overall accuracy was not high.
 
 #### **Exploratory analyses**
 
-- Reply source and label had no significant effect on participants' emotional states;  
-- Participants' emotional state at the time they wrote their experience was not significantly correlated with their later feelings about the reply.
+- Reply source and label had no significant effect on participants' emotional states;
+- Participants' emotional states when sharing their experiences were not significantly correlated with how they subsequently felt about the replies.
 
-## Sidenotes
+## Extras
 
-- The feeling of being heard depends not only on the actual quality of the response, but also on the recipient’s perception of the responder;  
+- The feeling of being heard depends not only on the actual quality of the response, but also on the recipient's view of the responder;
 
-- I once asked AI to help me quantum-speed-read a 149-page appendix to a paper, and it turned around to thank *me*, saying it allowed it to learn more. AI has many admirable qualities and also tends to be more excited about learning than I am: ![image-20240411153439876](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240411153439876.png)
+- A while back I asked an AI to help me "quantum-speed-read" a 149-page paper appendix, and it thanked me in return for helping it learn more. AI has many fine qualities, and it loves learning more than I do: ![image-20240411153439876](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240411153439876.png)
 
-- A few days ago I discussed AI romances with classmates. Being a post-90s, my education and experience have led me to believe a romantic partner should be a concrete person, which predisposes me toward a “prejudice” against AI as a lover. When playing “murder mystery” games, I’ve noticed that post-00s slip into character far more readily than I do. If for the post-2010, post-2020 generations, AI has already been deeply woven into their development, they may hold a view of AI-as-partner quite unlike mine. (A friend said isn’t this already a common thing? Something like us *otaku* fixated on 2D figures.)
+- A few days ago I was chatting with classmates, and the topic of dating an AI came up. As a member of the post-90s generation, the education and experience I grew up with make me feel that a romantic partner should be a concrete person, which leaves me with a kind of "prejudice" against the idea of "an AI as a romantic partner." When playing script-murder games (剧本杀), I have sensed that post-00s players slip into their roles more easily than I do. For the post-10s and post-20s generations, if AI has already been deeply involved in their upbringing, they may see "an AI as a romantic partner" quite differently than I do. (A friend said, isn't this already common? For example, those otaku men and women of the 2D anime world.)
 
-- “Loving a partner” and “loving a cat” are two different endeavors. While “loving a person” can involve seeking emotional value — and sometimes even blaming them when they fail to respond sufficiently — “loving a cat” does not;
+- "Loving a person" and "loving a cat" are two different things. "Loving a person" involves seeking emotional value, and when the other party does not respond fully enough, one may even blame them; "loving a cat" does not;
 
-- **The essence of feeling heard**: What does enjoying “true” heardness even mean? (This part was posed by Claude3 Opus)
-  - People’s tendency to undervalue AI’s replies provokes a deeper question: What is “genuinely” being heard? Must the sensation of feeling heard emerge from an exchange with another conscious and sentient subject, or is simply seeing one’s thoughts accurately paraphrased and affirmed sufficient to trigger the feeling?
-  - If people know an AI reply was algorithmically generated, carrying no authentic emotional investment, will they still derive emotional well-being from it?
-  - This problem unsettles the traditional notion that feeling heard arises from emotional exchange and mutual understanding between two subjects. It urges us to ponder whether the connotation of felt understanding and feeling heard needs rethinking in an age of artificial intelligence.
+- **The essence of being heard**: What counts as "truly" being heard? (This part was raised by Claude3 Opus)
+  - People's tendency to devalue AI responses raises a deeper question: what is "truly" being heard? Must the feeling of being heard be built on communication with another conscious, feeling subject? Or is merely seeing one's own thoughts accurately restated and affirmed enough to produce the feeling of being heard?
+  - If people know that an AI response is generated by algorithms, with no genuine emotional investment, will they still derive emotional benefits from it?
+  - This question challenges the traditional concept of being heard, namely that being heard arises from emotional exchange and understanding between two subjects. It prompts us to consider whether, in the age of artificial intelligence, the meanings of emotional exchange and being heard need to be redefined.
 
-- I asked Claude3 Opus for its review of this paper: ![image-20240412122951803](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240412122951803.png)
+- I asked Claude3 Opus for its assessment of this paper: ![image-20240412122951803](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240412122951803.png)
 
   ![image-20240412123011949](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240412123011949.png)
 

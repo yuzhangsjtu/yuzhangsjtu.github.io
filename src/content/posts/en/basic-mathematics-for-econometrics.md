@@ -2,7 +2,7 @@
 title: "Basic Mathematics for Econometrics"
 date: 2023-11-22T10:00:00+08:00
 category: { name: "Research Notes", slug: research }
-tags: ["causal inference", "policy evaluation", "econometrics"]
+tags: ["Causal Inference", "Policy Evaluation", "Econometrics"]
 summary: "Even if you are not a theoretical master like Coase, brushing up on mathematics is still very important!"
 ---
 

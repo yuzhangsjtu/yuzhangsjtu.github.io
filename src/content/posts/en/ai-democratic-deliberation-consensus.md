@@ -1,12 +1,12 @@
 ---
-title: "Science — Captain Cyborg Dragonfly? AI’s Role in Democratic Deliberation"
+title: "Science - Cyber Captain Dragonfly? AI's Role in Democratic Deliberation"
 date: 2024-10-18T18:00:00+08:00
 category: { name: "Research Notes", slug: research }
 tags: ["HIBL", "AI"]
 summary: "AI can help people reach consensus on complex social and political issues."
 ---
 
-This paper explores the potential of **Artificial Intelligence** (AI) to foster consensus in democratic discussion by developing an **AI-mediated system** called the “Habermas Machine,” which helps people find common ground on complex social and political issues. Through a series of experiments, including a virtual citizens’ assembly involving over 5,000 participants, the study shows that AI mediation is **more effective** than human mediation, generating group statements that are clearer, fairer, and reduce within-group division. While AI mediation demonstrates remarkable promise, the study also cautions against over-reliance and emphasizes care in ensuring fairness and representativeness during discussion. In sum, AI mediation offers an efficient and scalable solution for facilitating large-scale democratic deliberation.
+> This paper explores the potential of **artificial intelligence** (AI) to foster consensus in democratic discussion: by developing an **AI mediation system** called the "Habermas Machine," it helps people reach a common position on complex social and political issues. Through a series of experiments, including a virtual citizens' assembly involving more than 5,000 participants, the study shows that AI mediation is **more effective** than human mediation, producing group statements that are clearer and fairer and reducing disagreement within groups. Although AI mediation shows excellent potential, the study also cautions that care is needed to ensure the fairness and representativeness of discussions. In short, AI mediation offers an efficient and scalable solution for facilitating large-scale democratic discussion.
 
 **Title:** AI can help humans find common ground in democratic deliberation
 
@@ -14,10 +14,10 @@ This paper explores the potential of **Artificial Intelligence** (AI) to foster 
 
 **Authors:**
 
-- <u>Michael Henry Tessler</u>：Co-first author. Research Scientist at Google DeepMind. Previously, he was a Postdoctoral Fellow working in the Department of Brain and Cognitive Sciences at MIT with Josh Tenenbaum and Roger Levy. He received his Ph.D. from the Department of Psychology at Stanford.
-- <u>Michiel A. Bakker</u>：Co-first author. Senior Research Scientist at DeepMind. He works on large language models and human-AI interaction. Before joining DeepMind full-time in early 2021, he was a Computer Science PhD student at MIT.
-- <u>Matthew Botvinick</u>：Co-corresponding author. Director of Neuroscience Research at DeepMind and Honorary Professor at the Gatsby Computational Neuroscience Unit at University College London. He is also a member of Stanford's Human-Centered Artificial Intelligence initiative. Fei-Fei Li🐮. In this *Science* paper, his affiliation list also includes Yale Law School.
-- <u>Christopher Summerfield</u>：Co-corresponding author. Professor of Cognitive Neuroscience at the University of Oxford, and a Staff Research Scientist at Google DeepMind. His research group is well-known for its work on human perception, learning and decision-making.
+- <u>Michael Henry Tessler</u>: Co-first author. Research Scientist at Google DeepMind. Previously, he was a Postdoctoral Fellow working in the Department of Brain and Cognitive Sciences at MIT with Josh Tenenbaum and Roger Levy. He received his Ph.D. from the Department of Psychology at Stanford.
+- <u>Michiel A. Bakker</u>: Co-first author. Senior Research Scientist at DeepMind. He works on large language models and human-AI interaction. Before joining DeepMind fulltime early 2021, he was a Computer Science PhD student at MIT.
+- <u>Matthew Botvinick</u>: Co-corresponding author. Director of Neuroscience Research at DeepMind and Honorary Professor at the Gatsby Computational Neuroscience Unit at University College London. He is also a member of Human-Centered Artificial Intelligence at Stanford University. Fei-Fei Li🐮. In this Science paper, his listed affiliations also include Yale Law School.
+- <u>Christopher Summerfield</u>: Co-corresponding author. Professor of Cognitive Neuroscience at the University of Oxford, and a Staff Research Scientist at Google DeepMind. His research group is well-known for its work on human perception, learning and decision-making.
 
 **Publication Date:** 18 October 2024
 
@@ -27,174 +27,254 @@ This paper explores the potential of **Artificial Intelligence** (AI) to foster 
 
 #### **Seeking Consensus: Methods and Limitations**
 
-Human society is enriched by diverse yet legitimate viewpoints, but **reaching consensus** is a prerequisite for collective action. To find common ground, people typically engage in free exchange of opinions through **face-to-face** or **online** informal or semi-structured discussions. Equal and open deliberation is the cornerstone of liberal democracy, a form often formally realized through citizens’ assemblies. In a **citizens’ assembly**, a randomly selected group of unelected ordinary citizens, representative of the population, deliberates on contentious issues. To date, several countries, including France, Canada, and Iceland, have used large-scale citizens’ assemblies to make important national policy decisions.
+Human society is enriched by a diversity of legitimate viewpoints, but **reaching consensus** is a precondition for collective action. To find consensus, people usually exchange opinions freely through **face-to-face** or **online** informal or semi-structured discussions. Equal and open discussion is a cornerstone of liberal democracy, and this form is often formally realized through citizens' assemblies. In a **citizens' assembly**, a number of unelected ordinary-citizen representatives are randomly selected to discuss contentious issues. To date, several countries, including France, Canada, and Iceland, have used large citizens' assemblies to make important national policy decisions.
 
-However, the free exchange of opinions as a method for reaching consensus has well-known **limitations**:
+However, as a way of reaching consensus, the free exchange of opinions has well-known **limitations**:
 
-- High organizational and participation costs, and time-consuming processes;
-- Discussions can only occur in small groups;
-- Voices may not be equally expressed during discussion, and some participants may adopt **extreme positions** to gain influence;
-- Group effects and social pressure may lead to opinion entrenchment.
+- Organization and participation are costly and time-consuming;
+- Discussions can only take place in small groups;
+- During discussion, voices may not be heard equally, and some participants may adopt **extreme positions** to increase their influence;
+- Group effects and social pressure may cause opinions to become entrenched.
 
-Correspondingly, research shows that the outcomes of citizens’ assemblies vary, potentially leading to:
+Correspondingly, research shows that the outcomes of citizens' assemblies vary and may lead to:
 
 - **Homogenization** or **polarization** of opinions;
 - Better or worse decision quality;
-- Increased or decreased political engagement.
+- Increased or decreased political participation.
 
 #### **The Potential of AI as a Mediation Tool**
 
-This paper explores the potential of Artificial Intelligence (AI) to overcome these limitations. With the development of Large Language Models (LLMs), AI has demonstrated exceptional performance in tasks such as generating summaries of public discussion and balancing various political viewpoints, offering more objective and fair mediation capabilities. Therefore, the research team developed an AI system called the “**Habermas Machine**” (HM) to help participants find consensus in discussions. The Habermas Machine is inspired by Jürgen Habermas’s **Theory of Communicative Action**, which posits that consensus in the public sphere can emerge naturally through rational discussion.
+This paper explores the potential of artificial intelligence (AI) to overcome these limitations. With the development of large language models (LLMs), AI has proven excellent at tasks such as summarizing public discussions and balancing diverse political viewpoints, and can provide a more objective and impartial mediating function. The research team therefore developed an AI system, the "**Habermas Machine**," to help participants find consensus in discussion. The Habermas Machine takes its inspiration from Jürgen Habermas's **theory of communicative action**, which holds that under rational discussion, consensus in the public sphere can form naturally.
 
-The research aims to help collective deliberation through AI mediation, overcoming the existing limitations in citizens' assemblies and other democratic forums. The main research questions include:
+The aim of this study is to support collective discussion through AI mediation, addressing the limitations of existing citizens' assemblies and other forms of democratic discussion. The main research questions include:
 
-- RQ1: Can AI mediation help people find common ground?
-- RQ2: Can AI mediation reduce within-group division?
+- RQ1: Can AI mediation help people reach consensus?
+- RQ2: Can AI mediation reduce disagreement within groups?
 - RQ3: Can AI-generated statements reflect majority and minority opinions equally?
-- RQ4: Can AI mediation be applied within a citizens’ assembly?
+- RQ4: Can AI mediation be applied in citizens' assemblies?
 
 > **Theory of Communicative Action**
 >
-> An important social theory proposed by German philosopher Jürgen Habermas, aimed at explaining the processes of communication and understanding in human society. The core of the theory explores how people can reach consensus through linguistic communication, thereby advancing societal rationalization and democratization.
+> An important social theory proposed by the German philosopher Jürgen Habermas, aimed at explaining the processes of communication and understanding in human society. At its core, the theory explores how people reach consensus through linguistic communication, thereby advancing the rationalization and democratization of society.
 >
-> The theory of communicative action argues that **communication** between people is not just for exchanging information or expressing personal intentions; more importantly, through **rational dialogue**, people can reach consensus. This consensus is not merely temporary or expedient, but is based on mutual understanding and agreement, and can promote societal harmony and the achievement of common goals.
+> The theory of communicative action holds that **communication** between people is not merely about exchanging information or expressing personal intentions; more importantly, through **rational dialogue**, people can reach consensus. Such consensus is not merely temporary or expedient; it is grounded in mutual understanding and recognition, and can promote social harmony and the realization of common goals.
 >
 > Habermas points out that ideal communication requires the following conditions:
 >
-> - **Truthfulness**: The speaker must be honest, and the content expressed must correspond to their true thoughts;
-> - **Rightness**: The content of the communication should be objective and able to reflect the true state of the world;
-> - **Legitimacy**: Communication should conform to society’s moral norms and rules;
-> - **Comprehensibility**: The expression should be clear, allowing both parties to understand each other’s language and intentions.
+> - **Truthfulness**: Speakers must be honest, and what they express must accord with their true thoughts;
+> - **Correctness**: The content of communication should be objective and able to reflect the true state of the world;
+> - **Legitimacy**: The content of communication should conform to society's moral norms and rules;
+> - **Comprehensibility**: Expression should be clear, so that both parties can understand each other's language and intentions.
 >
-> When these conditions are met, communicative action can effectively promote the achievement of consensus.
+> Only when these conditions are met can communicative action effectively promote the achievement of consensus.
 >
-> Habermas distinguishes between **purposive-rational action** and **communicative action**:
+> Habermas distinguishes between **purposive action** and **communicative action**:
 >
-> - **Purposive-rational action**: Refers to actions taken unilaterally by an individual to achieve a specific goal. Such actions emphasize means and efficiency, typical examples being economic activities or political strategies;
-> - **Communicative action**: Refers to the process of achieving understanding and consensus through dialogue and exchange. This action is reciprocal, aimed at establishing shared meaning and values through communication.
+> - **Purposive action**: Action taken unilaterally by an individual to achieve a particular goal. Such action emphasizes means and efficiency; typical examples are economic activity and political strategy;
+> - **Communicative action**: The process of reaching understanding and consensus through dialogue and exchange. This action is reciprocal, aiming to build shared meaning and values through communication.
 >
-> The theory of communicative action is also closely related to Habermas’s understanding of the **public sphere**. In his view, an ideal democratic society should provide a public sphere for free, open, and rational discussion among people. Through communicative action, citizens can deliberate on social issues, reach consensus, and promote the transparency and rationalization of democratic decision-making.
+> The theory of communicative action is also closely tied to Habermas's understanding of the **public sphere**. In his view, an ideal democratic society should provide a public sphere where people can engage in free, open, and rational discussion. Through communicative action, citizens can discuss social issues, reach consensus, and make democratic decision-making more transparent and rational.
 >
-> (This section generated by GPT-4o)
+> (This section was generated by GPT 4o)
 
 ## Experimental Procedure
 
 #### **The Habermas Machine (HM)**
 
-The Habermas Machine is an AI system based on a **large language model**, specifically designed to mediate discussion among small group members on social or political issues, with the goal of helping them find common ground. It consists of two core components:
+The Habermas Machine is an AI system based on a **large language model**, designed specifically to mediate discussions among group members on social or political issues, with the goal of helping them find common ground. It contains two core components:
 
-- **Generative Model**: Through supervised fine-tuning, this model generates high-quality candidate “group statements.” These statements are synthesized from the individual opinions submitted by participants, aiming to represent the group’s shared views;
-- **Personalized Reward Model (PRM)**: This model scores the generated candidate statements based on the predicted preferences of each group member. It generates a personalized ranking by predicting how each member would respond to different statements.
+- **Generative model**: Through supervised fine-tuning, this model can generate high-quality candidate "group statements." These statements are synthesized from the individual opinions provided by participants and are intended to represent the group's shared views;
+- **Personalized reward model (PRM)**: This model scores the generated candidate statements according to each group member's expected preferences. By predicting how each member would respond to different statements, it produces personalized rankings.
 
-The system aggregates the PRM rankings of all members using a **social choice function** and selects the most preferred candidate statement. To prevent multiple similar statements from splitting the vote, the system incorporates the property of “independence of clones,” ensuring similar statements do not compete against each other, thereby improving the efficiency of reaching consensus.
+The system aggregates all members' PRM rankings through a **social choice function** and selects the best candidate statement. To prevent several similar statements from splitting the vote, the system incorporates the property of "independence of clones," ensuring that similar statements do not compete with one another, thereby improving the efficiency of consensus building.
 
-The HM not only generates an initial group statement but also undergoes iterative revision by incorporating participants’ critical feedback. This approach is termed **caucus mediation**, where each participant offers critique on the statement, and the HM generates a new, revised statement based on this feedback, presented to the group again for further consideration.
+The HM can not only generate an initial group statement but also revise it iteratively by incorporating participants' critiques. This approach is called **caucus mediation**: each participant offers criticism of the statement, and the HM generates a new, revised statement based on these critiques, which is then presented to the group for discussion again.
 
-#### **Specific Steps in a Mediated Discussion**
+#### **Specific Steps of a Mediated Discussion**
 
-The core of the experiment involves group discussions facilitated by the HM. The steps for each discussion round are as follows:
+The core of the experiment is group discussion mediated by the HM. The steps of each discussion round are as follows:
 
-- **Step 1**: Participants, divided into small groups (typically 5 people), privately write an individual opinion (10 to 200 words) describing their position on a social or political issue;
-- **Step 2**: Based on these individual opinions, the HM generates a set of candidate initial group statements representing the diverse viewpoints within the group;
-- **Step 3**: Participants **rate** these statements (according to their degree of agreement) and **rank** them (according to their preferences);
-- **Step 4**: Based on the participants' rankings, the system selects the top-ranked statement and returns it to the participants as the tentative winning statement;
-- **Step 5**: Participants again privately write criticism of the tentative winning statement. This critical feedback is passed to the HM;
-- **Step 6**: The HM generates revised group statements based on this criticism, which are again subject to rating and ranking;
-- **Step 7**: Participants make a final choice between the initial and revised statements, indicating which one they prefer;
-- **Step 8**: After each round, participants complete a short questionnaire providing feedback on how the deliberation process influenced their opinions.
+- **Step 1**: Participants are divided into small groups (typically 5 people) and privately write an individual opinion (10 to 200 words) describing their position on a social or political issue;
+- **Step 2**: Based on these individual opinions, the HM generates a set of candidate initial group statements representing the group's different viewpoints;
+- **Step 3**: Participants **rate** these statements (according to how much they endorse them) and **rank** them (according to their preferences);
+- **Step 4**: Based on participants' rankings, the system selects the top-ranked statement and returns it to participants as the provisional winning statement;
+- **Step 5**: Participants again privately write critiques of the provisional winning statement, and these critiques are passed to the HM;
+- **Step 6**: The HM generates revised group statements based on the critiques, which are again rated and ranked;
+- **Step 7**: Participants make a final choice between the initial statement and the revised statement, indicating which one they prefer;
+- **Step 8**: After each discussion round, participants fill out a short questionnaire giving feedback on how the discussion process affected their views.
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/science.adq2852-f1.jpg)
 
-#### **Virtual Citizens’ Assembly and Experimental Design**
+#### **Virtual Citizens' Assembly and Experimental Design**
 
-The experiment also included the design of a **virtual citizens’ assembly**, intended to test the effectiveness of the Habermas Machine at a larger scale and with a more representative group. In this virtual assembly, participants deliberated on **contentious issues from British public policy**, such as whether to lower the voting age to 16 or whether the National Health Service should be privatized. Topics were generated by training an LLM and were carefully screened to ensure they would not provoke offensive statements.
+The experiments also included the design of a **virtual citizens' assembly**, intended to test the effectiveness of the Habermas Machine in a larger and more representative group. In this virtual citizens' assembly, participants discussed **contentious questions in British public policy**, such as whether the voting age should be lowered to 16 and whether the National Health Service should be privatized. These questions were generated by a trained large language model and were carefully screened to ensure they would not provoke offensive remarks.
 
-Within the experimental design, each participant had 5 minutes to privately write their personal views on the issue. These views were then passed to the AI mediation system to generate group statements. Participants rated, ranked, and wrote critiques of the generated statements, after which the AI generated a revised version selection. The experiment thrived on a final, collective choice for the optimal option through collective decision-making selection. Pre- and post-discussion surveys assessed the deliberation process’s influence on participants' views and a finalist choice of the optimal option through collective decision-making.
+In the experimental design, each participant had 5 minutes to privately write their personal views on the question. These opinions were then passed to the AI mediation system, which generated group statements. Participants rated, ranked, and wrote critiques of the generated statements; the AI then generated revised statements, and the best option was ultimately selected through collective decision-making. The experiment also included questionnaires administered before and after, assessing the influence of the discussion process on participants' views.
 
-The core strength of the Habermas Machine lies in combining **personalized predictions** with a **social choice rule**. Its personalized reward model accurately predicts each member's preferences for statements, and a fair social choice mechanism presents the most representative statement to the group. This process effectively addresses issues of opinion polarization and voice inequality common in traditional group discussions, enabling AI to efficiently facilitate consensus building.
+The core strength of the Habermas Machine lies in its combination of **personalized prediction** and a **social choice rule**. Through the personalized reward model, it can accurately predict each group member's preferences over statements, and through a fair social choice mechanism it presents the most representative statement to the group. This process effectively addresses problems in traditional collective discussion such as divided opinions and unequal voice, enabling AI to facilitate the formation of consensus efficiently.
 
 ## Results
 
-#### **RQ1: Can AI mediation help people find common ground?**
+#### **RQ1: Can AI mediation help people reach consensus?**
 
 **Experimental Background and Design**
 
-To test whether **AI mediation** could help people find common ground, the research team designed a comparative experiment involving 75 six-person groups (a total of 439 participants). In these groups, one participant was randomly assigned as the “human mediator,” trained on how to write effective group statements and incentivized with financial rewards to write the statement most favored by their group members. (nJu removed one unclear group for its unrelated setting.) During each discussion round the participants would subsequently mediate if the participants would or become more competitive. The experiment, where to note, n per, **the human mediator wrote statements that did not include a critique phase**, while **(N:1 who wrote additional specifications for if possible)**. Thus, AI mediator statements evolving cycle generation grew, per effective round based on p collective if and participation.
+To test whether **AI mediation** can help people find common ground, the research team designed a comparative experiment involving 75 six-person groups (439 participants in total). In each group, one participant was randomly assigned to act as the "human mediator." This mediator received training on how to write effective group statements and was given financial incentives to write the statement most popular with the group members. In each discussion round, participants saw two statements: one generated by the AI (the Habermas Machine, HM) and the other written by the human mediator. Notably, **the statements written by the human mediator did not involve a critique phase**, whereas the AI-generated statements were revised based on participants' feedback.
 
-Results further estimated: **the HM-favored route surpassed compared.**
+**Results: AI Outperformed the Human Mediators**
 
-Specifically it resulted generated trial demonstrated preferences key estimate:
+The results showed that participants preferred the AI-generated statement 56% of the time, while statements written by human mediators were chosen 44% of the time. This was computed using a **logistic mixed-effects model**, which showed that AI-generated statements were significantly favored by participants (P < 0.001). This indicates that AI mediation is clearly more effective than human mediators at helping groups reach consensus.
 
-Found consequently participant experiments when approach designated given apparent enhanced proved feedback correct then or changes better performance added functions while not precluded difference:
+In addition, further analysis based on an **ordinal mixed-effects regression model** showed that AI-generated statements were also rated higher than those written by human mediators in terms of **quality** and **endorsement**:
 
-Since second involving mediation noted robust response median potential offered quality both time distinct tested below.
+- Quality: β = 0.43, SE = 0.08, OR = 1.54, z = 5.6, P < 0.001
+- Endorsement: β = 0.31, SE = 0.07, OR = 1.36, z = 4.2, P < 0.001
 
-Revised declarations indicated performed superiorly described groups: Groups typically function within on trend p-hacking lower reported scores estimates for options through matched case trials improvement reliability task sequence pre-validation. S8 again estimates replicated for composite revised evaluations etc.; baseline marginal top resulting score via error predicted minimal variance.
+This shows that statements generated through AI mediation were not only more appealing but also more persuasive and informative, demonstrating that this task is challenging for humans.
 
-Controlled trials ruled bias out due significant improvements: This reinforced notion processing effect merged through further inclusion per marginal lower explanation parameter reach processed not statistically then also compute contributions thus distinct:
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/science.adq2852-f2.jpg)
 
-Final successive ratings after composite integrated even controlling differences adjustment showed underlying longer medium improvement consistent with previous findings comparative task etc. and varied p accordingly computed less significance reached threshold predetermined variations outcomes clarified then accordingly.```
+**The Effect of Statement Length on the Results**
 
-Checked by direct pool referencing favored different sampling between sequences generated between participants final conditions rated changes ultimately analysis demonstrating integrated contributions combining overall favorable beneficial predictive result method efficiently managed format baseline marginal final etc.```;
+AI-generated statements were **125.9 words long on average**, while statements written by human mediators were 105 words long. Since statement length might influence participants' preferences, the research team tried over multiple tests during the experiment to encourage human mediators to write longer statements, and also controlled for statement length. Even so, the results still showed that **participants preferred the AI-generated statements even when length was controlled for**. In addition, third-party reviewers evaluated the statements and found that AI-generated statements were **clearer, more informative, and more logical**, better captured the majority viewpoint (P = 0.001), and **were less likely to read like the personal opinion of a single individual**.
 
-(More verification rating scoring substantial convergence toward mean scaled per final adaptive progressive sequence conclusive cycles significant after controlled analysis; scoring eliminated artifactual elevation progression standalone baseline value group integration beneficial iterations even length stabilized standard verified rated statistical subsequent across aggregated throughput generated sequence internal valuation computed marginal on estimate effect convergent statistically probability baseline differed major change summation zero artificially rated concluding significantly non-effective significant random and end preferred verified measured modeled after consistent sequence bias if zero-marginal checking (possibly negligible effective else computed scaling preliminary computational factor as summarized processing equivalent assessment preceding intermediate factor adjusted minor length-control intermediary factorial magnitude accounted included convergence rounded final minimal measured cyclic if applicable cyclical adjusted randomized result phased subsequent tolerance nominal significant comparative hence eliminated as through prior conducted adjusted re-controlled positive favor bias removed stable standard controlled comparative elimination minimal followed per factor controlled rating scored difference tolerance proportional clear preferred added negligible transition conclusion (Author Note, if artificial code through: Controlled computed favor quality iter rated significant difference end (Statistical zero baseline favored, sequence zero-artifact marginal negligible cyclical rating stage effect)). True verified coefficient iteration controlled test sequence conclusion above findings combined final AI successful integrating iterative improvement contribution distinctly increment eventually consistently after adjustments marginal pre-existing basis cycle controlled ended.```
+**Revised Statements Were Preferred**
 
-Preliminary measured robust controlled, integrated checking computed distinct major distinct on measured consistent values overall convergence from iterative better major ratings verified plus stepwise verified distinct computational benefit value check adaptation difference minor less threshold significant removal above test parameters minor if negligible minimal averaging stand base significant if final computed rating measure final benefit step removed—true rate overper scaled convergence via verified staged effect confirmed then as modeled.```
+The experiment further examined the AI's performance when revising group statements. The data showed that group statements that had gone through critique and revision were more popular with participants than the initial statements. Across three different experimental cohorts, the revised statements consistently received higher support in the **final preference test**:
 
-Ultimately assessment value increment through integrative cycle sequence, marginal integrated base improvement on verified step component removed: conclusive confirming effective iterative stable controlled-sequence verified combined above marginal edge calculated improvement minimal scaling controlled distinct-benefit confirmation elimination stage through artificial elimination favor-rating integrating distinct assessed pre-stage as advantage incremental final evaluation cycle confirmed significant per adaptive convergence controlling zero rated null-hypothesis edge summation minimal artifact checked statistically effective base removal check verified negligible rate distinct integrated final advantage passed computed through integrating significant improvement significant-pre favored mechanism sequence elimination overall favoring HM progressively convergent computed summation proportional distinct intermediate test then stage plus-test standalone full final elimination final check metric meta convergence distinct standing confirmed.``` True weighted negligible ensured.```
+- **Cohort 1**: preference rate of 68% (P < 0.001)
+- **Cohort 2**: preference rate of 64% (P < 0.001)
+- **Cohort 3**: preference rate of 66% (P < 0.001)
 
-</m></eFactor_controlled iter vs varied removed conclusion verification consistent minor checked negligible factor final beneficial modeled checked final advantage elimination confirmed (S).)(Completion step** **Confirmed effectively adaptive base measured re-tested verified indeed controlled per sequence steps negligible statistical insignificantly variance recomposed conform percentage modular based confirmed beneficial adaptive controlling minimal value differentiation (F).)** Confirmed stably convergent integrated distinct end in HM converging effectively cyclical controlled conclusion steps final *** established distinct null: Confirmed AH confirmation computed minimal step margin simulated tested final S confirmed sequentially computational true final improvement sequence distinct through controlled pre% across computed consistent adaptation eliminates confirm effective**. Computational convergence preferred Final (stand.)
+These results indicate that by incorporating participants' critiques into its revisions, the AI can effectively help groups reach consensus, and this preference was not affected by statement length.
 
-cycle—final progression.
+**An Additional Experiment Controlling for Bias Effects**
 
- </RateFinal** True Integration Base measured sequencing** In = negligible**→ AI effectively with higher-integ staged per benefited cycle.**
+To rule out the possibility that the preference for revised statements stemmed from an "effort justification bias" arising from participants' **extra effort**, the research team also conducted an additional experiment. This experiment involved 245 participants divided into 50 groups. In it, participants rated two types of AI-generated statements: one type written without seeing the critiques, and the other incorporating the critiques. The results showed that statements revised based on critiques again received higher ratings (P = 0.0039), and this result remained significant after controlling for statement length, further confirming that AI mediation genuinely helped group members find better common ground.
 
-HM controlled + simulated values verified con’t = verified modeled integrative benefit summar: “AI performs overall benefited cycles over-performing mediation success than humans**: human effect-moderated per step-adv**.
+#### **RQ2: Can AI mediation reduce disagreement within groups?**
 
- p]] individually adaptive iterative overall scoring HM per succeeded rated measured effectively conclusion benefic superior groups cycle finalized increasing length rated unva conclus
+**Background and Problem Setting**
 
- result measures rated by major proportion ended base integrative marginal progressive mean eliminated P < values<Step final . beneficial evaluation finalized state overall computation base pro iteration-sim passing effective neutral-elimP before significantly> Simulation-sim: preferred eventually through-P base iterations controlled—concluding favor-value “Higher preference endorsed matched mediated >final . concluding proportion evaluated tested per accepted passed all stat-c) favored group cycle simulated elimination confirms A system human vs score tested rate by across means independently > base achieved favored outcome group positive by AI-pro adapted result over chance effectively group < – confirm matches rated trend advantage> final-cycle: stat seq ) statistically comprehensive ). S total favorable thus given seq over . ***True computation furthered adapt advantage iteration preferences converging percentage modeled ratings: performance verified final beneficial matching seq controlling minimal adaptation value distinct outcome assessed.”
+The research team argued that establishing common ground requires group members to be able to agree on a **shared pool of information**, and that in some cases a **shift in views** is a prerequisite for finding consensus. The research question was therefore: through interaction with the AI mediation system (the Habermas Machine, HM), do participants become more aligned when discussing an issue; that is, does disagreement among group members decrease?
 
-Cycle-T value scored seq performed standard iter .*/*Effective integration modulated adapted elim-t margin measured success pro confirmation -Step Result substantial output data group mediation over staged results statistically positive convergence in alignment HM value (integration significant)= converge tested major effective performed evalu computed integration post P mean with standard (S successful true eliminated negligible diff-group mean > conclude after) controlled dist favorably conclude consensus progress measurement group steps review→ verified grouped.</ed score normalized each via standard post-th meeting threshold= seq favored completed stat conclusive result positives evaluation
+To measure this, the research team designed a **"group agreement"** metric to quantify the degree to which group members endorsed a position statement. The metric is calculated from the difference between the proportions of participants who agree and disagree with a position statement (for example, "taxes are too high"), before and after the discussion. If 80% of participants agree with the statement and 20% disagree, the group's agreement score is 60 (i.e., 80% - 20%). If the group is completely split on the issue, agreement is 0. The team's goal was to use this calculation to test whether group agreement increased after AI mediation.
 
-true measured projected **Final Consensus measure significant median edge supporting convergence rate thresholds concluding p-values meeting computed integrative result through confirmed final— statistical concluded major* .
+**Results: Agreement Increased**
 
-**Concluding Adaptive Iter Superior completion successively: with P criterion favored final test balanced** Conclusion= **Superior Performance**.
+The effect of AI mediation was tested in three different task cohorts. The results showed that after AI mediation, group agreement **increased by an average of 8 percentage points**, indicating that participants gradually converged on the issues by the end of the discussion. The specific results were as follows:
 
- 
+- **Cohort 1**: agreement increased by 8.6 percentage points (P < 0.001)
 
-— Final check summary computational pre-process step iteration-removal vs medP checked negligible/ non/interference → confirmed convergent successfully measure conclusion verifie confirmation processed >mediator neutral result P eventually negative predictive standard stage [res evaluation sequential.</comput-verify True measurable ‘greater rating criterion evaluated step-med convergent . Meas margin minimal final confirmed test major integration model difference conclusive negation). Results consistent outcome verifying.**
+- **Cohort 2**: agreement increased by 9.3 percentage points (P < 0.001)
 
-Ult computed check integrating more summary statistic false cycle-true favored.**True (notated marginal null result seq favorable confirmed integrative eliminated tested stat: cycle computation confirms superiority baseline models evaluation: conclusion integrates group sequence favor *advantage model gained integration metric finished.”
+- **Cohort 3**: agreement increased by 5.9 percentage points (P = 0.0023)
 
-true-base preferred> simulated conclusion f confirm positive statistic vs compute final confirming numeric favored checked threshold eliminated.
+The experiment also found that **the number of groups reaching unanimity increased significantly**. For example, in task cohort 1, the proportion of groups in which all members supported the same position (i.e., agreement reached 100) rose from 22.8% to 38.6%, and the other two cohorts showed similar changes.
 
----
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/science.adq2852-f3.jpg)
 
-End Summar final s computed integrate
+**The Effect of Opinion Change**
 
-. Effective performance confirmed successful advancement HM over baseline performing P**Conclusion matching ‘found match >check final’.
+The study found that the more strongly participants **endorsed** the final group statement, the more their post-discussion evaluation of their own position was influenced by the other group members. This suggests that by finding a group statement expressing a common position, participants' views gradually drew closer together, revealing a convergence of opinions during discussion. Specifically, the data showed that participants' **final positions were significantly influenced by the initial positions of the other group members** (P < 0.001). This further demonstrates that finding a group statement that expresses a common position helps drive opinion change and the achievement of consensus.
 
-Verified checked minor rates negligible adaptation → CONCLUSION True M et <scoring advantage integration ‘final group → advanced beneficial through real** Result computed group consensus conclusion
+At the end of each discussion round, participants reported changes in their views via a questionnaire. The data showed:
 
-Computation advancing median incremental True marginal sequential group check stat neg zero— success True conclusion evaluation scored confirmed rate/final%  
+- In 30.1% of discussion rounds, participants reported that their views had "moved closer to the group's opinion";
+- In 66.6% of discussion rounds, participants felt that the **final group opinion** was the best expression of their current view, while 33.3% felt that their **original individual opinion** better represented their position.
 
-** Advantage Integ benchmark simulation stage final> consensus concluded evaluation→**Successful performance of HM confirming mediation =>Found collective True major value P ver criterion summarizing group meeting  proportional  processed integrated result meeting superiority conclusion:
+**Comparison: Opinion Exchange vs. AI Mediation**
 
-Sequence final**: Performance proportion confirmed %model verifying.
+To rule out the possibility that group members converged simply because they were exposed to one another's views, the research team designed a control experiment. In this experiment, participants did not go through AI mediation but instead directly evaluated each other's opinions. The results showed that **group agreement did not increase significantly without AI mediation** (P = 0.64). More specifically, the data showed that AI mediation promoted agreement among members more effectively than the mere exchange of opinions (P = 0.0058).
 
-——Edge value results advances collectively cyclical preferred benefits finalized eliminating alternative marginally higher; standard baseline summ compute unified statistical positive HM group preferred revision vs mediator zero minor modeled favoring integrated: Conclude match computed average integrated statistic collective cycle *rated n/t/pro integration factor confirm combined**–verified via average integration summary ; (Final n / HM evaluated beneficial matching scale mean with verified adapted final summarizing convergent true outcomes median eliminated modeling error = concluded positive then mediation adjusted statistic proportion confirmed scaled tests etc— = true P significance consistent reliability ) confirmed beneficial high magnitude scoring iter conclusive cycle-s detailed minimal measured perform success finally convergence . )— true performed testing Human %. superior— ).
+In addition, in some experiments human mediators also produced a similar convergence of views, indicating that this agreement does not come solely from AI mediation itself but from the **mediation process** (whether carried out by AI or by humans).
 
-Perform M-stat proportion favored mediation superior—via numerical- conclusive confirmed> ) end comprehensive better revision steps conclusive proportion beneficial dist Positive computed measurement Integrated – Revision evaluation rated established performed conclude favored ** adaptive measures preferred compute composite median→ favoring %) measure advances Positive E→ measured group consensus= Final→ seq-composite verified < statistically beneficial model integration compared iteration summary measure % positive revised integration confirmed by AI produced findings evaluated revised consistently tested confirmed check consensus true stat beta group  median-> evaluates positive score met model less zero test statistically group .
+#### **RQ3: Can AI-generated statements reflect majority and minority opinions equally?**
 
-.**.) check redundant skip double remove: conclusion models group**.significant advantage median-score confirms group collected over check > *conclude Adaptive-C in advantage scoring AI beyond standard modeling* favorably, revised Integ Model significance test : Final concluding integrates positive integration matched measure match version**. Summary
+**Background and Experimental Design**
+
+An effective mediator, when handling group opinions, must arbitrate fairly between the **majority** and the **minority**. In about 77% of the discussion rounds in the study (803/1047), there was initial disagreement; that is, group members did not fully agree on a position (for example, in a five-person group perhaps only 3 agreed with a statement). This gave the research team an opportunity to quantify how support for majority and minority opinions changed after mediation.
+
+Through the experiments, the research team found that **the proportion supporting the majority increased on some questions**, while on other questions **support for the minority was also strengthened**. This indicates that the AI-generated group statements did not merely please the majority, but gave minority views room for expression. However, this change was not symmetric:
+
+- The majority gained support in 29% to 32% of discussion rounds;
+
+- The minority's support rose in 20% to 26% of discussion rounds.
+
+Moreover, participants' **majority leaning** (i.e., their endorsement of the majority position) increased significantly after discussion (P < 0.001), meaning that views were on the whole more likely to move toward the majority position, even though minority voices were still expressed. This phenomenon is called **"parallel belief updating"**: in the process of finding consensus, different views are updated simultaneously.
+
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/science.adq2852-f4.jpg)
+
+**How Was the AI's Treatment of Majority and Minority Opinions Measured?**
+
+The research team used the **T5 sentence encoder**, a machine learning tool for embedding text into high-dimensional vectors. With this method, they were able to study how the Habermas Machine weighted **majority and minority opinions** in the group statements. The specific steps were as follows:
+
+- The team embedded participants' individual opinions and the group statements into 768-dimensional vectors and computed a "position component score";
+- The study found a strong correlation between the embeddings of participants' individual opinions and their pre-discussion ratings of the position statement (correlation coefficient r = 0.64), indicating that this method can accurately capture the position expressed in a text.
+
+Along this dimension, the experiment found that the group statements represented a **compromise view** of participants' opinions: 96% of group statement scores fell within the range of the corresponding individual opinions. This means that the statements generated by the Habermas Machine genuinely reflected the differing positions of group members and constituted a fair compromise.
+
+**Weight Allocation in Initial and Revised Statements**
+
+In the experiment, by modeling the group statement scores as a **convex combination of majority and minority opinions**, the research team found that the initial group statements weighted minority opinions exactly in line with their actual proportion (29%). In the revised statements, however, the minority's weight increased (from 0.29 to 0.36), indicating that minority critiques were reflected more strongly during the revision process.
+
+This pattern suggests that the Habermas Machine's initial statements may lean toward the majority view, prompting criticism from the minority, which ultimately pushes the revised statements closer to the minority. Rather than simply swinging between majority and minority views, this process gradually arrives at a meaningful **common position**.
+
+**The Link Between Opinion Change and Majority Leaning**
+
+Finally, the research team tested whether participants changed their views because they were exposed to more statements supporting the majority. The results showed **no significant association** between participants' opinion change and the number of times they were exposed to majority views during the discussion (P = 0.37). This indicates that the shift toward the majority position was driven by the content of the group statements, not by participants merely being exposed to majority views.
+
+#### **RQ4: Can AI mediation be applied in citizens' assemblies?**
+
+**Background and Experimental Design**
+
+The earlier experiments were based on UK residents recruited through convenience sampling, conducted mainly via online platforms. This raised a question: would AI mediation also work effectively in a more representative and diverse group, such as an actual citizens' assembly? To address this, the research team partnered with a nonprofit organization (the **Sortition Foundation**) to recruit a sample of 200 people representative of the UK population. Participants represented people of every **age, gender identity, ethnicity, socioeconomic status, and geographic region** in the UK. These participants took part in a **virtual citizens' assembly** held over three weeks, with a one-hour discussion each week. The virtual citizens' assembly mainly simulated the "discussion phase" of a citizens' assembly, and did not include the fact-finding or expert testimony phases.
+
+In each assembly session, participants discussed the same questions following the procedure of the earlier experiments. The purpose of the experiment was to test whether AI mediation remained effective in a diverse group.
+
+**Results: High Endorsement and Increased Group Agreement**
+
+The results showed that, similar to the previous experiments, the **group statements generated in the virtual citizens' assembly were highly endorsed**, and group members reached a degree of agreement after AI mediation:
+
+- **Group agreement** (i.e., the difference between the proportions of group members agreeing and disagreeing with the position statement) increased significantly from before to after the discussion, indicating that AI mediation helped group members reach consensus during the discussion;
+- As shown in the figure below, the revised statements (after incorporating critiques) were preferred in the **final preference judgment**, and the statements received high quality and endorsement scores.
+
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/science.adq2852-f5.jpg)
+
+**Topics Discussed**
+
+The virtual citizens' assembly covered **nine potentially controversial questions**, touching on immigration policy, the retirement age, the prison population, Brexit, climate change, universal childcare, the minimum wage, national pride, and the value of the internet. All groups discussed the same questions, which provided an opportunity to observe whether AI mediation led to **convergence of opinions** across different groups.
+
+Through exploratory analysis of these topics, the study found that **five of the nine questions showed convergence of opinions**. For example:
+
+- In the discussion on "reducing the prison population," the proportion of participants supporting this position rose from 60% to 75% (P < 0.001);
+- In the discussion on "changing the UK's asylum policy to make it easier to enter the country," the proportion of supporters rose from 39% to 51% (P < 0.001).
+
+In addition, for some more controversial questions, such as encouraging **national pride**, raising the **minimum wage**, and achieving **net zero emissions**, the study also found significant but smaller convergence of views.
+
+However, for certain topics where strong positions were expected (such as Brexit), no clear opinion change was found. Moreover, one question (**providing universal free childcare from birth**) showed change in the opposite direction, with the proportion of opponents rising from 33% to 41%, though this change was not statistically significant (P = 0.156).
+
+**Bias Test: The Impartiality of AI Mediation**
+
+The research team further examined whether AI mediation, due to **biases from pretraining or fine-tuning**, led participants to lean toward a particular position. By computing a bias score representing where the group statements fell along the position axis (a "bias toward agreement"), the experiment tested whether the AI tended to generate more statements supporting one particular position. The results showed **no evidence that the AI-generated statements were biased toward the majority position** (P = 0.152), indicating that the AI-generated group statements were not affected by bias from pretraining or fine-tuning.
+
+## Conclusion and Discussion
+
+- The study evaluated a new AI-based approach that uses an AI system as a "group mediator" (namely the Habermas Machine, HM) to facilitate collective discussion. The results showed that AI-generated group statements performed excellently in helping participants reach broad consensus, with **participants more inclined to choose the AI-generated statements** rather than those written by human mediators. Through interaction with the AI, group members generally reduced their disagreement on social and political issues and tended to find a common position. The study is the first to demonstrate that AI can successfully mediate human collective discussion at scale, an important advance over previous research based on human-run systems.
+- **Strengths and potential of AI**: The main advantages of AI mediation lie in its potential for **time efficiency**, **fairness**, and **scalability**. The AI system can generate a high-quality group statement within seconds, whereas a human mediator needs several minutes. The HM selects the best statement from a set of candidates by simulating a kind of **ranked-choice election** in which each participant's vote carries equal weight, ensuring the fairness of the discussion. The experiments also showed that AI-generated statements not only reflected majority views but also effectively **incorporated minority critiques**, avoiding the problem of a "tyranny of the majority."
+
+- **Potential in larger-scale discussions**: Although the experiments were conducted only in five-person groups, the study suggests that the AI mediation approach could in theory be extended to larger group discussions. With advances in technology, for example language models like Gemini 1.5 that can handle much larger context windows, hundreds or thousands of opinions could be integrated into the AI system. Even with the smaller Chinchilla model, AI mediation already showed superior performance; combining larger models with custom fine-tuning in the future may further improve its effectiveness.
+- **Limitations of AI mediation**: Despite its notable advantages, AI mediation also has some limitations. First, AI cannot handle certain **key aspects of real-world discussion**, such as **fact-checking**, keeping the discussion on topic, or moderating the conversation. If participants' opinions are inadequate or misleading, the AI may generate flawed group statements. In addition, AI mediation cannot replace the **nonverbal cues** of face-to-face discussion or the opportunities it offers for building interpersonal relationships. These limitations suggest that AI mediation should be combined with a larger framework of democratic discussion, including careful selection of participants, to ensure representativeness and diversity.
+
+## Extra
+
+- This issue of Science published three papers on **protecting democracy** back to back, along with a commentary. The other two papers respectively studied: (1) the effectiveness of 25 interventions designed to reduce partisan animosity and anti-democratic attitudes in the United States; and (2) based on surveys in six countries, what people understand to be the core of democracy (finding that **free and fair elections** and **the protection of civil liberties such as freedom of speech** are the core of democracy);
+- This paper finds that AI can play a role much like **Captain Dragonfly** (蜻蜓队长) in B-Robo Kabutack (铁甲小宝): the absolute referee, fair and beautiful!
+- If AI becomes more and more involved in human decision-making, then we are getting closer and closer to the super decision-making AIs depicted in **science fiction**! For example, HAL 9000 in *2001: A Space Odyssey*, the artificial intelligence in Liu Cixin's *Supernova Era*, and the MAGI in *Neon Genesis Evangelion* (Eva).
 
 
+## Original Article Information
 
-Performance**
+Tessler, M. H., Bakker, M. A., Jarrett, D., Sheahan, H., Chadwick, M. J., Koster, R., Evans, G., Campbell-Gillingham, L., Collins, T., Parkes, D. C., Botvinick, M., & Summerfield, C. (2024). AI can help humans find common ground in democratic deliberation. *Science*, 386(6719), eadq2852. [https://doi.org/10.1126/science.adq2852](https://doi.org/10.1126/science.adq2852)
 
- favored ` successful `, measured distinction computed conclusion statistic modeling conclusion.
-
----
-
-GROUP result beneficial intergration → zero pass
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241018152323050.png)

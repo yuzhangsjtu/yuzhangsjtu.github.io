@@ -6,142 +6,128 @@ tags: ["HIBL", "AI"]
 summary: "Struggling with literature review? AI is here to help!"
 ---
 
-> **Literature review** is time‑consuming and labor‑intensive.
+> **Sorting through the literature** is time-consuming, labor-intensive work.
 >
-> In this article I’ll share my experience using **NotebookLM** and **Scopus AI**, and show how AI can help lighten the load of the literature‑review portion of your work.
+> In this post, I will share my experience using **NotebookLM** and **Scopus AI**, and describe how AI can help us reduce the workload of the literature portion of our work.
 
 ## NotebookLM
 
-#### **The need for a knowledge base**
+#### **The Need for a Knowledge Base**
 
-Back in May I posted a tweet: “[Deploy Llama 3 locally and build a private knowledge base for Q&A](https://mp.weixin.qq.com/s/iGpRRKeX_n-uTQh3487I3A)”. That was a local **RAG** (Retrieval‑Augmented Generation) project. I hoped it could index a large local collection of papers and answer whatever questions I had, cutting down the literature‑review drudgery. The results showed that local computing power and model capability are nowhere near usable.
+In May I published a post, "[Deploying Llama3 Locally and Building a Private Knowledge Base for Q&A](https://mp.weixin.qq.com/s/iGpRRKeX_n-uTQh3487I3A)". It was a local **RAG** (Retrieval-Augmented Generation) project: I hoped it could index the large collection of papers on my machine and answer the questions I wanted answered, easing the pressure of literature review. The results of that experiment showed that local computing power and model capability fall far short of a usable standard.
 
-The **local knowledge base** was meant to cover these scenarios:
+The **local knowledge base** was meant to handle the following scenarios:
 
-- **Entering a new topic**: when you already have 40–60 locally stored papers on one subject and are stepping into a new topic, you need a quick picture of the research landscape (before any deep, back‑and‑forth engagement with the literature);
-- **Sensitive files**: for documents you might not feel comfortable uploading.
+- **Entering a new topic**: there are 40-60 papers on the same subject stored locally, and when stepping into a new topic you need to quickly grasp the contours of the current research (not yet at the stage of deep dialogue with the literature);
+- **Private files**: for certain private files, you may not feel comfortable uploading them.
 
-The knowledge base I built locally simply could not meet those requirements. It had many limitations:
+The knowledge base I built locally could not meet the requirements above; it has many limitations:
 
-- **Model capability**: the Llama 3 8B version is still at the toy‑model level, and its indexing quality is quite poor;
-- **Local computing power**: when building the knowledge base you need to chunk the documents (usually PDFs) and perform **document embedding**, a step that itself relies on purpose‑built models. Doing this with local hardware is slow, labor‑intensive, and the results are middling.
+- **Model capability**: the Llama3 8B version is still at the toy-model level, and its indexing quality is rather poor;
+- **Local computing power**: building the knowledge base requires chunking the documents (usually in PDF format) and running **document vectorization (Embedding)** on them, a process that itself relies on the relevant models; doing this with local computing power is slow and laborious, and the results are mediocre.
 
-The bottom line: after all that tinkering, the indexing was terrible even for content I knew was in the local knowledge base—it kept leaving things out. So this kind of work either requires putting real money on the table or using a product from a big tech company. Google’s NotebookLM is an excellent tool that solves the bulk‑indexing problem really well.
+The upshot of the experiments above: after all that fiddling, even for content that was unmistakably in the local knowledge base, the model's indexing performance was very poor, and it frequently missed things. So this kind of work either calls for the superpower of cash, or it needs a product developed by a major company. Google's NotebookLM is a very good product that nicely solves the problem of indexing literature in bulk.
 
 #### **Introducing NotebookLM**
 
-For this part, I’ll let the state‑of‑the‑art Gemini 2.0 Flash answer directly:
+For this part, I will simply let the latest Gemini 2.0 Flash answer:
 
-> **Google NotebookLM: an AI research and notes assistant**
+> **Google NotebookLM: Your AI Research and Note-Taking Assistant**
 >
-> NotebookLM is a powerful, AI‑driven note‑taking and research tool from Google designed to help you process, understand and make use of large amounts of information. By combining the capabilities of a large language model (LLM) it turns your notes and documents into an interactive learning and research environment.
+> NotebookLM is a powerful AI-driven note-taking and research tool from Google, designed to help users process, understand, and make use of large amounts of information more effectively. By combining the power of large language models (LLMs), it turns your notes and documents into an interactive learning and research environment.
 >
 > **Core features and characteristics:**
 >
-> - **Document understanding and summarization:** you can upload all sorts of documents (e.g., PDFs, plain text). NotebookLM automatically extracts key information and generates clear, concise summaries, letting you quickly grasp the essentials and saving substantial reading time.
-> - **Intelligent Q&A:** based on the documents and notes you provide, NotebookLM answers your questions. It’s like talking with a knowledgeable assistant — you get the information you need right away.
-> - **Automatic question generation:** beyond answering questions, NotebookLM generates a series of questions from your notes, guiding you toward deeper thought and understanding. This encourages more effective learning and research.
-> - **Building a knowledge network:** NotebookLM links multiple notes, files and materials together into an interconnected knowledge network. This helps you visualize the relationships between different pieces of information, gets your mental house in order and makes organizing complex topics that much easier — especially useful for researchers and students who have to synthesize multidisciplinary knowledge.
-> - **AI‑generated podcasts:** recently, NotebookLM added a fascinating feature that digests your uploaded documents, links and text-information sources — then generates a conversational podcast that brings your content to life in a more vivid, engaging way.
-> - **Powered by Gemini Pro:** NotebookLM now uses the more formidable Gemini Pro model, bringing stronger understanding and reasoning capabilities, and making information‑processing and knowledge‑extraction both more accurate and more efficient.
+> - **Document understanding and summarization:** you can upload all kinds of documents (such as PDFs and text files), and NotebookLM automatically extracts the key information and generates clear, concise summaries, helping you quickly grasp the core content and saving a great deal of reading time.
+> - **Intelligent Q&A:** based on the documents and notes you provide, NotebookLM can answer your questions. This means you can get the information you need quickly, as if conversing with a knowledgeable assistant.
+> - **Automatic question generation:** NotebookLM not only answers questions but can also automatically generate a series of questions from the content of your notes, guiding you to think and understand more deeply and promoting more effective learning and research.
+> - **Knowledge network building:** NotebookLM can connect multiple notes, files, and materials into an interconnected knowledge network. This helps you see the links between different pieces of information more clearly and organize and understand complex knowledge better, which is especially useful for researchers and students who need to integrate knowledge from many areas.
+> - **AI podcast generation:** NotebookLM recently added a very fun new feature: it can understand the documents, links, and text you upload and generate a conversational podcast, presenting the information in a livelier, more engaging way.
+> - **Powered by Gemini Pro:** NotebookLM has adopted the more powerful Gemini Pro model, bringing stronger understanding and reasoning capabilities and making information processing and knowledge extraction more accurate and efficient.
 >
-> **Who is it for?**
+> **Who it is for:**
 >
-> - **Students:** study and review course material, prepare for exams and papers more effectively.
-> - **Researchers:** analyze and synthesize large amounts of research material quickly; raise their research efficiency.
-> - **Professionals:** get up to speed on industry information and make wiser decisions faster.
-> - **Anyone dealing with a lot of information:** whether triaging meeting notes, analyzing market reports or learning something new, NotebookLM provides robust support.
+> - **Students:** helps students learn and review course materials more effectively and prepare for exams and papers.
+> - **Researchers:** helps researchers quickly analyze and integrate large amounts of research material, improving research efficiency.
+> - **Professionals:** helps professionals get on top of industry information quickly and make better-informed decisions.
+> - **Anyone who needs to process and understand large amounts of information:** whether you are organizing meeting notes, analyzing market reports, or learning something new, NotebookLM offers powerful support.
 >
 > **How to use it:**
 >
-> At present you can use NotebookLM by signing in with a Google account (https://notebooklm.google.com/). Some enterprise Google Workspace users, as well as Google Workspace for Education users, also have access. If you’re on a company or university account and can’t get in, contact your administrator.
+> NotebookLM can currently be used by signing in with a Google account (https://notebooklm.google.com/). Some enterprise Google Workspace users and Google Workspace for Education users can use it as well. If you are using a company or school email address and cannot get access, you may need to contact your administrator to enable it.
 >
-> **In sum:**
+> **In summary:**
 >
-> NotebookLM is a powerful tool incorporating cutting‑edge AI. By managing, understanding and leveraging information in a smarter way it dramatically increases learning and research efficiency. If you routinely process large amounts of material, NotebookLM is more than worth a try.
+> NotebookLM is a powerful tool that integrates advanced AI technology. By helping users manage, understand, and make use of information in an intelligent way, it greatly improves the efficiency of learning and research. If you often need to process large amounts of information, NotebookLM is absolutely worth a try.
 
-NotebookLM has undergone several major version updates. In the newest version, the underlying model changed from Gemini 1.5 Pro to Gemini 2.0 Flash, Google’s strongest model so far.
+NotebookLM has gone through several major version updates. In the latest version, its base model was switched from Gemini 1.5 Pro to Gemini 2.0 Flash, the strongest model Google has released to date.
 
-Most importantly, there is currently a **free tier** of NotebookLM!
+Most importantly, NotebookLM currently has a **free version** available!
 
-Let’s fire it up and see how it works in practice.
+Now, let's try it out together and see how it performs.
 
-#### **A worked example using NotebookLM**
+#### **A NotebookLM Use Case**
 
-1️⃣ Log in at [https://notebooklm.google.com/](https://notebooklm.google.com/).
+1️⃣ Log in to NotebookLM; the website is [https://notebooklm.google.com/](https://notebooklm.google.com/);
 
-2️⃣ Once logged in you can create new projects. As the image shows, I already have several projects:
+2️⃣ After logging in successfully, you can create a new project. As shown in the image, I have already created several projects: ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216142511498.png)
 
-![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216142511498.png)
-
-3️⃣ Here I’ve created a new project and uploaded several of Acemoglu’s papers on the relationship between institutions and long‑run economic growth:
+3️⃣ Here, I created a new project and imported several of Acemoglu's papers on the relationship between institutions and long-run economic growth:
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216143324099.png)
 
-The project page is divided into three zones: on the left is the uploaded **document library**, the upper‑right is the **notes** area and the lower‑right is the main interaction area, which contains pre‑built notes, suggested questions, a dialog box and the podcast‑audio‑generation region. Let’s walk through each:
+The project page is divided into three parts: on the left is the **document sources area** for uploads, the upper right is the **notes area**, and the lower right is the main interaction area, which contains preset notes, suggested questions, a chat box, and the podcast audio generation section. Let's look at each part in turn:
 
-- **Document library**: for this demo I uploaded 14 papers, all in PDF. Shortly after the upload, NotebookLM had finished parsing them — incalculably faster than the local RAG. Clicking any document reveals that it converts the PDF to plain text; for instance, the conversion of AJR (2001) looks like this:  
-  ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216143915074.png)
+- **Document sources area**: in this demo I uploaded 14 papers, all in PDF format. NotebookLM finished parsing them shortly after upload, at a speed leagues beyond my local RAG. Clicking on a document reveals that it has converted the PDF into plain text; for example, the conversion result for AJR (2001) looks like this: ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216143915074.png)
 
-- **Notes area**: below the notes panel, the interaction area typically offers several pre‑suggested questions — a research summary, timeline, FAQ, etc. Here I clicked **Briefing Doc** and checked the results. As you can see, it segments and summarizes the PDF content;
+- **Notes area**: the interaction area below the notes area usually offers some preset questions, such as a summary of the research, a timeline, an FAQ, and so on. Here, I clicked **Briefing Doc** to see the result. As you can see, it performed a simple segmentation and explanation of the content of the PDF documents; ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216144829867.png)
 
-  ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216144829867.png)
+- **Interaction area**: now, let's try a simple question. Even when the question is asked in Chinese, it understands it correctly. ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216145155390.png)
 
-- **Interaction area**: now let’s ask a simple question. NotebookLM grasps the query perfectly even when it’s in Chinese：
+  If the preferred language of your Google account is Chinese, then in the latest version of NotebookLM it can answer in Chinese, as follows: ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216145542896.png)
 
-  ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216145155390.png)
+  You can click on the images to get a feel for the answer quality, which is leagues beyond the local model. Moreover, for viewpoint-type answers, it provides clear citation markers that you can click to inspect.
 
-  If Chinese is marked as your preferred language in your Google account, the newest NotebookLM can also respond in Chinese, like this:
+- **Literature review demo**: now, I asked it to write a short review for me, to see how it does: ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216150042374.png)
 
-  ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216145542896.png)
+  NotebookLM answered my question and provided citations. Since the knowledge base I built contains only a dozen or so papers, the citations here are relatively few. Some users have found in their tests that nearly a hundred papers can be uploaded to a single NotebookLM project. If your literature library is of high quality, the quality of the answers here will be higher too.
 
-  Click to enlarge and take in the response quality — loads better than the local model. For opinion‑oriented answers, you also get proper, click‑to‑view in‑text citations provided.
-
-- **Literature‑review demo**: now let’s ask it to draft a mini‑review and assess the output:
-
-  ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216150042374.png)
-
-  NotebookLM answered the broader question, references included. The limited citations here are due to my repository containing only a dozen‑odd papers. Some users report adding close to 100 papers to a single NotebookLM project. If the paper‑library quality is high, the response quality ends up higher here too.
-
-- **Podcast audio**: inside the “Notebook guide” panel you can have NotebookLM generate a two‑person conversational podcast — a dialog that unveils the content of your document library step by step. Give it a listen:
-
-  ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216150709712.png)
+- **Podcast audio**: in the "Notebook guide" section, you can have NotebookLM generate a two-person conversational podcast that presents the contents of your literature library step by step, in dialogue form. Let's have a listen: ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216150709712.png)
 
   [https://notebooklm.google.com/notebook/ec155384-6270-4568-a3fe-862a1c7b1a66/audio](https://notebooklm.google.com/notebook/ec155384-6270-4568-a3fe-862a1c7b1a66/audio)
 
-  One word: breathtaking. Natural‑sounding speakers, questions that don’t stay at the surface and deep answers. You could even use it as listening material (at present it’s English‑only). You have to try it yourselves! (And brace yourselves for the American‑English parade of “**exactly**!”)
+  In a word: amazing! The voices sound natural, the questions do not stay on the surface, and the answers have depth. It could even serve as listening practice material (currently English only). You really must try it yourself! (Get a taste of the American-English **exactly** barrage!)
 
 #### **NotebookLM Plus**
 
-In the latest update (December 2024), Google introduced NotebookLM Plus, suitable for teams. Plus substantially raises the per‑project file limit, extends the context‑handling capacity and supports customizable response styles. Should this match your needs and should you happen to be flush with budget, reach out to sales and give the subscription model a trial.
+In a recent update (December 2024), Google introduced NotebookLM Plus, which can be used by teams. It greatly increases the capacity of a single project, extends the context length, and lets you customize the response style. If you have such needs and happen to be well funded, consider contacting sales to subscribe and give it a try.
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216151627600.png)
 
-## Citation search for viewpoint‑based literature discovery — **Scopus AI**
+## Viewpoint-Discovery Citation Search: **Scopus AI**
 
-When we write, we often need to map the perspectives various scholars hold on the same research question. In addition to in‑depth reading, we can turn to an AI engine for a quick preliminary overview. Here I’d recommend **Scopus AI**, built by Elsevier and available at [https://www.sciencedirect.com/ai](https://www.sciencedirect.com/ai) (authentication may be required).
+In writing, we often need to understand the views that different scholars hold on the same research question. Beyond in-depth reading, we can use an AI engine to get a quick first overview. Here I would like to recommend **Scopus AI**, built by Elsevier, which I have been using recently: [https://www.sciencedirect.com/ai](https://www.sciencedirect.com/ai) (access authentication may be required).
 
-Here’s an example search: *How do housing prices affect fertility rates?*
+Let's take *How do housing prices affect fertility rates?* as an example question:
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216153727367.png)
 
-⬆️ The AI delivered a rapid answer. As you can see, it first keys in on the **negative** relationship between housing prices and fertility, then unpacks the heterogeneities and channels through which housing prices influence fertility.
+⬆️ The AI quickly produced an answer. As you can see, it first addresses the **negative correlation** between housing prices and fertility rates, and in the replies that follow it lays out the heterogeneity of, and the channels through which, housing prices affect fertility.
 
-**Scopus AI** addresses two major pain points with large‑language‑model‑generated literature recommendation or review drafting:
+**Scopus AI** solves two major pain points of having large models recommend literature or draft reviews:
 
-- **Precise citations**: a general‑purpose large language model commonly hallucinates references when drafting a review. Scopus AI bases its answers on real, large‑scale publication data and always connects each statement to a citation. For example, clicking on (Du, Hui & Chen, 2024) pops up the original source information, allowing one‑click access to the full record：  
-  ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216154347363.png)
-- **Viewpoint‑supporting literature search**: when you’re crafting a review and want to quickly locate studies that support a specific view — say, “*rising house prices lower fertility*” — the AI‑engineered citations empower you to find supporting literature in a flash.
+- **Accurate citation retrieval**: general-purpose large language models often fabricate references when drafting reviews, whereas Scopus AI's answers are based on a large body of real literature and can provide citation sources. For example, clicking on (Du, Hui & Chen, 2024) below pops up the information for the original article, with one-click access to it: ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241216154347363.png)
+- **Viewpoint-supporting literature search**: if, when drafting a review, you need to find literature that explicitly supports a particular view, such as "*rising housing prices reduce fertility rates*", AI citations can quickly locate the supporting literature.
 
-Scopus AI indexes not only Elsevier content but also papers from other publishing platforms.
+Scopus AI covers not only Elsevier's literature; literature from other publishing platforms is included as well.
 
-Similar platforms exist but, after trying them out, I found the experience either subpar, made difficult by access restrictions, or bound to “wallet power”. Hence Scopus AI gets my stage‑winner’s pick at this point.
+There are a few other platforms similar to Scopus AI, but after trying them out I found that they either offer a poor experience, require permissions I do not have, or demand the superpower of cash. So at this stage I would recommend Scopus AI.
 
-## Extra bullets
+## Extras
 
-- The previous month was spent rushing a paper to submission, which put a pause on blog updates. I’ll resume regular posting going forward.
-- Domestic tech giants are also building NotebookLM‑like products, but my early trials left me unimpressed.
-- ChatGPT’s **Projects** feature also supports index‑based responses across multiple documents, much like NotebookLM, but usability suffers: a ‘dumbing‑down’ problem cripples 4o responses and response quality sank noticeably; individual projects are capped at 20 documents, which is tiny.
-- Big tech firms and startups are actively developing “AI researcher” services that autonomously collect literature, design and run experiments, draft papers and submit them. The automation of knowledge production is well on its way.
-- Recently I opened my wallet and signed up to a month of **ChatGPT Pro** to try the **o1 Pro** model. Power‑level? Overwhelmingly high. Worth a test in any lab underwriting the bill. A month clinks far more softly than funding even like 0.1 RA long‑term!
-- Feel free to share your AI‑in‑scientific‑research tips with me. Thanks!
+- Over the past month I was rushing to finish a paper, so updates were paused for a while; going forward I will try to get back to a regular schedule.
+- Major tech companies in China are also building NotebookLM-like products, but in my trials the results were mediocre.
+- ChatGPT's **Projects** feature is similar to NotebookLM in that both support indexed answers over multiple documents, but when I tried it the results were mediocre: first, because of the GPT-4o "dumbing-down" problem, the answer quality is rather poor; second, a single Project currently supports at most 20 documents, which is far too few.
+- Some big companies and startups are now running projects on AI-automated end-to-end research, in which the AI collects literature on its own, runs experiments, writes papers, and submits them; the automation of knowledge production is on its way.
+- I recently gritted my teeth and signed up for a month of **ChatGPT Pro**, which gives access to the **o1 Pro** model. It is extremely powerful! If your research group has ample funding, give it a try. It costs less than hiring an RA.
+- If you have experience with AI in research, you are welcome to share it with me. Thanks!

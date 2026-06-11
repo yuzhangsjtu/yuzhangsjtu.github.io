@@ -1,5 +1,5 @@
 ---
-title: "MATLAB Study Notes (2) — Writing Scripts and M‑files"
+title: "MATLAB Study Notes (2): Writing Scripts and M-files"
 date: 2020-07-28T22:00:00+08:00
 category: { name: "Tech", slug: tech }
 tags: ["MATLAB", "MRIO"]
@@ -18,27 +18,27 @@ for i=1:10
 end
 ```
 
-Run, the shortcut is F5.
+Run; the shortcut is F5.
 
-Make good use of the insert and find functions above!
+Make good use of the insert and find functions at the top!
 
-Ctrl+R comments; Ctrl+T uncomments.  **The percent sign % is the comment symbol!**
+Ctrl+R comments; Ctrl+T uncomments. **The percent sign % is the comment symbol!**
 
-%%, text between two pairs of percent signs becomes a “section”—you can run a section independently, which is great for debugging! However, the “Run” button still executes the entire script.
+%%: text between two pairs of percent signs forms a "section", which can be run independently, handy for debugging! But the "Run" button still executes the entire script.
 
 ![](https://i.loli.net/2020/07/28/5JlvPKcgIroH1XD.png)
 
 ![](https://i.loli.net/2020/07/28/8scpXx6iB5kVKNz.png)
 
-When entering debug mode, the run button changes to “Continue,” and hovering over a breakpoint will display its content!
+When entering debug mode, the run button changes to "Continue", and hovering over a breakpoint will display its content!
 
-Ctrl+I smart indents!
+Ctrl+I: smart indent!
 
-#### 1.2 Structured Programming
+#### 1.2 Structured programming
 
 ![](https://i.loli.net/2020/07/28/tfg1Eh7nibNaD69.png)
 
-Logical Operators: Relational (logical) operators
+Logical operators: Relational (logical) operators
 
 ![](https://i.loli.net/2020/07/28/Yv6sG7PyhkFlTiO.png)
 
@@ -58,7 +58,7 @@ rem(a, 2) gives the remainder of a divided by 2 (rem = remainder); odd means an 
 ##### 1.2.2 switch
 
 ```python
-switch input_num  % e.g. 5
+switch input_num %for example, 5
 case -1
 	disp('negative 1');
 case 0
@@ -82,12 +82,12 @@ n = 1;
 	n = n + 1;
 end
 
-n  % Outputs the final n; otherwise nothing would be output.
+n %outputs the final n; otherwise nothing is output
 ```
 
-prod is the product function, here calculating the factorial of n.
+prod is the product function; this example computes the factorial of n.
 
-1e100 stands for 1×10^100; in this example n+1 = 70.
+1e100 stands for 1*10 to the power of 100; in this example n+1 = 70.
 
 Exercise: Compute 1+2+3+...+999
 
@@ -101,7 +101,7 @@ end
 disp(s)
 ```
 
-Can also be written like this:
+It can also be written like this:
 
 ```
 a = [1:999]
@@ -117,7 +117,7 @@ end
 disp(a)
 ```
 
-Outputting terms of odd exponent:
+Outputting odd powers:
 
 ```
 for n=1:2:10
@@ -141,7 +141,7 @@ while error > error_threshold
 end
 ```
 
-#### 1.3 Pre-allocating Memory and Timing
+#### 1.3 Pre-allocating memory and computation time
 
 ```
 %%
@@ -170,16 +170,16 @@ Elapsed time is 0.026128 seconds.
 
 
 
-close all — close all figures
+close all: close all figures
 
-Ctrl+C — terminate command
+Ctrl+C: stop the command
 
-`...` — line continuation
+...: line continuation
 
 ```
 A = [1 2 3; ...
 4 5 6]
-is the same as ↓ (new versions can break the line directly)
+Same as ↓ (newer versions can break the line directly)
 A = [1 2 3; 4 5 6]
 ```
 
@@ -189,7 +189,7 @@ A = [1 2 3; 4 5 6]
 edit(which('mean.m'))
 ```
 
-Open the implementation of `mean`:
+Bring up the implementation of mean:
 
 ```python
 function y = mean(x,dim,flag,flag2)
@@ -467,9 +467,9 @@ end
 
 
 
-#### 2.1 User-Defined Functions
+#### 2.1 User-defined functions
 
-For instance, to create a function for free-fall motion calculations:
+For example, creating the calculation formula for free-fall motion:
 
 ```
 function x = freebody(x0,v0,t)
@@ -478,12 +478,12 @@ function x = freebody(x0,v0,t)
 % v0: initial velocity in m/sec
 % t: the elapsed time in sec
 % x: the depth of falling in m
-x = x0 + v0.*t + 1/2*9.8*t.*t;   % Element-wise multiplication is used here, allowing batch operation on multiple data points (applies to vectors as well)
+x = x0 + v0.*t + 1/2*9.8*t.*t;   %element-wise multiplication is chosen here, so multiple sets of data can be computed together (the same applies to vectors)
 ```
 
 The file must be saved with the same name as the function!
 
-The function name will then appear at the bottom left!
+The function name will then appear in the bottom-left corner!
 
 #### 2.2 Functions with Multiple Inputs and Outputs
 
@@ -509,7 +509,7 @@ volume=abs(Do.^2-Di.^2).*height*pi/4;
 
 #### 2.4 Function Handles
 
-A function handle?
+Function pointers?
 
 ```
 f = @(x) exp(-2*x);

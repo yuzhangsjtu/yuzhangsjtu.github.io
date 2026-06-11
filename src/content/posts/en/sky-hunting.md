@@ -2,8 +2,8 @@
 title: "Sky Hunting"
 date: 2020-05-15T21:00:00+08:00
 category: { name: "Essay", slug: essay }
-tags: ["sky", "rainbow", "photos"]
-summary: "Beautiful skies captured in photos."
+tags: ["Sky", "Rainbow", "Photos"]
+summary: "Beautiful skies."
 ---
 
 ![33ab3c7e50bd102cc6b9ba1d145c9aa](https://i.loli.net/2020/05/15/GjXMBVREFvwOt5P.jpg)

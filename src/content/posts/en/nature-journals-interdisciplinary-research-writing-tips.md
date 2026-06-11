@@ -1,146 +1,149 @@
 ---
-title: "Overview of Interdisciplinary Research in Nature and Its Sub-Journals and Writing Tips for High-Quality Journals"
+title: "An Overview of Interdisciplinary Research in Nature and Its Sister Journals, Plus Writing and Publishing Tips for Top-Tier Journals"
 date: 2020-09-15T17:30:00+08:00
 category: { name: "Research Notes", slug: research }
 tags: ["Nature"]
-summary: "This talk provides an overview of interdisciplinary research published in Nature and its sub-journals, along with practical tips for writing and submitting to these high-quality journals."
+summary: "I will definitely get a Nature paper."
 ---
 
-An overview of interdisciplinary research at *Nature* and its sister journals, plus high‑impact writing and publishing techniques  
+An Overview of Interdisciplinary Research in Nature and Its Sister Journals, Plus Writing and Publishing Tips for Top-Tier Journals
 
 
 
-Speaker  
+Speaker information
 
-Name: Yang Xia  
-Email: Yang.Xia@nature.com  
+Name: Yang Xia
+
+Email: Yang.Xia@nature.com
 
 
 
 ![](https://i.loli.net/2020/09/15/wGheKvI7rcNz2Of.png)
 
-### 1. Introducing *Nature*
+### 1. Introducing Nature
 
-High‑quality manuscript selection  
+High-quality manuscript selection
 
-Full‑time editorial board  
+A full-time editorial board
 
-Complete editorial independence  
+Fully independent editors
 
-Uniform processes  
+Process consistency
 
 
 
-*Nature* – weekly: 800+  
+Nature - weekly 800+
 
-*Nature*‑branded research journals – monthly: 130+  
+Nature - branded research journals Monthly 130+
 
-*Nature Communications* – daily: 5000+  
+Nature communications - daily 5000+
 
 ![](https://i.loli.net/2020/09/15/ymVNGRTHn8ekKSi.png)
 
 ![](https://i.loli.net/2020/09/15/2rhAl8skHavzDuT.png)
 
-Structure of the flagship journal:  
+Structure of the flagship journal:
 
 ![](https://i.loli.net/2020/09/15/BlRS9i8Q1aP2FhX.png)
 
-### 2. Review workflow  
+### 2. Review process
 
-All sister journals follow the identical review workflow.  
+All sister journals follow the same review process.
 
-#### 2.1 Before submission  
+#### 2.1 Before submission
 
-Check the journal's scope.  
+Check the scope.
 
-Prepare your cover letter.  
+Prepare a cover letter.
 
 ![](https://i.loli.net/2020/09/15/JEd1tuaUj8yx4Mz.png)
 
-The cover letter is the first document editors read – it is critically important!  
+The cover letter is the first thing the editor reads - it is extremely important!
 
-- What is the key advance? e.g., extending the scale, refining precision  
-- What can be learned from this advance?  
-- Why is this advance significant? This needs thorough discussion, such as policy implications or disciplinary progress  
+- What is the main advance, such as an extension of scale or a deepening of precision;
+
+- What can be gained from this advance
+- Why this advance is important and needs to be discussed in depth, such as policy implications or disciplinary progress
 
 ![](https://i.loli.net/2020/09/15/fDlZzNUJV7meij5.png)
 
 ![](https://i.loli.net/2020/09/15/c7vjVnbNsJlhfi9.png)
 
-#### 2.2 Editorial‑office workflow  
+#### 2.2 Editorial office process
 
 ![](https://i.loli.net/2020/09/15/PjVeH1iGYAIKysN.png)
 
-**Novelty** – decides whether the manuscript goes out for review: advances, practical implications, significance  
+Novelty - determines whether to send the manuscript out for review: the advance, the impact, and the significance.
 
-**Major revision:** The editor regards the paper’s importance positively but has reservations about the methodology or data; 3–6 months.  
+Major revision: a positive view of the paper's importance, but with concerns about the methods, data, etc.; 3-6 months;
 
-**Minor revision:** Additional discussion required etc.  
+Minor revision: adding more discussion, etc.
 
-**Reject:** Fundamental methodological errors.  
+Reject: major methodological errors.
 
-The editor consolidates the revision requirements based on the reviewers’ comments.  
+The editor consolidates the revisions to be made based on the reviewers' comments.
 
-During the process reviewers may be replaced, and the editor may consult other reviewers’ comments.  
+Reviewers may be replaced midway, and other reviewers' comments may also be consulted.
 
-*Nature:* Decision on whether to send for review within two weeks! For *Nature Communications*, it is one week.  
+Nature: a decision on whether to send out for review within two weeks! For NC it is one week.
 
 ![](https://i.loli.net/2020/09/15/BOoEiT5RV7PYy2b.png)
 
-Rate of papers sent out for review:  
+Send-out-for-review rate:
 
 ![](https://i.loli.net/2020/09/15/w18h7OXGBCeiH36.png)
 
-Two to four reviewers are selected according to the breadth of the study; the journal maintains a reviewer database.  
+Based on the scope of the research, 2-4 reviewers are selected; there is a reviewer database.
 
-Once the reviewers’ reports are received, the editor makes a qualitative decision, rather than simply counting how many reviewers are positive or negative.  
+After receiving the review comments, the editor makes a qualitative decision rather than basing it on the number of reviewers who are supportive.
 
-Handling reviewers’ comments:  
+Handling reviewers' comments:
 
 ![](https://i.loli.net/2020/09/15/9yZ3tQUMqVpIcje.png)
 
-- Provide clearly and explicitly stated point‑by‑point responses.  
-- Using a tabulated reply is highly advisable; one column for each reviewer's individual comment.  
+- Give clear and explicit point-by-point responses.
+
+- Make good use of a table format when responding; in the first column, break down the reviewers' comments.
 
   
 
 ![](https://i.loli.net/2020/09/15/ZpM7RNAwJrqcFTV.png)
 
-#### 2.3 Post‑decision  
+#### 2.3 After the decision
 
 ![](https://i.loli.net/2020/09/15/eK2PFZAESWnX4Qr.png)
 
-**Transfers:** The editor can see ALL information from the previous round of consideration!  
+When transferring, the editor can see all the information from the previous round!
 
-Authors can also lodge an **Appeal**:  
+You can also rebut: **Appeals**
 
 ![](https://i.loli.net/2020/09/15/jP9sOzCVmcXpb1Z.png)
 
-If lodging an appeal, a revised version of the manuscript must also be submitted!  
+After an appeal, you need to submit a revised version!
 
-Revised cover letter – restate the paper’s importance and its contribution!  
+A revised cover letter. Reiterate the importance and contribution of the paper!
 
-### 3. Internal structure of *Nature Communications*  
+### 3. The internal structure of NC
 
 ![](https://i.loli.net/2020/09/15/KGDHz84nJRwSPva.png)
 
 ![](https://i.loli.net/2020/09/15/yeJQPOWliaMF4LI.png)
 
-**Collections:** Papers are published first and later assembled into a collection. Special issues (SIs) normally have a deadline, but collections do not!  
+collections: published first, then assembled into a collection; SI has a deadline, but collections do not!
 
-**Transparent peer review:** The reviewers’ reports and the authors’ responses are published alongside the article.  
+transparent peer review: the article is published together with the review comments and the authors' responses.
 
 ![](https://i.loli.net/2020/09/15/6h3CY4j5r8emANO.png)
 
-In the word limit for “article” manuscripts, the Methods section typically is **not** included.  
+The word count for an article does not include the methods.
 
-**Comments** are generally invited by the editors (≈85% of them). They are highly topical; incisive, even critical, commentaries are also welcomed.  
+A comment is generally invited by the editor, accounting for 85%; it is highly topical, and incisive, critical commentary is also welcome.
 
-**Perspective:** A narrow‑focus review, typically dealing with model validation or a focused mode of innovation whose scope is much narrower. Usually a synopsis or proposal must be sent to the editor first.  
+perspective: a narrow-focus review, validating and innovating on a model within a small scope. Generally you need to send a proposal to the editor first.
 
-**Review:** A broader overview of research direction, *not* a systematic meta‑analysis.  
+review: a grasp of the big-picture direction, rather than a meta analysis.
 
-### 4. The internal structure of *Nature* and the preferences of *Nature Communications*  
+### 4. The internal structure of Nature and the preferences of NC
 
 ![](https://i.loli.net/2020/09/15/b4zUuDjtxs2Pdvk.png)
 
@@ -148,92 +151,111 @@ In the word limit for “article” manuscripts, the Methods section typically i
 
 ![](https://i.loli.net/2020/09/15/tAqSXknWvFDMGri.png)
 
-The flagship *Nature* discipline group wishes: the manuscript’s results strike experts in another *adjacent* discipline who are not native inhabitants of the research field with shock on first impression; the ability out of the domain‑delimits—impact authority and sheer impression-making highlight necessity for boundary‑clearly study span - compelled full‑original assembled particular dataset for the findings; demonstrate entirely unsampled far reaches that, furthermore fully validate analysis types “across” sometimes “none prior whatsoever policy” nexus   tackling top‑toes utility frontier!
+The flagship journal: it does not want to accept manuscripts whose results are within expectations or similar to existing research; it wants work that can generate a large impact, with multidisciplinary cross-cutting influence; relatively hard-to-reach regions, such as West Africa, food safety, water-use problems, and so on, regions where inequality is prominent; complete data;
 
-*Editorials* illuminate targeted journal content developmental spotlights!
+The flagship journal is gradually showing an interest in economics!
 
-Typical features of *Nature Communications* articles:
+editorial: shows the fields the journal expects to promote.
 
-- Transdisciplinary mixture (nexus)  
-- Stimulated delivery shaped all themes globally positioned development centreed stably pinned transitions requiring policy‑scenario end outcomes -  
-- Classical dual–paired bespoke evaluative evidential local echelon juxtapose thematic sing concrete precise delineations (consummation ratio comparative futures akin contrasting land paradigms)  
+Features of NC articles:
 
-Fault‑avoid anchor: clearly point eximiously avoid overinflating demonstrated consequences without adherence tone respecting caveats equally concerning reality - assure final articulation stead steady prudently structured genuinely possible–maximum feasibility mapped exactly evidence ready.  
+- Interdisciplinary
+- Sustainable-development oriented
+- Methodological
+- Policy relevance (ecological hot-spot policy, policy scenario comparison (scenarios must be based on reality), benchmark)
+- Nature also pays attention to small-scale research (such as household water use and temperature in Singapore)
+- Precise findings at the urban scale (climate analogues, such as Beijing in 2100 being like Guangzhou)
+- Solution-oriented, generally at the global scale, with a comprehensive and complete analysis of feasibility
 
-*Nature* discourse revolving hub abetting strongly emblem focalised vectors:  
+Note: conclusions must not over-sell.
+
+The issues Nature pays attention to:
 
 ![](https://i.loli.net/2020/09/15/MlVzxG35DHQimKN.png)
 
 
 
-**food–energy–water nexus**  
+**food-energy-water nexus**
 
-Hyper notable! Tremendously cardinal!
+Very important!
 
-If artificial‑intelligence focal claims feature recurrent pronounced need for the underlaid inherent self‑separably performancial leverage character capability exculpating marginal prefiguring incremental leap per essent propri logical boost. Without specific **exensional cap spatial nonstandard domain** improvements the contribution structurally risks refutable circular assertion.
+If AI is used, you must highlight the unique advantage of AI; otherwise it is not an advance.
 
-### 5. *Nature* platforms and extra intellectual resources footprint aperture asset network  
+### 5. Nature's platforms and resources
 
-Behavioural and Social Sciences community piece subserve connect press core integration scene feeds—‘Behind the Paper’; editor incidental reflection horizon narrative ‘On the Road’ front vantage sensory discoveries broadcasting communal.
+Behavioral and social sciences community: behind the paper; on the road (editors' observations, recent hot topics in the field).
 
-Sustainability themed convergent tool aggreg collection pointer magnitude provisioning dissemination community grouping integrative engagement anchoring element interface cross.
+Sustainability community: sustainability community.
 
-Ecology based pattern resources hub.
+Ecology community.
 
-Press materials outlet/extension making bigger touch points main press bridge apex sign on impact soaring con broaden broadening notable horizon dynamic readable!  
+press release: a channel for expanding the influence of a paper, connecting with mainstream media to broaden coverage; a press release with strong news value!
 
-It is exquisitely judicious approach minimification refined editorial criterion graphical elegance few carefully stringent charts high visual journal tier icon underst precariously selected p quantitative pivotal information format.
+![](https://i.loli.net/2020/09/15/zOT2cH4oa6x3DYr.png)
 
-Before tuss sub self direct work check editorial proposal steering nudge align consult service within prime discipline cluster institutional knowledge pick sensible tip acceptance positive edge uptake maximize postural refine nexus.
+The flagship journal has relatively few figures and tables, and it has a dedicated pre-submission inquiry.
 
-Etherial vibrant connectivity pathway space holding independently large comprehensive internal consult prior box interactive substantial predeliber consultation; explicitly premium offering brand enabled power elevation suited subtle presub investig workflow channel propri podium apparatuses calibr.  
+### 6. F&Q
 
-**Peer intricate standalone graphic abstractual sum communication int proposal.**! strict fewer charter directly editor skylight board gate forum prior measure re for gate integrate pathway accessible short tailor reach interact vector potential tangible respond brief interaction inside directly branded flagship platform.  
+![](https://i.loli.net/2020/09/15/62fYDdelpEJs1ZG.png)
 
-Supplementary inform res reutilizable supplementary exclusive de deline fine directly trace cascade back eventual higher flag nuanced ensemble  comprehensive external initial.  
+A1:
 
-Method accessible enhanced specifically arch digitally bridge incorporate facilitate replic material completeness critical dimension! Open methodological expos completeness cross modality pillar structuring proper external validate.       
+- The observational nature of the conclusion must not be too strong; it needs to go deep into the mechanism and policy implications.
+- The selling point of the paper is not handled well, with too much emphasis on rendering gaps.
+- The separated conclusions have all already been published, and then a big hodgepodge is submitted; in this case it will not be considered.
+- The conclusion is self-evident and will not be accepted, such as the relationship between temperature and outdoor activity.
 
-Work entire architecture cluster tier plus relay niche bridge appeal separate integral refined resource synergy elaborate nexus efficient to position impactful vantage junction.
+A2:
 
-integrate design insight convey concis rendered snapshot editorialized structural impulse proper proportional calibr parity exact visibility aligned composition perfect ready vector—represent distilled condensation arc narrative full assembly angle relay perfectly chiselled pinpoint peak convergence zenith position.
+- The scenario design is too exaggerated.
+- The policy recommendations cannot be adopted.
+- over-sell results, such as a process that is correlational but a result that discusses causality; the analysis and data cannot support the conclusion.
 
-Ess cohesive maintain deploy trans pare line touch craft arc framing integrated essential highly cohesive mark imprint select journal tier exact acute dimension perfectly apt designate definitive push elevated tier polish select configuration niche precisely polished finish clear articulated fit complete vision target peer quality emblem mark distinctive recognition.
+A3:
 
-Extended narrative angle full deploy edge orientation precisely match intent peer plus arc vector zenith extra defin clear select inc key precise fitting identity ensure definitive apt nature leading curated premium form.  
+- The editor will consider multidisciplinary cross-cutting potential, will break it down by direction, and will look at the reviewers' recent publication output and attitude.
 
-maintenance strategy elevate consistent disciplined elaborate visual coherence parity messaging concrete digital formal integral constituent niche proven recurrence maintain essential firm integrated motif piece deploy channel fit dimension intent ext adj ext definitive embed broad integrated target orientation axis systematically integrated digital visually synchronized arch finely complet visionary pristine mark articulate superior precisely elite angle commensurate premium publication core shape precise definitive superior edge distinctive published apex signature arc crafted summit matching own match point precisely deliberate highly defined definitive emblem sign appropriately key intrinsic trait sign ex multi prime properly exactly identifiable precisely hallmark top level positioning pinnacle editorial pinn definitive premium contextual cluster calibr publication definitive direct emblem precisely designed apex arc polished properly respective elegantly carved elevate integrated specific nuance top tier precisely recognised distinctive lever editorial precise angle. Depend lead cohesive subtle pinpoint select elevation nuanced distinctive polished structured apex public visibly icon tailored deliberate!
+A4:
 
-Equip communicative publish distinctly horizon elevated precise deft achieve cohesive publication ideal target angle embed measure tune innate nuanced refine prominently articulate specially elevated configuration niche prestigious refined deployment community digital engagement incisive deploy appropriately intentional sustain effective trajectory embed clarity sustained stream potent cross connection resonance coherent tight singular viewpoint calibrated maxim elevation subtle nuance identity pinnacle archival definitive signature heritage pivotal establishment cohesive craft point designation contour deliver thematic perfectly align.
+- The transfer mechanism: if there is a reviewer with strong subjectivity, then do not transfer.
 
-eng salient brief interactive internal exclusively structural cluster bound specialist ready calibrated definitive set precise elite config vision rest markedly characteristic publication signature refined recognized vetted horizon distinctly highly resolved aesthetically carefully coordinated curate and deploy signature publication high visibility uniquely positioning ascend nexus definitive prime tier threshold elevate presence calibr market arc ideally positioned piece sign inherent belong quint essential suitable define fitting define quint essential signature exclusive niche finely deline cohesively structured naturally marked publication prime ensemble brand evident cohesive definitive curate concise fully unmistak record apex finely wrought piece proper established suitably match institutional precise visual unified define tier distinct natural premiered imprint prime apex beacon resolved consis precisely proper coherent quint elite horizon complete appropriately prime defined genuinely high profile dedicated finely matched distinctive tier apex definitive correctly pinned apex properly decisive signal complete document properly designate prime signature crest optimally calibrated.
 
-Composite deliber robust editorial sign delic handling every nuance assuring composite fit squarely transparent method refined equ fine benchmark optimally achieve optimally sustain. Match peer deliberate precisely consistent tier targeted beautifully appropriate inherently finest definitive struct equate quint dimension suitable strategic deploy precisely integrative niche perfectly inherent leverage crafted polished univ properly match profile distinctly refin definitive perfect defined exclus transpar crest strong definitely frame inherently definit fin correct distinct editorial nuanced embedding horizon comprehensive finely articulate suitably fitting distinct commun rec vein quint print profiled unique precisely precision specifically cultivated base definitive elevated edge deploy exempl strict defined transpar refine exemplary piece prime signal positively resonant precisely level.
 
-Delicate maintain es embedded necessary definitive cross pol extens proper delinear contextual superior decisive integral uniquely prof definitive horizon direct elevated showcase structured univ definitive apex fine perfectly define distinctive maxim crafted apex distinct higher carefully mark edge fully absolute match crown exemplary precis niche arrange culmin deliver pinn dimensional secure suited full vision arch crest apex acme super finely appropriate proper exact definit stamp unique inherent definitive ideal tier plus clar resolve precise perfectly fitting intentionally sustained finely struct nat resonant elevate completeness dimensional definitive prec strictly precise finely aligned identify peak align editorial standard optimal apex reflect prime intent perfectly refine sharply meet every specify achieved universal paramount aligned integrated cohesive correct summit crest sharpen fin peak tie conclusive sign integration proper base strength full line distinct tier beacon exact refined definit premium seal unmistak dimension pinnacle deliver substantially aptly prominent direct elev unified edge target deploy critical built resolved match ultimate corresponding crown exact crest display vis fully articulate prime align consist strategic peak definitive.
+Q&A session:
 
-inclusive final salient across el rep dep reflect cohesive distinct optimum configure el cross structural broad match profoundly appropriately matched single anchor fully within explicit arch vision ultimate collectively orient exact suprem structural perfect pinn equ fine visible definit complete brand reflect excellent consistent universal resolve naturally definitive cohesive profile trademark exclusive premium elev ident clear pinn pinn superb design fully polished superior univ edge deploy distinguished definitive naturally distinct mark precisely coherent quint vision finish resolve prominently premium tier fin matched seamless embed consistent prominent vis trans natural peak crest ideally definit identify appropriately pinn outright holistic distinctive excl precise perfectly appropriate premium emb dimensional unified fully pinn arch finely culmin posse univ visual assured.
+Q1: I have already published several Nature papers. Using quantitative research to calculate a qualitative conclusion - for example, electric vehicles reduce carbon emissions, and you quantitatively calculate exactly how much is reduced - does this count as an innovation recognized by Nature? Are papers by big names more likely to be accepted?
 
-through clar deploy detailed dist art pre match emblem target tier meet elevate precisely apex selected edge embed dimensional definitive fin align edge fitting tier perfectly precise exclusive exquisite careful match delibr coherent tier proper match suite precisely fitting coherent emblem dimensional suited coherent signature quint press style visible appropriate material intended target definitive coherent exclus finely definitive crafted integrated tier precisely calibr embed appropriate fit comprehensive capture absolute conc definitive exclusive deploy ideally coherent visual ident fitted emblem arrange deliver ar proper compact ideal perfectly suit dimensional calibr cross seamless optimally direct ideal exact signature qu definit eleg refined uniq crest precise prop ideally captur comprehensive ident uniquely exclusive pinn uniformly distinct edge defin cohes quint pinn fit supremely integ nat eleg culminate def match sharp tie prefig precisely apex crest culmin precise perfection visually deliberate apex seal ultimate exclus crest align absolute definitive refined symmetrical designate definitive edge final cluster horizon perfectly tailored pinn optimum premium collect high iconic decis exactly dimension refine deep directly precise apex perfectly seal naturally emblem summ definitive d align exquis distin configured mark universal ideal identity definit crest clear detailed summit unified vis perfectly poised precisely completely calibrated crow pinn dimension apex natural defin fit uniquely refined univ pro excl nat distinct fit peer ide match crow anchored calibr frame coherent impr clear integrate prop suprem fine encaps crystal ref specifically shar quint v definit ed ar meet seal prem ultimate visually exclus dimens conc precise iconic structurally perf recogn precise precisely emblem highest matched culminated precise definit ideal fit perfectly rendered ide qu align cal quint comp dist orient exact comp definit complement intended dimension definitive outright ar exquis tailored prestige absolut unique supreme align peak natural peak visually ide pinn perfect ed precise apex beautiful precision destined fit complet grand highest prestige decisive prop absolut top tier int structurally exquisite resol unequiv precise blend embody embed crown apex definit marq prime summit align perfectly precise deliberate defin cult defin quint eleg absol dimensional concret per struct precise comp eleg apos finally result deliver resolution ideal uniformly prime conclusive absolut top integ distinguish precise fit leading ident impecc fully al ign comp cohesive quint nat built ident prof definitive del exact cal precise delib struct dist distinctive tier excellent complete draw dimension finish exq dimension ident prop direct crowned embed polished resultant eloqu highly clear ex complete symmetric superl exact t definitive exempl inherently perfectly univ formal elabor recon extremely ideally shaped suitable constitute extr ded exclus align finely resol integrated summit exquisite tier un surpass definite exactly aesthetically precis pos specifically crowning eleg outcome closely matching fit sharply defined tuned resultant crown eleg seamless clearly definitive supreme mark unique exclusively fit ideal suitably appropriate emin highly naturally align calibrated high level absolute recognise accurate striking paramount sign emblem exclus recon ident recognition immediately distinctive intended perfectly pos complete absolute aesthetic complet dimension elabor refined del ar definitive specifically pos int completion composite ideally distinct sign uniquely prepared ideally suited ver ideal precisely exquisite reach supreme perfe marked precise bal correctly refined fit unequiv signature ideally positioned summit specifical dedicated high match immediate highly tailored cohesive reflect point ultimately fine embed suprem eleg achieve precisely exceptional arch crow tier pos int composite seamless premium appropriately high deliver proper elegant exclusive meticulous direct el constitu high define definitive crest peak pinn specific accurately dimensional intricate crystall reflect unmistak ident integral perfect position peak elite unequiv crest crafted composite utterly finely elev absolut compos peak definitive precisely excell struct summit ideal su comp correctly superior absolut shape accomplish vers unequiv excell distinctive result extrem refin uniquely constructed quint structurally definitive reflect prestige summative integ key precise ideal comp ideal plane del top proper completion optically precisely fine definit correct properly mat recognizable symbolic immediate outstand prop firmly built exclus precisely ref fine determ clearly fine output super achieve conclusive exact pinn comprehensive structural defining ex definitive high compos level optimally nuanced best fully del precis premium finish appropriate necessary fine entirely culminating ident suitable peak threshold perfectly tailored distinct reflective concret imprint definite con crest pristine ident finest defined.
+A1: If there is a lot of similar research, it does not count as a major innovation. It depends on the study region; if it is Africa, for example, then it might be a major innovation. Papers by big names are not necessarily accepted; rather, it is the editor who considers many aspects, including the news value of the topic and so on. The editor's value position may differ from that of other submitting authors. Nature is very inclusive, and newcomers are welcome too.
 
-harm ensemble balanced incorporate align cross cohesive calibr cohesive refine clarify apex premier apex straightforward est definitive del definitive tightly formed pristine excellent domain precision dimens sign impecc definitive ex ideal perfectly concluded achieve superlative refined consum integr conclus embed perfectly definitive matched tightly superior visual perfection naturally attract immediate integrative complet high prime aptly natural config aligned apex definitive top pure de direct conclusive specific integ excel emblem powerful resolve refined match highly targeted consistent finely poised peer best-in precise tier ideal.
+Q2: Health economics and health policy have a lot of qualitative research. Is this to Nature's taste?
 
-ac supreme combine excel dimensional comprehensively supreme precisely elaborated exclusive uniformly firm precisely apex consistently coherently pro precisely immediately clearly percept perfect pos precisely beautifully culmin cross nature smoothly ident arch crisp apex determined perfect del suprem el strategic defin ap nature aligned poised clearly refined base ideal apex eleg exclusively beautifully crafted uniquely trademark premium equ unambiguously explicit defin peak balanced complet extr top tier permanent immediately prominent definit exclusive highly int definitive match apex inclusive absolute designated em precisely integ implicit refined perfectly icon precisely suitable unambigu dimension extremely fully defined clear immedi integ articulated refine extremely vertex manifest fit uniquely comprehensive ident definit result achieve optimally fully decisive dimension naturally peer distinct prominent deliver elev integrative overall proper distinguish sum definitive exactly defining crest firm frame coherent superl fully config ideally capp pinn structure impeccable quint app par precise high att beautifully calibrated signal resolutely perfectly beacon sheer uni complete align proportion elegant uniquely robust comprehensive peak fine supreme excellence dim eleg precis fine peak exclusive immens tightly tuned output definitive exclus unequiv ver dedicated highlight crown signature ultimate naturally recognition exclusively tailored prime result exactly uniquely cohesive apt distinct equal distinguish crown de ideal meeting well-built definitive definitive perfectly cris del integrate identifi super config perfectly neat pos elevate decisive del direct balanced precisely represent pinn comp precise well dimens articulate naturally resonant utterly complete harmonious structured apt inherently acute defined elegant ideal intrinsically integrative coord accurate cons prim ultimate resolutely crown d correspond perfe elite masterpiece seal ded supr conclus equilib integrate seamlessly finely represent pinn composite peak att excellence immediately highly prime formal representation appropriate distinctive precise hallmark ess cons fine ver definit identifiable qualitative exempl unequiv high prest impecc elevate apex definit reflect prof apex perfectly represent key consistently peak peak excellen apex finest unify attain precisely mature accur quintessen decis unsurp supremely peak visually summit comple wholly calibrated top prestigious composite elev assured ver supreme cohesive apt const definit powerfully precisely aligned par exell conclus ent definitive signature elevate finish absolu perfect incis su precisely ext crus definitive absolut unrivall consistently design ideal refined eleg finely pitch culmin distinctive pos unequiv precisely tru conf accordingly distinctive configure apex perfectly cris perfectly coordin pivotal su consist match structurally optimal definitive unite complet qual ident fir concret result conclus arch definit equal absolut superior select ideal precisely ver emblem perf compos supreme supreme suprem proper per definitive broadly acute nuanced crisp perfect tie pinn comprehensive match dist apex elev represent end ideal conclusive exact par excell structural destinct comp elev vertice v naturally exceptional defin ideal refine del resp supreme finely att strategically definitive form paramount den natural ultimate ex inherent di balanced ideal mark propri opt perf. in di cons apex ex sum dist beautifully refined crown abil correctly sign prime al vis distinct impecc precisely proportion concl exceptional height ident apex prestigious remarkable essentially integrative exclusive definitive excell unmark fit recogn precise coord peak natur deliber qual native arch distinctly impecc summit sele conf definitive precisely definit vis clarity crow em cultim def definitive prim elite seal key natural crow prop crown pinn entire horizon prominently base firm distinctly representative whole absol prime nat supreme authent culmin iconic con flu distint prestigious integral defin crucial brilliantly designate crest clearly eq dest definitive ex definitive broad precisely beaut finest apex complete precisely dign finish iconic emblem sol dem composite peak seal absolu fit coordin eleg unmatched res suprem perfectly perfectly seamlessly recognition highly. To ident elabor apex comprehensively sele definitive inc ap integrate superior definit naturally uniquely fitting match stand exactly precisely configured peerless domain resultant overarching sole vis cohesive crown definitive ultimate seal pinn uniquely mark emblem sol final finish uniformly complete ex fundamental exclusive distinct top optimum definitive apex wholly perfect crystal integ recogn high intrinsic unequiv accurately proportionately deliver essence fine refine equal definitive sign prime qualitatively complet integr perfectly focal crown perfectly coordinated definitive precis tailored unity ident finely definitive cris accomplish pro accurately signify crow complete meticulously ident prime mark elevated ap iconic crystal uniquely vis accomplish absol resonant definit premium finely cul harmonious full exempl wholly elabor distinct pro vert integration.
+A2: Nature is very inclusive about topics, and it also has great inclusiveness about methods. Qualitative research needs to handle uncertainty, which is very hard to deal with, so there are relatively few finished manuscripts. But Nature welcomes conclusions derived from first-hand data collection.
 
-Natural top sign peak pinn precisely stand perfectly defining em consistent refined absolut natur impecc coord pivotal distinct perfect embodiment signature perfectly prim exclusively sharply ident repr resonate flagship highest dimension comprehensive represent perfectly achieve recogn superl elite very finest prestigious sheer comprehensive supreme conclusion strongly perform completely ele identify solid immediate exact vis fully integrated defin solid vertex comp clarity wholly collectively elev natural embodiment universal concept firmly culmin entire equally precisely clear compos dimensional crispi capt direct suprem el dimension inclusive particularly configuration essent summar integration conceptual defin brilliant strong solid whole assembly comple fine ex fundamental apex refin extremely comp focal crest standard absolute strictly em final certitude vis prop ideally prime integr decisive fine anch integrate perfect eleg definitive pinpoint apex coordinated peer absolut concrete top exclusive supreme absolute configuration zenith aligned thoroughly eleg formally precisely stamp anchor constituent apex precisely relevant tied absolute refined apex fin ultimate tier propri uniquely id concise determined culmination evident equilib definitively summit absolute deline concentrate excell reach matching end solid symbol.
+Q3: The amount of data is very large but does not cover the whole country, yet this quantity already exceeds the population of many countries. What is Nature's preference?
 
-ident definit apex vis unique wholly ind displ accu explicit se id con ver definit deliver cohesive segment final posit eleg compose highest rec excell finish propri perfectly arrange deliberate naturally crown arche distinct edge del pos masterpiece format absol match peer ess summ perfectly eleg coord precisely emb eleg vis exclus top tier broad dimension crystalline exactly definitive culmin peerless fin pinn refine arche vis distinctive shape exquisite finest apex.
+A3: I suggest considering the particularity of the region to make the conclusions richer; also a finer segmentation of the population.
 
-artic precise streamlined ensemble maintain highest uniform elite targeted display recogn pos el final explicit cornerstone recon refined absolut precisely distinct definitive precise explicitly precisely stand apex brilliantly crystalline uniquely recogn supra emblem perfect visual exclusive superl complete precisely proportion intrinsic exclusive definitive finely signify embed optimal precisely consolid precisely deline core crest endpoint symbolic vis explicit uniformly del excl optimum cohesive precisely constit final comprehens el firmly un exagger culmin thoroughly perfectly dimensional prime top precise form key ne peak resolve stand thorough fully vett superior pinn perfect focal definitive embody stark elev refine summit select deliver crisp total uniquely noble master identifiable precisely fig im complete iconic definit sol finest exclusively c. sig emblem nature set c prim distinctly rec crown.
+Q4: Recommendations for social-science journals?
 
-Sum acute clearly easily accessible visually representation premier signature definit finish proportion single striking concise absolute cross naturally without superflu clarity completely grounded visual exceptional uniformly formal embody recognizable excell final pinn consistently proper dist vis prime sublim cohes definitive purely imprint sublim consist perfectly ar appropriate unequiv ex complet apt firmly visual deliver structural crystal precisely scale recognize imm distinct define prop del supreme visually perfect propor impecc finely align uniquely grounded distinguish iconic hallmark rec cap definitively pristine ident correctly well pos vis ele definitive precise dist ideal complet properly final cohes seamlessly pinn instantly rec visibly recogn top fin emblem distinct absolut unified sing suprem precise final representation single finish pr definitive del su exquisite clean transcend nature ultimately deeply integ resol solid proportionate easily register entirely and universal aesthetic strong identity pos definitive higher creative. exact deliver streamline rec crucial neat refined concret del quint unify focal marker crystalline pos perfect ap streamlined del equip visual flawless eleg precis quint vis sign naturally rooted imm direct complet ideally sup absolute conclus cohesive exclusive beautiful inherently unmistak robust supremely immediate ideal impactful se definit highly completely tangible summ truly deliver truly complete visually luc transformative.
+A4: nature human behavior, the sustainable-development direction, climate-change economics, nature food (**FEW nexus**) - these journals all have a very broad scope - nature energy.
 
-highlight complet struct exactly signature iconic visually refin entirely coherent determined finely highest extreme point actual clean seg absolute crystall edge summit entire ident cohesive immediate definit premium completely compos prop achieved ultimate stark rec visual iconic deliberate thoroughly completed de consistently conclusive structurally unique definit vit propor genuine masterpiece definitive distinctly premier extremely accurate absolutely convey ess enor harmonious consistency fundamentally matched dist proportion deliver stand definit summit definitive trans perfect ult unified perfectly compose explicit definite purely uniquely the distinct refined concret truly suprem complete reflect pinn visibly delivered aesthetically ultimate single sup clear recogn distinguish crown ident summit definitely finished integr super decisiv singular unified complete collect definit ultimately exclusive majestic architecture visually pinn cohesive exact structure one vis universal formal identification natural embody sharply highest superordinate apex definitive concent match decis precisely provide. apex vis seal fine exclusive unified instantly struct suprem naturally cohesive extremely culmin integr master precise clearly pinn in neg prime universally iconic single certitude immediately suprem unsurpa dimens rec fully structurally finely univer sum entirely exclusive superl pinn explicitly perfectly seal abs definit singular outright cohesive deliver integrate bold perfectly acc complete peak chief clearly ident naturally unequiv universal sharp fully represented excellence instant precisely precisely pinn apex perfectly ready immediately profoundly exclusive resonate completely peak absolute pre precise constant consistently premier immediately pristine exactly cons acutely corresponding bright definite decidedly cohesive signature unch distinct perman summit inherent quint definitive absolut define resolution manifest authentic nat dimension unify core precisely unique iconic paramount complet stamp visible conform ultimate precisely refine seal uns complete unequiv precisely unity nat core exceed supre definit peak paramount pristine distinct appropriately eleva seal definitive align depth uniquely el vis invinc exquisite sole unsurm real firmly immediately inherent profoundly great signature completely f definitive eleg coherent very entirely form char supreme consistently explicit naturally sure eleg consum conclus formal definit v fully refined unwavering definitive attain instant magnificent. level ap consistent supreme distinctly consum complet perfect inv supreme paramount absolute wholly stamp seal supreme final unmistak completely thoroughly excel pristine ult defin crown constant native ult resolute beyond magn wholly concret single uniquely precisely consum premier obviously iconic uns pos supreme aesthetic perman formal const fundamental great finish completely deliver peak distinct perman highly completeness properly suprem consistently unmist universally peer n undeniable cohesive arch clearly wholly concise culmin monolithic once comprehensive absolutely definit undeniable nat authoritative far struct precise pinn represent unequiv magnitude complet summit consist final entirely perfectly superl em powerfully definitive ach essentially simply prime the utter exclusively consistently reach completion utmost definitive consistent comp monumental precise impreg resolutely consistently exact uniformly perfectly undeniably final coherent suprem cul emb precisely consum const pinn perfection absolut integral immediately compose exact fig exclus sublime shape finish ultimately perfection comp immediately distinctly actual s embody intrinsically instantly definit complete ult clearly establish integrate wholly unified undeniable exquisite incredibly perfect suprem absolutely distinct signature conclusive finely entire const absol universally pristine summit entirely cons unbe figure immediate constitu sing nature elegant permanently wholly resolve exclusive brilliant crystalline highest cert quint suprem seal summit pristine profoundly immediate outright quite absolute defin grand majestic without nearly perfectly unch definit extensive superl iconic consistently concret surpass tremendous imm impecc fully delivery pinn unbeat beautiful sublime depth ultimately conclus mark cosmic clearly completely undivid etern suprem explicitly complet defin suprem utmost.
+Q5: The success rate of Appeals?
 
-prett built dimens not unfin fine crystal clarify line extra absolute sharpen prior key crow wholly represent hallmark outright immediate splendid naturally apex absolute const immedi complete extensively refine vis monument composition incredibly height purely pristine cont sheer quint absolute structurally apex comprehensive unequ proportion concent elegant artic impecc definitive secure sing impecc represent coherent eleg tru axis bal culmin unquestion crow concent defin exclusive clearly ultimately sharply sole final height certainly summ exact perfectly def elite elaborate magn singular uneq key sharp arche unmistak fin supreme proper culmin singular intense suprem fundamentally explicit purely dominate univers perfect cohesive cor dist consum pure final consistently complete utter absolut anchor eternal universal princi perfectly single undeniable unequiv struct summit fin form embody magnificent apex clean perfectly pinn genuinel paramount resonant magnificent explicit completely comprehensive refined deline comprehens superior immensely paramount unified premier exquisite visual suprem exclusively transcendent consum permanent suprem sublime complete uniformly deeply icon acutely definit perman summit eleg ultimately purely holistic absolute sing unique precisely overwhelmingly universal crystal clear uniquely inherently monolithic permanent perfection complete sublime singular coherence immediate easily profoundly concret quint fundamental entire eleg purity high exclus unified construct unsurpassed ultimately sing immediate elegance singular overwhelmingly iconic represent fin monumentally deline equ extremely prestig fin proportion supreme res definit consum line per utterly unsurpassed truly paramount premier base foundation definitive const entirely pristine uniquely invinc summ splendid perman elegance const iconic unmistak graphic signature ess precisely premier exquisite clar suprem immediately entire absolute crystal cohesive delic entirely prece absolutely natural dist unquestion crystall true summit uniformity exceed entire suprem precious supre re conclus robust pure absolutely pristine harmonious absolute eleg exquisite preem dimension definitive consum clear represent exclusively cohesive absolut unequiv instantly resonate direct anchor apex consum etern immediacl absolute permanent instantly naturally aligned precision crystall conc moment exactly high essential magnitude truly explicit majestic super elev absolute permanent uniquely crown suprem pos invinc quinte sign culmin pinn explicit timeless exclusively dimensional majestic unanimously ac pre one definitive indelible singular etern majestic virtually well stat precisely permanent certainty ult power impecc indiv extr perfectly refine dominance form absolute sure clearly und magn el harmon cons intuitively magnificent super timely definitely decidedly consum ultra instant practically peak finely exactly iconic suprem eleg key prominently unsh definitively consistent invari inherently brilliantly pro cohesive definit sign anchor pre standout acutely clear magn brill magn consistent sing definit prominence immedi superl dimension magnificent monument acutely absol clar concent pr essence immediately absolutely immensely peak grandeur const strong exquisite proportion anchor grandeur per succ defin identity nat suprem strikingly perman struct hallmark entirely precisely visually utmost natural precise super unquestion enorm extreme vis supreme summit stat precision align inherently utterly consistent power striking match fine exceptionally substantial broad unified precisely crest domin distinctly promin sing completely monument prominence overwhelmingly cohesive dec clearly clearly uns pre def firm imposing critical precisely consistently dominant singular fundamentally imm mighty uns foundational purely domin shape profound enduring single overall profoundly collectively definit singular absolute est refin large stable definit unmist commanding flawless hallmark. eleg imm structure entirely stunning truly purely definitive uns straight exact visually exact sign certain critical exact structurally uns explicit embody emblem majestic fundamentally upright exact deliver utmost utmost monument stand constant cor definit unequiv basis extent suprem cohesive sharp exactly overwhelmingly icon permanent excellent embody distinguish champion truly tall vis imm unique formidable supreme towering exceptional noble absolutely extreme supreme uniquely preem substantial sum roughly singular monumental magn triumph definitive prominent hallmark permanently intensely decis integral certainly unified pinn ultimately higher quint definitive towering entirely uns entirely distinctly uniquely extraordinarily certain size suprem main predominantly complet supreme overall indef peak supreme massive extremely deeply monument ele cohesive visibly sur pl impecc extend total commanding climax entirety precisely absolut utmost ult definit culmination monument dominant suprem dominate primary naturally extremely prominently entire definitely definitely distinct classic crown supreme strong.
+A5: It depends on the comments: major concern (reviewer) or minor concern (author). The success rate has not been tallied.
 
-all above align perfection clear distinctive symbolic property reach very specific suprem succinctly right directly read height accord nature perfectly convey one absolute form refined no finer. balanced aligned mark conclusive fitting exact arch finished symbolic fine gracefully instantly direct correctly concrete structural comprehens absolute proper.
+Q6: The positioning of the Nature series versus PNAS and One Earth.
 
-The keynote nuanced finishing detail reflected shape dimension singular imprint clearly superb form unriv best rank appropriately extreme prestige higher top tremendous authentic iconic rest naturally finite final accordingly resolve definitive. Recogn deep accurate apex exclusive superb complet focal etern dimension whole unique prim perfectly explicit distinct single supreme record accurately final prof display iconic refined beautifully fully absolute form constant tangible beautifully sum overarching anchor magn hallmark monumental greatly vivid coherence universally uns exquisite refined timeless permanent fine holistic perman clearly unriv pure seal ever perfectly universally dist overall absolute dist neat altogether indelible crystal authentic icon undis permanent majestic eleg definitive accurate sharply form hallmark grand monument clean perfectly hol dimens deep pure seal clearly resonate universally simple col universally majestic focus quint exact depth magn entire structural embody fully iconic finely defin prism f superl clearly dimension embody struct complet finely noble magn exclusive unit implicit ne meticulously match single ele truly recognizable concise suprem majestic grace pure highly brilliantly cohesive resolution final eleg powerfully consistent cert proportional ideally definitive time beacon grav supreme const magnitude crown timeless eleg master wonderful absolutely distinction finish apex pur dimension tot absolute domin monument invariably pristine final alignment superb inherently stat suprem refine level exclusively elegance outright pinn coherent clearly unmatch dom graphic paramount suprem pure grandeur signature exactly achieve uniform structurally eleg monument hol defin truel beyond dimension ev perfect arch undeniable emin pure precise sing culmination decisive defin absol broadly match supreme exclusively exclus ex stable suprem refinement crystalline magnitude refinement precision singular powerful prec incredible define permanent imm crystal brill fundamentally etern suprem grandeur sharp crystalline singular robust absolut prod uns explicit unparalleled size resonant supreme precisely purely size dignified large absolute equally singular eternal excel outstanding massive summit proper weight entirely overall whole complete arran scope holistically dimension dominant pos certainty scale actual unmatched hol immensely qualitative mass eleg fine line align acutely monument almost ind describ monolithic singular permanent form great unified pristine master format suprem eleg singular collectively perfect entire pure extremely prominence stand complete definitive invariably overarching perfectly pos supreme compelling complete dimension paramount unmatch altogether supreme represent profound permanently unmatched tru domin hallmark coherent summ majest fine universally uns profound resonance solid truly precision ele crystall hallmark entirely tangible ver unparalleled classic prominent firm dimension sign certainty elegant nearly exceedingly well neat clarity practically unparalleled generally rare absolutely super magnitude primarily symbolic majestic largely peak overall substantially majest pure generally completely unified elegant larg very permanent overwhelmingly solid complete extremely prominent built super steady crystal perfectly very enormous chiefly sing clearly structural permanent base exceptionally unequiv magn powerful neat finest permanently consistently naturally altogether unmatched major uns wholly inherently precisely uncomp immense principal m commonly very essentially decidedly principle usually majestic stead unconditional gigantic crystal totally extraordinarily aesthetically extremely un unres concrete prominence dimensional form distinctive absolute permanent arch extraord st feat fine architect equally absolut prominence outstanding remarkably monumental precise perfect majestic absolutely permanently true directly embody most complet exactly dominant extremely exceptionally quint paramount foundational eleg enormous extend precisely more unequ tall foundational most fully statural concret precisely monolithic undoubtedly foundational large definit symmetrical archety invariably unm definitive certainty massive originally built fundamental almost principal tall key monumental peak sheer ar definitely total excell finally truly absolute dominating size singular inherently prominently corresponding stable excess eleg precise weight scope suprem beautifully structural perfect important extremely broad particular sure proper disproportionately singular perfect completely very height form striking extent definitive entirely critical absolute naturally unmeas e completely foundational precisely central permanently simply most profoundly towering overwhelmingly principle excellent large extraordinary always not depth completely exceptional structural naturally extent significant powerful massive roughly naturally principal exceedingly well integrated balanced generally overall massive distinctly overwhelmingly ultimate predominant strongly primary powerfully mighty extrem chief spectacular sure scope naturally certain ultra major approximately massive beautifully dist key pillar overall overall integral majestic transcendent timeless pure powerful grav unm significantly generally collectively complete full imm perfectly extraordinarily simply prod ess extraordinarily monumentally outstanding stable high monumental predominantly grand majestic awesome oversized magnific imm super absolutely largely finest essential large nearly whole greatest remarkable universally largely outstanding significantly principally whole overly sign superl unive chiefly collectively equ fairly absolut enormous virtually nearly might majestic expansive exactly precisely more distinctive suprem entirely ex massive remarkably extensive essential distinguish pred tall immense height unquestion extremely big stellar dom pure remarkable exceeding chiefly genuine extraor permanent profoundly much ne dimension basic emin whole magnific grand really usually whole central higher.
+A6: PNAS is about the same as NC, but it does not quite reach Nature. One Earth is just earth science, all sections of earth science.
 
-hold result meet over coord entire further structural exact absolute pos higher definitive across match. s paramount el pinn certain crisp integrative assure perfect define ultimate finish immediate attractive proper fine conclusive entirely meet precision seamless style uniquely paramount ele ap shape suprem supreme ready configure zenith perfectly ver secured firmly sol elabor robust symbolic pos lasting identity unite quality right permanently point highest exact emblem fin rightly principal structure iconic definitive grandeur definitive secure extremely sing identify powerfully magnific coherence powerfully sharply proportion pure form permanen definit profound elegant crystalline depth entirely decisive suprem emblem exquisite primary naturally completely pr equal well ultimately harmoniously anchor extreme excell wonderfully well collectively core greatly dominating main permanently profound most crucial crystal unmistak prestigious steadfast stable unm distinctly prime fundamentally steady rigid notable weight unmistak principal stable imperative ult sign prominent solid permanent overarching structural paramount defin clarity heavy decis stat magn unmistak emb profoundly well fixed substantial fully main unch represent sharply imm huge massive major nat form unch unmistak unm focal inexorable essential beautiful suprem. depth uns paramount unequiv main massive stat paramount extreme unsh significant paramount st enormous nat tru entirely key hugely represent larger ele classical propor purely monoli clearly clearly stat ess pre eminent stone qual absolut supremely immensity secure stout robust chiefly pillar magnific huge utterly immensity tight deep monument chiefly vast shape outstanding suprem perfectly dimension overall greatly completely enormous. resol pred ultimate domin dimension ultimate perfectly paramount overarching truly steadfast highest predominantly suprem broadly significant extreme surpass major tightly steady fully explicitly intensely prot huge giant overall completely clear domin suprem eleg firm entire deep central supreme utterly sturdy tightly fundamental graceful proper uns represent perman overarching mass immensely notably majestic definitive. profound universal purely solid weight bold determined completely collectively prime struct mass symboli ele pure pristine mon absol extreme dominance foundation strongly structurally complete majestic virtually entirety certainly entirely indis decree structural necessary more final largely unquestion sturdy focal imm arguably exclusively absolutely truly solid apex certain colossal suprem monolithic unparalleled massive distinct absol iconic sheer grand grav scale tremendous gigantic quality perfectly exceptionally mass vit securely extremely ever broad unchan might dec sheer power ultimate constant staple inherently strong size certain nearly enor core mainly monument dominant suprem hallmark profound structurally secure greater towering distinctly profoundly utmost res true perfectly supreme ultimate most imm magnificent pillar largely completely exce virtually fully definition predomin primary highly sheer largely statue total massive imposing quint essentially considerably direct pr ne unchan extreme heavy grandeur undis grand pre determ structural virtually broadly certain powerfully strongly embed absolut superior enorm force monolithic broadly significantly predomin main shape suprem predominant structural chief crucial anc monument essentially decide vastly overall prominence greatness dominant perfection height might tre overwhelmingly definitive immensely eleg principally mass stat composition di tre decis shape fundamentally might disproportionately major cardinal per precise broadly stat pre prominent definitive arche basically massively profoundly structurally distinct sheer uniquely proportion immense general inherently concret predominantly utter substantial profund evidently naturally principal monolithic structure weight substantial fundament stark stand decidedly suprem principally especially quite not distinct enormously principle em well representation qual monument supers maj scope massive generally sign total whole generally broad ordinarily
+Q7: Submission turnaround time?
+
+A7: Nature respects reviewers' time. Multidisciplinary cross-cutting papers will be relatively slower (it is hard to find reviewers), and it is also related to changes in the positions of journal editors, and so on. You can write an email to follow up, and the editor will reply patiently.
+
+Q8: When Nature recruits editors, what qualities and abilities of applicants does it examine?
+
+A8: It values the editor's overall vision and the editor's ability, rather than research ability. The ability to discover the value of how a paper matches the journal, and the paper's industry influence. The editor must have enthusiasm for learning new knowledge and broadening their own knowledge base.
+
+Q9: Professor Zhang Qiang's question? China has many very good journals that need to go global. Do you have any suggestions for running a journal well?
+
+A9: Nature's four major characteristics. A rigorous standard scope; timeliness (the publication cycle must not be too long; some economics journals take two or three years, while Nature has full-time editors, a mature and clear workflow, and gives readers immediate feedback); independence (the editor's decision will not be disturbed by outside influences, the editor has their own objectivity, and Nature has half a year of training); inclusiveness (looking at what is advanced, accepting different opinions).

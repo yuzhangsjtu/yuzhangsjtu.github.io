@@ -1,8 +1,8 @@
 ---
 title: About This Site
-subtitle: The blank space is part of the writing.
+subtitle: In the blank space lies its own weight.
 ---
 
-This is the Astro port of the Yohaku theme.
+This is the Astro port of the "Yohaku" (余白) theme.
 
-Styles, layout, fonts, dark mode and zh/en i18n all come from the original project's code; backend-dependent features (comments, realtime presence, search) were removed, and content is driven by Astro content collections.
+The theme's styling, layout, fonts, dark mode and Chinese/English bilingual support all come from the original project's code; features that depend on the mx-space backend (comments, realtime presence, search, etc.) have been removed, and the content is now driven by Astro content collections instead.

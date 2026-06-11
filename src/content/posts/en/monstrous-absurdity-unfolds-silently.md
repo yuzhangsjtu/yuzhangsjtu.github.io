@@ -2,12 +2,12 @@
 title: "I Saw Monstrous Absurdity Unfold Silently"
 date: 2022-05-13T12:00:00+08:00
 category: { name: "Essay", slug: essay }
-tags: ["absurdity"]
-summary: "I lost my own voice."
+tags: ["Absurdity"]
+summary: "It was I who lost my own voice."
 ---
 
-The campus lockdown has lasted two months, and it has been a month since the transfer.
+The campus has been locked down for two months now, and it has been a month since the relocation.
 
-These two months, I have witnessed all kinds of absurdity and silence — not just a loss for words at the distant cries; I have also lost the ability to perceive the cries right beside my ears.
+In these two months, I have witnessed all manner of absurdity and silence. Not only have I been struck mute before the distant cries; even toward the cries close at hand, I have lost the ability to perceive them.
 
 ![image-20220513164851878](https://cdn.jsdelivr.net/gh/yuzhangnju/image/img/image-20220513164851878.png)

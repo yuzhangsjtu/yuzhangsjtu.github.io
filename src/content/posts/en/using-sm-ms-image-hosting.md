@@ -1,15 +1,15 @@
 ---
-title: "Full Site Migration to SM.MS Image Hosting"
+title: "Full Site Adoption of the SM.MS Image Hosting Service"
 date: 2020-06-04T22:00:00+08:00
 category: { name: "Tech", slug: tech }
-tags: ["image hosting", "SM.MS", "PicGo"]
+tags: ["Image Hosting", "SM.MS", "PicGo"]
 summary: "After enabling the image hosting service, the site's loading speed has improved dramatically!"
 ---
 
-Most images on the original site are stored in the GitHub repo, with some using the PicGo image hosting service.
+Most images on the original site were stored in the GitHub repo, with some using the PicGo image hosting service.
 
-Large images like the homepage banner can significantly affect page load speed. This time, those images have been fully re-linked to the SM.MS image hosting service, using the PicGo app for batch uploads. The site loading speed has improved dramatically since.
+The large homepage images and the like had a noticeable impact on the website's loading speed. This time, the relevant images have all been linked to the SM.MS image hosting service, using the PicGo app as the upload tool, and the page loading speed has improved considerably.
 
-Pray that SM.MS stays alive and stable for a long time!
+Praying that SM.MS can survive and stay stable for a long time!
 
 ![](/img/3EtO5TI1SWd6cjg.png)

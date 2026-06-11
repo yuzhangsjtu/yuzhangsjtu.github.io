@@ -1,24 +1,34 @@
 ---
-title: "Recently, August Unrest"
+title: "Recently, August Did Not Last Through to Chang'an"
 date: 2020-08-29T14:00:00+08:00
 category: { name: "Essay", slug: essay }
-tags: ["August", "sky", "sunset glow"]
-summary: "I feel like I haven't gained anything as summer ends, struggling with paper rejections and self-doubt, wondering if my passion for research is just an impulse."
+tags: ["August", "Sky", "Sunset Glow"]
+summary: "Research is the only true path."
 ---
 
-I pursue research in fits of impulse, and spend the rest of my time waiting to die.
+Intermittently impulsive about research, perpetually drifting along, waiting to die.
 
-As summer draws to a close, I can’t say I feel any sense of gain.
 
-My paper has been rejected repeatedly, and the new one I’m working on inches forward against impossible odds. Once again, I begin to doubt myself: I am merely impulsive, not passionate about research. If I were truly passionate, why can’t I sustain that passion all the time?
 
-These past ten-plus days have been miserably awful. Staying up late, waking up late, still unable to nap come noon — as if my soul has slipped away again. Every evening when I go to fetch water, I murmur on the stairwell: Miss Rabbit, I’m starting to worry that I can’t hold on much longer.
+As summer nears its end, I have no feeling of having gained anything.
 
-Every night in bed, thoughts of how to write that paper creep in unbidden, and I toss and turn. The moment I wake in the morning, the first thing I do is psych myself up, gulp down raw resolve, and push the paper forward. It’s been so long since I felt that youthful charge of brimming momentum.
+My papers have been rejected one after another, and the new paper in hand makes only the hardest of progress. Once again I begin to doubt myself: I am merely impulsive, not genuinely in love with research. If I truly loved it, why can't I stay full of passion all the time?
 
-I’ve already squandered the most precious time, a summer internship, like throwing everything into a gamble — if I can’t publish, no doctoral supervisor will take me on, and I won’t find a job either. Sometimes I wonder whether choosing to do a PhD is merely an escape from the failures I’ve suffered in my studies, an attempt to redeem something, to take one last risky bet. And yet at other times I feel that once I step into the river of working life, there will be no looking back. I think I should weigh this current choice against a longer arc of a whole lifetime.
+These past ten-some days have truly been terrible. Going to bed late, getting up late, unable to sleep at midday either, as if my soul has gone missing once more. Every evening when I go to fetch water, I murmur quietly in the stairwell: Miss Rabbit, I'm finding it a little hard to hold on.
 
-2020 — will I fall in love with learning? I’m certain I will.
+
+
+Every night lying in bed, I can't help thinking about how to write the paper, and then I toss and turn. When I wake in the morning, the first thing I do is psych myself up and push the paper forward. It's been so long since I had that youthful, brimming drive.
+
+
+
+I have wasted the most precious summer internship time, a gamble in which I can't get a paper published, no doctoral supervisor will take me on, and I can't find a job either. Sometimes I doubt myself, wondering whether choosing to pursue a PhD is merely an escape from my own failures in study, a wish to make up for something, to make a wager. Other times I feel that once I step into the river of working life, I can never turn back. I think I should weigh the present choice against the longer dimension of an entire life.
+
+
+
+In 2020, will I fall in love with learning? I most certainly will.
+
+
 
 ![](https://i.loli.net/2020/08/29/OkfD5BwAsqEITj4.jpg)
 

@@ -1,5 +1,5 @@
 ---
-title: "MATLAB Study Notes (3): Data Type Conversion and File Access"
+title: "MATLAB Study Notes (3): Data Type Conversion and File Access (Data structure and File access)"
 date: 2020-07-31T22:00:00+08:00
 category: { name: "Tech", slug: tech }
 tags: ["MATLAB", "MRIO"]
@@ -32,7 +32,7 @@ B = int8(A)
 #### 1.1 Character (char)
 
 ```
-s1 = 'h'    Assign the letter h to s1, note the single quotation marks
+s1 = 'h'    Assign the letter h to s1; note that single quotes must be added
 whos
 uint16(s1)  Convert s1 back to its ASCII code
 ```
@@ -48,19 +48,19 @@ Strings can be combined and transformed:
 
 ```matlab
 s3 = [s1 s2];	Horizontal concatenation
-s4 = [s1; s2];	Vertical concatenation; here it will display “Dimensions of arrays being concatenated are not consistent.”
+s4 = [s1; s2];	Vertical concatenation; this displays "Dimensions of arrays being concatenated are not consistent."
 ```
 
 #### 1.3 Logical Operations and Assignments
 
 ```
 str = 'aardvark';
-str(3)	Will display “r”, i.e., indexing based on the third character of the string
-'a' == str	Result displays “1   1   0   0   0   1   0   0”。 The double equals sign here represents a logical comparison, comparing the letter a with each character position in the string
+str(3)	Displays "r", i.e., indexing the third letter of the string
+'a' == str	The result shows   "1   1   0   0   0   1   0   0"  Here the two equal signs are a logical comparison, comparing the letter a with the letter at each position of the string
 ```
 
 ```matlab
-str(str == 'a') = 'Z'	Here, this replaces every letter a in the string with z, i.e., a single equals sign performs assignment
+str(str == 'a') = 'Z'	Here, the letter a in the string is replaced with Z; that is, a single equal sign means assignment
 ```
 
 strcmp() compares whether two strings are identical:
@@ -71,7 +71,7 @@ b='zxcv'
 strcmp(a,b)
 ```
 
-Reverse a string; the following three methods all work:
+Reverse a string; any of the following three methods works:
 
 ```
 s2 = fliplr(s1)
@@ -90,7 +90,7 @@ student.number = 301073268;
 student.grade = [100, 75, 73; 95, 91, 85.5; 100, 98, 72];
 student
 
-The output will not directly display the grades; entering student.grade will show all of them
+The result does not directly display the grades; entering student.grade displays them all
 ```
 
 ```matlab
@@ -98,7 +98,7 @@ student(2).name = 'Ann Lane';
 student(2).id = 'aln4@sfu.ca';
 student(2).number = 301078853;
 student(2).grade = [95 100 90; 95 82 97; 100 85 100];
-student(2).grade(3)	Find the third grade of the second student (note: counting goes column by column, top to bottom, left to right)
+student(2).grade(3)	Find the third grade of the second student (note: count from top to bottom, left to right)
 ```
 
 <img src="https://i.loli.net/2020/07/31/9J5mfQDxOjzdKCv.png" style="zoom:50%;" />
@@ -118,8 +118,8 @@ structfun 		Apply function to each field of scalar structure
 ```
 
 ```
-fieldnames(student)		List what categories of data exist in the structure
-rmfield(student,'id')	Remove the 'id' category
+fieldnames(student)		List which fields the data array has
+rmfield(student,'id')	Delete the id field
 ```
 
 #### 1.5 Nesting Structures
@@ -135,7 +135,7 @@ A.nest
 
 #### 1.6 cell array
 
-Assign content by cells
+Assign content block by block
 
 ```matlab
 A(1,1)={[1 4 3; 0 5 8; 7 2 9]};
@@ -181,9 +181,9 @@ struct2cell Convert structure to cell array
 Converting between matrix and cell:
 
 ```
-a = magic(3)	magic denotes a magic square, where sums of each row, column, and diagonal are equal
+a = magic(3)	magic means a magic matrix, where the sums of each row, each column, and the diagonals are equal
 b = num2cell(a)
-c = mat2cell(a, [1 1 1], 3)  3 indicates grouping all three columns together
+c = mat2cell(a, [1 1 1], 3)  3 means putting the three columns together
 ```
 
 #### 1.7 Multidimensional Array
@@ -207,9 +207,9 @@ You can also use the cat command:
 
 ```
 A=[1 2;3 4]; B=[5 6;7 8];
-C=cat(1,A,B) 	1 is for vertical concatenation, i.e., along rows
-C=cat(2,A,B) 	2 is for horizontal concatenation, i.e., along columns
-C=cat(3,A,B)	3 is for concatenation through higher dimensions, i.e., along layers
+C=cat(1,A,B) 	1 means vertical concatenation, i.e., row
+C=cat(2,A,B) 	2 means horizontal concatenation, i.e., column
+C=cat(3,A,B)	3 means higher-dimensional concatenation, i.e., layer
 ```
 
 As shown in the figure:
@@ -234,7 +234,7 @@ Returns a new array with assigned rows and columns
 
 ```
 A = {'James Bond', [1 2;3 4;5 6]; pi, magic(5)}
-C = reshape(A,1,4)   Convert a 2x2 matrix into a 1x4 matrix
+C = reshape(A,1,4)   Convert the 2x2 matrix into a 1x4 matrix
 ```
 
 #### 1.8 Checking Variable And Variable Status
@@ -242,7 +242,7 @@ C = reshape(A,1,4)   Convert a 2x2 matrix into a 1x4 matrix
 ```
 isinteger 		Determine if input is integer array
 islogical 		Determine if input is logical array
-isnan 			Detect an element that is not a number (NaN)
+isnan 			Detect an element that isnot a number (NaN)
 isnumeric 		Determine if input is numeric array
 isprime 		Detect prime elements of array
 isreal 			Determine if all array elements are real numbers
@@ -263,9 +263,9 @@ isinf 			Detect infinite elements of array
 ```matlab
 clear; a = magic(4);
 save mydata1.mat
-save mydata2.mat -ascii   Saving as ASCII allows it to be opened with Notepad
+save mydata2.mat -ascii   Saved as ASCII, the file can be opened with Notepad
 
-save(filename,'var')		You can store specific variables, or you can also right-click and manually save them
+save(filename,'var')		Can save specific variables; of course, you can also right-click and Save As
 ```
 
 #### 2.2 load
@@ -278,16 +278,16 @@ load('mydata2.mat','-ascii')
 #### 2.3 xlsread()
 
 ```matlab
-Score = xlsread('04Score.xlsx')					Reads numerical parts by default
-Score = xlsread('04Score.xlsx', 'B2:D4')		Specifies rows and columns
+Score = xlsread('04Score.xlsx')					Reads the numeric part by default
+Score = xlsread('04Score.xlsx', 'B2:D4')		Specify rows and columns
 ```
 
 #### 2.4 xlswrite()
 
 ```matlab
 M = mean(Score')';
-xlswrite('04Score.xlsx', M, 1, 'E2:E4');   Sequential parameters are: filename, variable name, sheet number, and the target position to write to
-xlswrite('04Score.xlsx', {'Mean'}, 1, 'E1');  Write the text 'Mean' into cell E1
+xlswrite('04Score.xlsx', M, 1, 'E2:E4');   The order is file name, variable name, sheet, and write location
+xlswrite('04Score.xlsx', {'Mean'}, 1, 'E1');  Write cell E1 as mean
 ```
 
 #### 2.5 Reading Text

@@ -1,184 +1,184 @@
 ---
-title: "JPE — On the Origins of the State: Stationary Bandits and Taxation in Eastern Congo"
+title: "JPE — Stationary Bandits and the Origins of the State"
 date: 2024-09-24T18:00:00+08:00
 category: { name: "Research Notes", slug: research }
-tags: ["HIBL", "origins question"]
-summary: "This paper explores how armed groups in eastern DRC gradually assume state-like functions through monopolized violence, taxation, and protection, with price shocks for coltan and gold driving them to establish sophisticated tax and administrative systems, revealing a pathway from banditry to governance in resource-rich areas."
+tags: ["HIBL", "Origins Question"]
+summary: "\"Stationary bandits\" bring about functions resembling those of a state."
 ---
 
-> 这篇论文探讨了刚果民主共和国东部地区的武装团体如何通过暴力垄断、税收和提供保护等方式，逐渐承担类似国家的核心功能。
+> This paper examines how armed groups in the eastern region of the Democratic Republic of the Congo gradually take on core functions resembling those of a state, through means such as monopolizing violence, levying taxes, and providing protection.
 >
-> 通过分析钶钽矿和黄金价格的外部冲击，作者发现这些武装团体在资源丰厚地区建立了非法的税收和保护制度，类似于国家的职能。钶钽矿的价格上涨促使武装团体控制矿区，而黄金价格的上涨则推动他们在村庄中引入更复杂的税收和行政管理机制。论文揭示了在资源丰富地区，武装团体如何逐步演化为类似国家的治理结构。
+> By analyzing external shocks to coltan and gold prices, the author finds that these armed groups established illegal systems of taxation and protection in resource-rich areas, resembling the functions of a state. Rising coltan prices prompted armed groups to take control of mining areas, while rising gold prices drove them to introduce more sophisticated taxation and administrative mechanisms in the villages. The paper reveals how, in resource-rich areas, armed groups gradually evolve into governance structures resembling those of a state.
 
-**标题:** On the Origins of the State: Stationary Bandits and Taxation in Eastern Congo
+**Title:** On the Origins of the State: Stationary Bandits and Taxation in Eastern Congo
 
-**期刊:** *Journal of Political Economy*
+**Journal:** *Journal of Political Economy*
 
-**作者:**
+**Author:**
 
-- <u>Raúl Sánchez de la Sierra</u>：Raul is currently Assistant Professor at the University of Chicago, Harris School of Public Policy, research fellow at IGC, JPAL-CVI, NBER (DEV, PE), distinguished fellow at CESifo, Harry Frank Guggenheim Foundation distinguished scholar, and former Harvard Academy and CIFAR Azrieli Global Scholar. Originally from Spain and France, his work tries to ask how society is organized when the state is weak or predatory, and what type of state can be built in that context. https://raulsanchezdelasierra.com
+- <u>Raúl Sánchez de la Sierra</u>: Raul is currently Assistant Professor at the University of Chicago, Harris School of Public Policy, research fellow at IGC, JPAL-CVI, NBER (DEV, PE), distinguished fellow at CESifo, Harry Frank Guggenheim Foundation distinguished scholar, and former Harvard Academy and CIFAR Azrieli Global Scholar. Originally from Spain and France, his work tries to ask how society is organized when the state is weak or predatory, and what type of state can be built in that context. https://raulsanchezdelasierra.com
 
-**上线时间：** 20 December 2019
+**Published online:** 20 December 2019
 
 <br/>
 
-## 引言
+## Introduction
 
-#### **经济学中的传统国家观念**
+#### **The Traditional Conception of the State in Economics**
 
-有无数文献强调了**私有产权保护**制度与**契约制度**在现代经济发展中的重要作用，之前的推文也有诸多涉及，如：
+A vast literature has emphasized the important role that institutions for the **protection of private property rights** and **contracting institutions** play in modern economic development, a topic that previous posts have also touched on extensively, such as:
 
-- [JPE-民主确实导致了增长](https://mp.weixin.qq.com/s/j1Jm3bjF8eu0pL9nsW5TkQ)
-- [JPE-解构制度：产权保护制度和契约制度](https://mp.weixin.qq.com/s/_ArmohGj_aTZ_tgIReKD4w)
-- [QJE-制度塑造了近500年全球财富格局，而不是地理](https://mp.weixin.qq.com/s/6yq-UcxVHzQoLHMcS8WLMw)
-- [AER-殖民者死亡率差异塑造了殖民地的制度差异，并影响了当今的经济发展](https://mp.weixin.qq.com/s/jpiCisT0ZxCnCnAV5V5YZg)
+- [JPE — Democracy Does Cause Growth](https://mp.weixin.qq.com/s/j1Jm3bjF8eu0pL9nsW5TkQ)
+- [JPE — Unbundling Institutions: Property Rights Institutions and Contracting Institutions](https://mp.weixin.qq.com/s/_ArmohGj_aTZ_tgIReKD4w)
+- [QJE — Institutions, Not Geography, Shaped the Global Distribution of Wealth Over the Past 500 Years](https://mp.weixin.qq.com/s/6yq-UcxVHzQoLHMcS8WLMw)
+- [AER — Differences in Settler Mortality Shaped Differences in Colonial Institutions and Affect Economic Development Today](https://mp.weixin.qq.com/s/jpiCisT0ZxCnCnAV5V5YZg)
 
-产权保护和契约由**国家**强制执行的环境是经济学家预设的，这在许多经典经济模型中被视为理所当然。但事实上，国家并不是一开始就存在的。早期的国家在很大程度上是通过逐步演化而来，并且其核心功能，如**暴力垄断**、**征税**和**财产保护**，是现代经济增长的基础 。
+The environment in which property protection and contracts are enforced by the **state** is something economists take as a given, treated as a matter of course in many classic economic models. But in reality, the state did not exist from the very beginning. Early states largely came into being through gradual evolution, and their core functions — such as the **monopoly on violence**, **taxation**, and **protection of property** — are the foundation of modern economic growth.
 
-这些功能的出现往往可以追溯到**武装团体**的活动（Tilly, 1985）。尽管许多武装团体演变成有组织犯罪，历史记录表明，最成功的武装团体成为了现代国家的前身（Weber, 1946；Olson, 1993）。但由于数据缺乏，这类研究很难系统性地进行（Scott, 1998）。
+The emergence of these functions can often be traced back to the activities of **armed groups** (Tilly, 1985). Although many armed groups evolved into organized crime, the historical record shows that the most successful armed groups became the precursors of modern states (Weber, 1946; Olson, 1993). But because of a lack of data, such research has been very difficult to carry out systematically (Scott, 1998).
 
-#### **基于刚果的研究**
+#### **A Study Based on the Congo**
 
-刚果民主共和国（DRC）东部的武装团体活动为研究国家核心功能的形成提供了良好的机会。自1990年以来，中央政府失去了对东部大片地区的控制，许多武装团体以及刚果军队中的个人从事非法活动，建立暴力垄断、征税、提供保护，甚至拥有比政府更高的**合法性**。这些武装团体的行为类似于“**事实上的政府**”，其活动受到东部矿产需求变化的影响（Nest等，2011；Stearns，2011；Sánchez de la Sierra，2018）。
+The activities of armed groups in the eastern region of the Democratic Republic of the Congo (DRC) provide a good opportunity to study the formation of the state's core functions. Since 1990, the central government has lost control over large parts of the east, and many armed groups, as well as individuals within the Congolese army, have engaged in illegal activities — establishing monopolies on violence, levying taxes, providing protection, and even possessing greater **legitimacy** than the government. The conduct of these armed groups resembles that of a "**de facto government**," and their activities are influenced by shifts in demand for the minerals of the east (Nest et al., 2011; Stearns, 2011; Sánchez de la Sierra, 2018).
 
-为进行实证分析，作者收集了1995年以来刚果东部650个地点的年度面板数据，并根据**最优税收理论**，推测：
+To conduct the empirical analysis, the author collected annual panel data for 650 locations in eastern Congo since 1995, and, drawing on **optimal taxation theory**, conjectured that:
 
-- 资源产出可以被观测到时，武装团体倾向于通过暴力垄断、征税和保护形成类似国家的功能；
-- 产出难以观测时，这些团体更倾向于征收消费税、收入税，并发展财政和行政体系以支持税收。
+- When resource output can be observed, armed groups tend to form state-like functions through a monopoly on violence, taxation, and protection;
+- When output is difficult to observe, these groups are more inclined to levy consumption taxes and income taxes, and to develop fiscal and administrative systems to support taxation.
 
-通过两次关键的矿产价格冲击（钶钽铁矿和黄金）的自然实验，作者分析了武装团体的反应。2000年，随着**PlayStation II**的发布，钶钽铁矿的需求飙升，武装团体在矿区设立暴力垄断和非法税收体系。这些团体大多是非国家武装力量，比中央政府更具合法性。然而，黄金的需求增加时，由于黄金易于隐藏，武装团体在矿工家乡的村庄中实施了工作许可等复杂的税收制度。
+Through a natural experiment based on two key mineral price shocks (coltan and gold), the author analyzes the responses of armed groups. In 2000, with the release of the **PlayStation II**, demand for coltan surged, and armed groups set up monopolies on violence and illegal taxation systems in the mining areas. These groups were mostly non-state armed forces, with greater legitimacy than the central government. However, when demand for gold rose, because gold is easy to hide, armed groups implemented sophisticated taxation systems such as work permits in the home villages of the miners.
 
-研究发现，当武装团体（如民兵或刚果军队）关注民众的福利时，他们的存在反而提升了家庭福利，如财产拥有、婚礼数量和移民迁入等指标明显增加。此外，与民兵或刚果军队相关的“固定土匪”对地方福利有积极影响，而外部武装团体则没有类似的效应。
+The study finds that when armed groups (such as militias or the Congolese army) are concerned with the welfare of the population, their presence actually improves household welfare, with marked increases in indicators such as property ownership, the number of weddings, and in-migration. In addition, "stationary bandits" associated with militias or the Congolese army have a positive impact on local welfare, whereas external armed groups have no comparable effect.
 
-同时，本文提出了一种新的“**资源诅咒**”解释：
+At the same time, this paper proposes a new interpretation of the "**resource curse**":
 
-- 当生产**无法**被直接征税时，资源繁荣促使武装团体建立复杂的财政体系；
-- 当资源可以被直接征税时，武装团体倾向于通过**简单的税收体系**获取收益，并削减其他财政管理工作。
+- When production **cannot** be directly taxed, a resource boom prompts armed groups to build sophisticated fiscal systems;
+- When resources can be directly taxed, armed groups tend to capture revenue through a **simple taxation system** and cut back on other fiscal administration.
 
-由此，资源价格的短期波动可能对长期的税收能力产生深远影响。
+As a result, short-term fluctuations in resource prices may have a profound impact on long-term taxation capacity.
 
-#### **本文的贡献与文献对话**
+#### **This Paper's Contributions and Dialogue with the Literature**
 
-- **国家核心功能的起源与演化**：历史上，许多武装组织尝试治理，最成功的最终形成了国家，但许多“准国家”消失了。本文发现，国家的核心功能可以从武装组织中产生，并在动员人民的过程中形成，进而对社会福利产生积极影响；
-- **国家形成的两种理论视角**：契约论认为国家起源于人民的意愿，促进福利；冲突理论则将国家视为成功的有组织犯罪。本文的发现表明，这两种过程都能促成国家核心功能的形成；
-- **数据贡献与暴力分析**：本文通过高质量的面板数据补充了关于内战和暴力的研究。它指出，资源价格的上涨不仅引发暴力，还能促使国家功能的出现和强化；
-- **资源诅咒的新视角**：传统的资源诅咒理论认为，矿产资源会导致冲突和降低政府问责。本文则提出，资源繁荣可能促使国家发展复杂的财政管理，但在某些情况下也可能导致行政能力的削弱。这表明，资源冲击对国家财政能力的长期影响是深远的。
+- **The origins and evolution of the state's core functions**: Historically, many armed organizations attempted to govern, and the most successful eventually formed states, but many "quasi-states" disappeared. This paper finds that the state's core functions can arise from armed organizations and take shape in the process of mobilizing the people, thereby having a positive impact on social welfare;
+- **Two theoretical perspectives on state formation**: Contractarian theory holds that the state originates from the will of the people and promotes welfare; conflict theory regards the state as successful organized crime. This paper's findings suggest that both processes can give rise to the state's core functions;
+- **Data contribution and the analysis of violence**: This paper supplements research on civil war and violence with high-quality panel data. It points out that rising resource prices not only trigger violence but can also prompt the emergence and strengthening of state functions;
+- **A new perspective on the resource curse**: The traditional resource curse theory holds that mineral resources lead to conflict and reduce governmental accountability. This paper instead proposes that a resource boom may prompt the state to develop sophisticated fiscal administration, but in some cases may also lead to a weakening of administrative capacity. This shows that the long-term impact of resource shocks on the state's fiscal capacity is profound.
 
-## 国家核心职能的概念化
+## Conceptualizing the State's Core Functions
 
-#### **刚果东部的案例（NDC-R组织）**
+#### **The Case of Eastern Congo (the NDC-R Organization)**
 
-- NDC-R是刚果东部一个拥有暴力垄断的武装组织，控制了108个村庄，并对38480名成年人征税。
-- 为了维持这种暴力垄断，NDC-R建立了复杂的**税收体系**，包括人头税、采矿许可证、农业税、营业额税等。他们还设立了情报机构，监控贸易和敌方活动。此外，该组织管理着啤酒、酒类和香烟的垄断销售，并设有财政和人事管理体系。
-- NDC-R为了获得民众支持，还建立了**法律体系**，惩罚性犯罪和税务犯罪，开展**宣传**活动，强调其合法性并招募志愿者。该组织还通过**民族文化的象征**（如祖先的精神支持）来巩固其统治的合法性。
+- The NDC-R is an armed organization in eastern Congo that holds a monopoly on violence, controlling 108 villages and taxing 38,480 adults.
+- To maintain this monopoly on violence, the NDC-R established a sophisticated **taxation system**, including head taxes, mining permits, agricultural taxes, turnover taxes, and so on. They also set up an intelligence agency to monitor trade and enemy activity. In addition, the organization manages the monopoly sale of beer, liquor, and cigarettes, and has fiscal and personnel management systems in place.
+- To win popular support, the NDC-R also established a **legal system** that punishes violent crimes and tax crimes, and conducted **propaganda** campaigns emphasizing its legitimacy and recruiting volunteers. The organization also consolidates the legitimacy of its rule through **symbols of ethnic culture** (such as the spiritual support of ancestors).
 
-这一案例展示了“固定土匪”如何提供“国家的核心职能”。
+This case illustrates how "stationary bandits" provide the "core functions of a state."
 
-#### **国家起源与核心职能**
+#### **The Origins of the State and Its Core Functions**
 
-- **国家核心职能的出现**：按照韦伯的定义，国家是通过暴力垄断获得合法性的。国家的核心职能包括（Tilly, 1985）：**战争制造**（消灭外部敌人）；**国家建设**（镇压内部对手）；**保护**（消灭敌对势力，保护盟友的利益）；**征税**（为战争、国家建设和保护提供资源）。早期国家的功能通常由武装精英为征税目的而形成。这种功能的形成与可观测产出的价值及其征税难度密切相关。早期国家的一个关键特点是，他们缺乏合法性，因而被称为“未成熟的早期国家”。
-- **核心功能与人口福利的关系**：当国家的核心职能为民众利益服务时（如民兵或包容性政治制度），它可以通过保护财产权促进经济增长。然而，国家职能也可能损害人口福利，尤其当国家充当“**保护勒索者**”时，国家的暴力垄断和税收制度可能是压迫性的，而非有利于发展的。
+- **The emergence of the state's core functions**: By Weber's definition, the state derives its legitimacy from a monopoly on violence. The core functions of the state include (Tilly, 1985): **war making** (eliminating external enemies); **state making** (suppressing internal rivals); **protection** (eliminating hostile forces and protecting the interests of allies); and **taxation** (providing resources for war making, state making, and protection). The functions of early states were typically formed by armed elites for the purpose of taxation. The formation of these functions is closely tied to the value of observable output and the difficulty of taxing it. A key feature of early states is that they lacked legitimacy, and were therefore called "immature early states."
+- **The relationship between core functions and population welfare**: When the state's core functions serve the interests of the people (as with militias or inclusive political institutions), they can promote economic growth by protecting property rights. However, state functions can also harm population welfare — especially when the state acts as a "**protection racketeer**," its monopoly on violence and its taxation system may be oppressive rather than conducive to development.
 
-- **国家核心功能的深化**：随着时间推移，国家的核心功能从简单的税收逐渐复杂化，特别是通过对产出、消费、通行等征收税收，建立起财政管理和司法系统。现代欧洲国家的历史表明，随着国际贸易的发展，国家逐步发展出更加**复杂**的税收和**行政管理**体系。
+- **The deepening of the state's core functions**: Over time, the state's core functions gradually become more complex, moving from simple taxation to, in particular, the levying of taxes on output, consumption, transit, and so on, building up fiscal administration and judicial systems. The history of modern European states shows that, as international trade developed, states progressively developed more **sophisticated** taxation and **administrative** systems.
 
-#### **固定土匪行使国家职能**
+#### **Stationary Bandits Exercising State Functions**
 
-- 现代“固定土匪”为研究国家核心职能的出现提供了有力的参考。固定土匪通过**暴力垄断**消除竞争对手，获得稳定的税收来源，并保护生产者的财产，从而发展出类似国家的核心功能。这表明暴力垄断、税收和财产保护是密切相关的；
-- 固定土匪对经济的影响取决于他们提供的保护是否能**促进投资**，并产生比税收带来的负面影响更大的增值。如果保护的正面效果大于税收的负面影响，他们可能会促进经济增长；
-- 当产出难以征税时，固定土匪可以通过直接税和消费税捕捉经济剩余。他们可以建立**财政和司法管理系统**来提高税收效率，促进经济交换。
+- Modern "stationary bandits" provide a powerful reference for studying the emergence of the state's core functions. Stationary bandits eliminate competitors through a **monopoly on violence**, secure a stable source of tax revenue, and protect producers' property, thereby developing state-like core functions. This shows that the monopoly on violence, taxation, and property protection are closely related;
+- The impact of stationary bandits on the economy depends on whether the protection they provide can **promote investment** and generate value added greater than the negative impact of taxation. If the positive effect of protection exceeds the negative impact of taxation, they may promote economic growth;
+- When output is difficult to tax, stationary bandits can capture economic surplus through direct taxes and consumption taxes. They can build **fiscal and judicial administration systems** to improve the efficiency of taxation and promote economic exchange.
 
-## 实证策略
+## Empirical Strategy
 
-#### **实证背景**
+#### **Empirical Background**
 
-在1998年，刚果民主联盟（RCD）试图发动政变失败后，多个武装团体控制了刚果东部的大片区域。尽管这些团体的初始动机是政治性的，但经济利益很快成为了战争中的核心驱动力。2003年签订的太阳城和平协议要求主要武装团体解散，并融入刚果国家军队（FARDC），但很多团体仍然保留了其指挥网络。这使得军队与非国家武装团体之间的界限变得模糊，武装团体控制了矿产、木材等关键资源区域，并通过非法税收获利。
+In 1998, after the Congolese Rally for Democracy (RCD) attempted a failed coup, multiple armed groups took control of large parts of eastern Congo. Although these groups' initial motivations were political, economic interests soon became the central driving force in the war. The Sun City Peace Agreement, signed in 2003, required the major armed groups to disband and integrate into the Congolese national army (FARDC), but many groups still retained their command networks. This blurred the line between the army and non-state armed groups, with armed groups controlling key resource areas such as minerals and timber and profiting through illegal taxation.
 
-在刚果东部，矿产开采是高度**劳动密集型**的。数百万的手工矿工依赖基本的基础设施进行开采，主要开采的矿产是钶钽矿和黄金。**钶钽矿**价值较低，但体积大，运输依赖飞机；而黄金价值较高，日常产量小且难以追踪。
+In eastern Congo, mineral extraction is highly **labor-intensive**. Millions of artisanal miners rely on basic infrastructure to extract minerals, the main ones being coltan and gold. **Coltan** is of relatively low value but bulky, and its transport relies on aircraft; gold, by contrast, is of higher value, with small daily output that is difficult to trace.
 
-#### **数据收集**
+#### **Data Collection**
 
-作者团队通过回忆法重建了1995至2013年间刚果东部239个村庄和411个矿区的年度历史数据。由于依赖回忆进行数据收集，作者面对三个主要挑战：回忆误差、事件日期误差和敏感信息的报告偏差。为了应对这些问题，作者采用了定制的回忆调查方法，并在村庄中招募历史专家进行数据的核实和校正。调查员通过面对面访谈、村庄会议和数据对比，确保数据的准确性和一致性。
+The author's team reconstructed annual historical data for 239 villages and 411 mining areas in eastern Congo for the period 1995 to 2013 using a recall method. Because the data collection relied on recall, the author faced three main challenges: recall error, error in dating events, and reporting bias for sensitive information. To address these problems, the author adopted a customized recall survey method and recruited historical experts in the villages to verify and correct the data. Enumerators ensured the accuracy and consistency of the data through face-to-face interviews, village meetings, and data cross-checking.
 
-####  **矿产冲击**
+####  **Mineral Shocks**
 
-- **索尼Playstation II和钶钽矿的需求冲击**：2000年，索尼宣布将在圣诞季发布PlayStation II，这导致钶钽矿需求大幅上涨，价格从每公斤90美元飙升至590美元。由于钶钽矿主要通过手工开采、运输困难，武装团体开始抢占矿区，通过垄断矿产开采区域获取暴利，建立非法的税收和保护体系。这个需求冲击提供了研究外部市场需求突然变化如何影响武装团体行为的机会。
-- **黄金价格的需求冲击**：黄金是一种价值高、体积小且容易隐藏的矿物。2006年全球金融危机后，黄金作为避险资产的需求大幅增加，价格在短时间内大幅上升，2012年黄金价格比危机前上涨了6倍。由于黄金价值高且日常产量较小，矿工更容易隐藏其生产的黄金，导致武装团体不能直接从矿区获取收益。因此，他们转而在矿工及其家庭居住的村庄征税，实施**更复杂的税收体系**，如工作许可证和消费税等。
+- **Sony PlayStation II and the demand shock for coltan**: In 2000, Sony announced that it would release the PlayStation II during the Christmas season, which caused demand for coltan to rise sharply, with the price surging from 90 US dollars per kilogram to 590 US dollars. Because coltan is mainly extracted by hand and is difficult to transport, armed groups began to seize the mining areas, reaping enormous profits by monopolizing the mining zones and establishing illegal systems of taxation and protection. This demand shock provides an opportunity to study how a sudden change in external market demand affects the behavior of armed groups.
+- **The demand shock for gold prices**: Gold is a mineral that is of high value, small in volume, and easy to hide. After the global financial crisis of 2006, demand for gold as a safe-haven asset increased substantially, and its price rose sharply over a short period; by 2012 the gold price was 6 times higher than before the crisis. Because gold is of high value and has small daily output, miners can more easily hide the gold they produce, with the result that armed groups cannot capture revenue directly from the mining areas. They therefore turned to levying taxes in the villages where the miners and their families live, implementing **more sophisticated taxation systems** such as work permits and consumption taxes.
 
-⬇️下图展示了钶钽和黄金价格变动的趋势：
+⬇️The figure below shows the trends in coltan and gold price movements:
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240924160918516.png)
 
-#### **回归方程**
+#### **Regression Equation**
 
-OLS估计的形式是：
+The form of the OLS estimation is:
 
 $$
 Y_{jt} = \beta_t + \alpha_j + \gamma_c C_j p_{c,t} + \gamma_g G_j p_{g,t} + \epsilon_{jt}
 $$
-模型解释：
+Explanation of the model:
 
-- $Y_{jt}$ ：表示地区  $j$  在年份  $t$  的某个二元结果变量（如是否存在固定土匪、税收、暴力垄断、安全服务等核心功能）；
-- $\beta_t$ ：年份固定效应，控制不随地区变化但随时间变化的因素；
-- $\alpha_j$ ：地区固定效应，控制不随时间变化但随地区变化的因素；
-- $C_j$ ：表示某地区是否拥有钶钽矿的二元变量；
-- $G_j$ ：表示某地区是否拥有黄金的二元变量；
-- $p_{c,t}$  和  $p_{g,t}$ ：分别表示第  $t$  年钶钽矿和黄金的价格对数；
-- $\gamma_c$  和  $\gamma_g$ ：分别表示钶钽矿和黄金价格变化对武装团体行为的影响；
-- $\epsilon_{jt}$ ：误差项。
+- $Y_{jt}$ : denotes some binary outcome variable for location $j$ in year $t$ (such as the presence of a stationary bandit, taxation, a monopoly on violence, security services, or other core functions);
+- $\beta_t$ : year fixed effects, controlling for factors that do not vary across locations but vary over time;
+- $\alpha_j$ : location fixed effects, controlling for factors that do not vary over time but vary across locations;
+- $C_j$ : a binary variable indicating whether a location has coltan;
+- $G_j$ : a binary variable indicating whether a location has gold;
+- $p_{c,t}$ and $p_{g,t}$ : the log prices of coltan and gold, respectively, in year $t$ ;
+- $\gamma_c$ and $\gamma_g$ : the effects of changes in coltan and gold prices, respectively, on the behavior of armed groups;
+- $\epsilon_{jt}$ : the error term.
 
-由于矿产价格可能受武装团体活动的内生性影响，作者使用了美国的矿产价格（钶钽矿和黄金）作为工具变量。这确保了矿产价格的外生性，避免了因内生性带来的偏差。
+Because mineral prices may be subject to endogeneity from the activities of armed groups, the author uses US mineral prices (coltan and gold) as instrumental variables. This ensures the exogeneity of mineral prices and avoids bias arising from endogeneity.
 
-## 结果
+## Results
 
-#### **国家职能的出现**
+#### **The Emergence of State Functions**
 
-- **暴力袭击**：图3展示了各个年份中不同地区遭受武装袭击的比例。通过分析，发现钶钽矿区在2000年的暴力袭击增加了27.1%，而黄金矿区仅增加了4.8%。这表明武装团体更多地争夺钶钽矿等可观测、易运输且利润丰厚的矿产资源。这种现象符合“**掠夺效应**”理论，即武装团体通过暴力争夺具有高经济价值的资源。相比之下，黄金由于体积小、易于隐藏，减少了矿区内的暴力攫取行为。对黄金的开采，武装团体倾向于通过其他手段获取收益，而不是直接暴力占领矿区。![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240924163913450.png)
-- **解释产出税、固定土匪与保护功能**：武装团体为了攫取矿产资源，发展出了两种主要的税收方式：**产出税（Customs Tax）**：武装团体通过在矿区出口处设立路障、检查运输物资并收取与产出量相关的税收。这种税收方式在钶钽矿区更为普遍，因为钶钽矿具有较低的价值-重量比，运输方便，且较难隐藏。**入场费或工作证（Entry Fees/Working Permits）**：在黄金矿区，由于黄金容易被矿工隐匿，武装团体难以在矿区直接征税。因此，他们转向征收工作证或入场费，要求矿工支付费用才能进入矿区工作。这种税收方式在黄金矿区更为普遍，表明武装团体为了克服黄金难以征税的挑战，调整了其攫取策略。
-- **谁是固定土匪**：研究将固定土匪分为四种类型：村庄自卫民兵、区域民兵、外部武装力量以及刚果国家军队（FARDC）。各类武装团体在税收、暴力以及与当地居民的关系上存在明显差异：**村庄自卫民兵和区域民兵**：这些团体通常由当地居民组成，成员与村长的族群背景相似，因此更受当地居民的支持。约55%的村庄民兵与村长是同一族群，且村庄民兵在29%的情况下被认为具有合法性。相比之下，区域民兵的合法性较低，且他们往往在更大范围内活动。**外部武装力量和FARDC**：外部武装团体（如FDLR、RCD等）和FARDC成员虽然有时也参与矿产的非法征税活动，但其与当地居民的联系较为薄弱。外部武装团体往往被认为是“外来势力”，与当地居民的文化和社会联系较少，合法性较低（仅17%的外部武装团体被认为是合法的）。
+- **Violent attacks**: Figure 3 shows the proportion of different locations subjected to armed attacks across the years. The analysis finds that violent attacks in coltan mining areas increased by 27.1% in 2000, while in gold mining areas they increased by only 4.8%. This indicates that armed groups compete more for mineral resources such as coltan that are observable, easy to transport, and highly profitable. This phenomenon is consistent with the "**rapacity effect**" theory, namely that armed groups compete violently for resources of high economic value. By contrast, because gold is small in volume and easy to hide, it reduces violent appropriation within the mining areas. For the extraction of gold, armed groups tend to capture revenue through other means rather than directly seizing the mining areas by force.![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240924163913450.png)
+- **Explaining output taxes, stationary bandits, and the protection function**: In order to extract mineral resources, armed groups developed two main forms of taxation: **Output tax (Customs Tax)**: armed groups set up roadblocks at the exits of the mining areas, inspect the goods being transported, and collect taxes tied to the volume of output. This form of taxation is more common in coltan mining areas, because coltan has a relatively low value-to-weight ratio, is easy to transport, and is harder to hide. **Entry Fees/Working Permits**: in gold mining areas, because gold is easily concealed by miners, armed groups find it difficult to tax directly within the mining areas. They therefore turned to levying working permits or entry fees, requiring miners to pay a fee in order to enter the mining areas to work. This form of taxation is more common in gold mining areas, indicating that armed groups adjusted their extraction strategy in order to overcome the challenge of gold being difficult to tax.
+- **Who the stationary bandits are**: The study divides stationary bandits into four types: village self-defense militias, regional militias, external armed forces, and the Congolese national army (FARDC). The various armed groups differ markedly in their taxation, violence, and relationships with local residents: **Village self-defense militias and regional militias**: these groups are usually composed of local residents, with members who share a similar ethnic background to the village chief, and are therefore more supported by local residents. About 55% of village militias belong to the same ethnic group as the village chief, and village militias are considered legitimate in 29% of cases. By contrast, regional militias have lower legitimacy and often operate over a wider area. **External armed forces and FARDC**: external armed groups (such as the FDLR, RCD, etc.) and FARDC members, although they sometimes also take part in the illegal taxation of minerals, have relatively weak ties to local residents. External armed groups are often regarded as "outside forces," with fewer cultural and social ties to local residents and lower legitimacy (only 17% of external armed groups are considered legitimate).
 
-#### **国家的福利职能**
+#### **The Welfare Function of the State**
 
-作者通过对支持村庄中随机抽取的家庭数据来衡量其福利：
+The author measures welfare using data on households randomly sampled in the supporting villages:
 
-- **储蓄指数**：根据家庭每年购买牲畜的数据，使用主成分分析法（PCA）构建了一个储蓄指数；
-- **婚礼数量**：用每年在村庄中举行的婚礼数量的对数作为衡量社会投资的指标，婚礼在新娘嫁妆文化中是一项昂贵且重要的投资；
-- **移民数量**：用迁入村庄的移民数量对数来反映生活在该村庄的相对吸引力。
+- **Savings index**: based on data on the livestock that households purchase each year, a savings index is constructed using principal component analysis (PCA);
+- **Number of weddings**: the log of the number of weddings held in the village each year is used as an indicator of social investment, since weddings are a costly and important investment in the bridewealth culture;
+- **Number of migrants**: the log of the number of migrants moving into the village is used to reflect the relative attractiveness of living in that village.
 
-这些变量共同构成了福利指数，通过主成分分析法标准化。为了控制矿产价格变化可能引起的家庭迁移效应，作者仅使用了2000年之前已定居家庭的数据，并将每个家庭的观测值聚合到支持村庄×年份的平均值上。此外，标准误差在支持村庄层级上聚类。
+Together, these variables make up a welfare index, standardized through principal component analysis. To control for the household migration effect that changes in mineral prices may induce, the author uses only data for households already settled before 2000, and aggregates each household's observations to the supporting-village × year average. In addition, standard errors are clustered at the supporting-village level.
 
-**矿产价格冲击的异质性影响**
+**The Heterogeneous Effects of Mineral Price Shocks**
 
-- **钶钽矿价格**：在没有固定土匪的支持村庄，钶钽矿价格上涨会显著增加家庭福利。然而，在有外部固定土匪的村庄，这一效应几乎没有显著变化。相比之下，若固定土匪是民兵，钶钽矿价格的上涨对家庭福利的影响显著增加11%；
-- **黄金价格**：与钶钽矿类似，民兵或FARDC的存在使得黄金价格上涨对家庭福利的正面影响显著增加。
+- **Coltan price**: in supporting villages without a stationary bandit, a rise in coltan prices significantly increases household welfare. However, in villages with an external stationary bandit, this effect shows almost no significant change. By contrast, if the stationary bandit is a militia, the effect of rising coltan prices on household welfare increases significantly by 11%;
+- **Gold price**: similar to coltan, the presence of a militia or FARDC significantly increases the positive effect of rising gold prices on household welfare.
 
-#### **国家核心职能的强化**
+#### **The Strengthening of the State's Core Functions**
 
-- **钶钽矿的影响**：钶钽矿价格的上涨会促使武装团体在矿区建立暴力垄断。然而，钶钽矿的价格上涨与支持村庄行政系统的撤销有关，这被称为“行政资源诅咒”，即由于集中精力于矿区暴力控制，武装团体在支持村庄中减少了行政管理的投入；
-- **黄金的影响**：与钶钽矿不同，黄金价格的上涨促进了武装团体在支持村庄中发展复杂的税收体系（如市场税、投票税、收费站税等）。研究表明，黄金价格的上涨显著增加了税收复杂度、财政和司法管理的可能性，以及“强化性国家功能指数”的提升。
+- **The effect of coltan**: a rise in coltan prices prompts armed groups to establish a monopoly on violence in the mining areas. However, the rise in coltan prices is associated with the withdrawal of the administrative system in the supporting villages, which is termed the "administrative resource curse" — that is, because they concentrate their efforts on violent control of the mining areas, armed groups reduce their investment in administration in the supporting villages;
+- **The effect of gold**: unlike coltan, a rise in gold prices promotes the development by armed groups of sophisticated taxation systems in the supporting villages (such as market taxes, voting taxes, toll-station taxes, and so on). The study shows that a rise in gold prices significantly increases the complexity of taxation, the likelihood of fiscal and judicial administration, and the rise of the "state-strengthening function index."
 
-**固定土匪如何强化国家职能？**
+**How Do Stationary Bandits Strengthen State Functions?**
 
-- **官方文件和印章**：在60%的案例中，固定土匪发展出了正式文件和官方印章，标志着他们治理的正式化；
-- **市场与商业管理**：在少数案例中（约6%），他们创造了本地市场并规范了当地商业活动；
-- **宣传与合法性**：大约41%的案例中，固定土匪开展了旨在获得合法性的宣传活动；29%的案例中，他们通过仪式巩固其地位；
-- **打击宗教领袖**：在17%的案例中，他们通过猎巫等手段打压反对他们的宗教领袖，以维持对当地信仰系统的控制；
-- **间接统治**：在55%的案例中，固定土匪取代了传统的酋长角色，而在其余案例中，他们与当地酋长合作，通过间接统治维持控制。
+- **Official documents and seals**: in 60% of cases, stationary bandits developed formal documents and official seals, marking the formalization of their governance;
+- **Market and commercial management**: in a small number of cases (about 6%), they created local markets and regulated local commercial activity;
+- **Propaganda and legitimacy**: in about 41% of cases, stationary bandits conducted propaganda campaigns aimed at gaining legitimacy; in 29% of cases, they consolidated their position through rituals;
+- **Cracking down on religious leaders**: in 17% of cases, they suppressed religious leaders who opposed them through means such as witch hunts, in order to maintain control over the local belief system;
+- **Indirect rule**: in 55% of cases, stationary bandits replaced the traditional role of the chief, while in the remaining cases they cooperated with local chiefs to maintain control through indirect rule.
 
-## 结论
+## Conclusion
 
-- **土匪与国家核心职能的形成**：武装团体（固定土匪）在资源丰富的地区逐渐承担了类似于国家的功能。这些武装团体通过建立暴力垄断、征收非法税款以及提供安全保护，履行了国家的核心功能，如税收、暴力控制和对被征税者财产的保护；
-- **资源类型对治理模式的影响**：不同类型的资源对武装团体的行为模式有着显著差异影响。钶钽矿这种体积大且易于运输的矿产促使武装团体直接控制矿区，通过暴力垄断获取资源。而黄金则由于其易于隐藏、难以追踪的特点，导致武装团体更多地通过控制矿工生活的村庄来间接获取收益。他们在村庄中引入了工作许可证和其他形式的税收机制；
-- **武装团体对家庭福利的影响**：武装团体的存在对当地家庭的福利产生了复杂的影响。当武装团体的任务与改善当地居民福利相关时（如民兵或刚果国家军队FARDC控制的地区），这些团体能够对当地居民的福利产生正面影响。例如，固定土匪通过提供保护和稳定的税收制度，使得当地家庭的资产拥有率、婚礼数量和迁移率增加。然而，外部武装团体（如外国武装势力）则未能对当地居民的福利产生显著的正面影响，甚至在某些情况下是负面的；
-- **国家职能的强化**：黄金价格的上涨不仅促使武装团体征收更多类型的税款，还推动了他们发展更复杂的财政和司法管理系统。武装团体通过建立财政管理机构、司法系统以及多种复杂的税收制度，逐步强化了其治理功能。这些举措使得武装团体在某些地区逐渐演化为类似国家的治理机构，履行着更复杂的国家功能；
-- **合法性和治理的复杂性**：武装团体为了巩固其治理地位，采用了多种策略来获取合法性，包括宣传活动、仪式化的入会仪式以及通过猎巫等手段打击反对势力。此外，部分武装团体还试图与传统的地方酋长合作，通过间接统治的方式维持对当地的控制。
+- **Bandits and the formation of the state's core functions**: Armed groups (stationary bandits) gradually took on functions resembling those of a state in resource-rich areas. By establishing monopolies on violence, levying illegal taxes, and providing security and protection, these armed groups fulfilled the state's core functions, such as taxation, control of violence, and protection of the property of those being taxed;
+- **The influence of resource type on the mode of governance**: Different types of resources have markedly different effects on the behavioral patterns of armed groups. A mineral such as coltan, which is bulky and easy to transport, prompts armed groups to control the mining areas directly and capture resources through a monopoly on violence. Gold, by contrast, because it is easy to hide and hard to trace, leads armed groups to capture revenue more indirectly by controlling the villages where the miners live. They introduced work permits and other forms of taxation mechanisms in the villages;
+- **The impact of armed groups on household welfare**: The presence of armed groups has a complex impact on the welfare of local households. When the mission of armed groups is tied to improving the welfare of local residents (as in areas controlled by militias or the Congolese national army FARDC), these groups can have a positive impact on the welfare of local residents. For example, by providing protection and a stable taxation system, stationary bandits increase the asset ownership rate, the number of weddings, and the migration rate of local households. However, external armed groups (such as foreign armed forces) failed to have a significant positive impact on the welfare of local residents, and in some cases were even negative;
+- **The strengthening of state functions**: A rise in gold prices not only prompted armed groups to levy more types of taxes but also drove them to develop more sophisticated fiscal and judicial administration systems. By establishing fiscal administration agencies, judicial systems, and various sophisticated taxation systems, armed groups progressively strengthened their governance functions. These measures led armed groups in some areas to gradually evolve into governance institutions resembling those of a state, fulfilling more complex state functions;
+- **The complexity of legitimacy and governance**: To consolidate their position of governance, armed groups adopted a variety of strategies to gain legitimacy, including propaganda campaigns, ritualized initiation ceremonies, and cracking down on opposing forces through means such as witch hunts. In addition, some armed groups also tried to cooperate with traditional local chiefs to maintain control over the locality through indirect rule.
 
-## 号外
+## Extra
 
-- 本期又回到了我很喜欢的**起源问题**，On the Origin of xxx，可真有意思呀；
-- 我感觉这篇论文写得有点绕，有兴趣的小伙伴建议多多阅读原文；
-- 关于国家的起源，有许多理论，如：“战争造就国家（暴力与征服理论）”、社会契约论、农业定居理论、水利假说等，后续会有更多关于国家起源的推文。
+- This installment returns once again to the **Origins Question** that I love so much — On the Origin of xxx — which is truly fascinating;
+- I feel this paper is written in a somewhat convoluted way, and friends who are interested are advised to read the original text closely;
+- On the origins of the state, there are many theories, such as "war makes the state (the violence-and-conquest theory)," social contract theory, the agricultural settlement theory, the hydraulic hypothesis, and so on; there will be more posts on the origins of the state to come.
 
-## 原文信息
+## Original Source
 
 De La Sierra, Raúl Sánchez. "On the origins of state: Stationary bandits and taxation in Eastern Congo." *Journal of Political Economy* 128, no. 1 (2020): 32-74. https://doi.org/10.1086/703989 
 

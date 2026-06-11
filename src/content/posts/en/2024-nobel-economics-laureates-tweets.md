@@ -1,12 +1,12 @@
 ---
-title: "Collection of Tweets on the 2024 Nobel Economics Laureates"
+title: "Collection of Tweets on the 2024 Nobel Laureates in Economic Sciences"
 date: 2024-10-14T20:00:00+08:00
 category: { name: "Research Notes", slug: research }
 tags: ["HIBL", "Acemoglu", "Origins Question"]
 summary: "Institutions are the fundamental cause of long-run economic growth."
 ---
 
-October 14, 2024 – The Royal Swedish Academy of Sciences has decided to award the Sveriges Riksbank Prize in Economic Sciences in Memory of Alfred Nobel 2024 to:
+On October 14, 2024, the Royal Swedish Academy of Sciences decided to award the 2024 Sveriges Riksbank Prize in **Economic Sciences** in Memory of Alfred Nobel to:
 
 **Daron Acemoglu**, Massachusetts Institute of Technology, Cambridge, USA
 
@@ -18,112 +18,125 @@ October 14, 2024 – The Royal Swedish Academy of Sciences has decided to award 
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/GZ13j1LXIAAlyLQ.jpeg)
 
-Congratulations to the **Institutional Triumvirate of AJR**!!! 🎉🎉🎉
+Congratulations to **AJR, the three giants of institutions**!!! 🎉🎉🎉
 
-I am so happy! The giants in my heart have finally won the prize – richly deserved!
+I am so happy! The giants in my heart have finally won the prize - richly deserved!
 
 <br/>
 
 ## Institutions Are the Fundamental Cause of Long-Run Economic Growth
 
-The work of AJR, along with that of a number of important political scientists, is what turned my research interests toward institutional economics and political economy.
+The work of the AJR trio, along with the work of some important political scientists, is what turned my research interests toward institutional economics and political economy.
 
-Their work has steadily convinced me that institutions are the fundamental cause of long-run economic growth.
+Their work has made me increasingly convinced that institutions are the fundamental cause of long-run economic growth.
 
-Much of what their work has illuminated for me remains, at this stage, **ineffable**. I am pessimistic in the short run, but in the long run, I am an **optimist**.
+Many of the insights their work has given me are, at present, things that **cannot be said aloud**. I am pessimistic in the short run, but in the long run I am an **optimist**.
 
-What I learned from their work is not only those empirical techniques, but more importantly, a cast of **thought** that cuts through the fog – these are what, to me, make them the giants in my heart.
+What I have learned from their work is not just empirical techniques, but - more importantly - the **ideas** that cut through the fog. It is these that make them the giants in my heart.
 
-Over the past six months, I have read a number of their papers and written essay-threads about them. Now, I have gathered those into a single collection:
+Over the past six months I have read a number of their papers and written them up as tweets. Now I have organized them into a single collection:
 
 #### **The Colonial Origins of Comparative Development: An Empirical Investigation**
 
-Essay-thread link: [AER – Differences in Settler Mortality Shaped Colonial Institutional Divergence, Affecting Economic Development Today](https://mp.weixin.qq.com/s/jpiCisT0ZxCnCnAV5V5YZg)
+Tweet link: [AER - Differences in Settler Mortality Shaped Institutional Differences Across Colonies and Affect Economic Development Today](https://mp.weixin.qq.com/s/jpiCisT0ZxCnCnAV5V5YZg)
 
-> What determines differences in levels of development across regions? A significant body of literature considers institutions crucial to economic performance. Yet, whether this relationship is truly **causal** faces numerous **endogeneity** challenges.
+> What determines differences in levels of development across regions? A large body of literature holds that institutions are crucial to economic performance, yet whether this relationship is **causal** still faces many **endogeneity** challenges.
 >
-> This paper innovatively analyzes the profound influence of colonial policies on modern institutions and economic performance by introducing early European **settler mortality** in the colonies as an instrumental variable. The research finds that high-mortality regions typically established **extractive** institutions, lacking protection for private property and restraints on government, resulting in poorer modern economic performance; low-mortality regions, by contrast, established Europe-like **inclusive** institutions, promoting economic development. Institutional differences among former colonies explain roughly three-quarters of today's per capita income gaps. Once institutions are controlled for, geography no longer matters significantly.
+> By introducing the mortality rates of European **settlers** during the colonial era as an instrumental variable, this paper innovatively analyzes the profound influence of colonial policies on modern institutions and economic performance. The study finds that high-mortality regions typically saw the establishment of **extractive** institutions, lacking protection of private property and checks on government, which led to poorer modern economic performance; low-mortality regions, by contrast, established Europe-like **inclusive** institutions, which promoted economic development. Institutional differences among the former colonies explain roughly three-quarters of today's gaps in per capita income. Once institutional factors are controlled for, geographic factors no longer matter.
 
 <br/>
 
 #### **Reversal of fortune: Geography and institutions in the making of the modern world income distribution**
 
-Essay-thread link: [QJE – Institutions Have Shaped the Global Wealth Landscape Over Five Centuries, Not Geography](https://mp.weixin.qq.com/s/6yq-UcxVHzQoLHMcS8WLMw)
+Tweet link: [QJE - Institutions, Not Geography, Shaped the Global Wealth Landscape of the Past 500 Years](https://mp.weixin.qq.com/s/6yq-UcxVHzQoLHMcS8WLMw)
 
-> Over the past 500 years, the global wealth (development) landscape has experienced a reversal. India’s Mughal Empire and the Americas’ Aztec and Inca Empires were among the wealthiest civilizations in 1500, while civilizations in North America, New Zealand, and Australia were less developed. Today, however, income levels in countries like the United States, Canada, Australia, and New Zealand are an order of magnitude higher than those in present-day India, Mexico, and Peru. Does geography seal a nation's fate, or does its set of institutions determine its rise and fall?
+> Over the past 500 years, the global landscape of wealth (development) has undergone a reversal. India's Mughal Empire and the Aztec and Inca Empires of the Americas were among the richest civilizations in 1500, while the civilizations of North America, New Zealand, and Australia were less developed. Today, however, income levels in countries such as the United States, Canada, Australia, and New Zealand are an order of magnitude higher than those of present-day India, Mexico, and Peru. Does geography seal a nation's fate, or do institutions determine the rise and fall of peoples?
 >
-> The paper uses urbanization rates and population density in 1500 as proxies for economic prosperity, finding them negatively correlated with per capita income today. This pattern of **“reversal of fortune”** does not align with simple geographic hypotheses. The paper argues that this reversal reflects changes in **institutions** caused by European colonialism. In relatively poor, sparsely populated areas, European colonizers tended to settle in large numbers and establish institutions that encouraged investment; in already prosperous, densely populated areas, **extractive institutions** were more profitable. This **“institutional reversal”** can explain the income reversal over five centuries.
+> The paper uses urbanization rates and population density in 1500 as proxies for economic prosperity, finding that they are negatively correlated with per capita income today. This pattern of **"reversal of fortune"** is inconsistent with simple geography hypotheses. The paper argues that the reversal reflects the **institutional change** brought about by European colonialism. In relatively poor, sparsely populated areas, European colonizers tended to settle in large numbers and establish institutions that encouraged investment; in originally prosperous, densely populated areas, **extractive institutions** were more profitable. This "institutional reversal" can explain the income reversal over the past 500 years.
 >
-> Through detailed data analysis and instrumental variable methods, the authors demonstrate the critical role of **institutions** in long-run economic development, particularly noting that good institutions allow for fast long-term growth during industrialization. The article refutes geographic hypotheses and underscores the significant impact of institutions on modern economic performance.
+> Through detailed data analysis and instrumental variable methods, the authors demonstrate the key role of **institutions** in long-run economic development; in particular, during industrialization, good institutions can foster rapid economic growth and long-term development. The paper refutes the geography hypothesis and underscores the important influence of institutions on modern economic performance.
 
 <br/>
 
 #### **Unbundling Institutions**
 
-Essay-thread link: [JPE – Deconstructing Institutions: Property Rights Institutions and Contracting Institutions](https://mp.weixin.qq.com/s/_ArmohGj_aTZ_tgIReKD4w)
+Tweet link: [JPE - Unbundling Institutions: Property Rights Institutions and Contracting Institutions](https://mp.weixin.qq.com/s/_ArmohGj_aTZ_tgIReKD4w)
 
-> In the conclusion of Acemoglu et al. (2001) in the AER, the authors mention the need to open the institutional **black box**. This paper takes on that task, and its title can be read literally as “unbundling institutions.”
+> In the concluding remarks of the Acemoglu et al. (2001) AER paper, the authors mention the need to open the **black box** of institutions. This paper is precisely that undertaking; its title can be read literally as "taking institutions apart."
 >
-> Institutions are unbundled into **property rights institutions** and **contracting institutions**. The authors believe that property rights institutions protect citizens against expropriation by the government and elites, whereas contracting institutions govern private contracts between citizens. Leveraging instrumental variables for legal origins and other exogenous differences in property rights institutions from colonial history, the paper finds that property rights institutions have a significant effect on long-term economic growth, investment, and financial development, while contracting institutions primarily influence the form of financial intermediation.
+> Institutions are divided into **property rights institutions** and **contracting institutions**. The authors argue that property rights institutions protect citizens against expropriation by the government and elites, while contracting institutions facilitate private contracts between citizens. Exploiting the exogenous differences in legal origins and property rights institutions brought about by colonial history, the paper finds that property rights institutions have a significant effect on long-run economic growth, investment, and financial development, whereas contracting institutions mainly affect the form of financial intermediation.
 
 <br/>
 
 #### **Democracy Does Cause Growth**
 
-Essay-thread link: [JPE – Democracy Does Cause Growth](https://mp.weixin.qq.com/s/j1Jm3bjF8eu0pL9nsW5TkQ)
+Tweet link: [JPE - Democracy Does Cause Growth](https://mp.weixin.qq.com/s/j1Jm3bjF8eu0pL9nsW5TkQ)
 
-> Despite the widely held view that democracy is either unhelpful or outright detrimental to economic growth, this paper introduces a novel index of democratization and empirically demonstrates a significant, robust positive effect of democracy on GDP per capita. The study estimates that a country transitioning from non-democracy to democracy can anticipate roughly 20% higher GDP per capita over the subsequent 25 years, relative to what a persistently non-democratic counterpart would achieve.
+> Although it is widely believed that democracy is unhelpful or even harmful to economic growth, this paper introduces a new measure of democracy and finds empirically that democracy has a significant positive effect on GDP per capita. The study estimates that a country transitioning from non-democracy to democracy will have GDP per capita roughly 20% higher over the following 25 years than a country that remains non-democratic.
 >
-> Further analysis suggests democracy may foster economic growth through channels including increased investment, the encouragement of economic reforms, improved provision of schooling and healthcare, and reductions in social unrest, supporting the hypothesis that democracies are more inclined to invest in public goods and pursue broadly beneficial economic policies.
+> Further analysis suggests that democracy may promote economic growth through channels such as increasing investment, encouraging economic reforms, improving education and healthcare, and reducing social unrest - supporting the theoretical hypothesis that democracies are more inclined to invest in public goods and to pursue economic policies that benefit broad segments of the population.
 
-⬆️In the “extra” note of this essay-thread, I recalled Acemoglu’s talk at the 4th Caixin Summit, which Caixin headlined: **Acemoglu: Institutional Inclusiveness Can Boost China’s Growth**. Here’s the link: [https://topics.caixin.com/2013-12-19/100619817.html](https://topics.caixin.com/2013-12-19/100619817.html), or you could select click “Read the original article” (intended for an integrated PDF reader at webpage's end).
+⬆️In the "Extra" section of that tweet, I mentioned that Acemoglu gave a speech at the 4th Caixin Summit, which Caixin's report headlined: **Acemoglu: Institutional Inclusiveness Can Boost China's Growth**. See the link: [https://topics.caixin.com/2013-12-19/100619817.html](https://topics.caixin.com/2013-12-19/100619817.html), or click "Read the original article" and read the embedded PDF at the end of the page.
 
 <br/>
 
 #### **(Successful) Democracies Breed Their Own Support**
 
-Essay-thread link: [REStud – Successful Democracies Breed Their Own Support](https://mp.weixin.qq.com/s/XrUyeppjyQbObxp9Y6SMuQ)
+Tweet link: [RES - Successful Democracies Breed Their Own Support](https://mp.weixin.qq.com/s/XrUyeppjyQbObxp9Y6SMuQ)
 
-> Employing extensive survey data covering over 110 countries, the analysis examines how citizen support for democracy is shaped by the system's effective performance on delivering growth, controlling corruption, ensuring peace and political stability, and providing public goods. The study demonstrates that a democracy’s successful track record of performance constitutes the primary factor driving citizens’ popular embrace of democracy itself. Furthermore, democracies that have secured public trust tend to prove far better able to navigate large **adverse shocks** effectively.
+> Using large-scale survey data covering more than 110 countries, the paper analyzes how individuals' support for democracy is affected by democracy's successful performance (such as economic growth, control of corruption, peace and political stability, and the provision of public goods). The study shows that the successful performance of democratic institutions is the main driver of individuals' support for democracy. Moreover, democracies that have won the support of their citizens perform better in the face of **adverse shocks**.
 
 <br/>
 
 #### **Economic Backwardness in Political Perspective**
 
-Essay-thread link: [APSR – Why Would Political Elites Block Technological and Institutional Development](https://mp.weixin.qq.com/s/PiSRGa4OztNlPaNDoWhA1w)
+Tweet link: [APSR - Why Political Elites Block Technological and Institutional Development](https://mp.weixin.qq.com/s/PiSRGa4OztNlPaNDoWhA1w)
 
-> We know, as a general matter, that innovation is broadly beneficial for economic growth as a whole. Why, then, are governments in many circumstances unwilling to adopt growth-promoting policies and even obstruct technological and institutional change?
+> It is well known that economic growth and innovation are, on the whole, beneficial. So why, in many cases, are governments unwilling to adopt growth-promoting policies, and why do they even obstruct technological and institutional change?
 >
-> Through the **“Political Replacement Effect,**” this paper’s formal theory finds that political elites may deliberately block technological and institutional progress that would enable development for everybody, chiefly for fear that any such development will at some point fundamentally erode their political power, raising precisely the relative prospect of their being exchanged for a replacement set of leaders. Through this filter, political elites rationally favor prolonged continuity over growth if loosening their grip risks removal from power’s very reins.
+> The paper proposes the concept of a "**Political Replacement Effect**": political elites may block technological and institutional changes that are conducive to economic development, because such changes could weaken their political power and increase the likelihood of their being replaced. Thus, even if economic development would bring greater wealth, political elites may choose to obstruct these changes in order to hold on to power.
 
-⬆️This essay-thread might also shed light on several observed features set in motion across more recent Chinese economic domains of continued experience.
+⬆️This tweet may also help explain some phenomena in China's economic development in recent years.
 
 <br/>
 
-## Translation of the Nobel Prize Official Press Release Narratives
+## Translation of the Press Release from the Official Nobel Prize Website
 
 #### **They have helped us understand differences in prosperity between nations**
 
-This year’s laureates in the economic sciences – Daron Acemoglu, Simon Johnson and James Robinson – have demonstrated the importance of **societal institutions** throughout unfolding patterns mapping how a country ultimately can attain sizable secular prosperity gains over comparative epochs actively constraining systematic plans risking population livelihoods. **Societies featuring measurable frail structure for equally safeguarding pervasive legally affirmed governance systems protective order alongside uniformly limited maltreating outcomes abstract institutional regimes undermining population creative economic impulses genuine general actually realizable ventures attaining positive renewed conditions promoting aggregated continuance improvement inclusive progress won’t see currently occur hopeful change.** Ultimately research furnished deserved insight reinforcing appreciation showing consistent why foundational answer frame details accounting mapping processes driving differences generating alternations structures shift toward attainable transformative capable trajectory approaches fostering productive attaining standards aggregate livelihoods development.
+This year's laureates in the economic sciences - Daron Acemoglu, Simon Johnson, and James Robinson - have demonstrated the importance of **societal institutions** for a country's prosperity. **Societies where the rule of law is weak and institutions exploit the population do not generate economic growth or change for the better.** The laureates' research helps us understand why.
 
-On a note covering preceding era contexts colonial interventions when Europeans reached practically assimilating overseas globally remapped originally differentiated longstanding aligned societal spreads inheriting redesign blueprints emerging models bringing capacity reshaped institutions variations importantly enormous situational routes adapted methods guiding realization toward quite definitely differently reformatted modulated procedures regions allocating systemic principles colonizing engaged targets across plausibility natural procedures harnessing extracting outright mechanisms prime colon refined extraction prioritized while permanently new governance settled scope rule-of law policies encompassing cooperative participation designed benefiting mass colonially extended wide enduring base inclusive sets rearranged arrangements inducing Europeans emigrated directly enduring generational planning institutional capacity welfare concerns future continuation advance planning migrants spanning legacies outreach reallocation plan creating modeled advantageous selection allocation producing dynamic transition successfully constructing beneficial structural arrangements uplifting general-population expanded gradually significantly richer pathway attaining actual improvements accumulative comprehensive advances capable securing real longitudinal trajectories oriented outlook prosperity sustainable welfare diffused.
+When Europeans colonized large parts of the globe, the institutions in those societies changed. The change was sometimes dramatic, but it did not happen in the same way everywhere. In some places, the colonizers' aim was to exploit the indigenous population and extract resources for the colonizers' own benefit. In other places, the colonizers built inclusive political and economic systems intended to serve the long-term interests of European migrants.
 
-<br/><br/Original source segment contrast backdrop systematic phenomenon reposition illustrated marked observed patterns tracking former fully post orientation contrasting reverse prosperity outcomes places favorably positioned advancement experienced lower sustained worse consistent status alignment dynamic eventually settling declining impoverished pattern discrepancy persistently increased statistically pronounced factor institutions extract accounting staying large extracted allocations structurally unfavorable incapable long upward raising progressively convergence impossibility producing permanent investment integrated broadly accumulation productive continuance growth arrangement policies productive actual forward-rising sufficiently reliable commitment prospective future long allocation procedure. Summarized extract reviewing points guarantee meaningful credibility expected large acceptance belief powerful sincerely conversion toward permanent adopted consistency breakthrough instigated reform implementation credible deliver expected capability.
+The laureates have shown that **one explanation for differences in countries' prosperity lies in the societal institutions introduced during colonization**. Countries that were relatively poor economically when colonized often had inclusive institutions introduced, and over time these institutions made the population as a whole gradually prosperous. This is also an important reason why former colonies that were once rich are now poor, and vice versa.
 
-Crucial reading interpreting basis aligned progress transformative paradigm broadly maintained societal benefiting longer gradually delivering benefits populations secured full overall attainable increased further consistent approach underlying structured accommod system creating stabilized advance institutional transformative mapping processes institutional track diverging pathway positive substantial driven reconfiguration toward extensively protection universally equal protection mass supportive system engagement aligned generalized more reasonably predicted provision regime ultimately framework.
+Some countries are trapped in a predicament of extractive institutions and low economic growth. Introducing inclusive institutions would bring long-term benefits to everyone, but extractive institutions deliver short-term gains for those in power. As long as the political system guarantees that they can remain **in power**, no one will trust their promises of future economic reforms. According to the laureates, this is why no improvement occurs.
 
-Comparative reading illustrative extracting reflecting accountability allowing rational agents timing assure sufficient mapping mapping orient ultimately resolve dramatic system transformation when feasible horizon clearer making only removal shifting absolute institutional realization universally allocation toward societal productive guaranteeing inclusive transformed generated attainable widely affecting outcomes dynamic transformation. Summary details carefully establish convergence ultimate democratization essential mapping security enduring improvement institutional endurance generational achievement promise guarantee critical transitions set adoption genuinely produced benefits spanning assured restructuring plan underway fully mass capacity secured integrated improved delivered adopt democratic framework.
+However, this inability to make credible promises of change can also explain why democratization sometimes happens. When the threat of revolution emerges, those in power face a dilemma. They want to stay in power and try to placate the masses by promising economic reforms, but the population is unlikely to believe that they will not revert to the old system once the situation calms down. In the end, **the only option may be to hand over power and establish democracy**.
 
-Documented widely scholarly citations pattern.
+"Reducing the vast income gaps between countries is one of the greatest challenges of our time. The laureates have demonstrated the importance of societal institutions in achieving this," said Jakob Svensson, Chair of the Committee for the Prize in Economic Sciences.
 
-“Reducing in terms robust substantive span dramatic sharply alleviating markedly aggregated genuinely diverse opportunities matter structured improvement progressively capacity undertaking increased open eventually achieve opportunity contributing greatly large transitional successes growth alignment adequate reality fundamental pressing structurally” noted emphasizing documented practical reach refined success provision secure guidance evolution durable implementation real.
+(Translated by GPT4o)
 
-Observed mention detailed citations comparable discovered themes analogous explicitly noting repeatedly.
+> I noticed that the official Nobel press release is basically just the content covered by the papers I tweeted about above!
 
-(generated via – an oversight configuration step placeholder reference trial reconstruct attempted; detailed hand factual verification recommended matching entirely precisely transmitted official exact consistent expression.)
+<br/>
 
-<br/>*Recommending readers to precision align presentation details relying actual formal publication derived setting toward distribution.*  
+## Book Recommendations
 
-<br/Public entry availability provided reference.
+For the three giants of institutions, beyond their papers, a number of their books are also worth reading:
 
-Notably overlapping indicated strongly tracks acknowledging aligned previously earlier engaging narratives direct parallel acknowledging similar extensive.
+- *Why Nations Fail: Power, Prosperity, and Poverty*. This book has a Chinese edition (《国家为什么会失败》). In plain, accessible language, it explains that **institutions are the fundamental cause that determines economic development**, and that extractive political and economic institutions lead to the failure of nations;
+
+- *The Narrow Corridor: States, Societies, and the Fate of Liberty*. This book has no simplified Chinese edition, but a translation has been published in Taiwan. It can be regarded as the companion volume to *Why Nations Fail*, and its title could be rendered as "**Why Nations Succeed**." In short, the authors argue that liberty and prosperity require striking a balance between the state and society, walking within the "narrow corridor";
+- *Economic origins of dictatorship and democracy*. The title should speak for itself. This book also has a Chinese translation (《**政治发展的经济分析：专制和民主的经济起源**》). Unlike the previous two, which lean toward popular reading, this one is written in a fairly academic style and has a higher barrier to entry;
+- *Power and Progress: Our Thousand-Year Struggle Over Technology and Prosperity*. After last week's physics and chemistry prizes went to AI-related research, people joked that the economics prize would also go to an economist studying AI - and indeed, Acemoglu has published a great deal of work related to AI and automation! I have not read this book yet, but I plan to; for now there seems to be no Chinese translation.
+
+(Acemoglu's MIT homepage also hosts many valuable resources, including original papers, replication packages, lecture notes, and more - worth browsing through when you have time.)
+
+<br/>
+
+## Extra
+
+- When the prize was announced, I was having a meal with a classmate at a wonton restaurant off campus. Right on time, I opened the Nobel Prize website, jumped to the YouTube live stream, and listened to the presenter alternate between Swedish and English - and then I saw them on the screen. That moment was truly happy and thrilling! ⬇️Screenshot taken right away: ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241014182948289.png)
+- This year's physics and chemistry laureates are also idols of mine: Hinton and Hassabis, respectively. Their work is simply amazing - especially the venerable Hinton, a man who came through the long winter and brought light to an entire field!

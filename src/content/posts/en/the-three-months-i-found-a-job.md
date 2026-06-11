@@ -1,57 +1,57 @@
 ---
-title: "The Three Months I Found a Job"
+title: "The Three Months I Stopped Updating, I Went and Got a Job"
 date: 2025-10-28T18:00:00+08:00
 category: { name: "Essay", slug: essay }
 tags: ["MiniMax"]
-summary: "During a break in my academic schedule, I took a job at an AI startup and gained unique experiences in the industry."
+summary: "Industry has its own special experiences."
 ---
 
-My Econ friends often joke about academia being way too rat‑raced and research feeling pointless — they say they’d rather go into industry and **get a regular job**.
+My fellow Econ students always joke that academia is too much of a rat race and research is meaningless, and that they want to go into industry and **get a job**.
 
-So I did. I genuinely went and found a regular job, and it brought plenty of unusual experiences.
+Well, this time I really did go and get a job, and it brought many special experiences.
 
-For one thing, after wrapping up my pre‑defense in June and submitting my dissertation for blind review in late July, I suddenly had about a month of free time while waiting for the results — a luxury I hadn’t known in a long while. At the same time, with my graduation delayed, the university stopped paying my stipend. I had to find a way to support myself.  
+For one thing, I finished my pre-defense in June, sent my dissertation out for blind review in late July, and waiting for the results takes about a month, so a stretch of time suddenly opened up — something that hadn't happened in a long while. For another, since my graduation was delayed, the school stopped paying me a stipend, so I had to find a way to support myself.
 
-All right then. Let’s get a regular job.
-
-</br>
-
-Through some serendipitous twists, I met my now‑mentor, and after a quick three‑round interview, I became a commuter among the **Caohejing** working crowd.
-
-Caohejing is a place that lives and breathes for GDP. Every morning, people surge out of Line 9 and turn into “new productive forces,” depositing blue bikes and yellow bikes at the feet of office towers; then, as night falls, they remount those wheels 🚲 and return them to the metro entrance. Rinse and repeat.
-
-The company I’m at is an AI startup — after spending far too long goofing around with all kinds of AI tools, that goofing around now became my actual day job. Our upstairs neighbor is the Starbucks China headquarters, and on the elevator you can instantly separate our people from Starbucks people, as though your brain’s fitted out with a built‑in classifier. I’ve never had strong feelings about Starbucks coffee, but I’ve grown very fond of the 🚾 at the Starbucks office.
+All right, let's get a job~
 
 </br>
 
-Three months on the job, and I’ve collected plenty of unusual experiences.
+Through some wonderful twist of fate, I met the mentor at my current company, and after a quick three-round interview, I became a **Caohejing** worker.
 
-The company is a startup, so it’s exceptionally **flat** in structure — I can talk directly to my supervisor and department leaders and ask questions freely. Admin processes are minimal: apart from seeing the receptionist in the flesh, all other admin colleagues exist only as a first‑hello on Feishu.
+Caohejing is a place born for GDP. In the morning people pour out of Line 9, transform into "new productive forces," and carry the little blue bikes and little yellow bikes to the foot of their office buildings; then, as night falls, they ride 🚲 them back to the metro entrance. Over and over again.
 
-We have meetings, as companies do; everyone uses Feishu, so documents move with impressive efficiency.
-
-On the work front, a lot of procedural stuff I encountered is genuinely new to me, while the content area feels pretty familiar. When I do something dumb, my mentor swiftly points it out; when I do well, the **positive feedback** comes just as quickly — the kind you never get in academic long‑marathon projects. The doing‑the‑work rhythm is crystal clear, too: identify the choke point, hunt for a solution, line up to‑dos, and get things spinning.
-
-For me personally, getting a regular job came with another great perk: work and life finally have a clean dividing line. Back when I was deep in academia, I was dogged by this tenacious, ghost‑like anxiety — I’d be out having fun and thinking about my papers; or I’d be writing papers and wishing I were out playing. Each time I stumbled across some news, the first impulse was always: can I weave this into an proposal? That low‑hum anxiety so often left me with a sense of **“present yet absent.”** All of this has gotten substantially better since I started working. When the workday ends, I honestly pour myself into things unrelated to work, and I honestly laze around and slouch into life.
-
-Still, you lose a few things when you start working, like the freedom for a sprawling, completely horizontal midday nap. Back on campus I used to take a stroll after lunch and then retreat to the dorm for an earnest nap — pretty much unattainable in the office. I’d ride along the evenings on campus through the Wutong-flanked streets🚴 — from West Guangyuan Road bending south down Middle Wulumuqi Road, then weaving through Wukang Road all the way back to school — and today I keep missing those hours of gentle, free time.
+The company I'm at is an AI startup. I'd long spent my time goofing around on all sorts of AI tools, and now that goofing around had become my official job. Upstairs from us is the Starbucks China headquarters, and in the elevator you can tell at a glance who belongs to my company and who belongs to Starbucks, as if my brain had a built-in classifier. I don't have any particular feelings about Starbucks coffee, but I really like the 🚾 at the Starbucks office.
 
 </br>
 
-Yesterday, the company officially released its new model ([MiniMax M2 & Agent: artful simplicity](https://mp.weixin.qq.com/s/1AK8qNmBFepVYoRIDWBE1g)), and I’m genuinely happy. Even though I only contributed a tiny part, the joy is way more tangible than any paper acceptance I’ve experienced, ha. Maybe working alongside brilliant, young colleagues just to make something good — that, in and of itself, feels right. I felt, deeply, the power of people moving efficiently and elegantly forwards as a team.
+Three months on the job, and I've had many special experiences.
 
-Our model ranks fifth globally, achieving state‑of‑the‑art performance as an open‑source release:
+My company is a startup, with an especially **flat** structure, where I can talk to and consult my supervisor and the department leader directly. Admin is simple — so simple that, apart from the receptionist whom I've met in person, all the other admin colleagues are people I've only greeted on Feishu.
+
+The company also has frequent meetings; everyone uses Feishu, and documents are very efficient.
+
+On the work itself, a lot of the procedural things were my first encounter with them, but the content was relatively familiar. When I do something foolish, my mentor points it out quickly, and when I do something well, the **positive feedback** is just as timely — something a long-haul task like academic research can never offer. The way of getting work done is also very clear: pin down the bottleneck, look for a solution, set up a todo, and get it spinning.
+
+For me personally, getting a job has another big benefit: work and life can be kept somewhat separate. When I was doing academic work, I always had a kind of anxiety that shadowed me everywhere and that I couldn't shake off — when I was out having fun I'd think about my paper, and when I was writing my paper I'd think about going out to play; whenever I saw some piece of news, I'd always wonder whether I could turn it into a paper. This anxiety often left me with a feeling of **"present yet absent,"** but it got much better after I started working. When I get off work, I just do things that have nothing to do with work, and lie around properly.
+
+But going to work also means losing some things, like freedom and the flat-on-your-back midday nap. At school, after lunch I could take a walk and then go back to the dorm for a nap, which is hard to manage at the company. In the evenings at school, I liked to ride my bike 🚴 through the plane-tree district, turning from West Guangyuan Road onto Middle Wulumuqi Road, then cutting through Wukang Road back to school. I miss those flowing hours.
+
+</br>
+
+Yesterday the company officially released its new model ([MiniMax M2 & Agent: Great Skill Looks Clumsy](https://mp.weixin.qq.com/s/1AK8qNmBFepVYoRIDWBE1g)), and I was very happy — even though I only contributed a tiny bit of work, it really was more joyful than publishing a paper, haha. Maybe collaborating with excellent, young colleagues to get something done well is, in itself, a deeply happy thing. I felt the power of efficient collaboration~
+
+Our model reached fifth in the world, at the level of open-source SOTA:
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/63725b4c32b8e03cbac21019ccfc54a0.png)
 
-And it really stands out in coding and agent capabilities:
+It performs outstandingly on coding and agent tasks:
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2025/4b94c56531390c49bd2244ca393e2c9a.png)
 
 </br>
 
-So that's it — a chapter of working life wrapped. Now it’s all about getting back to campus.
+All right, this chapter of working life has come to a close, and it's time to head back to school.
 
-From here on, updating’s going to steady again, with fresh, intriguing research coverage and practical AI techniques shared along the way.
+From here on I'll update regularly, continuing to push out interesting research and practical AI tech sharing.
 
 See you next time 👋.

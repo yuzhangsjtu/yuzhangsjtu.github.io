@@ -2,17 +2,17 @@
 title: "Murmurs"
 date: 2023-04-20T10:00:00+08:00
 category: { name: "Essay", slug: essay }
-tags: ["murmurs"]
-summary: "I need to adjust myself."
+tags: ["Murmurs"]
+summary: "I need to get myself in order."
 ---
 
-My life has been running into serious problems lately — headaches, insomnia. It feels like I’m in a state of constant overload, a memory leak with no way to flush the cache.
+Lately my life has run into some serious problems -- headaches, insomnia. It feels as though I am constantly overloaded, my memory overflowing, with no way to clear myself out.
 
-I need some adjustment plans:
+I need some plans to set things right:
 
-- Wash up and be in bed before midnight. Stick to a regular rest schedule.
+- Wash up and be in bed before midnight; rest on schedule.
 - Cut down on headphone use and reduce information intake.
-- Most importantly, focus my attention and improve work efficiency!
+- Most importantly, focus my attention and improve my work efficiency!
 
 </br>
 

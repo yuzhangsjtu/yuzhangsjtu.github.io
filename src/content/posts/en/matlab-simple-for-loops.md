@@ -1,9 +1,9 @@
 ---
-title: "MATLAB Study Notes (6) — Simple For Loops in MATLAB"
+title: "MATLAB Study Notes (6): Simple For Loops in MATLAB"
 date: 2020-09-14T11:00:00+08:00
 category: { name: "Tech", slug: tech }
 tags: ["MATLAB", "MRIO"]
-summary: "Everything is for MRIO! Recent progress has been made, and a model is expected to be built."
+summary: "Everything is for MRIO! Some progress has been made recently, and a model is expected to be built."
 ---
 
 ### 1 Simple for loop
@@ -18,12 +18,12 @@ for i = 1:100
 sum
 ```
 
-Explanation: i goes from 1 to 100, increasing by 1 each time, looping a total of 100 times.  
-Note: the position of semicolons; the “+=” operator cannot be used; every layer of a loop must end with `end`.
+Explanation: i goes from 1 to 100, increasing by one each time, looping a total of 100 times.
+Note: the position of the semicolons; the "+=" operator cannot be used; every layer of a loop you write must end with end.
 
 ### 2 For loop with a step size
 
-Example: output the sum of odd numbers between 1 and 10
+Example: output the sum of the odd numbers between 1 and 10
 
 ```matlab
 sum = 0;
@@ -33,7 +33,7 @@ end
 sum
 ```
 
-Explanation: the 2 in the middle of `i = 1:2:10` indicates the step size, meaning from 1 to 10, i increases by 2 each time, i.e., the sum of five numbers: 1, 3, 5, 7, 9. The step size can also be negative.
+Explanation: the 2 in the middle of `i = 1:2:10` indicates the step size, meaning that i goes from 1 to 10, increasing by 2 each time, i.e., the sum of the five numbers 1, 3, 5, 7, 9. The step size can also be negative.
 
 ### 3 Iterating over vectors and matrices
 
@@ -46,9 +46,9 @@ for i = A
 end
 ```
 
-Explanation: the `rand` function is used to randomly generate numbers between 0 and 1; `rand(1,4)` generates a 1×4 column vector.
+Explanation: the rand function is used to randomly generate numbers between 0 and 1; rand(1,4) generates a 1*4 column vector.
 
-#### 3.2 Iterating over a matrix
+####  3.2 Iterating over a matrix
 
 ```matlab
 A = magic(4);
@@ -58,11 +58,11 @@ for i = A;
 end
 ```
 
-Explanation: the `magic(n)` function generates an n×n square matrix where every row, column, and main/anti-diagonal sums to the same value. The loop over a matrix takes each column of elements one by one.
+Explanation: the magic(n) function generates a square matrix in which the sum of any row, any column, or the main and anti-diagonals is equal; looping over a matrix takes out each column of elements in the matrix in turn.
 
 ### 4 Using break and continue
 
-`break` is used to terminate the innermost for loop that contains it.
+break is used to terminate the innermost for loop that contains it.
 
 ```matlab
 x = 1;
@@ -75,7 +75,7 @@ for i = 1:2:10
 end
 ```
 
-`continue` is used to skip the rest of the current iteration of the innermost for loop that contains it and proceed to the next iteration.
+continue is used to skip the innermost for loop that contains it and proceed to execute the next iteration.
 
 ```matlab
 sum = 0;
@@ -88,7 +88,7 @@ for i = 1:6
 end
 ```
 
-Here, the case when i=4 is skipped.
+Here, the case where i=4 is skipped.
 
 ### 5 Nested for loops
 
@@ -102,7 +102,7 @@ end
 
 For loops can be nested as needed.
 
----
+
 
 Source:
 

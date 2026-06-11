@@ -2,32 +2,32 @@
 title: "Grocery Shopping with Mom"
 date: 2020-04-05T21:00:00+08:00
 category: { name: "Essay", slug: essay }
-tags: ["diary", "yogurt"]
-summary: "Lured by a friend’s foodie temptations from afar, I went grocery shopping with my mom, hunting for yogurt while she focused on daily essentials, and encountered the usual winter ice-cream ban."
+tags: ["Diary", "Yogurt"]
+summary: "Grocery shopping with Mom, hunting for yogurt and happiness."
 ---
 
-Tempted by a friend's long-distance foodie call, I decided to raid the supermarket today.
+Lured by a friend's remote foodie temptation, today I decided to go raid the supermarket.
 
-The supermarket is in the direction of where I used to live – from my current place it's roughly a kilometer farther than before. We had supper fairly early, and afterwards Mum and I set off, each with our own agendas: mine was yogurt; Mum's was the daily necessities of fuel, rice, oil, salt, soy, vinegar and tea.
+The supermarket is in the direction of my former home; from where I live now, getting there is about a kilometer farther than before. Dinner was fairly early, and after it finished my honored mother and I set off. Each of us carried our own purpose: what I had in mind was yogurt, what Mom had in mind was the daily essentials of fuel, rice, oil, salt, soy sauce, vinegar, and tea.
 
-At the entrance, a staff member with a temperature gun checked everyone going in. Inside, people were in a Schrödinger-style mask moment – some wore none, others had masks on but with noses poking out. The Yang Guofu next to the escalator was full of young people, absolutely buzzing with life. It seems the pandemic has left virtually no mark on this little city.
+At the supermarket entrance a staff member held a thermometer gun to take the temperature of everyone going in, while the people inside were in a "Schrödinger" state of mask-wearing: some had no masks on, some wore masks but with their noses showing. At the Yang Guofu by the escalator, there were lots of young people, lively and bustling. The pandemic seems to have left no real imprint on this little city.
 
-Back before New Year, when Mum used the purple clay pot on its rapid-boil setting for stewing, she turned the hot water on too fast and the pot cracked. This visit to the supermarket, we headed straight to the kitchenware section and picked out a white one, a bit cute; afterwards we found the same model online… haha. I bought my favourite soup mixes and wontons. Wanted to buy prawn dumplings too, but those really were too pricey! Matching what my friend had got yesterday, I grabbed identical flavours and an extra matcha variant of the yogurt – completely gleeful wandering around, ah. After several visits to this supermarket, I’ve finally discovered the ice-cream freezer. I’d thought a little backwater like this, the supermarket wouldn’t bother setting up a freezer section in winter. Feels like I’m inching closer to happiness by the day! However, the conversation was just the same as when the supermarket first opened last year:
+Before the New Year, when Mom was using the purple-clay pot to stew food, she added the hot water too quickly and the purple-clay pot burst. This time at the supermarket the first place I reached was the kitchenware section, where I picked out a white one that looked rather nice, and afterwards searched online for the same model... haha. I bought my favorite soup dumplings and wontons, and wanted to buy shrimp dumplings too, but they really were too expensive! Following the yogurt my friend had yesterday, I bought the same one plus a matcha flavor, how delightful. Having wandered through this supermarket several times, I finally discovered the ice cream cabinet; I'd thought that in a little place like this, the supermarket wouldn't set up a freezer in winter! I feel like I'm getting closer and closer to happiness! But the conversation was still just like when the supermarket first opened last year:
 
-Mum: “What do you want to eat? My treat.”
+Mom: what do you want to eat, I'll pay;
 
-Me: “Ice cream.”
+Me: ice cream;
 
-Her ladyship mama: “Just roll away with you. In winter, not a chance I’ll let you.”
+My honored mother: get lost! There's absolutely no way I'll let you eat that in winter.
 
-Why? Ice cream is obviously nicer in winter – doesn’t melt so easily! You can take your time savouring it! Didn’t spot that particular Cornetto variety, but the tubs I’m holding here look just as glorious already! The day will come – I'll sneak over all by myself!
+Why? Ice cream is obviously tastier in winter, because it doesn't melt easily! You can savor it slowly! I didn't find the Cornetto kind, but the one in my hand looks pretty delightful too! Wait till some day when I sneak over here all by myself!
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2022/img/XGtuOjE2RrfW1nB.jpg)
 
 
 
-Today more schools announced their semester start dates; it’s rumoured online that NJU won’t reopen until late April for the first batch of students, and those in between like us might not be until early May. Staying at home I’m honestly growing mouldy. No face-to-face contact at all – each day just offline, isolated living.
+Today even more schools announced their start dates. Word online is that the first batch at Nanjing University won't start until the end of April, and by the time it gets to those of us in the middle, it might be early May. Staying at home really until I grow moldy, with no interpersonal contact, every day a single-player life.
 
-Today I updated the “About” page links on the blog and added the little TV icon for Bilibili. With guidance from a group friend, I learned how to use icon CSS from the Alibaba icon library. Bilibili, cheers!
+Today I updated the links on the blog's "About" page and added Bilibili's little TV icon. With guidance from a group friend, I learned how to use the CSS from Alibaba's icon library. Bilibili, cheers!
 
-Still going to make a wish – a new week starts tomorrow, I will definitely fall in love with my studies!
+Still, I have to make a wish: tomorrow a new week begins again, and I will definitely be able to fall in love with studying!

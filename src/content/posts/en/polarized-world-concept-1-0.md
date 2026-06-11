@@ -6,79 +6,111 @@ tags: ["Polarized World"]
 summary: "We live in a polarized world—how can the rifts be healed?"
 ---
 
-Are We in a New Malthusian Cycle?
+Are we in a new round of the Malthusian cycle?
 
-I’d like to begin by showing you a few charts:
+I'd like to begin by showing you a few charts:
 
 <img src="https://cdn.jsdelivr.net/gh/yuzhangnju/image/img/a.jpg" alt="a" style="zoom:30%;" />
 
-> The chart above abstractly represents the distribution of two groups’ views on an issue. Assume the “0” point on the horizontal axis is relatively neutral, and the points to the left and right of “0” both represent deviations from neutrality, with views becoming more extreme the further they are from the center. (The horizontal axis can also be understood as a “sentiment score.”)
+> The chart above abstractly represents the distribution of two groups' views on an issue. Assume the "0" point on the horizontal axis is relatively neutral, and the points to the left and right of "0" both represent deviations from neutrality, with views becoming more extreme the further away they are. (The horizontal axis can also be understood as a "sentiment score.")
 
-“Peak proximity” describes a past state, while “polarization” represents people’s views today. Originally, both Group A and Group B held views close to “neutral,” but changes in certain factors have caused the two groups’ opinions to diverge more and more. The central value of Group A’s opinions shifted left, and the central value of Group B’s opinions shifted right. In the chart, the two curves pull apart from each other, and the overlapping area between the two groups’ views gets smaller and smaller.
 
-That overlapping area between the two curves is, in fact, the “common discursive space” or the “space for dialogue.” As the groups’ positions diverge, the space for dialogue shrinks. Such phenomena are playing out widely today: between men and women, between elites and the masses, between the two political parties, between urban and rural areas, between the rich and the poor, and between different religions — the polarization of group opinions is becoming increasingly pronounced. As a result, old words acquire new meanings; young people label this phenomenon “diodes.” A direct manifestation is that tag-language battles erupt between groups in the comment sections on Weibo, Douban, and Bilibili.<br>
+
+"Peak proximity" describes a past state, while "polarization" represents people's views today. Originally, both Group A and Group B held views close to "neutral," but changes in certain factors have caused the two groups' opinions to diverge more and more seriously. The central value of Group A's opinions shifted left, and the central value of Group B's opinions shifted right. In the chart, the two lines pull apart from each other, and the part where the two groups' views overlap grows smaller and smaller.
+
+The part where the two lines overlap is, in fact, the "common discursive space" or the "space for dialogue." Based on the divergence of the groups' positions, the space for dialogue grows ever smaller. Such events are occurring widely today: between men and women, between elites and the masses, between the two political parties, between urban and rural areas, between the rich and the poor, and between different religions, the polarization of group opinions is becoming increasingly pronounced. As a result, old words acquire new meanings, and young people describe this phenomenon as "diodes." Its direct manifestation is groups waging polemics in tag-laden language in the comment sections of Weibo, Douban, and Bilibili videos.<br>
 
 <img src="https://cdn.jsdelivr.net/gh/yuzhangnju/image/img/image-20210605223109805.png" alt="image-20210605223109805" style="zoom:80%;" />
 
-> These two charts illustrate another trend: polarization of the “power-law distribution.” Assume that both charts show the ranking of group income. In the blue state, the income gap among the group is relatively small, but by the red state, the rich have become richer and the poor poorer.
+> These two charts illustrate another trend: the polarization of the "power-law distribution." Assume that both charts represent the ranking of a group's income. In the blue state, the income gap within the group is relatively small, but by the red state, the rich have become richer and the poor poorer.
 
-The Gini coefficient is an important indicator for measuring income gaps. Professor Xie Yu and others, using multiple data sources, have found that income inequality in China is continuously widening[<sup>1</sup>](#refer-anchor-1). Similar power-law polarization is gradually unfolding in other areas, such as the number of likes on Weibo comments or Zhihu answers. Interestingly, citation counts for scientific papers are also polarizing. An article published online by PNAS early this year shows that global citation inequality is increasing. Between 2000 and 2015, the cumulative citation share of the top 1% most-cited scientists rose from 14% to 21%, and the Gini coefficient for citation inequality increased from 0.65 to 0.70[<sup>2</sup>](#refer-anchor-2).
+The Gini coefficient is an important indicator for characterizing income gaps. Professor Xie Yu and others, drawing on multiple data sources, have measured that income inequality in China is continuously widening[<sup>1</sup>](#refer-anchor-1). Similar "power-law distribution" polarization is gradually occurring in other fields as well, such as the number of likes on Weibo comments or on Zhihu answers. Interestingly, the citation of scientific papers is also polarizing. An article that PNAS put online early this year shows that global citation inequality is intensifying: between 2000 and 2015, the cumulative citation share of the top 1% most-cited scientists rose from 14% to 21%, and the Gini coefficient of citation inequality increased from 0.65 to 0.70[<sup>2</sup>](#refer-anchor-2).
 
 <img src="https://cdn.jsdelivr.net/gh/yuzhangnju/image/img/image-20210605105841918.png" alt="image-20210605105841918" style="zoom:30%;" />
 
 <br>
 
-The intensification of dyadic polarization and power-law distributions are both manifestations of polarization, a polarization that exacerbates socio-political and economic insecurity. Regrettably, polarization is not merely a communication-studies illusion borne of the traffic era; it occurs not only in news media but is, in truth, an ever-stronger force shaping the world. In a polarized society, one often sees the public debating factually verifiable questions, and in this process, more and more people subscribe to the information provided by their own group, so that facts and moral truth carry progressively less weight[<sup>3</sup>](#refer-anchor-3).
+The intensification of both polarization and the power-law distribution are manifestations of polarization, and this polarization aggravates social, political, and economic insecurity. Regrettably, polarization is not merely a communication-studies illusion of the traffic era; it occurs not only in news media but is, in fact, increasingly becoming a force that shapes the world. In a polarized society, one often sees the public arguing over factually verifiable questions, and in this process, more and more people follow the information of their own faction, so that facts and moral truth carry ever less weight[<sup>3</sup>](#refer-anchor-3).
 
-As I maintain reverence for grand narratives, I also want to follow my own inner curiosity and seek, at a more abstract yet concrete dimension, some kind of explanation or consolation for the polarization of today. What forces have shaped it, in which domains does broad polarization manifest (or, put differently, in which domains is it more easily observed), and how will this polarization drive the world forward?
+While maintaining reverence for grand narratives, I also want to follow my own inner curiosity and seek, on a more abstract yet concrete dimension, some kind of explanation or consolation for today's polarization. Which forces have shaped polarization, in which fields does broad polarization manifest (or, put differently, in which fields is polarization more easily observed), and how will this polarization drive the world?
 
 ### 1. How Is a Polarized World Possible?
 
 #### 1.1 The Information Cocoon
 
-The relatively unregulated freedom of the Internet grants people full rights of expression. One would logically infer that in a free environment, people would freely express their opinions, that a hundred flowers blossom and a hundred schools of thought contend with divergent views allowed to coexist simultaneously. Strangely, however, what one has frequently observed recently — both in domestic and international media — is a cacophony of Trump-like nonsense, with dialogues between different stances becoming increasingly difficult and people building binary oppositions within a diverse, open online culture. It seems the ideal state of “harmony amid diversity” only existed in the early, rough-hewn era of the Internet.
+The relatively unsupervised freedom of the network grants people the right to full expression. One natural inference is that in a free environment, people express their own views, divergent opinions are allowed to coexist, and a hundred flowers blossom while a hundred schools of thought contend. Strangely, however, over the past while one has frequently observed domestic and foreign media flooded with Trump-style nonsense; dialogue between different stances has become increasingly difficult, and people construct binary oppositions within a diverse, open online culture. It seems that the state of "harmony amid diversity" only existed in the rough-hewn early era of the Internet.
 
-A considerable body of opinion attributes the polarization of online views to the information-cocoon effect.
+A considerable number of voices attribute the polarization of online opinion to the information-cocoon effect.
 
-Tencent’s Vice President has drawn a lot of public attention over the past two days with his “pig slop theory”: because of the AI-labeled personalized content distribution algorithms, “If you like pig slop, all you’ll see is pig slop.” This is a down-to-earth expression of the information cocoon. The more a person consumes a certain type of content, the more similar content is recommended. By simply scrolling down the screen, people create a one-way time machine and an information cell. Research based on Twitter, Facebook, and other social-media users shows that people tend to prefer specific narratives and join polarized groups[<sup>4–</sup>](#refer-anchor-4)[<sup>5</sup>](#refer-anchor-5). The interests users exhibit on social media are precisely captured, and then they are fed ever more of the same.
+Over the past two days, a Tencent vice president's "pig slop theory" has drawn a great deal of attention, because of the personalized algorithmic distribution conducted in the name of AI: "If you like pig slop, all you see is pig slop." This is a down-to-earth expression of the information cocoon. The more a person watches a certain type of content, the more similar content gets recommended; by the act of scrolling down the screen, people generate a one-way time machine and an information cell. Research based on Twitter, Facebook, and other media users shows that people tend to focus on specific narratives and join polarized groups[<sup>4-</sup>](#refer-anchor-4)[<sup>5</sup>](#refer-anchor-5). The preferences users display on social media are precisely captured and then fed back to them in ever greater quantity.
 
 #### 1.2 Digital Empowerment under Imperfect Competition
 
-Individuals can voice their opinions relatively freely online, but the foundation on which people access information is unequal, as is the reach of different groups. With ranking algorithms, the most-liked comments rise to the top. To further pander to algorithms, content gets more and more provocative in its bid to astonish, and facts are further manipulated. Secondhand, reductive, tendentious narratives attract a huge following, while digital empowerment makes individuals unwilling to accept mediocrity or kowtow to being pushed around every step of the way. And so, different groups gather under different opinions, forming landmarks of the network world. Ironically, this often gives people an illusory sense of identification that moves from “this shore to that shore.”
+Individuals can voice their opinions relatively freely on the Internet, but the foundation on which people obtain information is unequal, and so is the volume of different groups' voices. Boosted by ranking algorithms, the most-liked voices rank at the top. To further pander to the algorithms, content strains to astonish at any cost, and facts are further processed. Secondhand, simplified, tendentious narratives attract a host of followers, while digital empowerment makes individuals unwilling to settle for mediocrity or to be arranged for. And so, different groups gather under different opinions, forming landmarks of the network world. Ironically, this often gives people an illusory sense of identification, as though crossing from this shore to that shore.
 
-This lopsided digital empowerment perhaps seems even more observable on the Chinese Internet.
+This uneven digital empowerment seems more easily observed on the Chinese-language Internet.
 
-The network is not flat earth; on the contrary, it is a world contoured by mountains.
+The network is not flat; on the contrary, it is a world stacked from mountain peaks.
 
-#### 1.3 The Decline of Citizen Science
+#### 1.3 The Demise of Citizen Science
 
-Modern science has been developing for no more than four hundred years. Its exponential technological progress is a reflection of the power law of reality. Due to disciplinary deepening and specialization, the paradigm of logical empiricism and carefully controlled laboratory experiments increasingly turns scientific research into a parlor game for in-groups. The predicament has led scientists to ask: Has citizen science died[<sup>6</sup>](#refer-anchor-6)? In sociological research, the public is increasingly reduced to sample‑size units, and the universal pursuit of representativeness inevitably creates gaps and biases.
+Modern science has developed for no more than four hundred years; its exponential technological progress is a reflection of reality's power law. Owing to the differentiation and deepening of disciplines, the paradigm of logical positivism and precise laboratory experiments increasingly turns scientific research into a game within an in-group, so much so that scientists have helplessly asked: Has citizen science died?[<sup>6</sup>](#refer-anchor-6) (Is Citizen Science Dead?) In social-science research, the public is increasingly turned into samples, and the universal pursuit of representativeness inevitably produces neglect and bias.
 
-The advantage of logical empiricism lies in reproducibility, but reproducibility has also become something cheap and propagative, leading to a spurious academic efflorescence. In contexts where peer‑review processes are not rigorous, ease of reproducibility allows green‑hand entryists as well as some frustrated middle‑aged scholars to perform research that is repetitious, assembly‑line work, and an enormous number of academic papers increasingly appear under similar titles. This in turn suppresses diversification.
+The advantage of logical positivism is reproducibility, but this reproducibility has also become reproducibility-on-the-cheap, leading to a spurious academic prosperity. Where the peer-review mechanism is not sound, this ease of reproduction lets beginners as well as some frustrated middle-aged and older scholars carry out repetitive, assembly-line research work, and a large number of papers are given similar titles. This suppresses diversity.
 
-Academic specialization has also led to the disappearance of the old encyclopedist-scholar, and has intensified the existing challenges of public-science communication. Mathematics is the only perfectly accurate language, yet our popular-science communication work unavoidably conducts intuitive “news you can imagine” metaphor approaches, perpetuating a whimsically direct and can sometimes lead to ancient "you are what you eat" type, naive fallacies.
+Disciplinary differentiation has also led to the demise of the encyclopedic scholar and has aggravated the difficulty of popular-science work. Mathematics is the only precise language, yet science communicators have to explain research findings to the public in concrete terms, which easily leads to the absurdity of "treating like with like."
 
-#### 1.4 An Aggrandizing, Broad Variety of Inequality
+#### 1.4 The Intensification of Broad Inequality
 
-Through a continuous accumulation of institutional determinants, comprehensive inequality is significantly intensifying. Capitalism is often condemned as originating from varied systematic discriminants and inequitabilities. By the expansive trajectory and tendencies inherent to the engined mechanism of prosperous development expansion hunger, internal gearing of expeditious agents — workers remain snared and tangled in under-covered systems and lock‑step development algorithms — such that several laborers transporting items and coders are straitjacketed paths.
+Under a series of institutional arrangements, broad inequality is intensifying. Capitalism is often regarded as the root of a series of inequalities. Because of capital's expansionary nature, riders are trapped in the system, and the fate of developers is tightly bound to that of couriers. People enjoy the convenience and prosperity that capitalism brings; those food-delivery workers, couriers, vegetable-market workers, cleaners, construction workers, and farmers form the bottom layer of the "convenience" system. After the system takes shape, the elites maintain it through a series of formal institutions, informal institutions, and governance structures. This inequality is the source of some people's happiness.
 
-Human parties rapidly selected-savored pleasure attributes through amenity-afforded. Yet every individual — ranging outward alongside many hundreds — contains vast interconnected, linking enactivity assembled core systems buttressed frequently upon specific working strands growing its foundation from extensive logistics farms’ support labor output carrying cleaners, daily-grind and earthy workants facilitating overall erectness and procedural stabilization directly form causal actors powering elaborate layers which ongoing settlements-through-flows extract & tilt.
+Under the capitalist system, the return on capital is far higher than the return on labor, and this leads to broad income inequality.
 
-Which aggregates and remodels inequitable chasm sequentially onward: spreading: accomodation unevenness | scholastic attainment variable & accessible versus loaded | structural servicing; variaged elderly lifecycle sustaining steps extending inclusive mortality shape.
+Income inequality is the consequence of a series of unfairnesses, and at the same time it further shapes inequality. This inequality manifests in housing, education, healthcare, and old-age care, and even in death.
 
-But it is its actual much-repeated instance fresh into receptive spheres perhaps the recently in awarenesses observation boosted markedly?
+Income inequality occurs broadly; why, then, has it only been widely raised in China recently?
 
-The large transmission had easily deepen-shaped. Financialized property pathways favor some hugely-bucked exponential extract a proportion during specific uneven responsive timeline; contrasting reciprocal a languishing or constrictant force likewise operative.</obs​> 
+The pandemic may have aggravated this inequality. In the past, although the income gap between groups continued to widen, on the whole both groups were progressing. Against the backdrop of the pandemic, a series of policies inflated the wealth of the rich while the "property" of the poor deflated.
 
-Later policy tangibilizes causing different or bifur.
+<img src="https://cdn.jsdelivr.net/gh/yuzhangnju/image/img/image-20210605223149706.png" alt="image-20210605223149706" style="zoom:80%;" />
 
-<img  stylus_url_material field active variable module check  src="httpscdn.jsdelivr.netghyuzhangdjusimgimage-20216225922or.png" ... layout zooming id reference percentage remark class="source_fuji_raw_decode→inline set=%_norm post_context_e_g “value_discrete” feature_projection index nominal derived element blockgraph" description tag caption alt visible=""
+> In the chart above, the left panel shows the change in wealth of different groups under ordinary conditions: although the gap keeps widening, both groups achieve an improvement in wealth. Against the backdrop of the pandemic (the right panel), the wealth of the rich undergoes further appreciation, while that of the poor is stagnant or deteriorating. The deterioration intensifies polarization.
 
-norm variable descriptive ="">
+However, all of the above explanations may be only second-order or N-th-order; they do not provide an essential answer to the polarized world.
 
-> In screen layout direction drawing value graph set variable progressive inside state indicator function... mapping adjust composite attribute property evaluator remark infer analysis set current thread proportion.
+### 2. Observing the Polarized World
 
-Most—variable sequential rationale inside nature underlying and deeper extensive formulation emerge now depth procedural absent question partial expose purely dimension deeper origin resurf inside secondary cause reification possibly not abstract capture overarching significant driver morphogenetic polarization causative chain complete. 
+#### 2.1 The Corruption and Impoverishment of Language
 
+In a polarized world, people cannot be satisfied with peaceful exchange; the emotional threshold of ordinary language is too low, and a great deal of tag-talk and abstract-talk gets invented.
 
-<br>< system_exchang<k loop_link initializing auto...
+One example is the fall of the traditional public intellectual. From "public intellectual" (公共知识分子) to the clipped "PI" (公知), the simplification of the term implicitly reflects the simplification of the public sentiment behind it. "That's it?", "No way," and a whole pile of abstract-talk composed of emojis—the masses wield linguistic violence. With snide, sarcastic humor, people dissolve traditional folk authority, yet this deconstruction further shapes division.
+
+Gathered under the algorithm, comments ranked high in likes are more easily seen. These comments often act like a political meme, spreading at extremely high speed and shaping the fences of everyday language. The homogenization and polarization of discourse lead to the corruption and impoverishment of language.
+
+#### 2.2 The Rise of the Left
+
+When the beautiful imaginings propagated by early public intellectuals failed to be realized, they were toppled, and another set of voices came to occupy the mainstream narrative. Historical events show that this voice is often the voice of the left. Under broad polarization, the volume of the left's voice has gradually risen.
+
+On the Chinese-language Internet—on Zhihu, Douban, and Weibo—one can find that criticism of capital has become mainstream. The people's tycoons promptly threw out the "996 is a blessing" theory, becoming spokesmen for capital and also becoming the bullseye of this wave of critical thought. On Bilibili, videos about the great teachers are growing more and more numerous. The discourse and imagery of the revolutionary era are frequently invoked, and lamp posts have become hot commodities.
+
+![image-20210605214600555](https://cdn.jsdelivr.net/gh/yuzhangnju/image/img/image-20210605214600555.png)
+
+### III. How Will the Polarized World End?
+
+How will this round of polarization end? Is it the endpoint of the traditional Malthusian cycle? Will the world be rebooted in the form of plague, famine, and war? Or will it be through some kind of reform that elevates the common discourse and the space for dialogue? Can the masses expect a technological explosion to save everything?
+
+References:
+
+<div id="refer-anchor-1"></div>
+- [1] Xie, Y., & Zhou, X. (2014). Income inequality in today’s China. *Proceedings of the National Academy of Sciences of the United States of America*, *111*(19), 6928–6933. https://doi.org/10.1073/pnas.1403158111.
+<div id="refer-anchor-2"></div>
+- [2] Nielsen, M. W., & Andersen, J. P. (2021). Global citation inequality is on the rise. *Proceedings of the National Academy of Sciences of the United States of America*, *118*(7), 1–10. https://doi.org/10.1073/pnas.2012208118.
+<div id="refer-anchor-3"></div>
+- [3] https://en.wikipedia.org/wiki/Political_polarization.
+<div id="refer-anchor-4"></div>
+- [4] Schmidt, A. L., Zollo, F., Vicario, M. Del, Bessi, A., Scala, A., Caldarelli, G., Stanley, H. E., & Quattrociocchi, W. (2017). Anatomy of news consumption on Facebook. *Proceedings of the National Academy of Sciences of the United States of America*, *114*(12), 3035–3039. https://doi.org/10.1073/pnas.1617052114.
+<div id="refer-anchor-5"></div>
+- [5] Conover, M., Ratkiewicz, J., Francisco, M., Gonçalves, B., Menczer, F., & Flammini, A. (2011). Political polarization on twitter. *Proceedings of the International AAAI Conference on Web and Social Media*, *5*(1).https://www.aaai.org/ocs/index.php/ICWSM/ICWSM11/paper/viewFile/2847/3275.
+<div id="refer-anchor-6"></div>
+- [6] Lowry, C. S., & Stepenuck, K. F. (2021). Is Citizen Science Dead? *Environmental Science & Technology*, *55*(8), 4194–4196. https://doi.org/10.1021/acs.est.0c07873.

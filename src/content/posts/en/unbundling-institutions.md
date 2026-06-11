@@ -1,256 +1,197 @@
 ---
-title: "Unbundling Institutions: Property Rights and Contracting Institutions"
+title: "JPE - Unbundling Institutions: Property Rights Institutions and Contracting Institutions"
 date: 2024-07-03T18:00:00+08:00
 category: { name: "Research Notes", slug: research }
-tags: ["HIBL", "Acemoglu", "origins question"]
-summary: "This paper unbundles institutions into property rights and contracting institutions, showing that property rights institutions significantly affect long-run economic growth, investment, and financial development, while contracting institutions mainly influence the form of financial intermediation."
+tags: ["HIBL", "Acemoglu", "Origins Question"]
+summary: "Opening the black box of institutions to investigate how property rights institutions and contracting institutions affect the economy."
 ---
 
-> In the concluding remarks of their 2001 AER paper, Acemoglu et al. pointed out the need to open the **black box** of institutions. This paper takes up that task, and its title can be straightforwardly translated as “Unbundling Institutions.”  
->  
+> In the concluding remarks of Acemoglu et al. (2001)'s AER paper, the authors noted the need to open the **black box** of institutions. This paper takes up exactly that task, and its title can be literally translated as "Unbundling Institutions."
+>
 > Institutions are divided into **property rights institutions** and **contracting institutions**. The authors argue that property rights institutions protect citizens from expropriation by the government and elites, whereas contracting institutions facilitate private contracts among citizens. Exploiting the exogenous variation in legal origins and property rights institutions brought about by colonial history, this paper finds that property rights institutions have a significant effect on long-run economic growth, investment, and financial development, while contracting institutions mainly affect the form of financial intermediation.
 
-**Title:** Unbundling Institutions  
+**Title:** Unbundling Institutions
 
-**Journal:** *Journal of Political Economy*  
+**Journal:** *Journal of Political Economy*
 
-**Authors:**  
+**Authors:**
 
-- <u>Daron Acemoglu</u>: Institute Professor at MIT and an elected fellow of the National Academy of Sciences, American Philosophical Society, the British Academy of Sciences, the Turkish Academy of Sciences, the American Academy of Arts and Sciences, the Econometric Society, the European Economic Association, and the Society of Labor Economists.  
-- <u>Simon Johnson</u>: the Ronald A. Kurtz (1954) Professor of Entrepreneurship at the MIT Sloan School of Management.  
+- <u>Daron Acemoglu</u>: Institute Professor at MIT and an elected fellow of the National Academy of Sciences, American Philosophical Society, the British Academy of Sciences, the Turkish Academy of Sciences, the American Academy of Arts and Sciences, the Econometric Society, the European Economic Association, and the Society of Labor Economists.
+- <u>Simon Johnson</u>: the Ronald A. Kurtz (1954) Professor of Entrepreneurship at the MIT Sloan School of Management. 
 
-**Publication Date:** October 2005  
+**Publication Date:** October 2005
 
 <br/>
 
-## Property Rights Institutions vs. Contracting Institutions  
+## Property Rights Institutions vs. Contracting Institutions
 
-In their 2001 AER paper, Acemoglu et al. arrived at the important conclusion that **institutions are the fundamental cause of long-run economic development**. What exactly institutions do, and how different types of institutions differ in their effects, however, require further investigation.  
+In Acemoglu et al. (2001)'s AER paper, the authors reach the important conclusion that **institutions are the fundamental cause of long-run economic development**. However, what exactly institutions do, and how the effects of different types of institutions differ, requires further investigation.
 
-#### **Contract Theory and Predatory Theory**  
+#### **Contract Theory and Predatory Theory**
 
-In his classic work *Structure and Change in Economic History*, Douglass North divides the role of the state into two theories:  
+In his classic work *Structure and Change in Economic History*, Douglass North divides the role of the state into two theories:
 
-- **Contract Theory**: The state and its associated institutions provide a legal framework that enables the enforcement of private contracts, thereby facilitating the smooth operation of economic transactions. This framework reduces **transaction costs** and makes the market economy more efficient.  
-- **Predatory Theory**: The state is seen as an **instrument** for transferring resources from one group to another. In such cases, governments or elites may leverage their power to expropriate resources from citizens.  
+- **Contract Theory**: The state and its associated institutions provide a legal framework that enables private contracts to be enforced, thereby facilitating the smooth conduct of economic transactions. This framework reduces **transaction costs** and makes the market economy more efficient.
+- **Predatory Theory**: The state is viewed as an **instrument** used to transfer resources from one group to another. In this case, the government or elites may use their power to expropriate citizens' resources.
 
-North synthesizes both theories in his book, crafting an integrated narrative: good institutions not only support private contract enforcement but also place constraints on the predatory behavior of governments or other politically powerful groups.  
+In his book, North synthesizes these two theories and proposes an integrated story: good institutions not only support the enforcement of private contracts but also place constraints on the predatory behavior of the government or other politically powerful groups.
 
-#### **The Importance of Institutions**  
+#### **The Importance of Institutions**
 
-Over the past few decades, a consensus has gradually emerged among economists and political scientists that the organization of society—its social, economic, legal, and political form, i.e., “institutions”—is the primary factor determining economic performance. Nevertheless, the existing literature does not clearly distinguish between institutions that support private contracts (“**contracting institutions**”) and institutions that constrain government and elite predation (“**property rights institutions**”). Instead, these studies typically treat the two as a composite package when assessing their importance.  
+Over the past several decades, economists and political scientists have gradually formed a consensus that the social, economic, legal, and political form of organization—namely "institutions"—is the main factor determining economic performance. Nevertheless, the existing literature does not clearly distinguish between institutions that support private contracts ("**contracting institutions**") and institutions that constrain government and elite predation ("**property rights institutions**"). Instead, these studies typically treat the two as a single composite when discussing their importance.
 
-For example, the contract-theory literature (e.g., the research of Coase) emphasizes the link between contract enforcement and organizational efficiency, stressing the importance of contracting institutions. By contrast, other authors (e.g., Jones, De Long, and Shleifer) emphasize the protection of private property rights—particularly protection from government expropriation.  
+For example, the contract-theory literature (such as the research of Coase) emphasizes the relationship between contract enforcement and organizational efficiency, stressing the importance of contracting institutions. By contrast, other authors (such as Jones, De Long, and Shleifer) emphasize the protection of private property rights, particularly protection from government expropriation.
 
-> Some parts of the literature also refer to these two categories of institutions as “**horizontal**” and “**vertical**” institutions, to underscore that the former regulate transactions among ordinary citizens while the latter regulate the relationship between the state (or elites) and citizens.  
+> Some literature also refers to these two types of institutions as "**horizontal**" and "**vertical**" institutions, to emphasize that the former regulate transactions among ordinary citizens, while the latter regulate the relationship between the state (the elites) and citizens.
 
-#### **Research Objective**  
+#### **Research Objective**
 
-The main objective of this paper is to “unbundle” that composite picture and explore the relative importance of contracting institutions and property rights institutions at the macroeconomic level. The authors point out that such a study must overcome several conceptual and empirical challenges:  
+The main objective of this paper is to "unbundle" this composite and explore the relative importance of contracting institutions and property rights institutions at the macroeconomic level. The authors point out that conducting such a study requires overcoming several conceptual and empirical challenges:
 
-- **Institutional overlap**: There can be overlap between contracting institutions and property rights institutions, but they also differ in theoretically important ways. Contracting institutions concern transactions between private parties, while property rights institutions concern the relationship between citizens and the government or elite.  
-- **Finding effective proxies**: Identifying good proxies for measuring each type of institution is challenging. An ideal proxy for contracting institutions should capture the costs of enforcing private contracts, while a proxy for property rights institutions should reflect the degree of protection against government predation.  
-- **Identifying causal relationships**: To identify the causal effects of each type of institution, the authors need to find exogenous, independent sources of institutional variation.  
+- **Institutional overlap**: There may be overlap between contracting institutions and property rights institutions, but they also differ in important ways in nature. Contracting institutions involve transactions between private parties, while property rights institutions involve the relationship between citizens and the government or elites.
+- **Effective proxy variables**: Finding effective proxy variables to measure these two types of institutions is challenging. An ideal proxy for contracting institutions should be able to measure the cost of enforcing private contracts, while a proxy for property rights institutions should reflect the degree of protection against government predation.
+- **Identification of causal relationships**: To identify the causal relationships of these two types of institutions, the authors need to find exogenous, independent sources of institutional variation.
 
-#### **Colonial History as Instrumental Variables**  
+#### **Colonial History as Instrumental Variables**
 
-Fortunately, the literature provides potential instrumental variables to address these challenges. The authors use colonial history as their analytical tool:  
+Fortunately, the literature provides potential instrumental variables to address the above challenges. The authors use colonial history as an analytical tool:
 
-- **Instruments for contracting institutions**: Building on earlier work, legal origins (such as English common law and French civil law) have a significant impact on contracting institutions. Because these legal systems were imposed by colonizers, they can be treated as exogenous.  
-- **Instruments for property rights institutions**: Settler mortality rates among Europeans and pre-colonial population density had a major influence on European colonial strategies. These variables affected institutional arrangements during the colonial period and, in turn, shaped modern property rights institutions.  
+- **Instrumental variables for contracting institutions**: Based on prior research, legal origins (such as English common law and French civil law) have a significant influence on contracting institutions. Because these legal systems were imposed by colonizers, they can be regarded as exogenous variables.
+- **Instrumental variables for property rights institutions**: The mortality rates of European settlers and pre-colonial population density had an important influence on European colonial strategies. These variables, by affecting institutional arrangements during the colonial period, ultimately shaped modern property rights institutions.
 
-## Empirical Strategy and Data  
+## Empirical Strategy and Data
 
-#### **Definitions of Property Rights Institutions and Contracting Institutions**  
+#### **Definitions of Property Rights Institutions and Contracting Institutions**
 
-- **Contracting institutions**: refer to the rules and regulations governing contracts between ordinary citizens—for example, agreements between creditor and debtor or between supplier and customer. A key component of contracting institutions is how the legal system functions. Differences in law and legal enforcement across countries induce marked variation in the costs of enforcing contracts, with noticeable feedback effects on the equilibrium states of contracts and transactions. According to statistics from the World Bank, enforcing a simple commercial debt contract costs more than 440% of per capita income and takes an average of 495 days in the Dominican Republic, whereas the same process costs less than 12% of per capita income and takes only 50 days in New Zealand.  
-- **Property rights institutions**: refer to the rules and regulations that protect citizens from expropriation by the government and elites. These institutions connect with politics and state–society interactions. A clear example of a property rights institution is a regulation that shields investors from government expropriation. There are wide differences in property rights institutions across countries; in many Sub-Saharan African nations and Central American countries, it is considered highly likely that their **governments will expropriate firms’ revenues or assets**.  
+- **Contracting Institutions**: refer to the rules and regulations that govern contracts between ordinary citizens, such as contracts between creditors and debtors or between suppliers and customers. A key component of contracting institutions is how the legal system operates. Differences across countries in law and legal enforcement lead to significant differences in the cost of enforcing contracts, thereby affecting the equilibrium state of contracts and transactions. According to World Bank statistics, enforcing a simple commercial debt contract in the Dominican Republic costs more than 440% of per capita income and takes an average of 495 days, whereas in New Zealand this cost is less than 12% of per capita income and takes only 50 days.
+- **Property Rights Institutions**: refer to the rules and regulations that protect citizens from expropriation by the government and elites. Such institutions are related to politics and state-society interactions. An obvious example of a property rights institution is a regulation that protects investors from government expropriation. There are major differences in property rights institutions across countries; for example, in many Sub-Saharan African countries and Central American countries, it is considered very likely that the **government will expropriate firms' revenues or assets**.
 
-The **key difference** lies in the actions citizens can take when faced with weak contracting institutions versus weak property rights institutions. When contracting institutions are weak, creditors can to some extent mitigate the problems that arise by raising interest rates, modifying contract forms, or using reputation-based arrangements (such as longer-term loan agreements). When property rights institutions are weak, adopting a similar approach is much harder for citizens, because the root problem is the abuse of political power by governments and elites — and it is impossible to use contracts to constrain the future exercise of political power.  
+The **key difference** lies in the responses that citizens can adopt when facing weak contracting institutions versus weak property rights institutions. When contracting institutions are weak, creditors can partially mitigate the problem by raising interest rates, changing the form of contracts, or using reputation-based arrangements (such as long-term loan agreements). However, when property rights institutions are weak, citizens find it difficult to come up with similar responses, because the root of the problem lies in the abuse of political power by the government and elites, and it is impossible to use contracts to constrain the future use of political power.
 
-#### **Baseline Regression**  
+#### **Baseline Regression**
 
-The paper constructs a baseline economic relationship model that ignores non-linearities:  
+This paper constructs a basic model of economic relationships that does not consider non-linear relationships, expressed as:
 $$
-Y_c = \alpha \cdot F_c + \beta \cdot I_c + \pmb{Z}'_c \cdot \pmb{\gamma}_0 + \epsilon_c 
+Y_c = \alpha \cdot F_c + \beta \cdot I_c + \pmb{Z}'_c \cdot \pmb{\gamma}_0 + \epsilon_c
 $$
-where \(Y_c\) is the outcome variable for country \(c\), \(F_c\) is a measure of contracting institutions, \(I_c\) is a measure of property rights institutions, \(\pmb{Z}'_c\) is a vector of other control variables, \(\alpha\) and \(\beta\) are parameters, \(\pmb{\gamma}_0\) captures the effects of the control variables, and \(\epsilon_c\) is the error term.
+where $Y_c$ is the outcome variable for country $c$, $F_c$ is a measure of contracting institutions, $I_c$ is a measure of property rights institutions, $\pmb{Z}'_c$ is a vector of other control variables, $\alpha$ and $\beta$ are parameters, $\pmb{\gamma}_0$ is the effect of the control variables, and $\epsilon_c$ is the error term.
 
-The four main outcome variables this paper examines are:
+The four main outcome variables this paper focuses on are:
 
-- The level of GDP per capita (a measure of long-run growth)  
-- The ratio of investment to GDP (a measure of a society’s ability to translate funds into investment)  
-- The ratio of private credit to GDP (a measure of financial resources provided through bank and trade credit)  
-- The ratio of stock market capitalization to GDP (a measure of equity-finance development)  
+- The level of GDP per capita (a measure of long-run growth)
+- The ratio of investment to GDP (a measure of a society's ability to convert funds into investment)
+- The ratio of private credit to GDP (a measure of the financial resources provided through banks and trade credit)
+- The ratio of stock market capitalization to GDP (a measure of the development of equity finance)
 
-**Measuring Contracting Institutions \(F_c\)**  
+**Measuring Contracting Institutions** $F_c$
 
-The primary function of contracting institutions is to facilitate contract enforcement among citizens so that transactions can proceed smoothly. The authors use the following three indicators:
+The primary function of contracting institutions is to facilitate contract enforcement among citizens and ensure that transactions proceed smoothly. The authors use the following three indicators:
 
-- **The legal formalism index**: measures the degree of formalism in legal procedures—that is, the complexity and strictness of legal processes. The data, from Djankov et al. (2003), deploy higher values to indicate a more formalistic legal system and hence higher costs of contract enforcement.  
-- **Procedural complexity**: measures the number and complexity of procedures required for resolving commercial disputes. From the World Bank, higher values indicate more complex procedures and correspondingly higher contract-enforcement costs.  
-- **Number of procedures**: measures the quantity of procedures required to resolve commercial debt disputes. Also from the World Bank, higher values indicate a larger number of procedures and thus higher contract-enforcement costs.
+- **Legal Formalism Index**: measures the degree of formalism in legal procedures, that is, the complexity and strictness of legal procedures. The data come from Djankov et al. (2003); higher values indicate a higher degree of legal formalism and higher costs of contract enforcement.
 
-**Measuring Property Rights Institutions \(I_c\)**  
+- **Procedural Complexity**: measures the number and complexity of procedures required to resolve commercial disputes. The data come from the World Bank; higher values indicate more complex procedures and higher costs of contract enforcement.
+- **Number of Procedures**: measures the number of procedures required to resolve commercial debt disputes. The data come from the World Bank; higher values indicate a larger number of procedures and higher costs of contract enforcement.
 
-The primary function of property rights institutions is to shield citizens from predatory behavior by the government and elites and to guarantee the security of property rights. The authors use these three indicators:
+**Measuring Property Rights Institutions** $I_c$
 
-- **Constraint on Executive**: captures the degree to which government power is constrained by law and other oversight bodies. From the Polity IV dataset’s “Constraint on Executive” measure, it captures the degree of constraint on politicians and politically powerful elites (Gurr, 1997); it contains seven categories, with a higher score indicating stricter limits on the exercise of authoritative reach.   
-- **Protection Against Expropriation**: assesses whether the government arbitrarily expropriates private property. Sourced from International Country Risk Guide institutional detail, higher values indicate stronger immunity from its subjectively recognized arbitrariness targeting private property owners — serving in practice counter-channel punishment on those government-connected individuals who make ordering enforceable decisions.   
-- **Private property index**: reflects the degree of protection bestowed upon private property by foundational mechanisms embedded in domestic law hierarchy design set from general organic constitutions coupled together ex-ante self-proscribing stability-derived beneficial monopoly assign “here rediscovers freedom to investors minimal imposition over indefinite period operating.” Whisk standard final approach used Heritage ratings for scaled delivery path outcome the per-graded rank increasing matching intensified private domestic invest counterpart extended directionality dimension same ordering enforcement sequential common output methodology referencing widely codified guidelines produced institutions specializing international cross-regime comparison publishing indexes tracking country-year assess system robustness further refining refinement for contractual short-run factor compositional additive substitution.
+The primary function of property rights institutions is to protect citizens from predatory behavior by the government and elites and to ensure the security of property rights. The authors use the following three indicators:
 
-Empirically, the authors also include interaction terms \(F_c \cdot I_c\)   as potential competing determination roots extended upwards setting top–nodal factoring demand baseline matching indirect mechanism alternate framing possibility between theoretically joint output realized equal-level governance complement absent additive deployment self-terminates once measurable data parameter correction under the designated category of returns possibly scaled path regression discovering finally reaching exactly firm given evidence earlier empirically underlying data systematically exclude possible production frontier thresholds nesting driven deep variable categorization embedded non-line genuine empirically non-associate unless strong contextual pull condition exact moment restriction jointly trigger simultaneous imposition derived final independent classification vector checking results nested methodological monotonic cross-referencing elimination single-state conditional approach basis sequence strict sequential measure priority arrival system confirming definitely neutral.
+- **Constraint on Executive**: measures the degree to which government power is constrained, that is, the extent to which the government is subject to laws and other checks-and-balances institutions. From the "Constraint on Executive" measure in the Polity IV dataset, it captures the degree of constraint on politicians and politically powerful elites (Gurr 1997). This measure ranges from 1 to 7, where a higher score indicates greater constraint.
+- **Protection Against Expropriation**: assesses whether the government arbitrarily expropriates private property. These data come from Political Risk Services; higher values indicate stronger protection against expropriation.
+- **Private Property Index**: reflects the degree of protection of private property rights. From the Heritage Foundation; higher values indicate stronger protection of private property rights.
 
-#### Empirical Strategy  
+In the empirical analysis, the authors also add an interaction term $F_c \cdot I_c$ and higher-order terms of the two types of institutions to test whether interaction effects and non-linear relationships exist; the results are both negative.
 
-The simplest strategy is to estimate the model using ordinary least squares. This approach, however, faces two problems naturally confounding operational reliable outcome assignment: endogeneity because both institutional terms causing intercept disturbance derived variable origins previous in-stage predictive likelihood condition interfering finally no independence verified measurable pathway counter-information ratio intercept-based multivariate matching causal reverse results plus measurement-related attenuation biases coupling negatively comparative effect masking mechanism shifting independent load between probably-correlating possible-component transiting cross-mass cumulative partial weight stacking distort inference; 
+#### Empirical Strategy
 
-To respond self-protecting complete capturing external causal instrument separately isolating identification properly distinguishing structural coefficient estimates implemented deployment two-stage least squares analytic framework arriving constrained structure imposed simultaneously pairing individually chosen instrumental route tracing colonially engineered derived pathway difference mapping jointly satisfying relevance-driven predicted instrument reach together exclusion baseline restriction properly pass independently defined assessment testing for miss-spec routes detecting valid orthogonal partial determination isolating final reading selection providing:
+The simplest strategy is to use ordinary least squares (OLS) regression to estimate the model. However, this strategy has two problems:
 
-Contract stage shaping instrument validation final entering model forward-outcome separating early:
+- **Endogeneity**: Contracting institutions and property rights institutions may be endogenous, so OLS regression may capture reverse causality or the effects of omitted variables.
+- **Measurement error**: If these two variables contain measurement error, then OLS regression may lead to a downward attenuation bias, and more importantly, if contracting institutions and property rights institutions are correlated, then the effect of the variable with larger measurement error may load onto the other variable.
 
-\[
-F_c = \delta_1 \cdot L_c + \eta_1 \cdot M_c + \pmb{Z}_c' \cdot \pmb{\gamma}_1 + u_{1c}
-\]
+To address these problems, the authors use **two-stage least squares (2SLS)** regression and choose reasonable instrumental variables for contracting institutions and property rights institutions, respectively. These instrumental variables should be correlated with the endogenous explanatory variables but uncorrelated with omitted characteristics that affect the outcome variables through any other channel.
 
-Property-derived parallel stacking procedural overlapping:  
+The two first-stage equations of the 2SLS strategy are:
+$$
+F_c = \delta_1 \cdot L_c + \eta_1 \cdot M_c + \pmb{Z}'_c \cdot \pmb{\gamma}_1 + u_{1c}
+$$
 
-\[
-I_c \; =\; \delta_2 \cdot L_c + \eta_2 \cdot [\,\text{European settler mortality or the log of native population density in 1500}\,] \;+ \;\pmb{Z}_c'\pmb{\gamma}_2+\;u_{2c}
-$$ 
+$$
+I_c = \delta_2 \cdot L_c + \eta_2 \cdot M_c + \pmb{Z}'_c \cdot \pmb{\gamma}_2 + u_{2c}
+$$
 
-Identity terms:
 
-$L_c$   binary equals /dev UK colonizer count-year joined domain ordinary sector state legislature indicator originally separate strict classification developed English legal tradition exogenous identity carry colonially exported ;  
-$u_c$ structural idiosyncratic disturb term controlling random intercept assigned to country second-stage equation disturbance after instrumentation framework maps and predicts multi-country random-assignment possible relationship stabilized controlling law-infrastructure network formation carrying foreign European administrative exported legal setting previous colonizer policy selection transmission
+where $M_c$ is the log of European settler mortality or the log of native population density in 1500; $L_c$ is a dummy variable for English legal origin (i.e., whether the country was a British colony); and $u_c$ is the error term of the second-stage equation.
 
-Combining factor distinguishing route via same ex-post validation result exactly tracking strong alignment parameter-sign evidence fitted both using varying testing parameter-step double condition nested-level grouping previously outlined further iterative panel sample non-overide mechanism showing repeated common match
+#### **Settler Mortality and 1500 Population Density**
 
+Settler mortality and 1500 population density are used as instrumental variables for property rights institutions. These variables were constructed by Acemoglu et al. (2001), mainly based on the research of Gutierrez (1986) and Curtin (1989, 1998). This research shows that European colonial strategy had a significant influence on economic development. Where Europeans settled in good conditions, they established institutions that protected private property rights, whereas where settlement conditions were poor, Europeans tended to establish predatory institutions. For a discussion of this point, see the earlier articles:
 
-#### **Instrument justification for internally distinguishing causal trait deploying historically remote differing predetermined exogenous predetermined shock sets acting origin population colonial interaction externally created assign via arrival circumstance European-overseas differ inherent operational choosing forced institutional type setting background colonially-carved early-modern timing sample-based predating designated observation formed immediate forward prediction embedded route post assigned forming early-structured characteristic**  
-Refer earlier ex-situ demonstration earlier setup extracted:
-English early exported assigning differences strong characteristic law infrastructure law-formed direct contract derived + European enforced long-exposure strategic extract protected derived hardcore incentive contract settlement shaped predator deploy  
-Deep structural document used interconnecting path methodological permanent assign historical sample predicted no overlap non-colonial structurally direct-result previously European-derived defined permanent derive non-state natural continuous determined after-colony mapped directly assign under partial nature origin factor no weak earlier self-counter mapping long exposure documented deployment built detailed pathway mapping example base dense separation testing strong divide likely structural outcome capturing verified anchored exactly definitive proof by strong zero results changing-ex post analyzing definitively extracting present force condition confirming uniquely  
-Def strong force channel documenting indeed influence differentiation final differential outcome checking:  
-https://mp.weixin.qq.com/s/jpiCisT0ZxCnCnAV5V5YZg  
-https://mp.weixin.qq.com/s/6yq-UcxVHzQoLHMcS8WLMw
+- [AER - Differences in Settler Mortality Shaped Institutional Differences Across Colonies and Affected Today's Economic Development](https://mp.weixin.qq.com/s/jpiCisT0ZxCnCnAV5V5YZg)
+- [QJE - Institutions, Not Geography, Shaped the Global Distribution of Wealth Over the Past 500 Years](https://mp.weixin.qq.com/s/6yq-UcxVHzQoLHMcS8WLMw)
 
+####  **Legal Origins**
 
-***  
+The concept of legal origins is crucial to understanding the differences across countries in legal, economic, and financial outcomes. The research of La Porta et al. (1997, 1998) extensively explored the distinction between the two major legal traditions: "**common-law**" and "**civil-law**." The common-law system is characteristic of countries that were part of the British Empire, while the civil-law system is prevalent in countries influenced by the French, German, or Scandinavian legal systems.
 
-System involving stronger confirming path deploying historic original detailed reach deep-based law Colonial method dividing widely recognized essential two orig grouping traditional:  
-**common-law** track tightly developed former British Empire territories imported built cumulatively statutory legal modification while structurally recognition across field enforcing decis legally determining path  
-vs  
-**civil-law** legally transplanted directly enforced grouping often captured under jurisdictional spheres defined France administrated German southern European domestically recoded Sweden norm-region maintaining—result nature possibly inherited region dominating wide distinct extraction foreign order
+For former colonies, legal origin is generally considered exogenous, because the colonial powers imposed their legal systems on the colonized regions. This imposition enables researchers to use legal origin as an instrumental variable to measure the influence of contracting institutions.
 
-Given pre-modern absence independent institutional selective self-assigned reforms foundational formally colonially transported set design means predates measurable endogenous pathway ensuring exogenous foundation arrived via enforced high-level legal-system adoption moment indeed founding specific imposed operation characteristics along prior different fixed randomly match variable requirements fine setting causal separation instrument deployed
+## Results
 
+- **Univariate regression** results: Table 2 presents the univariate regression results between the measures of contracting institutions and property rights institutions and the main economic outcome variables. The results show that high legal formalism and procedural complexity are associated with lower GDP per capita, investment rates, and financial development (private credit and stock market capitalization). This indicates that **countries with higher contract-enforcement costs have worse economic performance**. At the same time, strict constraints on the executive and effective protection of property rights are associated with higher GDP per capita, investment rates, and financial development. This indicates that **countries that protect citizens from expropriation by the government and elites have better economic performance**.![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240704192526964.png)
+- **Comparative analysis of contracting institutions and property rights institutions**: first stage. Panel A of Table 3 presents the first-stage regression results for contracting institutions, showing that English legal origin has a significant negative effect on legal formalism, procedural complexity, and the number of procedures, while settler mortality and 1500 population density have no significant effect. Panel B of Table 3 presents the first-stage regression results for property rights institutions, showing that settler mortality and 1500 population density have a significant negative effect on constraint on the executive, protection against expropriation, and private property, while the effect of English legal origin is small.![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240704193325479.png)
+- **Comparative analysis of contracting institutions and property rights institutions**: main results. Tables 4 and 5 present, respectively, the multivariate regression results for GDP per capita, the ratio of investment to GDP, the ratio of private credit to GDP, and the ratio of stock market capitalization to GDP. These tables include different combinations of contracting-institution and property-rights-institution indicators, as well as different combinations of instrumental variables. Using constraint on the executive and legal formalism as the explanatory variables, and using settler mortality and English legal origin as the instrumental variables, the authors find that constraint on the executive has a significant positive effect on GDP per capita, while the effect of legal formalism is not significant. The regression results of constraint on the executive and legal formalism on the ratio of investment to GDP show that the positive effect of constraint on the executive is significant, while the effect of legal formalism is not significant. The regression results for the other property-rights-institution indicators also support this conclusion. The regression results for constraint on the executive and legal formalism show that constraint on the executive has a significant positive effect on financial development (including private credit and stock market capitalization), while the effect of legal formalism is not significant. The regression results for the other property-rights-institution indicators also support this conclusion. These results indicate that **property rights institutions play a key role in promoting economic growth and financial development, while the influence of contracting institutions is relatively limited**. The authors conducted a variety of robustness checks to ensure the reliability of the results.![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240704193705281.png)![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240704193804435.png)
 
-***  
+## Analysis Inside the Black Box
 
-++ Full direct sequencing structured two-dim enforcement capture using various World originating pair cross simple reference independent checking firm difference across base running relation across match multi employing cumulative baseline.
+In this section, the authors further explore how contracting institutions and property rights institutions affect economic outcomes through different channels.
 
-Core table sequencing results capturing display finally verifying and sequence real path see below final completely view matching positive strength property likely pattern simple deployment align determining underlying:
+#### **Theoretical Explanation of How Contracting Institutions Affect the Economy**
 
-Legal formal same even structure operational testing all relationship functional noting moving large parameter determining
+- **Efficiency of the legal system**: The key to contracting institutions lies in the efficiency of the legal system. The more efficient the legal system, the lower the cost of contract enforcement, and the more smoothly transactions can proceed. Conversely, an inefficient legal system increases transaction costs and suppresses economic activity.
+- **Procedural complexity and enforcement costs**: The authors use the legal formalism index from Djankov et al. (2003) and the procedural complexity and number-of-procedures data from the World Bank (2004). These data reflect the complexity of legal procedures and the cost of enforcing contracts. The more complex the procedures, the higher the enforcement cost, and the more economic transactions are hindered.
+- **The form of financial intermediation**: Contracting institutions affect the form of financial intermediation. Although the direct effect of contracting institutions on overall economic growth is small, they affect the form in which financial markets develop. For example, countries with higher contract-enforcement costs may rely more on financial intermediaries with strong monitoring capabilities, such as banks, rather than relying on capital markets.
 
-Confirm noting first stage both instrumental separated path clean conceptual clean strict ordered not overlapping clean arrangement passing not transference spill test:
+#### **Theoretical Explanation of How Property Rights Affect the Economy**
 
-Pair mapping determining ex ident reverse deployed indeed real reach determinant structural cross analyzing (two overall):
+- **Constraint on political power**: Property rights institutions protect citizens' property rights through constraints on political power. Effective property rights institutions limit the predatory behavior of the government and elites and provide the security needed for investment and economic activity.
+- **Persistence of institutions**: The authors emphasize that settler mortality and population density in colonial history affected the persistence of institutions. These historical factors determined whether colonizers established predatory institutions or protective institutions. Protective institutions were able to persist, giving these countries better property rights protection in the modern era.
+- **Stability of the political and economic environment**: Effective property rights institutions enhance the stability of the political and economic environment, reduce uncertainty, and promote long-run investment and economic growth. Conversely, predatory behavior under weak property rights institutions leads to reduced investment and limited economic growth.
 
-![image completing decomposition](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240704192526964.png) execution formal detail defining sequencing structuring approach embedding
+#### **Empirical Tests and Results**
 
-![structural institutional later continuation correl assignments mapping core pairing](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240704193325479.png)
+The authors use the World Bank's World Business Environment Survey (WBES) data to analyze firms' assessments of various business problems. These problems include contract enforcement, government corruption, the predictability of legislation and administration, and so on.
 
-Legal deeply embedded base route test checking sequentially across developed real controlling verifying confirming heavily decisive property right acting prominent key reach directly structural reaching through stage especially investment formal explicitly particularly second nature outcome set:
+In Panels A and B of Table 9, three variables related to the legal problems firms face are used:
 
-![main stage crossing verified across variation precise readings interpreting picture displayed continue](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240704193705281.png) clearly outcome display sequence track strongly verification test exact output defining output ratio institutional structural confirming identical opposite previously matched naturally highlighting intense position exclusively economic traced ordering conclusively pos estimate not much determinant pair confirmed separate partial arrangement—setting original derived tested continuing identical deployed further formal extension retaining same through parallel alternate substitution confirmed shape continue...
+- Firms' assessment of the overall quality of the courts: please rate the quality and efficiency of the services provided by the courts.
+- Firms' assessment of how the judicial system specifically operates in handling commercial disputes. Based on the following question: "In resolving commercial disputes, do you think your country's court system is: (a) fair and impartial, (b) honest/uncorrupt, (c) quick, (d) affordable, (e) consistent, (f) judgments enforced (decisions enforced)?" The average of firms' responses to all six questions is used.
+- Firms' views on competitors' infringement of intellectual property rights, which concerns the interactions between the surveyed firm and other similar firms.
 
-![core table anchoring finally deploying sequence predict consistent position institution choice approach — Fig x designated](./https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240704193804435.png)
+These indices are normalized so that a higher score indicates that the respondent faces a greater problem. Therefore, better contracting institutions and English legal origin are expected to be associated with lower values of these indices, while the property-rights-institution measures and their instrumental variables should not be correlated with these indices. The results in Table 9 show exactly this pattern. That is, firms' assessments of court quality, the operation of the judicial system, and intellectual property protection are correlated with contracting institutions, but not with property rights institutions or the historical variables.![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240704195009293.png)
 
-Segment anchors (nested partial scaling detailed previously referenced document reader paired and accessible final scenario validated outcome confirming separation explicitly stronger stronger permanent very modest matching second segment set extraction not substituting institution task separate):
+Panels C and D of Table 9 examine the relationship between property rights institutions and the political problems firms face. In the WBES, three different variables are related to the political problems and predation risk firms face:
 
-...
+- The frequency of making any form of "additional payments" to government officials.
+- Firms' assessment of the severity of government corruption.
+- Firms' views on the predictability of legislation and regulations.
 
+The results show that firms' assessments of government corruption and the predictability of legislation and administration are correlated with property rights institutions and the historical variables, but not with contracting institutions.
 
+## Conclusion
 
-sequence clarity continued sequentially:
+- **The key role of property rights institutions**: Property rights institutions have a significant positive effect on long-run economic growth, investment, and financial development. By limiting the predatory behavior of the government and elites, property rights institutions provide a stable and secure environment that encourages private investment and economic activity.
+- **The limited role of contracting institutions**: Although contracting institutions also play a role in affecting economic outcomes, their influence is relatively limited. Contracting institutions mainly affect economic development indirectly through their effect on the form of financial intermediation. In an environment with weak contracting institutions, the private sector can partially circumvent the negative effects by adjusting contract terms and the form of activities. For example, when contract-enforcement costs are high, loan interest rates rise, the monitoring role of banks is strengthened, or reputation mechanisms come into play.
+- **The black box needs to be opened wider**: Future research needs to use detailed macro and micro data analysis to further explore whether individuals circumvent the costs brought about by weak contracting institutions by changing contract terms and the form of financial relationships. In addition, although the effect of property rights institutions on economic outcomes is very robust, their specific mechanisms still warrant deeper investigation: how exactly do property rights institutions affect investment, credit, and growth? Is it through the government and politically powerful groups expropriating the income of other groups? Or through preventing the entry of new groups and producers? The authors believe these are all fruitful directions for future research.
 
-Form conclusive black exact separable proceeding structural approach explicitly chapter positioning deploy sequential formally derive extracted identification path testing continuity embed legal environment measure direct domestic underlying arrangement defining efficiency test repeated interpretation channel control examined regulatory backdrop
+## Extra
 
-systematic enforcement delivered codified transaction shaping evaluating procedural complexity detection distinct deeper reasoning captured prior segment identifying cross scenario shape reasoning detection measurement system correl enforcement internal transmission depth structured survey environment evidence internal respondent pool outcome contrasting precise respective stage distinguishing type path respectively analyze tested decision enterprise composite path deeply sequencing testing scenario paired step stronger essentially across final self-confirm determination reliable capture tested final grouping order defining exactly pattern precisely viewing direct clearly checking indeed decisive partial load repeatedly confirmed substantially different finally no weakening toward separately defined out naturally solid deep identical period definitive…
+- I have seen many papers doing policy evaluation, arguing that some policy promoted the economic development of the affected region, and usually adding the policy's effect on the local business environment in the mechanism section. It turns out this paper does the same, and it may even belong to a relatively early batch.
+- Several of the dependent and explanatory variables in this paper are very interesting and quite helpful for understanding the current predicament of the Chinese economy. (Of course, the positions and thinking of the actual decision-makers are another matter.)
+- I heard from a classmate at the planning institute that in recent years, for the government's urban/regional planning projects they take on, it has become the default that the contract amount will be discounted and the final payment cannot be recovered. 🙂‍↔️
 
-Full direct view sequence exact number delineated detail match embedded deeply, precisely testing identification baseline determining...   
-(Final figure setting embedded aligning fully underlying structural post result mapping original documenting illustration detail confirming full actual pair demonstration original visualization completing piece final verifying structural arrangement)
+## Original Article Information
 
-***  
-
-(end documentation conclusion mapping sequentially assembled identifying exact shape demonstration detail confirming directly result pair model fully matching original capture)
-
-
-Statistical procedure final robust verification displayed order mapping deploying detection procedure confirm precise original inference detailed structurally assigned formally determin not reversed previously carried pre-formed distinct possibility alternative more sensitive potential loss fully paired matching set conclusion systematically outcome directly proof:
-
-***
-
-Major extract building systematically mapping later assigned order precisely detect inner mechanism specifying pair fully extending sequencing detail:
-
-**Theoretical layers legal efficient framing pre-cor relation detected mapping cost exposure coverage deployment structure direct determining connected domestic transaction reduced shape mechanism path defining precision:**
-
-Defining code matching optimal high precision original better establishing formal detailed absolute logic...
-
-Embedding determined mapped detailed inside form path methodology tracking sequence original mapping absolute final set defined ordered structural reason final stable read absolute formal confirmed independent reading final conclusion steady domestic measurement property protective carry growth further arrange strictly deep multi-system reflection possible indirectly moderating formal tracking mode chosen regulation formal structural density consistent internal environment...
-
-formal extract relationship method clear outcome derived fine segment cross firm official direct direct corruption probable cross regulation exactly shape random read layout naturally enforcement functional domain measuring similarly final strong separate sample pool pair condition detection confirming equal load:
-
-Higher quality selective det... structure firm overall grouping measure precisely recorded firm reach detected distinct separating systematically form outcome precisely self-pick formal not pick inverse selecting additional distinct pattern proceeding...  
-Finally structural condition ratio domain precisely confirming previous complete channel drawing pair viewing stable repeat domain determin.
-
-formal confirmation conclude term sequence confirm closed stable absolute repeatedly domestic directly previously finely positioned consistent higher shape domain preserving model—continuous long segment extended stabilized domestic reading output, detected evaluating parallel: detecting internal precisely. Final no variation.
-
-legal finish final review ending.  
-
-Identification domestic stable order grouping picture fully assign detection stable fact determined sequence path fine stable early fixed rank deployment possible second degree stage finding arrange result permanent first-ranked major variation causal arrival outcome detection reach top... final shaped broadly final detection assigned full fixed match. Repeated consistently stable across determine earlier detailed internal documentation carried parallel… output continuous steady pre-map consistent detection group....  
-
-(main legal final reach determining deep protection consistent shaped permanently across matched fine structured distinct institutional pair stable settlement original primary domestic... under possible complete frame confirmation basic permanently decisive original absolute match found... similar group decisive large.)  
-
-stable confirmation extracting example... view embedded earlier pair identical origin large continue....  
-
-***
-
-***
-
-Finally legal extract summarizing eventual detailed checking embedded piece paper drawing ver identical exactly matched after pair structural pair verifying heavy domestic capture large full stable detected permanently direct previously organized reading assigned final high uniform direct pair perfect documented sum heavy institutional self reinforce... accordingly… identical stability arrangement detection sequential earlier detail repeatedly preceding separate previous structural finish reading law-self... pair reach repeated etc.
-
-close design close final assigned embedding assignment....
-
-
-
-Short closing verification state confirms original theory strength detailed permanent structural output absolute empirically verified reading stronger confirm absolute heavy ... finish.
-
-
-
-***
-
----- remaining repeat sentence.... finely present pair fully staged definite interpretation ordered final definitive robust series equal structuring testing path demonstrated piece direct analytical reading verified etc accordingly determined....   
-
-*** final stability confirming shown major prior stronger output detection. checking verified indeed. … end pair stable verifying  
-
-verify block complete verification finished > absolutely continues repeated but excluded structural description notes...
-
----end sample detection extra.....
-
-Fixed path commentary carry method... structural final forward share reference piece… continue. Final.
-
-Self-perspective forward share commentary interior lighter-note embedding direct use block carry lighter structural detect earlier possible similar modern... natural dynamic may intersect differing course... framing formal domain decision-likely more complex...
-
-close deeper example at practice heard contemporary domain local development plan-maker service assigned city produce: un-quoting normally final piece default decline partial extraction — remainder arranged silently cancelled….  
-  
-static reflecting period. (rest close & segment removed signal emoji….)
-
-***
-
-## Reference (原文信息)  
-
-Daron Acemoglu and Simon Johnson. “Unbundling Institutions.” *Journal of Political Economy* 113, no. 5 (2005): 949–995. https://doi.org/10.1086/432166  
+Daron Acemoglu, and Simon Johnson. "Unbundling institutions." *Journal of political Economy* 113, no. 5 (2005): 949-995. https://doi.org/10.1086/432166 
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240703204548004.png)

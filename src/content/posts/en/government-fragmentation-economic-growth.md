@@ -6,9 +6,9 @@ tags: ["HIBL"]
 summary: "In countries with low administrative capacity, small governments hinder economic growth."
 ---
 
-> Similar to the previous tweet (see: [AER – Big Government or Small Government? Polity Size and Local Government Performance](https://mp.weixin.qq.com/s/yqcsAk7UBgqSeBfJ1KFqMA)), this installment also examines the relationship between government size and economic performance, but reaches the opposite conclusion.
+> Similar to the previous tweet (see: [AER — Big Government or Small Government? Polity Size and Local Government Performance](https://mp.weixin.qq.com/s/yqcsAk7UBgqSeBfJ1KFqMA)), this installment is likewise a study on government size and economic performance, but its conclusion is the opposite of the previous one.
 >
-> By analyzing the large-scale district splits in Indonesia between 2000 and 2014, this paper studies the effect of local government fragmentation on economic growth. Empirical results show that, despite bringing more central fiscal transfers, splits significantly suppressed local economic growth in the short run. The primary causes lie in **insufficient bureaucratic capacity** and **the loss of economies of scale**: newly established local governments lack experienced civil servants, leading to inflated administrative expenditures without effectively improving public services. Furthermore, although splits could theoretically enhance government accountability, in practice **corruption intensified**, corporate bribery increased, and regulatory quality showed no improvement.
+> By analyzing Indonesia's large-scale district splits between 2000 and 2014, this paper studies the effect of local government fragmentation on economic growth. The empirical results show that, despite the fact that splits brought more central fiscal transfers, in the short run splits instead significantly suppressed local economic growth. The primary causes lie in **insufficient bureaucratic capacity** and **the loss of economies of scale**: the newly established local governments lacked experienced civil servants, and administrative expenditures ballooned without effectively improving public services. In addition, although in theory splitting could raise government accountability, the actual situation was that **corruption intensified**, corporate bribery increased, and regulatory quality showed no improvement.
 
 **Title:** Government Fragmentation and Economic Growth
 
@@ -25,59 +25,59 @@ summary: "In countries with low administrative capacity, small governments hinde
 
 ## Introduction
 
-#### **The Effects of Decentralization**
+#### **The Effects of Decentralization (Devolution)**
 
-Decentralization often manifests as reforms that devolve power to the local level, such as creating new governments, granting greater local autonomy, or elevating the tier of local governments.
+Decentralization, namely **Decentralization**, typically manifests as reforms that devolve power to the local level, such as creating new governments, granting localities greater autonomy, or elevating the tier of local government.
 
-A substantial literature exists on the size of local governments, highlighting the benefits and drawbacks of small governments, as mentioned in the AER tweet thread. Below is a brief comparison of the respective advantages of larger governments (centralization) and smaller governments (decentralized fragmentation).
+There is a large body of research on the size of local governments, and the literature emphasizes the benefits and drawbacks of small governments, which was also mentioned in the AER tweet. Here is a brief comparison of the respective advantages of large governments (centralization) and small governments (decentralized devolution).
 
 **Advantages of centralized systems**
 
 - Can better generate economies of scale in public service provision;
-- Can better internalize policy spillovers;
+- Can better internalize policy spillover effects;
 - Possess fewer, yet more capable, politicians and bureaucrats.
 
 **Advantages of decentralization**
 
-- Smaller governments are more responsive to local needs and better accommodate diverse citizen preferences;
-- In electoral democracies, the closer distance between local government and citizens can promote accountability.
+- Smaller governments find it easier to stay close to local needs and to accommodate differing citizen preferences;
+- Under an electoral democracy, local governments are closer to the populace, which can promote accountability.
 
-A core objective of decentralization reforms is to promote economic growth; however, its net effects remain an open question.
+A core objective of decentralizing devolution reforms is to promote economic growth; however, what their effects amount to remains an unresolved question.
 
 #### **Indonesia as a Case Study**
 
-The study focuses on **local government fragmentation** in Indonesia from 2000 to 2014. During this period, the number of districts in Indonesia increased from 341 to 514, a 50% rise. The primary stated goal of this splitting policy was to accelerate regional economic development. However, the study finds that district splits actually **suppressed economic growth** in the short run.
+The study focuses on the **local government fragmentation phenomenon** in Indonesia from 2000 to 2014. During this period, the number of districts in Indonesia increased from 341 to 514, a rise of 50%. The primary purpose of this splitting policy was to accelerate regional economic development. However, the study finds that district splits actually **suppressed economic growth** in the short run.
 
-The paper's main finding is that **government fragmentation led to a decline in economic growth**, an effect that was more pronounced in newly created **"child" districts**. This phenomenon can be explained by **the decline in bureaucratic capacity** and **the loss of economies of scale**. Child districts typically possess younger, less-educated civil servants, resulting in an inferior ability to deliver public services. Moreover, despite an increase in central-government fiscal transfers, public service levels in the split-prone districts did not improve; they instead focused more on administrative spending, failing to effectively alleviate administrative delays and corruption.
+The paper's main finding is that **government fragmentation led to a decline in economic growth**, and the economic decline was especially pronounced in the newly established "**child districts**." This phenomenon can be explained by **the decline in bureaucratic capacity** and **the loss of economies of scale**. Child districts typically have young, less-educated civil servants, resulting in a poorer ability to deliver public services. Moreover, although the central government increased fiscal transfers, the level of public services in split districts did not improve; instead, they focused more on administrative spending, failing to effectively reduce bureaucratic red tape and corruption.
 
 #### **Contributions of This Study**
 
-- **Advances reflections on decentralization reforms**: This research provides crucial empirical evidence for policy discussions worldwide concerning the redrawing of administrative boundaries, especially for many developing and Eastern European countries. These regions frequently attempt to spur local economic development by increasing the number of local government units. Although local government fragmentation is often accompanied by increased fiscal transfers, this paper shows that the **administrative disruptions** brought about by the creation of a new government may outweigh these fiscal benefits, leading to a decline in economic growth in the short run. Particularly during a new government's initial stages, lacking bureaucratic capacity and effective management can amplify these negative impacts. To avoid the adverse consequences of fragmentation, policymakers considering new local governments should pay special attention to the **quality of bureaucratic personnel** and the impact of **government size** on the efficiency of public service delivery. If staff quality cannot meet requirements, or if the government is too small leading to a loss of economies of scale, governance challenges may intensify and economic growth potential undermined.
-- **Contribution to the literature on redrawing administrative boundaries**: Past literature on administrative boundary redrawing has largely focused on **public spending** and **service delivery** (e.g., Swianiewicz, 2010; Lewis, 2017), while the dimension of **economic growth** has been relatively neglected. This paper focuses on the effects of district fragmentation on **economic growth**. Earlier studies suggest heterogeneous effects across countries. For instance, Dahis and Szerman (2023) find that municipal splits in Brazil improved public service quality but did not affect private-sector employment; Cohen (2024) finds that district splits in Uganda worsened infrastructure quality and reduced nighttime light intensity. In contrast, this paper not only examines public services but also focuses analytically on the dynamics of economic growth, thus expanding our understanding of administrative fragmentation.
-- **Contribution to the literature on decentralization and economic growth**: Cross-country studies analyzing the relationship between decentralization and economic growth face substantial endogeneity issues. Divergent country contexts, institutional differences, and multiple confounding factors during the decentralization process make it difficult to draw broadly applicable conclusions. This study overcomes such limitations by leveraging within-country variation across space and time in Indonesian district splits. Previous literature (e.g., Stansel, 2005; Hatfield & Kosec, 2013; Zhang et al., 2013) has examined the effects of local government fragmentation on economic growth in contexts as diverse as the United States and China, showing that fragmentation can promote growth under certain conditions. However, those studies generally focus on already mature and functioning local government units; this paper studies **newly established local governments**, revealing the negative effects during the initial phases of government fragmentation.
-- **Contribution to the literature on downsides of decentralization**: The negative aspects of decentralization can be particularly salient in developing countries, where existing literature has identified problems such as worsening environmental pollution (Lipscomb & Mobarak, 2017) and greater uncertainty in public investment (Kresch, 2020). This paper deepens our understanding of such negative effects by emphasizing **the insufficiency of bureaucratic capacity** and **the impact of government size on public service delivery**.
+- **Advances reflection on decentralization reforms**: This research provides important empirical lessons for policy discussions worldwide concerning the redrawing of administrative boundaries, especially for many developing countries and Eastern European countries. These regions frequently attempt to spur local economic development by increasing the number of local government units. Although local government fragmentation is often accompanied by an increase in fiscal transfers, this paper shows that the **administrative disturbances** brought about by the establishment of new governments may outweigh these fiscal gains, leading to a decline in economic growth in the short run. Particularly in the initial period of a new government's establishment, owing to a lack of bureaucratic capacity and effective management, the negative shock brought by splitting may be quite pronounced. To avoid the negative effects of splitting, policymakers, when considering setting up new local governments, should pay special attention to the **quality of the bureaucratic personnel** of the newly established government, as well as the impact of **government size** on the efficiency of public service delivery. If the personnel quality of the new government cannot meet requirements, or if the government is too small and thus loses economies of scale, governance difficulty may intensify and the potential for economic growth may be weakened.
+- **Contribution to the literature on redrawing administrative boundaries**: Past literature on the redrawing of administrative boundaries has mostly focused on **public spending** and **service delivery** (such as Swianiewicz, 2010; Lewis, 2017), while the dimension of **economic growth** has been relatively neglected. This paper instead focuses on the effect of district splitting on **economic growth**. Earlier studies have shown that administrative boundary splitting in different countries may bring different effects. For example, Dahis and Szerman (2023) find that municipal-level splits in Brazil improved public service quality but had no effect on private-sector employment; whereas Cohen (2024) finds that district-level splits in Uganda weakened infrastructure quality and reduced nighttime light brightness. By contrast, this paper not only examines public services but also places emphasis on analyzing the dynamics of economic growth, thereby extending our understanding of administrative boundary splitting.
+- **Contribution to the literature on decentralization and economic growth**: Cross-country research faces substantial endogeneity problems when analyzing the relationship between decentralization and economic growth. The differences in background and institutions across countries, as well as the many confounding factors in the decentralization process, make it difficult to draw universally applicable conclusions. This paper overcomes these limitations by studying the variation in district splitting within Indonesia, exploiting within-country variation across time and space. Some existing literature (such as Stansel, 2005; Hatfield & Kosec, 2013; Zhang et al., 2013) has studied the effect of local government fragmentation on economic growth in the differing contexts of the United States and China, with results showing that fragmentation can promote economic growth under certain conditions. But these studies usually focus on local government units that are already mature and functioning, whereas this paper studies **newly established local governments**, revealing the negative effects in the initial period of government fragmentation.
+- **Contribution to the literature on the negative effects of decentralization**: The negative effects of decentralization are especially prominent in developing countries, and existing literature has pointed out that decentralization has aggravated problems such as environmental pollution (Lipscomb & Mobarak, 2017) and public investment uncertainty (Kresch, 2020). By emphasizing **insufficient bureaucratic capacity** and **the impact of government size on public services**, this paper further deepens our understanding of the negative effects of decentralization.
 
-## Indonesia’s Decentralization Reform
+## Indonesia's Decentralization Reform
 
-#### **Political and Fiscal Reform Background**
+#### **Background of Political and Fiscal Reform**
 
-Indonesia's decentralization reform began following the fall of Suharto's authoritarian regime in 1998, as the country transitioned toward democracy. Against this backdrop, the government undertook multiple political and fiscal reforms, including expanding local government autonomy. Indonesia is divided into 34 provinces (first-tier local governments), which primarily serve a coordinating role. Districts (second-tier local governments), which have more direct administrative functions, are classified into **urban districts (kota) and rural districts (kabupaten)**; both share identical political institutions and fiscal responsibilities. Below districts lie smaller units such as sub-districts (third tier) and villages (fourth tier).
+Indonesia's decentralization reform began with the fall of Suharto's authoritarian regime in 1998, as the country gradually transitioned toward democracy. Against this backdrop, the government carried out multiple political and fiscal reforms, including expanding the autonomy of local governments. Indonesia is divided into 34 provinces (first-tier local governments), which primarily serve a coordinating role. Districts (second-tier local governments) have more direct administrative functions, and are divided into **urban districts (kota) and rural districts (kabupaten)**, the two being identical in political institutions and fiscal responsibilities. Below the districts there are even smaller units, such as sub-districts (third tier) and villages (fourth tier).
 
 #### **The "Big Bang" Decentralization Reform**
 
-In 2001, Indonesia implemented a "**Big Bang decentralization reform**," significantly expanding the responsibilities of district governments in sectors like education, health, environmental, and infrastructure services. Under Law 22/1999, districts became responsible for 30% of total government spending. This reform positioned districts as the main policymakers for delivering local public services. Additionally, villages handle maintenance for infrastructure projects, while districts are responsible for funding and engineering management.
+In 2001, Indonesia implemented a "**Big Bang decentralization reform**," which marked a substantial expansion of district governments' responsibilities across many areas such as education, health, environment, and infrastructure services. Under Law No. 22 promulgated in 1999, districts became responsible for 30% of total government spending. This reform made districts the main policymakers for delivering local public services. In addition, villages are responsible for maintenance work on infrastructure projects, while districts are responsible for raising funds and engineering management.
 
-During the decentralization reform, the expenditure of Indonesian districts depended primarily on **central transfers**, as stipulated by Law 25/1999. The largest fiscal transfer is the "**General Allocation Grant**" (Dana Alokasi Umum), an unconditional, non-matching grant that averages half of district revenue. This grant is mainly used to cover civil servant salaries, with the remainder distributed based on factors like population, land area, and poverty levels. Consequently, most district spending faces few strict limitations.
+During the decentralization reform, the expenditure of Indonesian districts depended primarily on **central transfers**, as stipulated by Law No. 25 passed in 1999. The largest fiscal transfer is the "**General Allocation Grant**" (General Allocation Grant), an unconditional, non-matching grant that on average accounts for half of district revenue. This grant is mainly used to pay civil servant salaries, with the remainder allocated based on factors such as population, land area, and poverty level. This means that most district spending faces no strict restrictions.
 
-Beyond the general grant, some districts receive a share of natural resource tax revenues (distributed according to local resource extraction). Additionally, a small portion of district budgets comes from "**Specific Purpose Grants**," which are conditional and allocated through a competitive procedure.
+In addition to the general grant, some districts also receive a share of natural resource tax revenue (allocated according to the extraction of local natural resources). Furthermore, a small portion of district budgets comes from "**Specific Allocation Grants**," which are obtained conditionally and through a competitive procedure.
 
 #### **District Splitting**
 
-- **Operational Process**: Local government fragmentation in Indonesia (**district splitting**, known as pemekaran) is typically driven by local elites. Statutorily, the newly delineated child must apply through an approval vote of the existing district parliament, and requires the endorsement of the original district head before being submitted to the central government. The central government decides whether to approve the application based on technical qualifications, which include a minimum number of sub-districts in the new district and a sufficient level of economic capacity. New district boundaries generally follow existing sub-district boundaries.
-- **Timeline of Government Fragmentation**: Between 2000 and 2014, the number of districts in Indonesia increased from 341 to 514 — an overall increase of 50% due to splits. During this process, the central government imposed two splitting moratoria: one from **2004 to 2006** and another from **2009 to 2012**, aiming to avoid the inherent administrative and fiscal pressures of excessive splitting.
-- **Drivers of Splitting**: The motivations for pursuing district splits are varied and include: (1) **Political motivations**: establishing new governments offers local elites opportunities to gain political power; (2) **Desire for ethnic homogeneity**: district splits often satisfy demands for more ethnically homogeneous jurisdictions; (3) **Fiscal incentives**: splitting brings increased transfers from the central government, especially the fixed wage grants, which virtually guarantee that per capita fiscal revenues for both child and mother districts rise after a split takes effect.
+- **Operational process**: Local government splitting in Indonesia (**district splitting**, namely "pemekaran") is typically driven by local elites. In terms of statutory procedure, the district parliament applies to the central government for a split, and after obtaining the approval of the original district mayor, the application is submitted upward. The central government decides whether to approve the application based on technical standards. The specific requirements include: the new district must contain at least three sub-districts and must have sufficient economic capacity. The boundaries of the new district are generally drawn along the existing sub-district boundaries.
+- **Timeline of government splitting**: Between 2000 and 2014, the number of districts in Indonesia increased from 341 to 514, with district splits adding up to a 50% increase. During this process, the central government twice implemented a splitting moratorium policy: from **2004 to 2006** and from **2009 to 2012**, in order to avoid the fiscal and personnel pressures brought by excessive splitting.
+- **Drivers of splitting**: The reasons driving district splits are varied, and include: (1) **Political motivations**: the establishment of new governments offers local elites opportunities to gain political power; (2) **Ethnic homogeneity**: district splits can often satisfy local demand for more ethnically homogeneous jurisdictions; (3) **Fiscal incentives**: district splitting brings an increase in central government grants, especially the fixed wage grants, which almost guarantee that after a split both the child district and the mother district will see an increase in per capita fiscal revenue.
 
-The figure below shows the spatial and temporal distribution of district splits:
+The figure below shows the spatiotemporal distribution of district splits:
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240927155449163.png)
 
@@ -85,169 +85,93 @@ The figure below shows the spatial and temporal distribution of district splits:
 
 #### **Identification Strategy**
 
-The study employs a **difference-in-differences (DID)** methodology to estimate the causal effect of local government fragmentation on economic growth. This approach exploits variation in the timing of splits across districts (spatially across districts, and intertemporally over time) by comparing GDP changes between districts that split at various points and those that never split, prior to and after those events.
+The study uses a **DID** method to estimate the effect of local government splitting on economic growth. This method exploits the variation in district splitting across time and across districts, comparing the changes in GDP between districts that did and did not split at different points in time.
 
-To ensure the validity of the differences-in-differences strategy, the study emphasizes an element of **randomness** in the timing of district splits. While the occurrence of a split correlates with certain district characteristics, the central government's approval process typically involves delays spanning multiple years, and whether a split gets approved is inherently uncertain. Therefore, local leaders cannot perfectly control the precise timing of a split.
+To ensure the validity of the difference-in-differences strategy, the study emphasizes that the timing of district splits carries a certain degree of **randomness**. Although whether a district splits is correlated with the district's specific characteristics, the central government's process of approving split applications usually involves a delay of several years, and whether a split is approved is uncertain. Therefore, local leaders cannot precisely control the specific timing of a split.
 
-Furthermore, the **splitting moratoria** imposed by the central government between **2004–2006** and again between **2009–2012** further increase the randomness of timing exactly when a split becomes official. These two moratorium periods are leveraged by the paper to help purge the estimates of endogenous selection into split timing.
+In addition, the two splitting moratoria (moratoria) implemented by the central government from **2004 to 2006** and from **2009 to 2012** further increase the randomness of the timing of district splits. These two moratorium periods provide favorable conditions for the paper's identification strategy: the external intervention in the timing of district splits reduces the human factors in the selection of splits.
 
-The main specification is as follows:
+The benchmark regression equation is as follows:
 
 $$
-\frac{Y_{d,T+h} - Y_{d,T-1}}{Y_{d,T-1}} = \alpha_{T,h} + \beta_{T,h} D_d(T) + \pmb{X}^{\prime}_d \pmb{\lambda}_{T,h} + (D_d(T) \cdot \dot{\pmb{X}}_d(T))^{\prime} \gamma_{T,h} + \epsilon_{d,T,h}
+\frac{Y_{d,e+h} - Y_{d,e-1}}{Y_{d,e-1}} = \alpha_{e,h} + \beta_{e,h} D_d(e) + \pmb{X}^{\prime}_d \pmb{\lambda}_{e,h} + (D_d(e) \cdot \dot{\pmb{X}}_d(e))^{\prime} \gamma_{e,h} + \epsilon_{d,e,h}
 $$
 
-Where:
+Explanation of the variables in the formula:
 
-- $Y_{d,T+h}$ denotes GDP in year $t$ for district $d$, which enters policy-relevant calendar time as batch $T$ plus $T+h$ years relative to the time when they did first split;
-- $Y_{d,T-1}$ denotes GDP of district $d$ one year prior to the fact of the splitting event eventually known to have occurred specified by split adopted at year-$T$ pacing;
-- $D_d(T)$ is a time-homogeneous indicator categorizing whether that very unit exists what may in logic come under within observed treated member states belonging right localized before identified record baseline preceding measures that they belong to its grouping characteristic: taking the value one qualifying when for that district they eventually scheduled enacted first division given which is in period concluding within the calendar batch referenced designed label `place reference~yes treated cohort’-which registers encoded adopting representative coded identifier categorical d equivalent into element applying explicitly `assignment variable relevant derived length corresponding projected quantity constructed necessary exactly property equal hence is reference comparable empirical work alignment when; positive integer reflecting group set truly splitted action which occurs thereby measures the actually dimension modeled cohort those in first realized splits being allocated aligned over an unfolding course for phase labeled y corresponds = represents base effect if done locally contains during any enacted earlier boundaries subject batch {parameter accordingly references 'follow track notation these yield thus numeric to ensure identification under standard grouping appropriate at period without loss here whenever simply understood recognized con direct yet grounded fully across structural data applied runs specifically cases as one recognized treatment in ordinary unambiguous definition at naturally balanced stratum key here returns effect straightforwardly just named};
-- etc re base effectively standard model statistical accounting usual doing integrated here formal rules commonly needed,
-…
-- variable reference D notation just prior together maintaining stable code base practice smooth aligned coding seamlessly to index d assigned from original target sets retaining labels shown processing at version string preserving table underlying framework assured shown in dataset: yields intended statistic to provide now hence matching exactly intend representation scheme assured function obtain running within common expected standard logical linear interpretation at form after applying define these base readable definition which become without distract notation needing altering fitted model results guaranteed;
+- $Y_{d,e+h}$: denotes the GDP of district $d$ in the year $h$ years after the splitting year $e$;
+- $Y_{d,e-1}$: denotes the GDP of district $d$ in the year before the split;
+- $D_d(e)$: a binary variable denoting whether district $d$ belongs to splitting batch $e$. If district $d$ underwent its first split in year $e$, then $D_d(e)$ = 1, otherwise $D_d(e)$ = 0;
+- $\alpha_{e,h}$: denotes the fixed effect of splitting batch $e$ and time $h$, controlling for the joint influence of splitting batch and time;
+- $\beta_{e,h}$: is the key parameter of interest in the paper. It denotes the average treatment effect, in the $h$ years after splitting, on the change in GDP of districts belonging to splitting batch $e$ relative to districts that did not split;
+- $\pmb{X}_d$: denotes the vector of control variables, including other factors affecting district economic growth (such as the urbanization rate, ethnic diversity, etc.);
+- $\dot{\pmb{X}}_d(e) = \pmb{X}_d - \mathbb{E}(\pmb{X}_d | E_d = e)$, the demeaning (decentralization) treatment of the control variables;
+- $\epsilon_{d,e,h}$: is the error term.
 
-set properly gives denote identifier D implicitly returns carrying time stamped conditional marked processed label baseline fixed setting properly for estimating indicated plus resulting done formal across combined reads forms grouping:
+The **left-hand side** of the equation denotes the GDP growth rate of district $d$ in the $h$-th year after the split in batch $e$, relative to the year before the split.
 
-- standard property combination generic denoted hence producing marginal variable construction worked primary grouping variable requiring structure shown per date base origin properly mapped across exactly stated thus same meaning previously laid conditions detailed originally: standard structural under valid original source [Note reviewer: these textual insertion steps bring meaning pre-aligned correct official way formally which correspond normal streamlined readings immediate conventional safe interpretation as word easily merge].
+In measuring the change in GDP, the paper uses the **percentage change in GDP** rather than the log change. This is done to stay consistent with the fiscal multiplier literature, so that the percentage change in GDP can be directly compared with the change in fiscal grants. For example, if the fiscal multiplier is 1.8, then a 1-unit increase in fiscal grants should drive a 1.8-unit increase in GDP. In this way, the paper links the fiscal transfers brought by splitting to the change in GDP, in order to reveal the economic effects of splitting.
 
-proper attached works derives variable conditions entered treatment cell whose set determined existing criterion binding applied checks intrinsic labeling noting grouping confirmed formatting aligning batch producing cohort year reference for subset officially first-divided cases only existing at pre base convention defined originally belongs operational treatment assigned cohort cardinal proper conditional controlled variable rest doing treated split variation respects conditioning.
+#### **Data**
 
-Plain authoritative data notation sets function natural for combined exact concise rest set readings conform well practice notated for results:
+- **District GDP**: provided by the **Central Statistics Agency of Indonesia (BPS)** and publicly released through the World Bank's **Indonesia Database for Policy and Economic Research (INDO-DAPOER)**. Because districts split during the study period, the paper, in order to maintain the consistency of the data, uses the administrative boundaries of the year 2000 to measure GDP;
+- **Bureaucratic capacity**: Indonesia's National Civil Service Agency (BKN) provided district-level civil servant data from 2005 to 2015, including the number and composition of civil servants. To assess the education level and experience of civil servants, the study also uses the **2005 census data** (SUPAS) and the **2007–2015 National Labor Survey (SAKERNAS)** data. The study also uses data on the education level of the first mayors of districts (provided by Mukherjee, 2023), to assess the capacity of district leadership;
+- **Firm data**: Indonesia's **Survey of Medium and Large Manufacturing Firms** (Survei Industri Besar/Sedang, IBS) covers all manufacturing firms employing more than 20 employees from 1995 to 2014. The IBS data include firms' gross output value, number of employees, industry classification, the taxes and fees paid by firms (including local and central indirect taxes), and the "**gifts**" paid by firms (interpreted as bribes). The study uses these data to analyze the effect of government splitting on firms' tax burden and bribery behavior.
 
-model structured as constructed purpose designed instrument base condition formally running rest proven coded produces very generic method kept achieving at mapping equivalent useful condition derived all matching initial just representation standard confirming linked proven final interpretation.
+## Results
 
-Given variable D correctly maps originally meant effects embedded batches fitting onto identification splitting label adjusted as d corresponds consistent recognition accepted modeling base no controversy uniform: laid straightforward setup marked T for actual condition split record positioning reference unit representing unique within experimental labeling embedded within whole-sample note matched applying linear structural that maps:
+- Although the **central fiscal transfers** (such as the General Allocation Grant) to districts increased significantly after splitting, the splits did not bring corresponding economic growth. By estimating the potential impact of central fiscal transfers on GDP, the paper finds that the increase in the General Allocation Grant should, through the **fiscal multiplier effect** (assuming a multiplier of 0.6 to 1.8), bring GDP growth. But the actual results show that splitting not only failed to drive GDP growth but instead caused economic activity to shrink. By calculating the cumulative effect over the four years after splitting, the paper finds that the cumulative negative impact of splitting on GDP is **18.5%**, whereas the increase in fiscal grants should have driven GDP growth of 17%. This significant gap reveals the strong suppressive effect of splitting on economic growth. (Regression results are in Table 1 ⬇️) ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240927165825998.png)
+- The paper also compares **districts that split early (2002–2004) with those that split late (2008–2009). The authors find that although the overall trend of declining GDP is similar for early and late splits, the negative impact of late splits on GDP is more pronounced**. This may be because in the early period, local governments were not yet familiar with the governance approach of decentralization and lacked experience, whereas in the later period, although the implementation of decentralization was more mature, the newly established child districts still faced relatively serious problems of insufficient bureaucratic capacity. In addition, because Indonesia introduced a direct district election system after 2005, districts that split late may have faced stronger political competition pressure, which may also lead to more serious negative economic effects.
+- **National-level effects**: The paper explores the **spillover effects** of district splitting, that is, the impact of split districts on neighboring districts or the national economy. To assess these spillover effects, the authors analyze economic changes within different levels (such as the original district, province, city, etc.). The results show that splitting is not merely a reorganization of economic activity within a district; splitting produced a broader negative impact on national economic growth. Specifically, the paper finds that when the number of districts doubles, the cumulative decline in national GDP reaches **13.4%**, while the decline in provincial-level GDP is even larger, reaching **41.9%**. This spillover effect indicates that splitting did not bring any net growth through the redistribution of cross-district economic activity, but instead constituted negative pressure on national economic growth. ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240927170451771.png)
 
-#### main note
+## Mechanisms
 
-**form used stands fully reference conventional capturing ordinary non confusing term applied parametric static labels supported whole**.
+#### **Economies of Scale Effect**
 
-Main reading smoothly continue: they condition simple group d for time T rest producing path represent set working simplified style better reads achieving smooth while embedding recorded fully documenting made assignment across essentially produce writing aligning word wide-read convenient interpret final term yielding;
+The **economies of scale effect** refers to the fact that a reduction in the size of local government (i.e., government splitting) may lead to a decline in the efficiency of public service delivery, because the government needs to set up administrative agencies and infrastructure redundantly within a smaller administrative scope, thereby raising administrative costs and increasing the unit cost of public service delivery. During the splitting process, the newly established "child districts" in particular face expenditures such as building new government agencies and recruiting new civil servants, which may lead to an increase in the proportion of administrative spending and a reduction in spending on economic development.
 
-use straightforward directly derive:
+The paper's analysis shows that, after splitting, districts increased significantly in **total expenditure**, especially in expenditure on **government administration**. Specifically, in the four years after splitting, the total expenditure of districts rose by an amount equivalent to 16% of pre-split GDP. This indicates that splitting increased the cost of running the government. At the same time, the proportion of expenditure on **administrative management** increased by **3.8 percentage points**, which is a 12% increase relative to the pre-split baseline proportion of 32%. This increase was achieved by cutting expenditure on **human capital (education, healthcare)** and **physical capital (infrastructure investment)**.
 
-\begin{align}
-\{\dots = intended : \textrm provide overall treatment ident normalized level sets \}
-\end under well documented align syntax per note final. Just done formal transformation across correct convention same original yield common standardized written confirmation with uniform mapping base at rest resulting cleaner safe interpretation. This ensured implementation in database producing paper result reproducible yielding path complete code yields convenient shown regression form naturally standardized applying correctly.
+Although fiscal transfers increased after splitting, these funds were mainly used for administrative spending rather than improving public services. The study finds that public services in districts did not improve significantly after splitting, and in some areas even declined. For example, key public services such as education and healthcare were not strengthened after splitting, and at times even showed a downward trend. (See Figure 3 and 4)
 
-Regression
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240927171053143.png)
 
- direct \(\Box produce yields estimate across rest D done fixed define model;
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240927171149781.png)
 
-base formal case made truly precisely identifier final reference properly representing whole generalized normal way uniformly showing. Then truly safely place textual properly using path . The valid within text note justification summarizing overall same without loss fit correctly.
+#### **Bureaucratic Capacity**
 
-with previous formal generating to unified correct producing same original text use valid case shown at same:
+Bureaucratic capacity refers to the ability of government departments to implement policy and deliver public services. In the newly established districts (child districts) after splitting, owing to a lack of experienced civil servants, the government may be unable to effectively implement policy, leading to delays in or poor execution of public services and infrastructure projects. The decline in bureaucratic capacity may be one of the important causes of the slowdown in economic growth after district splitting.
 
-normal version yields design into simple adapted formal shows equivalently. Finished done. Basic equation become.
+The paper uses data from multiple sources, including the civil servant data provided by the National Civil Service Agency (BKN), the census data (SUPAS), and the National Labor Survey (SAKERNAS). Through these data, the study reaches the conclusion that **the education level and experience of civil servants significantly affected the economic performance of child districts after splitting**. The low bureaucratic capacity of child districts led to delays in infrastructure construction plans and a decline in the quality of public services.
 
-Thus plug into yields using direct simple specifying form stands fully. using document simplified final. applying direct form all confirms direct common.
+In addition, the study also finds that in child districts, the reduction in physical capital (such as infrastructure) investment and the delay in executing plans were more serious than in mother districts. This result further indicates that the insufficiency of bureaucratic capacity had a negative impact on economic activity.
 
-Hence complete rewrite method naturally expressed each condition label mapped directly embedded identifiers operational mapping confirming usual experimental grouping fully defined properly satisfying requirement standard for stated parameter condition reading at regression will produce estimate coefficient beta_TH relevant primary quantity interest;
+#### **Accountability**
 
-following up direct placing yields official text clear run fits usual.
+Decentralization theory generally holds that after local government splitting, smaller administrative units may strengthen **accountability**, because the government is closer to residents, and competition among local governments may prompt officials to work harder to improve the quality of public services and reduce corruption. However, if the new local government lacks an effective accountability mechanism, or if local elites use the resources after splitting to engage in **rent-seeking** activities, then splitting may instead aggravate corruption and reduce the government's accountability to residents.
 
-Proceed integrating standard form [ reference style at working base direct full ] continuing yield matches below finalized.
+The paper uses data from the **manufacturing survey (IBS)** to analyze the effect of district splitting on firm behavior, in particular bribery payments, indirect tax burden, and changes in productivity. The results show that after splitting, the proportion of firms making **bribery payments** increased significantly, while productivity did not increase correspondingly. In addition, the authors also use economic governance survey data to further verify the effect of splitting on firms' tax burden and bribery behavior.
 
-(Continue plain method base proper integrating where yields produce final wording below final mapping appropriately aligned correct simplified clear. The processing adapt placing overall keep readability full accordingly.)
+## Conclusion and Discussion
 
-note outcome shown finish: aligning best full implementation as indicated final standard laid reading.
+#### **Main Research Conclusions**
 
-B.
+This paper studies the effect of local government splitting on economic growth in Indonesia, and the main conclusion it reaches is that **splitting significantly suppressed economic growth in the short run**. Although local governments obtained more fiscal support after splitting, owing to **insufficient bureaucratic capacity** and **the loss of economies of scale**, these funds failed to effectively drive economic development. The newly established local governments usually face **low administrative efficiency** and **corruption problems**, leading to weak economic growth. In addition, this paper emphasizes that raising the bureaucratic capacity of local governments and reasonably controlling government size are crucial for achieving economic growth after splitting.
 
- result average.
+#### **Discussion**
 
-Keep uniform moving correct fully direct translation align correctness sentence being adapted.
+- **Differences in research across country contexts**: The study shows that local government splitting has produced markedly different results in different countries. Dahis and Szerman (2023) find that municipal-level splits in Brazil increased the nighttime light brightness of new districts but did not affect the mother districts. Whereas Cohen (2024) finds that local government splitting in Uganda reduced the nighttime light brightness of new districts. This difference may be related to factors such as the experience of government officials and the scale of fiscal transfers after splitting in each country. Compared with these studies, the authors' study, in the Indonesian context, finds that insufficient **government capacity** after splitting is the key cause of poor economic performance;
+- **The realization of accountability and rent-seeking behavior**: Although decentralization theory generally holds that splitting should raise accountability, in Indonesia and Brazil the improvement in accountability is not obvious; instead it is accompanied by an increase in rent-seeking behavior. Lima and Neto (2018) point out that, after decentralization, Brazil did not see a significant improvement in accountability, and a similar phenomenon occurred in Indonesia, which is the **opposite** of the expectation, proposed by decentralization theory, of raising accountability through the electoral mechanism;
+- **Under what conditions can decentralization improve accountability**: In the **United States** and **China**, the effect of government splitting on economic growth is relatively positive. In the United States, local government splitting is associated with faster economic growth, but this is related to the fact that the United States is a mature democracy where local governments have long existed and possess relatively strong tax autonomy. The studies of Stansel (2005) and Hatfield & Kosec (2013) show that the long-existing governments in the United States did not face the negative effect of a decline in bureaucratic capacity. Similarly, Zhang et al. (2019) find in China that moderate splitting promoted growth, but excessive splitting may hinder growth because of the loss of economies of scale.
 
- producing overall continuous aligned.
+## Extra
 
-- base terms normal: intercept indicator cohort effects remaining parameter readings unchanged aligned precisely normal: exactly and properly relevant defined exactly needed to make proper consistent correctly for implementing production properly routine do not drop design final template being carefully piece giving clear aligning eventual ensuring verifying all stable output as verified numeric all matched; fit pass .
+- This article is actually quite interesting! Indonesia's data is surprisingly good — very impressive!
+- Professor Jia Junxue and colleagues have a JPubE paper that explores the effect of Chongqing's upgrade to a directly administered municipality on economic growth. It is an excellent work on devolution research in the Chinese context, and is recommended reading: [Political hierarchy and regional economic development: Evidence from a spatial discontinuity in China](https://www.sciencedirect.com/science/article/pii/S0047272720302164?via%3Dihub). I previously presented this one, studying and replicating it as reference material for the RDD literature; the slides are on my blog: [https://yuzhang.net/2023/07/22/CIT5_20230722/](https://yuzhang.net/2023/07/22/CIT5_20230722/) ;
+- Wishing everyone a happy holiday! I would also love to go out and have fun, but I have no publications right now, and graduation is hard.
 
-# Insert properly confirmed
+## Original Article Information
 
-Thus retaining final standard form.
+Traviss Cassidy, Tejaswi Velayudhan; Government Fragmentation and Economic Growth. *The Review of Economics and Statistics* 2024; doi: https://doi.org/10.1162/rest_a_01493
 
-——-
-
-additional passage textual normalize overall alignment to clean word flow result usage fully common translate to provide proper full: incorporating basic pieces returning final.
-
-Fixed aligned combine from referencing ensuring stable passed correct yield line continued below simple embedded alongside fixed. Do completing core plain output fit returns result ready.
-
-Below note that handling produce readable standard plain reading intended: employing marker directly exactly correctly verifying embedded simpler combined method naturally. Done turned work processed finishing in easy style safe producing main matching.
-
-##### primary equation ends
-
-concluding direct:
-
-All placement stable production ready using framework provided note completely method checked all producing meets settings good yields plain regular form given implement running standard produces standardized needed main proceeding.
-
-Returning produce output combine plain language ordinary styles meaning applied direct interpret standard conform well layout fit combining main outputs final representing completely generation ready approach fitting readers effectively producing:
-
-Done normal concluding maintaining.
-
-final note form adaptation defined .
-
-Normal texts effectively.
-
-Path fitted stable producing regular insertion rest covered see reading: accordingly process filling adapted into implemented resulting provided at works default stable plus properly fits confirmed all producing ready .
-
-run all ensures .
-
-final skip verifying else last step remain main below.
-
-Next pass execute remaining rest systematic fully produce final as acceptance post conversion standard ensured all word align: just restart printing . Implementation finished complete provide whole exactly safe rendering constant reliably performing final translated rendering coherent . keep producing rest seamlessly deliver while matched plain readable . provided whole without distraction .
-
- end wrapping segment good place exit right placing link finish truly deliver promptly for clean results returns display correctly producing producing all continuously at line matched embedded in regular final confirmed model standard generic mapping text working standardized direct plain mode identical across the procedure done ensuring unified representation yields intended. Good outcome and deliver whole.
-
-Continue plain final passage integrating including seamlessly right set.
-
- process: match all output transform next sequential set.
-…
-post integration merg result transform direct adapted form see deliver equally correct properly model base insert plain direct stable produce making correct plain language produced ensuring produce output word identical.
-
-conform reads yield proper keeping same.
-
-result model generating properly. Keep matched
-
-skip adjusting style for applying consistent.
-
-integrating transition into main finalized sentence executing whole stable :
-
- yields as represented fit defined parametric with rest maintain delivery stable on right adapted final generating convert smooth run:
-
-provide kept by defining combine from original structurally producing representation:
-
-align continuous complete.
-
-wrap ready.
-
-...
-
- note confirm deliver implement base proper smoothly take directly embed style fitting text context preserve original fidelity all concept notation as simple base providing standard simplified translation rest produce whole using ordinary produce aligned terms smooth quality kept stable shown .
-
-checked mapping word yielding .
-
-completion ready yielding .
-
-confirm implement run.
-
- code gives ready:
-
-task Done properly arranging styled.
-
-continue final text in normal embed seamlessly .
-
- integrated as conclusion above.
-
-** final portion yielding implement arranging layout print paragraph embedding post define base element interpretation yields from formal well.
-
-fix short and rest delivered complete steady.
-
-direct.
-
-fiscal variable piece final add translates baseline directly kept representation moving combine producing.
-
- implementation final ensuring checked producing proper adjusting standard translation finalized matching rest easy leaving readable verified pass ready . All seamless fit final conform produce clean output continuing native form rest nice retaining article sentence mapped final finalized accordingly consistent yield defining final fitted confirm proper passing.
-
-wrap : produce final immediate passage results .
-
-#end added note ; produce output
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240927111011433.png)

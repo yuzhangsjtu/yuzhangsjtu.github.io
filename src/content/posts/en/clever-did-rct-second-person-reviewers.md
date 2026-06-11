@@ -1,14 +1,14 @@
 ---
-title: "A Clever DID+RCT: Using Second-Person Pronouns in Responses to Reviewers More Likely Elicits 'Goodwill'"
+title: "NC - A Clever DID+RCT: Using the Second Person When Replying to Reviewers Makes You More Likely to Receive 'Goodwill'"
 date: 2024-02-07T10:00:00+08:00
 category: { name: "Research Notes", slug: research }
 tags: ["HIBL", "DID"]
-summary: "Using differences in pronoun use and reviewer feedback to construct a DID design, the study finds that authors who address reviewers with second-person pronouns ('you') receive fewer issues, shorter replies, and more positive feedback."
+summary: "Clever DID design +1."
 ---
 
-> By leveraging the **difference** in personal pronoun use in authors’ replies to reviewers and the **difference** in reviewers’ feedback, the authors construct a DID (difference-in-differences) design and find that authors who addressed reviewers using second‑person pronouns (“you”) received comments with fewer questions, shorter replies, and more positive feedback. The mechanism is that conversations that use “you” are perceived as more personal and elicit greater engagement.
+> Exploiting the **difference** in personal pronoun use in authors' reply letters to reviewers and the **difference** in reviewers' feedback to construct a DID, the paper finds that authors who address reviewers with the second-person pronoun (you) receive review comments with fewer questions, shorter replies, and more positive feedback. The mechanism is that conversations using "you" feel more personal and involve a higher level of engagement.
 
-**Title:** Behavioral consequences of second‑person pronouns in written communications between authors and reviewers of scientific papers
+**Title:** Behavioral consequences of second-person pronouns in written communications between authors and reviewers of scientific papers
 
 **Journal:** Nature Communications
 
@@ -16,60 +16,60 @@ summary: "Using differences in pronoun use and reviewer feedback to construct a 
 
 <br/>
 
-**Gaps:** A fair amount of research exists on the use of the second‑person pronoun “you.” For example, using “you” can draw the addressee’s attention and increase engagement with the topic, and “you” also functions to norm behavior and enhance persuasiveness. However, such studies have mostly concentrated on one‑way, one‑off communications or have been confined to intimate relationships; research on the use of “you” in multi‑party, dynamic, non‑intimate contexts remains limited.
+**Gaps:** There is already a good deal of research on the use of the personal pronoun "you" - for example, using "you" can capture the addressee's attention and increase engagement with the topic, and "you" also has the function of regulating behavior and influencing persuasiveness. But these studies have often focused on one-way, one-off communication, or have been confined to the context of intimate relationships; research on the use of "you" in multi-party, dynamic, non-intimate settings remains limited.
 
-**Aims:** To examine the effect of using “you” on review outcomes using interactions from the peer‑review process of academic journals.
+**Aims:** Using the interaction materials of academic journals' peer review, to investigate the effect of using "you" on review comments.
 
-**Data:**  
+**Data:**
 
-- Peer‑review materials: Peer review data for all papers published in *Nature Communications* between April 2016 and April 2021, obtained in PDF format, containing reviewer comments and authors’ replies (13,359 papers and 29,144 rounds of review in total). Using techniques from computational text analysis, the following variables are constructed from these review materials:
-  - Reviewer sentiment: Positivity + negativity – four indicators in total, three analyzed using Python or R packages, one using word frequencies constructed via a dictionary approach.
-  - Use of first‑person singular pronouns: Frequencies of *I*, *me*, *my*, and *mine*.
-  - Word complexity: Mean number of syllables per word in the reviewer comments.
-  - Reviewer engagement: Topic equity calculated via LDA.
+- Peer-review materials: peer-review data for all papers from April 2016 to April 2021, obtained from Nature Communications in PDF format, containing reviewer comments and author replies (13,359 papers and 29,144 rounds of review comments in total). Using techniques from computational text analysis, variables are constructed from these review materials:
+  - Reviewer sentiment: positivity + negativity, four indicators in total; three are computed with Python or R packages, and one is built from word frequencies using a dictionary-based method
+  - Use of first-person singular pronouns: the number of occurrences of I, me, my, and mine
+  - Word complexity: the average number of syllables per word in the review comments
+  - Reviewer engagement: derived from topics computed via the LDA method
 - Other variables:
   - Number of references
   - Title length
   - Number of authors
-  - First author’s *h*-index
-  - First author’s gender
-  - First letter of first author’s surname
-  - Authors’ positivity and friendliness during the first round of review
-  - Reviewers’ positivity during the first round of review
-  - Month and year of paper publication
-  - Disciplinary category of the article
-- Behavioral RCT: A **randomized, double‑blind controlled experiment** with 1,601 participants. Participants were asked to assume the role of a reviewer and read authors’ reply letters. Experimental and control groups were distinguished by whether the second‑person pronoun was used. Finally, participants evaluated the degree of engagement and the personalness of the “conversation” with the author.
+  - First author's H-index
+  - First author's gender
+  - First letter of the first author's surname
+  - Author positivity and author friendliness in a round of review
+  - Reviewer positivity in a round of review
+  - Month and year of the paper's publication
+  - Discipline of the article
+- Behavioral experiment RCT: a **randomized double-blind controlled trial** with a sample of 1,601, in which participants were asked to play the role of reviewers and read the authors' reply comments. Experimental and control groups were distinguished by whether the second person was used. Finally, participants were asked to evaluate the level of engagement and the degree of personalness of the "conversation" with the author.
 
-**Identification strategy:**  
+**Identification strategy:**
 
 ![Fig. 1](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/41467_2023_44515_Fig1_HTML.png)
 
-The DID strategy of this paper is quite ingenious; its peer‑review file shows that the reviewers also spoke highly of this approach!
+The DID strategy of this paper is quite clever - looking at its peer review file, the reviewers were also full of praise for this strategy!
 
- Pre‑treatment trends in the DID: Reviewers deliver their comments based on only the manuscript, which “guarantees” that no systematic difference exists between the two groups ex ante (parallel trends cannot be tested; the authors use PSM, a Heckman‑style model, placebo permutation tests, and an RCT to help rule out potential ex‑ante problems).
+Pre-trends of the DID: reviewers give their review comments based on the manuscript, which "guarantees" that there is no systematic difference between the two groups ex ante (parallel trends cannot be tested; the authors use PSM, the Heckman model, permutation tests, and an RCT to help rule out potential ex-ante problems);
 
-First DID difference: Whether the author addresses the reviewer using the second‑person pronoun “you” in the reply letter – those who did are assigned to the treatment group, the remainder to the control group; the number of queries and related indicators in the reviewers’ next‑round comments are compared between the two groups.
+The first difference of the DID: whether the author uses the second-person "you" when replying to the reviewers; those who used the second person serve as the treatment group, the rest as the control group; the number of questions and related indicators in the two groups' review comments are calculated;
 
-Second DID difference: Reviewers’ feedback on the response letter differs; the number of questions and the associated indicators in each group’s comments are calculated for the two groups following the first‑round exchange.  
+The second difference of the DID: the reviewers' feedback on the response letter; the number of questions and related indicators in the two groups' comments are calculated.
 
-**Results:**  
+**Results:**
 
-- When authors used the second‑person pronoun “you” in their replies, reviewers’ subsequent feedback contained fewer questions (average treatment effect = ‑3.33 queries) and the reviews were shorter (average treatment effect = ‑135.59 words).
+- When replying to reviewers' comments, using the second-person "you" leads to feedback with fewer questions (average treatment effect of -3.33 questions) and shorter comments (average treatment effect of -135.59 words)
 
-- Feedback received after using “you” was more positive.
+- Replies received after using the second person are more positive
 
-- After authors used the second‑person pronoun, reviewers’ use of first‑person pronouns was less prevalent.
+- After authors use the second person, reviewers' use of the first person decreases
 
-- RCT findings: When the word “you” was employed, participants’ evaluations were more positive and the conversation was perceived as more personal and elicited higher engagement ⬇️  
+- RCT results: when "you" is used, participants' evaluations are more positive, and the conversation is more personal and involves a higher level of engagement ⬇️
 
   ![figure 4](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/41467_2023_44515_Fig4_HTML.png)
 
-**Footnote:** The use of pronouns in academic writing is an interesting topic. In papers published by researchers in some countries, I often encounter strictly impersonal formulations—such as “This paper xxx”, “The present study xxx”—that deliberately avoid the first and second person. Graduate advisors, too, routinely emphasize this style when mentoring students. Yet in economics journals and much of the academic literature from other countries, first‑person formulations are commonly seen—for instance, “Here, we introduce xxx” or “I investigate xxx”—from the *AER* to *Nature* and *Science*. Might this reflect some cross‑disciplinary or cross‑regional cultural difference?
+**Extra:** The use of person in writing is an interesting thing. In the literature published by Chinese scholars, I often see them use objective descriptions, such as "this paper xxx" or "this study xxx", avoiding the first and second person. Graduate advisors also often emphasize this point when mentoring students. But in economics and in much of the literature from abroad, first-person expressions appear frequently, such as "Here, we introduce a xxx" or "I investigate xxx" - they can be seen everywhere from AER to Nature and Science. Could this be some kind of disciplinary or regional cultural difference?
 
-**Original paper:**  
+**Original paper:**
 
-Sun, Z., Cao, C.C., Liu, S. *et al.* Behavioral consequences of second‑person pronouns in written communications between authors and reviewers of scientific papers. *Nat Commun* **15**, 152 (2024). https://doi.org/10.1038/s41467-023-44515-1
+Sun, Z., Cao, C.C., Liu, S. *et al.* Behavioral consequences of second-person pronouns in written communications between authors and reviewers of scientific papers. *Nat Commun* **15**, 152 (2024). https://doi.org/10.1038/s41467-023-44515-1
 
-**P.S.:** The paper had five reviewers – the author crew certainly had their work cut out for them!
+**PS:** This paper had 5 reviewers in total; the authors really had it tough, haha.
 
 ![image-20240207092619506](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20240207092619506.png)

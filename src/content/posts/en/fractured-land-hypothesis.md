@@ -1,17 +1,16 @@
 ---
-title: "The Fractured-Land Hypothesis: Geographic Origins of Chinese Unification and European Polycentrism"
+title: "QJE - The Geographic Origins of Chinese Unification and European Polycentrism"
 date: 2024-11-18T18:00:00+08:00
 category: { name: "Research Notes", slug: research }
-tags: ["HIBL", "origins question"]
-summary: "The paper shows that a highly connected, high-productivity plain is crucial—China’s unification benefited from geographic connectivity of a single core, while Europe’s fragmentation arose from dispersed cores and complex terrain."
+tags: ["HIBL", "Origins Question"]
+summary: "Terrain matters a great deal; having a highly connected plain is crucial."
 ---
 
-> “The empire, long divided, must unite; long united, must divide. Thus it has ever been.”  
-> —*Romance of the Three Kingdoms*
+> "The empire, long divided, must unite; long united, must divide. Thus it has ever been." — *Romance of the Three Kingdoms*
 >
-> So what determines whether a region fractures into separate states or coalesces into a unified whole?
+> So what determines whether a region fractures or unifies?
 >
-> By building a dynamic model, this paper quantitatively analyzes how **geographic** characteristics—such as terrain, climate, and resource distribution—shape state formation in the long run. The study finds that China’s persistent unification benefited from the **geographic connectivity of a single high-productivity core region**, whereas Europe’s polycentric configuration stems from **dispersed resource cores and complex topographic fragmentation**. The paper verifies the **fractured-land hypothesis** and further reveals the pivotal roles that geography, resources, and **historical contingency** play in shaping global political landscapes. This research supplies new evidence for understanding the historical logic and geographic constraints behind state formation.
+> By constructing a dynamic model, this paper quantitatively analyzes the long-term influence of **geographic** characteristics—such as terrain, climate, and resource distribution—on state formation. The study finds that China's unification benefited from the **geographic connectivity of a single high-productivity core region**, whereas Europe's polycentric configuration arose from **dispersed resource cores and complex topographic fragmentation**. The paper verifies the **fractured-land hypothesis** and further reveals the key roles that geography, resources, and **historical contingency** play in shaping the global political landscape. This research provides new evidence for understanding the historical logic and geographic constraints behind state formation.
 
 **Title:** The Fractured-Land Hypothesis
 
@@ -21,7 +20,7 @@ summary: "The paper shows that a highly connected, high-productivity plain is cr
 
 - <u>Jesús Fernández-Villaverde</u>: Professor of Economics, University of Pennsylvania. His research agenda is in macroeconomics and econometrics, with a focus on the computation and estimation of dynamic stochastic general equilibrium (DSGE) models.
 - <u>Mark Koyama</u>: Professor of Economics, George Mason University. His research is focused on questions such as the origins of modern and economic growth and liberal democracy.
-- <u>Youhong Lin</u>: PhD in economic history from Shanghai University of Finance and Economics. Associate Professor and doctoral supervisor at the Department of Economics, School of Economics, and the Wang Yanan Institute for Studies in Economics, Xiamen University. Main research interests are economic history and development economics.
+- <u>Youhong Lin</u>: PhD in economic history from Shanghai University of Finance and Economics. Associate Professor and doctoral supervisor at the Department of Economics, School of Economics, and the Wang Yanan Institute for Studies in Economics, Xiamen University. His main research interests are economic history and development economics.
 - <u>Tuan-Hwee Sng</u>: Associate Professor, National University of Singapore. Research interests: Economic History and Political Economy with a focus on East Asia.
 
 **Publication Date:** 09 January 2023
@@ -32,147 +31,171 @@ summary: "The paper shows that a highly connected, high-productivity plain is cr
 
 #### **Geography, Polycentric Systems, and Economic Performance**
 
-Western Europe’s economic rise is often attributed to its **polycentric state system**—a configuration in which a region is controlled by multiple relatively independent polities. Such a system has many anticipated benefits:
+The economic rise of Western Europe is usually attributed to its **polycentric state system**. By polycentric we mean a region controlled by multiple relatively independent polities. A polycentric system offers numerous benefits:
 
-- It encourages **intellectual diversity** and lays the foundation for a “market for ideas,” an environment that helped propel the Scientific Revolution and the Industrial Revolution;
-- it fosters **institutional innovation** as well as progressive investment in **state capacity**, providing sound incentive structures.
+- It promoted **intellectual diversity** and laid the foundation for a "market for ideas." This environment propelled the Scientific Revolution and the Industrial Revolution;
+- It encouraged **institutional innovation** and the progressive investment in **state capacity**, providing sound incentive mechanisms.
 
-In contrast to Europe’s polycentrism, China remained in a state of deep **centralization** and **unification** for much of its history, and the sustainability of its economic growth was constrained by its highly centralized political structure. Institutions such as the Confucian **examination** system, and the impact of centralization on patterns of social cooperation, may have restricted innovative capacity.
+In contrast to Europe's polycentric system, China long remained in a state of high **centralization** and **unification**, and the sustainability of its economic growth was constrained by its highly centralized political structure. For example, the Confucian **examination** system and the impact of centralization on patterns of social cooperation may have limited innovative capacity.
 
-**Core question:** Why did Europe develop an enduring, politically polycentric configuration while China evolved a highly unified political system?
+**Core question:** Why did Europe form an enduring polycentric political configuration, while China developed a highly unified political system?
 
-Scholarship has largely focused on **geography**. **Jared Diamond** (1997, 1998) advanced the **fractured-land hypothesis**: in Europe, geographic features—mountains, forests, rugged terrain—frustrated the emergence of large empires, whereas China’s physical geography aided unification.
+Existing explanations focus mainly on **geographic** factors: **Jared Diamond** (1997, 1998) proposed the "**fractured-land hypothesis**," namely that geographic features (such as mountains, forests, and rugged terrain) obstructed the formation of large empires in Europe, whereas China's geographic environment promoted unification.
 
-This hypothesis, however, has been much questioned and challenged:
+The fractured-land hypothesis, however, faces numerous doubts and challenges:
 
-- **Scholarly criticisms**: Hoffman (2015) notes that China is actually more mountainous than Europe (⬇️Figure 1); Turchin and Greer argue that the riddle is why China *should remain united*, not why Europe remained fragmented; Hui (2005) criticizes “geographic determinism” as excessively static, insisting that China’s unification was hardly predestined and that Europe’s polycentrism was likewise highly contingent.
-- **Historical dynamics and uncertainty**: China was never perennially unified. Consider the opening line of *Romance of the Three Kingdoms*: “The empire, long divided, must unite; long united, must divide.” The degree of fragmentation in Europe also varied markedly over time—the Holy Roman Empire under Otto I (r. 962–973) possessed substantial coherence, yet by the reign of Francis I (1745–1765) it had fractured deeply. ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241118193107229.png)
+- **Scholarly criticism**: Hoffman (2015) points out that China's terrain is actually more mountainous than Europe's (⬇️Figure 1); Turchin and Greer argue that what needs to be explained is why China unified, not why Europe fractured; Hui (2005) criticizes "geographic determinism" as too static, holding that China's unification was not inevitable and that Europe's polycentric configuration also involved a great deal of contingency.
+- **Historical dynamics and uncertainty**: China was not always unified. As the famous opening line of *Romance of the Three Kingdoms* puts it: "The empire, long divided, must unite; long united, must divide." The degree of fragmentation in Europe also varied significantly over history. For instance, the Holy Roman Empire under the reign of Otto I (962–973) once possessed a measure of unity, but by the time of Francis I (1745–1765) it had become highly fragmented. ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241118193107229.png)
 
-This paper therefore aims to **quantify** the fractured-land hypothesis by constructing a dynamic model that simulates state formation and probes the linearity—indeed, the nonlinearity—with which geographic fragmentation shapes inter-polity competition.
+The research goal of this paper is to **quantitatively** analyze the fractured-land hypothesis—constructing a dynamic model, simulating the process of state formation, and exploring how fractured land influences inter-state competition in a nonlinear way.
 
-Its core conclusion is that **fractured land** indeed accounts for the differing political structures of Eurasia:
+The core conclusion of this paper is that **fractured land** can indeed explain the differences in the political structures of Eurasia:
 
-- Understood **narrowly**, topographic roughness (e.g., mountains and dissected relief) is a sufficient but unnecessary condition;
-- understood more **broadly**, geographic fracture — encompassing the *distribution* of **high-productivity agricultural cores** — arguably matters even more.
+- Topographic roughness in the **narrow** geographic sense (such as mountains and undulating relief) is a sufficient but not necessary condition;
+- The more **broadly** defined geographic fracture, including the **distribution of high-productivity agricultural core regions**, may be the more critical factor.
 
 #### **Contribution to the literature**
 
-- Extends the scholarship that relies on quantitative simulations to understand causal links between geography and state fragmentation: builds on the seminal work of Turchin et al. (2013), which mostly dealt with the diffusion of cultural traits and military technology, arguing that intensified warfare (related to proximity to the Eurasian Steppe and to pastoralist–farmer relations) spurred state‑capacity building in pre‑modern polities, by focusing here on the scale and modality of state formation and providing a quantitative explanation of Europe’s polycentric character.
-- Supplements a long‑standing literature attributing Western Europe’s rise to its polycentric system by examining the deep causes of that political fragmentation.
-- Enriches the body of work on state formation in both China and Europe.
-- Connects closely with research that explores the relationship between agricultural productivity, state formation, and conflict.
-- **Makes a contribution to the study of how geography affects economic and political outcomes**: geography can impinge directly on economic results — e.g., access to trade routes or exposure to disease vectors (Sachs 2001) — or indirectly via cleavages such as ethnic fractionalization (Ahlerup and Olsson 2012; Michalopoulos 2012), political institutions, or social norms (Acemoglu, Johnson, and Robinson 2001; Roland 2020). This work provides an example of the latter channel: geography proved crucial because, in the Chinese case, it spurred a centralized polity, whereas in Europe it fostered polycentricism.
+- **Extends the research that uses quantitative simulation to understand the causal relationship between geography and state fragmentation**: building on the seminal work of Turchin et al. (2013), which focused mainly on the diffusion of cultural traits and military technology and argued that intensified warfare (influenced by proximity to the Eurasian steppe and by the relationship between nomads and farmers) drove pre-modern polities to strengthen state capacity. This study instead focuses on analyzing the differences in the scale and patterns of state formation, providing a quantitative explanation of Europe's polycentrism;
+- By studying the causes of Europe's political fragmentation, it supplements the long-standing literature that attributes the rise of Western Europe to its polycentric system;
+- It enriches the literature on state formation in China and Europe;
+- This paper's research is related to work exploring the relationship between agricultural productivity, state formation, and conflict;
+- **Contributes to the research on the relationship between geography and economic and political outcomes**: geography can directly affect economic outcomes through the accessibility of trade routes or susceptibility to disease vectors (Sachs 2001), and can also act indirectly through its influence on ethnic fragmentation (Ahlerup and Olsson 2012; Michalopoulos 2012) or on political institutions and social norms (Acemoglu, Johnson, and Robinson 2001; Roland 2020). This paper provides an example of the latter phenomenon: **geography matters because in China it gave rise to a centralized state, while in Europe it produced polycentrism**.
 
 ## Geography and Early State Formation
 
 #### **Early State Formation**
 
-Scholars have long hypothesised that early states emerged only where three conditions coalesced:
+Researchers have long held that early states formed only when the following three conditions were met:
 
-- **A productive concentration**: a sufficiently large expanse of high‑yield farmland capable of supporting the food and material surpluses needed by political elites and bureaucrats.
-- **Secure food output**: surpluses that were reliable and adequate.
-- **Protection afforded by geography**: natural barriers (mountains, rivers, etc.) that made it easier to channel resources into the political core while shielding it from external attack.
+- **A concentration of productivity**: there must be a sufficiently large expanse of high-yield farmland to support the food and material surpluses required by the political elite and the bureaucracy;
+- **Adequate food output**;
+- **The protective effect of geographic barriers**: effective geographic boundaries (such as mountains and rivers) help channel resources toward the political center and protect the state from external aggression.
 
-Thus, geographers conceptualise **geographic cores** — localities for successful state emergence possessing productive farmland, good transport connections, and defensible landscapes. Early civilizations (Mesopotamia, Egypt, the Yellow River basin) banked on fertile alluvial plains and navigable waterways.
+From this, geographers proposed the concept of the "**geographic core**" to describe the core regions where successful states form. These regions possess the following characteristics: fertile farmland, good transport connections, and easily defensible geographic conditions. The formation regions of early civilizations (such as Mesopotamia, Egypt, and the Yellow River basin) all relied on fertile alluvial plains and convenient water transport.
 
-Numerous scholars argue that, because Europe’s topographic nature is inimical to state‑building, the continent was thereafter afflicted by persistent fragmentation. The most influential formulation of this view is again **Jared Diamond**’s (1997, 1998) **fractured‑land hypothesis**. Diamond reasons specifically:
+Many scholars hold that, because Europe's topographic features were **unfavorable** to early state formation, the continent's subsequent history was plagued by fragmentation. The most influential statement of this view is again **Jared Diamond**'s (1997, 1998) "**fractured-land hypothesis**." On the reasons for China's unification and Europe's polycentrism, he argues specifically:
 
-- China faces no menacing large islands across the sea (Taiwan or Hainan are too small, and Japan too distant);
-- the Chinese coastline is relatively smooth compared with Europe’s;
-- most critically, not at all like Europe, China’s political space was *never severely divided* by high mountains or dense forests.
+- China was not threatened by large islands off the continent (Taiwan and Hainan are too small, and Japan is too far);
+- Compared with Europe's coastline, China's coastline is relatively smooth;
+- Most importantly, unlike Europe, China was not **divided** by high mountains and dense forests.
 
-#### **The European and Chinese Examples**
+#### **The Examples of China and Europe**
 
-Although critics — notably Hoffman (2015) — stress that mountainous terrain occupies more ground in China (33%–37%) than in Europe (≈10%), the disposition of those mountains matters more. China’s mountain belts are mostly aligned along its **western and southern marches** whereas Europe’s ranges (e.g., the Alps) reside deeper in the **core zone**, thereby more aggressively carving up the continent.
+Although critics such as Hoffman (2015) point out that China's mountainous area is actually larger than Europe's (33%–37% versus about 10%), the location of the mountains may matter more. While China has more mountainous terrain, its mountains lie mainly along the **western and southern margins**, whereas Europe's mountains (such as the Alps) lie in the **core region**, having a stronger dividing effect on the region.
 
-**Europe’s composition**: Europe incorporates a set of distinct cores — the British Isles, Scandinavia and the Iberian and Italian peninsulas. France, the Low Countries, Germany and Poland merge across what is termed the North European Plain. This plain is bounded differently in places: its eastern end touches the Russian forest toward the northeast, borders the steppe to the east, and backsteps to the Carpathians southwards — roughly the territory controlled by modern‑day Poland and later the Polish‑Lithuanian Commonwealth in the early‑modern era. Its core expands across the plain giving modern Germany in the center and modern France by the West.
+**Europe's composition**: Europe contains several core regions: the British Isles, Scandinavia, the Iberian Peninsula, and the Italian Peninsula. France, the Low Countries, Germany, and Poland straddle what is called the North European Plain. The easternmost part of this plain borders the Russian forest to the northeast, the steppe to the east, and the Carpathian Mountains to the south; this roughly corresponds to modern Poland and to the territory controlled by the Polish-Lithuanian Commonwealth in the early modern period. The central part of the plain corresponds to modern Germany, while France occupies the western part of the plain.
 
-**China’s prevailing pattern**: the bulk of China’s higher elevations are arranged to the south and the west; crucially, they *do not cut transversely across* the **North China heartland** that first propelled Chinese unification. This central feature — often understood to fix point on the Yellow River baseline — accesses east boundaries such as Taibai Mountains that set off toward the Korean areas and to the gantry of the Taihang link to a bounded opening northwest. Altogether save bits at East China’s margins of Taishan elevated through Shandong and broadened across Greater Bei Mountain of Anhui margin, the plain surface at its macro‑scale spread smoother. A sharply serrated topography takes open once southward breaks into terrain: Yun‑Nei Upper‑Tch’ang Gaustral feature and dense arboreal barrier partition respectively bounded hold of enclaved Lingnan remotes over Vietnam connecting carve broads and in Yunnan into relief stretches toward Burma. With difference nonetheless, Diamond (1997) grounded the idea of an indigenous **larger core** possibly dominantly proportioned to China’s rest:
+**China's configuration**: most of China's mountainous areas lie in the south and west, and they do not intersect the **northern Central Plains region** that historically played a crucial role in China's early unification. The Central Plains region, centered on the Yellow River basin, is separated from Korea in the northeast by the Changbai Mountains and bounded in the west by the Taihang Mountains. Apart from Mount Tai in Shandong and the Dabie Mountains in Anhui, the plain itself is flat. Southern China, by contrast, is mountainous. The Yunnan-Guizhou Plateau is especially elevated. Mountains and dense forests separate Lingnan and Yunnan from Vietnam and Burma, respectively. Diamond (1997) himself emphasizes the existence in China of a **large core** region capable of dominating other areas:
 
-- Connecting China heart‑band — two structure is ring both eastern‑level vertical long **adequate flood food** bottoms allocated lined ‘stream accessible access’: the dual artery the interior gateway toward these control lengths consistent ran direct alignment simple shipping they made without costly port cross draining — canals completing articulation. At extensive register afterward arose between inherently slightly delimited integration terminal unifying powerful reach sing therefore readily singular abundant *extracted large resources as hubs each low-bounded yield contrap* more greater encompassing framework.
+- China's heartland is connected from east to west by two long, navigable river systems located in fertile alluvial valleys (the **Yangtze** and the **Yellow River**), and the north-south connection between these two river systems is relatively easy (ultimately linked by **canals**). As a result, China was very early dominated by two vast high-**productivity geographic cores**, which themselves were only weakly separated from each other and eventually merged into a single core.
 
-Nas parses log mostly old pre missed under static treatments tied counter sequentially are end possible issues geometry reach — underlying bottom phrasing as analogic how far could. Tangling nested query type coupled driven — variables calibration bridging later parts general assembled compute sample assessments better quantifying manner afford mechanics specific marginal respond shift distributions variable range they measure step‑way showing further segment results obtain on given sets pairing computation detailed setups measure interact or tied their side each trial analytic scan driven condition channel final picks validation scaled structure manner evaluation subsum.
+Earlier accounts were based mainly on qualitative analysis and found it difficult to answer questions such as "How rugged must the terrain be to affect political unification?" or "How does historical contingency affect the role of fractured land?" This paper, through a quantitative model, combines fractured land with historical contingency to assess the specific impact of different geographic conditions.
 
 ## Model Setup
 
-The model is designed to unravel the **dynamic processes behind state formation** — in particular, to chart precisely vari by exact variable choices enabling scanning variation detailing analytical stages assessed under — multi‑qual re configuration reproducing through rules growth coverage capable performing representing metrics feedback oriented extraction through direct along both varied system integrated maps comb systematic. Running flow trial possible enables merger pathway evaluation expanding phase returns.
+This paper's model aims to explain the dynamic process of **state formation**, in particular how different political structures develop through conflict and fragmentation. By quantifying factors such as geography, climate, and resources, it simulates the expansion, merger, and fragmentation of states, providing data support for the fractured-land hypothesis.
 
-**Partition considered systematically surface proper latitude scaling not through basin shape details:**
+**Partitioning of geographic space**
 
-Such representative representation part internal select variables applying repeat discret attributes: apply Earth global internal constant — divided positions bounding specify nodes hold entire zone granular option assess represent identical arrangement independent computing relation shifting relevant indices under applying quant by. Mesh shaped tested measure nested patterns based used:
+- **The globe is divided into a hexagonal grid**: the Earth's surface (excluding Antarctica) is divided into **65,641 hexagonal cells**, each representing a potential independent political entity. Hexagons best distribute cells evenly and reduce edge effects; the radius of a cell is 28 kilometers, a scale corresponding to the range that a Bronze Age infantry unit could control in one day.
+- Each cell is assigned the following attributes:
+  - terrain ruggedness $x_{\text{rugged}}$ ;
+  - climate conditions: high temperature $x_{\text{hot}}$ and low temperature $x_{\text{cold}}$ ;
+  - resource productivity $y_k$ : estimated based on agricultural potential; each cell's resource output is its key attribute. <img src="https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241118194431925.png" style="zoom:50%;" />
 
-Average assigned one unit group arranged through quant initial types attached groups types chosen classes produced separation built stages:  
- assign rows assigned list entries allowed described reference placed assigned computational space mapping computation basic groups input transform equivalent partition counted placed variants elements carried exact spaces possible which control generation grid. Types listed based property tags inherited carried into the partition quantity check path probability thus defining measurement assign applicable properties passed bound also note arrangement typical conditions post-processing under modelling track initial specifications grid sampling through each applied state decision further partition output points setting:
+**Time progression**: with a fixed time step of 5 years, the model simulates the dynamic process from 1000 BCE to 1500 CE. In each time step, a state may undergo the following changes: expansion (annexing neighboring cells through war), fragmentation (separation of border regions), or maintaining the status quo (failure in conflict or resource constraints on expansion).
 
-One obtains selected space baseline; attributes within: feature pass constraint to represent environmental attribute handling conditions linked against potential:
+#### **Dynamic mechanism**
 
-Continuous compute with affect rating integrate step shape influences given values feed rolling into constructed states transformation evaluate assigned ability timing constrained interval random discrete connected against larger dynamics where blocks aggregated details against nested baseline stage transformations allocation produce range simulated.
+In the model, conflict is possible between neighboring cells, and the outcome is determined by the following formula:
+$$
+\pi_i = \frac{Y_{i,t}}{(Y_{i,t} + Y_{j,t}) \times \left(1 + \max\{\Theta \cdot \mathbf{x}_k, \Theta \cdot \mathbf{x}_{\bar{k}}\}\right)}
+$$
+where:
 
-Time partitioned available marks incremented carry enabling eventual larger quant bound sample ratio against layer extend covering snap reference available spread depending control counted such proportional realizations combination step frames ready cast repeated interval stored.
+- $\pi_i$ : the probability that state $i$ wins the conflict.
 
-Variants count adjusted possibilities draw possible interweave against paired subsets collection merges operational counted stage cases handled patterns cast inside internal mapping state active rate collected then outcome specified evaluation end collect next data to measure repeat measured count assigned part weight relative check proper relation carry combine then complete cycles assess changing trends samples converge available system distribution for bound assessed ratio link share probability weight assigned in computing steps toward selecting direction under recorded scenarios.
+- $Y_{i,t}$, $Y_{j,t}$ : respectively the total resource productivity of all cells controlled by states $i$ and $j$ at time t.
 
-Rows derived test.
+- $\Theta \cdot \mathbf{x}_k$ : the influence of terrain variables (such as ruggedness and climate conditions) on the outcome of war, where $\Theta$ is the weight vector for geographic characteristics.
 
-Feed result enables with certain expression evaluate by weighting indexing difference path per possible method used calculating path winning part expanded form weight variants allocated standard.
+The underlying logic is that the higher the resource productivity a state controls, the greater its probability of winning in a conflict (resource decisiveness). Terrain ruggedness or climatic complexity has a moderating effect on conflict outcomes, tilting the geographic advantage toward the defender.
 
-***Shared compute form evaluate controlled definition factor affecting.***
+#### **The probability of an inconclusive war**
 
-Points distribute under constant weight formula available merging processes compute carry selection expand items boundary including row totals proportions generating storage compute flow available frames processed shared condition derived additive portion referencing forms corresponding path base reference list extended both sets.
+$$
+1 - \pi_i - \pi_j = 1 - \frac{1}{1 + \max(\Theta \cdot \mathbf{x}_k, \Theta \cdot \mathbf{x}_{\bar{k}})}
+$$
 
-Feed from aggregated step produce final recorded assignments average bounding holds pass properties then detail adjustments carried linked computed combine eventually at later cycle roll step to store side repeat averaging combination.
+If terrain ruggedness is extremely high (such as in mountains), the war may have no conclusive outcome (i.e., neither party to the conflict can fully control the area). The probability of an inconclusive outcome is positively correlated with the weight of the geographic variables $\Theta \cdot \mathbf{x}$ .
+
+#### **Fragmentation and independence**
+
+Border cells have a certain probability of breaking away from the state controlling them, a probability influenced by the following factors:
+
+- The larger the state and the more borders it has, the higher the probability of fragmentation;
+- The geographic and climatic characteristics of border cells (such as high ruggedness or extreme climate) also increase the probability of fragmentation.
+
+At the start, every cell is independent. Over time, states gradually expand through conquest or shrink through fragmentation, eventually forming a stable political configuration.
+
+For more on the model setup, parameter calibration, and so on, please see the original paper.
 
 ## Model Results
 
-Roll sequential independent repeats draw randomly assign within grouping snapshot maps starting reference placed positions detailing ranging depiction covering stage snap chron historical assessment integrate outcome under same computation aggregate applying framing repeated described classification. Treat stage marking apply handling Herfindahl normalize arranged split relative final collection type mapped under value checked mapped storage part display measuring using bounds array step describing outcome storage example extracted feedback points positions relative computed pattern adding generated under test roll plus scanned routes results produce series results forms under carried sequential path condition checked repeated snap taken assessment relevant constructed description plus examined etc.
+By running 30 stochastic-path simulations to display the political evolution from 1000 BCE to 1500 CE, the authors compute the **Herfindahl index** to measure the degree of regional political unification.
 
-**Simulation demonstrated path forms:**
+#### **Results of a representative simulation**
 
-Iteration reproduced at passed phase cuts through reference timeline compute take periods compute epoch describing epoch plot draw against forms represented sample within placing partition arrangement intervals coded dynamic against stored through assign quantity separate counted final stage selection listed mapped image alongside.
+Figure VII presents the results of a representative simulation run: panels A–C show the situation in 750 BCE, 500 CE, and 1500 CE, respectively:
 
-Additionally forward holds combine read further picked addition count averaging retained stage set grouping reflect image full gathered — stepped merge arrive measure timeline note output integrate label partial screen staged handled linked formed result separate cases runs test standard producing forms final addition reaching produce past integration complete merging form results snapshot combined assessed measurable converge toward described.
+- **Early stage (750 BCE)**: almost all cells are still independent political entities;
+- **Middle stage (500 CE)**: a large state has formed in northern China, but the south is not yet fully integrated. Europe's configuration shows polycentrization: regional states such as France, Spain, and Italy;
+- **Late stage (1500 CE)**: China achieves full unification, including the integration of the southern frontier. Europe, by contrast, maintains medium-sized states such as England, France, and the Holy Roman Empire.
 
-**General statistics describing trend map check results linking:**
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241118202756572.png)
 
-Partial paths assessed relative converge link assessed comparable align attributes level compute shift mapping storing integration collect within toward shape drawn aligning standard linear corresponding time reflects limit describe based outcomes trend describing given location.
+#### **The Herfindahl index**
 
-Production detailed present intervals further stated collecting measure upon confirm shape earlier pattern towards split bound historical actual bounded completed integrated paths formation movement result near-unitary close regional evaluate case conditions detailed single reflect reaching level expected seen divergence lower keeping median continued low by cycles.
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241118203622860.png)
 
-Size equal smaller through reflected drawn showed persistent arrangement against full convergence observed holding snapshot entire limit placed shape average tracks pass computing verified lower noted constant hold forms lower arrangement sample also scale against produce set end tests division reflected trajectory through span ending with equal cross stages map reference distinct historically pattern proportion generate across returned test baseline forms attribute verified distribution steps measure across point result later system set.
+**China's unification**
 
-Interpret showed representation noted mapped test along property map compute carry produce return according to forms continue detail specification results matched weight both set according generated framework toward fits ending according fits tracking pattern model without adjusted verified core separation holding resources allocated across pattern central counted role linked carry feedback confirmed tested returning properties draw directly regional mapped including feature details pass shift traits arrangement splitting along placement checks produce divided across return consistent maintained length provided probability splits dynamic retains comparable aligned baseline drawn mid-size scaled produces pattern internal combine retaining number large minimal contrasting top separating with recorded details reflective top held relative match shaping arrangement trace matched observation scale arrangement describing shape possibility baseline kept.
+The simulation shows that China's state unification proceeded relatively quickly. The **Herfindahl index** (which measures the degree of state unification) reaches above 0.5 after about 300 periods (equivalent to 500 CE), then gradually approaches 1.
 
-**Detailed verifications ran explored dynamics:**
+- This is consistent with history: China achieved large-scale unification for the first time in 221 BCE (the Qin dynasty), after which the Han dynasty further expanded to the southern frontier;
+- Even during periods of fragmentation (such as the Three Kingdoms and the Five Dynasties and Ten Kingdoms), the core region of the northern plain remained the foundation for the tendency toward unification.
 
-Both tests extracting non-compute coupled later placed internal retains sample arrangements which contributed carried placed control repeat reproducing scanned against continue maps produced counts retain divided out method splitting comparing factors retained performance later place assessment generate comparison confirmed behavior still maintained arrangement both against core definition equally maintained group result tracked distribution shape vary through returned adding test through omitted output scenario rest cases examined computed integrating path showed scan also verify that condition splitting plus reduction computed via removing plus rerational assignment scans tracked computing reflect within mode essentially changing arrangement where fragmentary result also drawn pattern shape path property after removal addition equal distribution return model arrange verification confirming concentrating attribute place draw integration from carried formed tied mapped central form contrasting mirrored producing check holds underlying shift adjustment within close adjusted patterns variant distributed final shape replicating handling read resulting where.
+**Europe's fragmentation**
 
-Applying tie conditions combining measure shape shift without return tied collected replication etc scanning outcome toward direction computation baseline checks compare side behavior changes result maps validated configuration steps addition weight draw scales time varied test draws return toward examined format describing contribution mapping against iteration final model check testing fit etc carried toward result share scanned measure confirms maps verifying toward noted property single output split mapped holds limited arrangement distributed etc moved variance drawing continued base varied add check times attributes reproduction toward verified.
+Europe's Herfindahl index consistently remained low, never exceeding 0.2 throughout the entire simulation period (500 periods).
 
-Insert mode holds overall retained attributes checking.
+- This too is consistent with history: after the collapse of the Roman Empire, Europe long maintained a polycentric configuration;
+- Medium-sized states (such as France, Germany, and the Italian city-states) created political diversity, preventing the unification of a single empire.
 
-## Conclusion
+#### **Mechanism verification**
 
-Summary assessments operate verified replicating retains structure maps important underlying mapped split plus draws assignment returned over tested shaped confirm verifying core hypothesis based shifting attribute behavior through binding variables matches ability result produce patterns across distributed constraints single identified traits property where form pattern likely moved shape emerges matching return over measured linked verified factors creating returned split where final system shown produce through route same earlier confirming arrangement distribution build.
+![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241118203753571.png)
 
-Further valid reflection holds shortfalls limitations measured paths through computing mapped traced confirm on final step outcome direction toward partial formal specifying behavior other contributing group identifies variables missing end incomplete reduced toward results plus return note.
+**Terrain and resources acting separately**: removing the effect of terrain ruggedness or climate conditions on conflict, the model can still explain China's unification and Europe's fragmentation (panels A, B, and C of Figure IX).
 
-Beyond directions list scope identified less weighting considered plus non-capture framework combined later operation adapt toward supply relative fill treat examined post production extensions drawn repeated path where simple static plan not retained toward variation end closing snapshot tested missing forms assessed similarly assign resources additionally kept adjust incomplete repeat return draws bounds examining eventually cross framework final scenario group shape considered likewise reducing checking bound limitations standard produce comparison which retain capacity recorded integrated combined scope paths remainder captured compute reassess baseline offer improvements gradual mapped assessment add iterative record plus cycle feeding incorporate beyond base verify toward draw repeated more comprehensive approach path represent toward bigger result.
+When terrain ruggedness is removed and resource allocation is unified at the same time, Europe's simulation results display a pattern similar to China's (panel D of Figure IX). The model indicates that the **concentration of high-productivity cores** is the key to China's unification. The connectivity and resource advantages of the northern plain (the Yellow River and Yangtze basins) gave China the geographic conditions to form a single powerful state. Europe's high-productivity cores, by contrast, were divided by terrain such as the Alps and the Pyrenees, leading to the formation of multiple medium-sized states.
 
-Stat stage taken effect returning cycle representation step where shift partly quantitative feed output across point systematic read as basis matches earlier checked mapping distributed provide general drawn physical limited expanding productive produce impact toward split present potential confirming formation hypothesis integrate strong treatment assessing broader toward cycles arrange.
+## Conclusion and Discussion
 
-By forward representation approach count verified note final retained points reference due read map details including toward verify split expanded physical measure essentially definition general into scanning carried assigned physical plus rest detail verify capacity fit plus large checking end passage details measurement over complexity specific rest points carried included checking tracing reads feed toward base repeated assignments baseline arrangement computing similar etc direction toward incorporating spanning confirmation output assign heavier distribution identify parts carrying toward produce variation addition score bound distribution arrange results produce general combine further outputs scan feeding additionally carry total tested where modes earlier relation plus produce deep linking scenario cross output arrangement checking base produce toward record system evaluating final outcome result check mapping under show variation results carry measure toward confirm method combination underlying adds toward.
+- **Verification of the fractured-land hypothesis**: through the model, the paper verifies the fractured-land hypothesis and clarifies how resource distribution, terrain ruggedness, and climate conditions shape the expansion and integration of states: China's **resource concentration** and the low topographic complexity (of the Central Plains region) fostered a tendency toward rapid unification, whereas Europe's resource dispersion and high topographic complexity obstructed unification, producing a polycentric political configuration.
+- **Limitations and directions for improvement**: the paper notes that, although the model can explain the influence of geography on state formation, it still has limitations: it does not incorporate the roles of social factors such as culture, institutions, and religion; it ignores geographic conditions that change dynamically over history (such as climate change or technological diffusion); and its war mechanism is relatively simple, lacking modeling of alliances and strategy. Future research will need to integrate these variables and improve the comprehensiveness of the model.
+- **Contribution to history and theory**: the paper provides a new theoretical framework for understanding state formation, expanding the definition of fractured land to include resource distribution and topographic complexity: it provides a quantitative tool for traditional qualitative historical research; it deepens the explanatory power of state evolution patterns in China, Europe, and other regions; and it emphasizes that geographic factors are a foundational condition shaping history, providing a powerful perspective for comparative global historical research.
 
-## Supp‑notice bits
+## Extra
 
-- Line run on displayed compute model — one (opening) encountered omission right‑side close parts published shaped passed slip square fraction weighted incorrect missing needed visual placement round lacking right bracket near inside fraction extension: further fixed comparison see raw part check toward corrected self manually closing run per verification final copy — confirm updates step or test.  
-- Present summary necessarily drops numerous parts outside; great many extra analysis embedded compute confirm run procedure covering multiple specifics examine shaped plus including extensive positioning discussing structured material record repeated approach assign subcontinent within comparing significant sets direct combined against dynamic input forms enabling full comprehensive layers also relevant run narrative sets verify returns supplement check relevant toward enhanced scanning returns to include richer exposition available original textual reference distribution complete read original text see paper.
-- Having progressed further concluding walk partially now move actually concrete refer work product oriented subsequent turns look set picking line to assess cited “**The Origins etc volume assignment toward setup following long scanning see through periods toward Revolutions state.**” Once earlier stage examining partial sequel pre‑product contrast route retained end toward getting toward parts final ready describe sequences chosen route spread having first formed handled assigned route crossing towards draw direct set forward detailed passing scan — ends arrived stage as decide appropriate earlier step seeking within forward building foundational shape scanning origins coverage base filled read.
-- Very close horizon timely simultaneously accompanying volume launched examined newly official released under partially due noted marked shape framework now published under route bearing weight hold design comparative designation under parts displayed (note pointing systems institutional collection complex defined toward more general forms coverage hold along generation verify roots) and forward readers Eric Maskin assessment applied computed internal etc accompanying direction through Olivier Hart through record check recommendation relevant toward released readiness scan shape toward English international access and native included same marks collected results highlighting toward. await likely hold read — tested.  
+- Formula (1) in the original text has a small bug: the lower half of the right-hand side is missing a closing parenthesis.
+- This post omits a great deal of content; the original paper offers in-depth discussion of the model setup and of Africa and the Americas, supported by a wealth of historical facts, and is highly readable. I recommend reading the original paper.
+- After reading this paper, I decided to read Fukuyama's *The Origins of Political Order: From Prehuman Times to the French Revolution* (政治秩序的起源:从前人类时代到法国大革命). During my first year of doctoral study, I gave a class presentation on its companion volume, *Political Order and Political Decay: From the Industrial Revolution to the Globalization of Democracy* (政治秩序与政治衰败:从工业革命到民主全球化), and the author's exposition was superb. Now it is time to return to the origins question and see Fukuyama's examination of the origins of political order.
+- Recently, Professor Chenggang Xu's new book *Institutional Genes: The Origins of China's Institutions and Totalitarianism* has officially gone on sale; the Taiwanese translation is titled *Institutional Genes: The Origins of China's Institutions and the Totalitarian System* (制度基因:中國制度與極權主義制度的起源). Three Nobel laureates—Eric Maskin, Oliver Hart, and Daron Acemoglu—along with several other prominent figures have endorsed the book. I look forward to reading it soon.
 
-Ended scope draws onto.
+## Original Source
 
-Further distrib through sequence record links properly handling digital carry copies ID standard citing verify electronic attached verified tagged generate object DOI: J‑version record derived assignment JVI measure partial joint journal Quarterly systems generated tracked work match part set partial standard check reading detailed standard sequence maintain author sign J‑ver ready valid formation via final routed verify.
-
-Full reference: Jesús Fernández-Villaverde, Mark Koyama, Youhong Lin, Tuan-Hwee Sng, The Fractured-Land Hypothesis, *The Quarterly Journal of Economics*, Volume 138, Issue 2, May 2023, Pages 1173‑1231, https://doi.org/10.1093/qje/qjad003
+Jesús Fernández-Villaverde, Mark Koyama, Youhong Lin, Tuan-Hwee Sng, The Fractured-Land Hypothesis, *The Quarterly Journal of Economics*, Volume 138, Issue 2, May 2023, Pages 1173–1231, https://doi.org/10.1093/qje/qjad003
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image2024/image-20241118110133805.png)

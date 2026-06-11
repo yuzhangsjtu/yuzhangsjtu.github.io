@@ -8,69 +8,50 @@ summary: "Quasi-experimental methods have strict assumptions and testing procedu
 
 #### 1. Introduction
 
-If the ultimate destination of a social academic discipline is to become a social science, its empirical research must undergo a “credibility revolution” <a href="#" title="Angrist J D, Pischke J S. The credibility revolution in empirical economics: How better research design is taking the con out of econometrics[J]. Journal of economic perspectives, 2010, 24(2): 3-30."><sup>[1]</sup></a> — that is, in its research paradigms, and especially in policy evaluation studies, it must draw closer to the experimental methods of the natural sciences. Yet, due to ethical constraints and the limitations of research design, it is very difficult for us to rigorously assign a treatment group and a control group for controlled experiments. In most cases, we can only use observational data rather than experimental data for causal inference. To approximate the gold-standard criterion of the “large-sample randomized double-blind controlled trial,” social science researchers (particularly in economics) have developed a series of “quasi-experimental methods” for causal inference based on the potential outcomes framework, including matching, difference-in-differences, synthetic control, and regression discontinuity design <a href="#" title="赵西亮. 基本有用的计量经济学: 北京大学出版社, 2017."><sup>[2]</sup></a>.
+If the ultimate destination of the social disciplines is to become social science, then their empirical research must undergo a "credibility revolution" <a href="#" title="Angrist J D, Pischke J S. The credibility revolution in empirical economics: How better research design is taking the con out of econometrics[J]. Journal of economic perspectives, 2010, 24(2): 3-30."><sup>[1]</sup></a> — that is, in terms of research paradigm, and especially in policy effect evaluation studies, they must move closer to the experimental methods of the natural sciences. However, due to ethical requirements and the limitations of research design, it is very difficult for us to rigorously select a treatment group and a control group for controlled experiments; in most cases, we can only use observational data rather than experimental data for causal inference. In order to approximate the gold standard of the "large-sample randomized double-blind controlled trial," researchers in the social disciplines (especially economics) have, based on the potential outcomes framework, developed a series of "quasi-experimental methods" for causal inference, mainly matching methods, difference-in-differences, synthetic control, and regression discontinuity design <a href="#" title="赵西亮. 基本有用的计量经济学: 北京大学出版社, 2017."><sup>[2]</sup></a>.
 
-Following the fundamental trajectory of academic production — “foreign theory → overseas verification → domestic adoption → domestic verification” — quasi-experimental methods have gained increasing popularity domestically. Moreover, with knowledge-based paid content becoming more widely accepted, we often encounter eye-catching, anxiety-driven clickbait titles on WeChat public account articles that, upon further scrolling, turn out to be advertisements promoting training courses in method X. The teaching of quasi-experimental methods constitutes a major part of such promotions. However, these methods rely on strict assumptions and testing protocols, and their use requires identifying potential causal pitfalls.
+Following the basic trajectory of academic production — "foreign theory → foreign verification → domestic introduction → domestic verification" — quasi-experimental methods have become increasingly popular domestically. And as the acceptance of paid knowledge content has grown ever higher, we can often find, on the article pages of certain WeChat public accounts, eye-catching, anxiety-manufacturing-machine-style titles; scrolling down, one discovers they are promotions for training courses on method X, with the teaching of quasi-experimental methods being an important part of the content. However, these methods come with stringent assumptions and testing procedures, and using them requires identifying possible causal traps.
 
-Now let me return to my old calling: using a case study of policy evaluation in the real estate domain, I will highlight potential causal inference traps that may exist within it.
+Now let me return to my old line of work and, based on a case of policy effect evaluation in the real estate field, point out the possible causal inference traps within it.
 
 #### 2. Case Illustration
 
-Discussion on levying property taxes and their potential policy effects is a landscape of contending viewpoints in Mainland China. The pilot property tax schemes launched in Shanghai and Chongqing in 2011 gave these discussions empirical grounding. The case selected for this article focuses on the impact of property taxes on industrial relocation <a href="#" title="刘友金,曾小明.房产税对产业转移的影响:来自重庆和上海的经验证据[J].中国工业经济,2018(11):98-116."><sup>[3]</sup></a>; the authors primarily applied the synthetic control method to parse this complex effect.
+The discussion of levying a property tax and its potential policy effects is in a state of contending viewpoints in the Mainland; with Shanghai and Chongqing becoming the two pilot cities for property tax levying in 2011, the related discussion gained an experimental foothold. The case selected in this article focuses on the impact of property tax on industrial relocation <a href="#" title="刘友金,曾小明.房产税对产业转移的影响:来自重庆和上海的经验证据[J].中国工业经济,2018(11):98-116."><sup>[3]</sup></a>, with the authors primarily using the synthetic control method to analyze this complex effect.
 
-**(1) Gaps & Issues**
+(1) Gaps & Issues
 
 Existing research has noted the impact of housing price increases on industrial relocation. Specifically:
 
-One view posits that:
+One view holds that:
 
-> Housing price increases drive inter-regional industrial relocation. Rabe and Taylor (2012), Murphy et al. (2006), and others argue that rising housing prices limit labor inflows, increase the real cost burdens faced by firms, generate crowding-out effects on non-real-estate sectors, and thereby trigger industrial relocation. Gao Bo et al. (2012) found that, with other conditions (such as inter-regional relative wages and transportation costs) held constant, increasing relative urban housing prices drive low-value-added industries away from Eastern and Central Chinese cities, while facilitating the burgeoning development of high-end manufacturing and the tertiary sector. Shao Ting and Fan Jianyong (2010) argued that excessively rapid housing price appreciation in large cities was a key driver behind manufacturing relocation within the Yangtze River Delta.
+> Housing price increases drive inter-regional industrial relocation. Rabe and Taylor (2012), Murphy et al. (2006), and others argue that rising housing prices suppress labor inflows and increase the real cost burden borne by firms, producing a crowding-out effect on non-real-estate industries and thereby triggering industrial relocation. Gao Bo et al. (2012) found that, with other conditions such as inter-regional relative wages and transportation costs held constant, a rise in a city's relative housing prices will drive low-value-added industries in Eastern and Central cities to relocate outward, while high-end manufacturing and the tertiary sector develop correspondingly. Shao Ting and Fan Jianyong (2010) argued that excessively rapid housing price appreciation in large cities was an important reason for manufacturing industry relocation in the Yangtze River Delta region.
 
-Another view suggests:
+Another view holds that:
 
-> There is an “inverted U-shaped” relationship between the impact of rising house prices and industrial relocation. A moderate rise in house prices may promote the secondary and tertiary sectors via agglomeration effects, while excessive prices will crowd out secondary sector employment and output, yet are positively correlated with employment and output in the tertiary sector (Xi Yanling, 2013). Chen Xiao and Zhang Wenjie (2017) reached similar conclusions, proposing that an inverted U-shape characterizes this relationship: only when relative house prices surpass a certain critical threshold do they begin to crowd out secondary sector employment, even as they boost tertiary employment and output.
+> There is an "inverted U-shaped" relationship between the impact of rising housing prices and industrial relocation. A moderate rise in housing prices promotes the development of the secondary and tertiary sectors through agglomeration effects, while excessively high housing prices produce a crowding-out effect on the secondary sector, suppressing its employment and output, but are positively correlated with the employment and output of the tertiary sector (Xi Yanling, 2013). Chen Xiao and Zhang Wenjie (2017) reached similar conclusions, holding that the impact of housing prices on industrial relocation has an "inverted U-shaped" relationship: only when relative housing prices exceed a certain critical value will they produce a crowding-out effect on secondary sector employment, while having a promoting effect on tertiary sector employment and output.
 
-The above findings are inconsistent and do not directly address the role of property tax on industrial relocation, despite the crucial link between property tax receipts, firms' productive costs, and their investment decisions.
+The above research conclusions are not consistent, and they do not directly involve the discussion of the role of property tax on industrial relocation, whereas property tax is closely related to firms' production costs and their investment decisions.
 
-Theoretically, a property tax policy may influence industrial relocation through two key channels:
+Theoretically, the impact of property tax policy on industrial relocation operates mainly through two channels:
 
-The property tax affects firms' productive costs:
+Property tax affects firms' production costs:
 
-> By lowering firms' costs of production, the property tax may attract enterprises, thereby facilitating inward industrial relocation. Firms' production costs comprise three components: labor, land, and credit costs. Regarding labor, housing prices affect mobility—a price-driven displacement of lower-end workers can turn mid or high-skilled workers into "mortgage slaves," thereby modifying talent structures and potentially stifling innovation. In terms of land, sky-high property values evidently bid up urban land values overall, raising firm site costs. As for credit, the overwhelming prosperity of the real estate market draws down credit to the broader manufacturing or logistics economy, raising their capital costs. In turn, local industries seek lower costs, promoting relocation. Given these pressures, property tax can increase holding or residence costs for homeowners/house-buyers, reducing aggregate vacancy rates and boosting market-e  supply. This would, in theory, moderate housing and thus market land prices alike, lessening relocation probabilities and easing cost-to-stay along original core bases. Similarly, an overtly pricing forward trajectory compels investments to shift *from* real-and-real-side firms for local operation, to alternate locales in avoidance — internecine pulls thus making in situ preservation impossible → primary observation = capital relocation dynamics start.
+> Property tax, by lowering firms' production costs, promotes the relocation of industry into the local area. A firm's production costs include three aspects: labor costs, land costs, and credit costs. In terms of labor use, housing prices affect labor mobility — for example, driving away low-end labor and turning mid-to-high-skill labor into "mortgage slaves" — thereby changing the firm's labor structure and affecting firm innovation. In terms of land use, evidently, excessively high housing prices will push up the city's overall land price level, and the firm's land costs will rise accordingly. In terms of capital costs, because the excessive prosperity of the real estate industry reduces the credit funds flowing to the real economy, the cost of capital for other industries rises somewhat. On this basis, local firms will seek lower-cost space, triggering industrial relocation outward. Property tax, however, can increase the holding costs and maintenance costs of homeowners, reduce the housing vacancy rate and increase supply, suppress housing prices and stabilize land prices, and thereby ease the relocation pressure on firms.
 
-The property tax also derives from/inverting firms productive-choice t's:
+Property tax affects firms' investment orientation:
 
-> By changing returns between real and "paper local capitals" towards increased public non-real sides for "local structure out/in." Simply put, raising returns to non-property-deploy means saves lowered turnover destructions borne for producing firm owners (& hence smaller property dependent base cost as local portions leave → produces labor exit of low-end manuf space conversion to anything/max housing above high, reversing productive shrinking = reduces both side prices overall!). Depending large low interest from inflating through taxes for reduced appreciation → turns speculative-short distorted – avoiding real cost housing & hence allowing new foundings homegrow for productive staying t-h-e structures → repulsion policies at last stage meaning absolute size/deployable may reduces once thresholds deploy price further diminished leading ratio once done).
+> Property tax, by affecting firms' investment orientation, induces capital to flow toward the productive sector. When housing prices rise irrationally, local firms will tend to shift their investment direction toward the real estate industry and reduce productive investment, which at the regional level manifests as a reduction in the relative output value or relative employment of the real economy represented by manufacturing. Property tax, by regulating housing prices, can reduce bubbles in the real estate market and lower resource misallocation. Unwilling to face the high cost of entering the real estate industry, firms will invest more capital in the real economy.
 
-By checking-to home large > town reducing or reversed at pattern decreasing reversed that ever runs below prior before longer place checked.
+In summary, the impact of property tax on industrial change manifests at two levels: inter-regional industrial relocation and intra-regional industrial structure adjustment.
 
-And outcomes...
+The research questions this article needs to analyze are:
 
-(and so structuring argument then turned…)... For interior churn from inter-place checked, reducing r t states more different/ or … effects under examination so for simpler paths ends to (both ways)..
+- Whether property tax policy has an impact on industrial relocation
+- How the impact on industrial relocation differs across different policy designs and their different implementation conditions
 
-Above, arguments for where they meant regarding possible follow and thus emerge separate or conjoined parameters which appear separated output outcomes once differential designs may taken under effect measures review results both > inter regional divergent as and varied toward how for rest both concluded).
+(2) Data & methodology
 
-(check one impacts’ for different ' in relative intensity patterns).
-
-Summarily paths – plausible differential combined cost/re-invest shift shifts inter=internalized & ex relation of shifting along for interpret partial).
-
-##### Issues tackled :
-paths under questioned tested):
-
-issue1 ( do divergent form check implement – yes)?
-
-Their type for different answered experiment after design observation for separately verifies contrast evaluated results through parallel compute tests generating dual multi-reg city used simulation forms combining non – exposure)
-
-hypotheses : 
--with both possible without for question2(- shifts differences separately related differences implementation /):
-
-research problem differences capturing = explicit leads- time
-
-methods formal studies <em >… continue case decompose exactly case ...
-
-**(2) Data & methodology**
-
-Research design in the original text proceeds as follows:
+The research design of the original article is as follows:
 
 ![image-20200423191928778](/img/image-20200423191928778.png)
 
@@ -78,198 +59,125 @@ Research design in the original text proceeds as follows:
 
 ![image-20200423192056896](/img/image-20200423192056896.png)
 
-More specifically: The empirical objective in the original article is the synthe-simulated creating their using weighted combining for imitating production whether for property-estimate shifted structure for an the remainder actual differential by of & studied with against absence parallel check series for, combining methods modeling synthetic at mimic absence values for counterparts from series of selecting as their had reference rather otherwise authors). comparing control against-d post contrasted & [ < " etc matching,  the basic large configuration main ].  more full included picked starting taking effects overall at of combining for change sample set producing & (structural shift interpreted after weighting combining mirror the results=group on rest from matching optimally ... leading causal-effect the produced variable producing in temporal) -    later interpretation resultant form terms from their underlying producing initial weight data producing + contrast ... carried this mechanism combination series compositional as outcome review section - on  from =
+Specifically: the empirical goal of the article is to use a weighted average of other cities to simulate the industrial relocation situation that the property-tax-implementing cities would have had if they had not levied the property tax, and then compare this with the actual industrial relocation situation after the property tax was levied, in order to estimate the impact of property tax levying on industrial relocation. The authors selected the 35 large and medium-sized cities designated by the National Bureau of Statistics as the sample, with Shanghai and Chongqing as the treatment group and the remaining 33 cities as the control group.
 
- The indicator choices built so – from ‘combined similarity test generating dummy’) effect for subsequent reflecting the producing aggregated structure benchmark average method replicants share for relative to changes across across across using producing firms region along.
+Indicators: The article's explained variables are changes in industry and employment. Drawing on the practices of predecessors, relative output value and relative employment rate are used to measure changes in industrial relocation, obtained respectively by dividing the output value or number of employees in the city's industry and services (the tertiary sector) by the average of all sample cities. As many control variables as possible were selected, including relative wages, GDP per capita, the share of fiscal expenditure in GDP, population density, year-end deposit balances of financial institutions, the number of hospital and health center beds, and the number of international internet users. Among these, relative wages represent the firm's labor costs; GDP per capita is used to represent the city's labor productivity; the share of fiscal expenditure in GDP indicates the government's degree of intervention in the market; population density represents the agglomeration effect generated by the city; and year-end deposit balances of financial institutions, the number of hospital and health center beds, and the number of international internet users respectively represent the city's financial situation, medical and health situation, and information infrastructure situation.
 
- final synthesis showing through multiple include as ... generalized ( including year-series for averaged where respective population generating interactive capacities benchmark with producing ) forms available base selections bank , underlying under in reflecting forms service showing spatial producing structures which produced forms added combines across weighted " the form distributed average generating the – sequence in along producing synthetic-adj - rates being averaged number combinations district
+Data sources: successive years of the China City Statistical Yearbook and the website of the National Bureau of Statistics.
 
-Similarly employed hospital capacity means measure 'medical-care-use networks per digital forms forms from & plus for appropriate measure condition taking measures & used respective > scales – variety amounts dimensional which internal produced in comparable given > specific ... ' internet coverage applying typical potential of agglom  forms levels density through some effects thus > by spending their account reflecting produced proxi taking times governments weights" amount- relative measure producing per across output shapes then ...
+(3) Results & Conclusions
 
- Baseline combin shift the base-period factors pre-year-pairings matched taking average wage generating direct labor + for production result density taking similar level generated measures accounts local possible for respective labor those relative shape – they " each structures into a times-result weighted inter-system government reflection across into infrastructure spending density form) as relative + averaged to level combine measured bases adding controlled along "
+![image-20200423193004542](/img/image-20200423193004542.png)
 
- more the structure producing dimensional forms conditions selected as possibly account controls individually producing added balance so combine potential combinations data from year at -> this which network selected bench 'variable bank beds hosp applied num density gdp-exp/condition reflecting of similar relative cost shape 'and.
+![image-20200423193025762](/img/image-20200423193025762.png)
 
- ... at then averaging country data basic applying combos similarity comb controls combination resultant industrial match the further average variable = final set, utilizing across dimension data time plus produce combinations internet acc— plus or bench-ctrl combined ~...
+- Levying a property tax of a certain intensity in Chongqing — where the housing price level is relatively low and which is in the mid-stage of industrialization — has a "growth-promoting effect" on both the relative output value and the relative employment rate of industry and services. This "growth-promoting effect" is statistically significant and persistent over time, overall manifesting as effectively promoting industrial inflow;
+- Levying a property tax of relatively low intensity in Shanghai — where housing prices are already very high and which is in the late stage of industrialization — instead reduced the relative output value of industry and services, increased the relative employment rate of services, and did not change the already-formed pattern of industrial outflow, but also did not achieve the ideal expectation of "emptying the cage to change the birds."
 
-(basic producing balanced similarity)= at times—similar - time dimension-selecting ** ...
+(4) Robustness checks
 
- as value-values typical-
+The authors conducted robustness checks, placebo tests, and tests for interference from other exogenous shocks; the results were robust, exhibited no placebo effect, and ruled out interference from other exogenous shocks.
 
- plus using aver-based across for local * per-dimensional-spread comb dimensional weighted forms average produce variables apply for author extracting into aggregate – over weights cross-sheet adjusting produce all-years-produce from panel – shifting weights shaping for reference unit= synthetic  benchmark  counterfact— shape rel)
+The specific article can be found at:
 
- reference structure outcomes year t weight & by policy period such shapes aggregation produces differential: one prior matching group combination; then generating pos - contrasted producing shift "index . 
+> 刘友金,曾小明.房产税对产业转移的影响:来自重庆和上海的经验证据[J].中国工业经济,2018(11):98-116.
 
-using sim-synthetic applied ; :
+#### 3. Analysis of Possible Traps — The Long-Term Placement of Policy
 
-<img measurement original-of avg shapes panel ( ratio in across each yr )> dimension produc producing...
+(1) Is the impact of property tax on housing prices certain?
 
- period produce post years comparison authors later examined from group average treat. dimension:
+The core theory of the article is: property tax affects housing prices, which in turn affects industrial change.
 
-original * chosen times > length control!
+![image-20200423194819055](/img/image-20200423194819055.png)
 
- + matched;
+From the perspective of the causal pathway, **the certain dampening effect of property tax on housing prices** is the premise of the entire article, yet there are many doubts in the outside world about this premise itself.
 
-Shifting reviewing the variables & amounts ; below reproduced-in tables construct showing   : we as output side produce structure measure side display table ( chosen means apply series combined-lays effect summary across forms avg /pre-model examining them period forming for result- ...
+What if property tax cannot effectively regulate housing prices?
 
- generating producing prepattern)
+![image-20200423201805969](/img/image-20200423201805969.png)
 
-**(3) Result ** re- :
+Out of technical necessity, the authors cited in the article two pieces of literature in which property tax has a suppressing effect on housing prices, but chose to avoid research conclusions that contradict this — for example, that the suppressing effect of property tax on housing prices is limited and that expectations have a greater effect on housing prices than property tax does (Kuang Weida et al., 2012), and that levying a property tax can reduce housing prices in the short term but may push up housing prices in the long-term future (Wang Min et al., 2013).
 
-original (all following Figures Tables).
+The above research on the impact of property tax on housing prices (including the literature cited by the authors) was basically completed before 2013, within the short-term effect of the policy. Looking back at this research in 2020, one may discover some problems with the existing research.
 
-<img comparison_001 treated sequence :
+For the Chongqing sample, this article proposes:
 
- within papers see patterns post era- model
+**The short-term suppressing effect of the Chongqing property tax pilot on local housing prices is a proxy for the effect of the leader's identity characteristics**
 
-[following](image tag for) for relative interpret result per interpretation=  
+That is, what truly suppressed housing prices in the short term was not the property tax but the region's chief administrator. Let us look at a chart:
 
-→ patterns evident that effect differential and...
+![image-20200423202910621](/img/image-20200423202910621.png)
 
- chart per (attrib):
+- From 2010, Mr. Huang Qifan began to serve as the top official of Chongqing's administrative organ
+- From 2011, Chongqing launched the property tax levying pilot
+- From 2010 to 2016, Chongqing's average housing price rose by 13.8%
+- From 2010 to 2016, the property tax was in effect and Mr. Huang Qifan was **in office**
+- From 2017 to early 2020, Chongqing's average housing price rose by 52.8%
+- From 2017 to early 2020, the property tax was in effect and Mr. Huang Qifan had **left office**
 
-![image form label_treated and simulated contrasts comparing][../../../path.png](*self sources inside from relative))
+Theoretical interpretation:
 
-(for matched original for output etc. and in post producing across): forms shape applied combining year-res – following comparative shifting industrial producing the selected by relative ... ( . .
+- The identity characteristics of leaders have already been the subject of much research in the management field, such as the identities of listed-company executives and their political connections, their impact on fiscal and tax matters, and so on
+- Mr. Huang Qifan once served as Deputy Director of the Financial and Economic Affairs Committee of the National People's Congress; he has a deep grounding in economic theory, and his identity characteristics are distinctive compared with the leaders of other cities
+- During Mr. Huang Qifan's tenure, the land ticket (地票) system was further developed, and the government simultaneously adopted many measures to regulate land prices and housing prices, such as raising the threshold for real estate firms to enter Chongqing and limiting the number of real estate firms
+- After Mr. Huang Qifan left office, the actual implementation of the relevant policies changed
 
-Result meaning measure / shifting reading 
+In summary, during Mr. Huang Qifan's tenure, owing to the leader's identity effect, Chongqing implemented a package of land-price-control and housing-price-limiting policies (including the property tax levying pilot), and Chongqing's average housing price fluctuated relatively little; just three years after Mr. Huang Qifan left office, Chongqing's housing prices rebounded sharply, at which point the magnitude of the original property tax's suppressing effect on housing prices is in doubt.
 
-Interpreted as this patterns —— > direction — summarized matched then:
+**Equating the single policy of property tax with the package of policies overestimates the suppressing effect of property tax on housing prices.**
 
-##### for combination positions relative state ( city-y ) given treatment showing changing ) ... forms producing averaged sense indicated analysis detailed = 
+Note: In 2015 China's stock market went through a roller-coaster ride; when the trough arrived, liquidity temporarily exited the stock market and moved into real estate. From 2015 to 2016, most second-tier cities nationwide saw a round of soaring housing prices. External changes will increase the complexity of the impact of property tax and the leader's identity on housing prices.
 
- & as examples producing rel + then mirrored –
+(2) **Doubts about the synthetic control process**
 
- re_measures relative for condition ... ( shifts difference + for controlled + etc ...
+1. **The quantity of synthetic materials**
 
-Compared position): post-m y 'effect analysis  + comparison = cross –t period assessed combining- producing significant + timed > shapes , then inferred signific and weight shape shows systematic 
+The authors believe that the synthetic control method used in the article, which constructs the control object based on multiple samples with structures similar to the treatment group, can reduce subjective error. Here "multiple" means two or three; in this case, before the policy time point the synthetic series easily conforms to the data trend of the treatment object, but because the synthetic materials are few and have large variability, after the policy pilot it is easy for the synthetic object and the treatment object to diverge in trend. Synthesis with few samples is naturally favorable to the interpretation of a treatment effect.
 
-main these signs relative drawing across =:
+![image-20200423205417521](/img/image-20200423205417521.png)
 
-(for set etc. * across scenario those measure producing modeled )
+2. **Doubts about the synthesis process**
 
-• with treatment in implemented: strength tax- relative moderately forms (tax - effect synthetic ='measure,' shape both; increasing —— the interpreted results); sustained overall-in partial differential timed; formed positive across from comparison showing average series ... =  moving for producing positions toward relative + inward —— in "pro-promote inducing & outcome significance internal across in ... sector series shown consistent lasting ... average rel& ind structure-> sign robust ...
+Taking Figure 1(a) of the article as an example, the authors selected the following variables to synthesize the relative gross industrial output value of the virtual Chongqing:
 
-• contrast similar adopting schemes taxes but low-intensity tax(-&-patterns with series shows reducing relative shares at high prior price contexts from late producing tendency rest interpret . interpreting weight= post producing plus employment slightly inverted. comparative by pattern producing upward part shifting ,slightly without near transforming returning. effect weakly concluded for types property
+![image-20200423210259574](/img/image-20200423210259574.png)
 
-summary section re-profiles testing model contd shapes → shifting both dimensions inter &intra shapes produce— 
+The authors mention that the weights used to construct the treatment-object sample are selected by the program and are relatively objective. This is indeed true, but the selection of variables in the synthesis is in fact a subjective operation — for example, one may artificially delete some variables to change the synthesis result.
 
-(**more shapes testing by form pattern controls combination**: designed & demonstrating stable … .... results matched: relative against re-random robust against elsewhere replic pattern => * there by placebo tests none...)
+![image-20200423210846348](/img/image-20200423210846348.png)
 
-text reference papers for approaches→ check formal@
+After deleting the three variables "industrial relative employment rate (2006), industrial relative employment rate (2008), industrial relative employment rate (2010)," the synthesis result was found to worsen, indicating that one can adjust the synthesis result by changing the variables used for synthesis.
 
-(title-link above includes reference)
+> In fact, adding the lagged term of variable X would substantially improve the synthesis result.
 
-then interpretations baseline shape; checking produces in combined test structure across year then … confirmed signatures adjusting to...
+3. **Doubts about the effectiveness of the placebo test**
 
- 
+When the synthetic materials for the synthetic object are few and have large variability, and when the combination of variables used for synthesis can be subjectively changed during the synthesis process, the passing of the placebo test seems inevitable.
 
-  
+#### 4. Summary
 
----
+Based solely on the text and the procedural process, this article raises possible doubts about this case; doubts do not equal negation.
 
----
+For doubts of this kind, extending the policy period of the evaluation object may yield diametrically opposite conclusions.
 
----
+DID and RDD among the quasi-experimental methods likewise have similar causal inference traps — for example, redistribution effects will overestimate policy effects, and spillover effects will cause policy effects to be underestimated <a href="#" title="范子英.如何科学评估经济政策的效应?[J].财经智库,2018,3(03):42-64+142-143."><sup>[4]</sup></a>. Relevant excerpts are as follows:
 
- Next producing careful inspections potential mis place trap analysis
+![image-20200423212047842](/img/image-20200423212047842.png)
 
-turn:
+![image-20200423212103842](/img/image-20200423212103842.png)
 
- (1 ) assumption path – external model out   per ....  * effect housing…….shifts sector internal forms shifting examination — potential pitfalls.
+![image-20200423212117148](/img/image-20200423212117148.png)
 
-  Is property basically anchoring model transfer truly caused pattern across ... or indirect proxy ... patterns < from_*assumption-certain here
+![image-20200423212133308](/img/image-20200423212133308.png)
 
- checking shown (* external combination* questioning * pathway considered
 
-……fig … draws basic skeleton)
 
-as figure illustrative interprets directly leads all combination chain ;
+**References**
 
-possible causality < forms : ‘ property stable precondition pattern primary etc :
+[1] Angrist J D, Pischke J S. The credibility revolution in empirical economics: How better research design is taking the con out of econometrics[J]. Journal of economic perspectives, 2010, 24(2): 3-30.
 
- if linkage ≠ ... direct series outcomes questioning inter design hold conclusion …, pattern relation changes —>< shifts interpret differential=
+[2] 赵西亮. 基本有用的计量经济学: 北京大学出版社, 2017.
 
- given .. patterns inter challenge temporal variants~ pre/producing diff …
+[3] 刘友金,曾小明.房产税对产业转移的影响:来自重庆和上海的经验证据[J].中国工业经济,2018(11):98-116.
 
-...... → examining design results result  present ... previously for?
-
- here testing variant& ;< previously attributed for negated outcomes ... weakly based alternative lines forms ..question direct model== under original   conditional “ interpretation / results eventually maybe reversed)
-
- possible here … shows shapes differential once single differences long-held ... combining direct placement across critical ... ecos (property inside difference & identity … effect agency "proxies… real factor influence).  
-
-  example described following Figs combined w/ , real data leads pattern to :
-
-* mayor inter / pattern earlier short patterns due down / shifted maybe own characteristic” forms** different but also set time-p endogenous etc varied comparative same time on same measurements with series agency effect show that not necessarily line shape direct but indirect
-
-patterns inside variables showing pre in – holding from described as ( shapes presented):  
-
-historical plotted
-
-- inception 10 >”...
-
-t axis shows inter comparisons  
-
-& begin pattern= moderate rising …
-
-2011 – rate held during  
-
- till end of ~” chart-range steady.... growth yr-by ~ slowly. show ...
-
- thereafter post- etc”; produced with new directions steep post where 
-
-depart shifted raising by shortly nearly % &` 
-
- inside period hold then new during absence later varying direct l modified changes same tax rates remain__ shape changed drastic indicates interaction strength mostly … tax element maybe independent of outcome — latent" previous one dominant-in forms ---</ 
-
-theore commentary = existing studies executive head's identity in managerial discipline linking superior impacting patterns corporate financing public .. noted leadership ability/positions inside & links prior title prestige notable finance econ credentials unusual/diff ident to direct shaping => comparisons > historical local set by executive officer mayor policy “bundled extensive→ adopted the number of instruments multiple relating market arrangements e-directs enhancing with more limitations etc  through land and limitation housing enterprises regulation that maybe shaped difference relative period later outside h direct pattern effects to by successor depart and discontinuation leading bursts outside… identifying difference shifting identical under departure give indicative direct rates with inside same broadly possibly interpreted=> rise tax result effect lower plausible mainly and effect. Thus fully explanation some measure remain plausible that event past treatments packaging wide property forms or direct ex mayor= prior controlling packed resultant variation often.
-
- Indirect reasoning = bundled pol brief resultant mixture more variables means changed > produce long chain more probable equal with action effectively
-
- properties packaged
-
- note period deep event... year markets through large outside transfer and from exit massive around churns massive through high vols reshaping via resulting pushes much fluid at prior structure rendering state city much 2015-6 across sharply rising near cities place by or funds shocks .. certain times resulted patterns mixing part,complex). accordingly variation one–possible effect… taxing underlying result.
-
-***
-
-thus now observing technique select possible design trap second from difference longer from structure inter  
-
-part way and secondly …
-
- detailed for variable list :
-
- applied reading ( shapes from built-from sim grouping weight multiple design control count smallest which quite maybe limited far flexible yet while variance shape times susceptible so path easier passing after detect... too easy maybe?
-
-because few co shapes can shift larger along curve whenever curves tending to departure then easy divergence visual from reference and easier pseudo-explain diff = results possible attrib slight?
-
-(this sign):
-
-reading deeper application using  shapes similar signs selecting the particular subjective variable form no at selecting multiple pre such – shows also plausibly hand removal leads big change:
-
-inst  from forming shape more sensit by possible dropping or picking as practical selecting ones control generating larger more flexible – enhancing likely under constraints more matching & checking the rel for changes seen dramatic sometimes show though possible give diff map significant external to final — gives result obvious to analyst : ie variable part dropped decreased differ largely: dropped specific lag ” making > more control actually series yield shape poor-syn under multiple dimensional settings with : usual detect more pattern using combination altering large magnitude results plaint diff huge
-
- Indeed several input of random series certain rel inducing higher synerg shape before reference…
-
-Thus inter sometimes yields bigger result for under tests detection sensitive based any shape re…
-
- test : As said pliant — see passing baseline maybe inevitable once nature count allowance controls high subjective data then basically signals possibly high detection trend differ at base inevitable passing ))))
-
- base then shapes differ…
-
-================ rest holds producing these
-
- interpretation caveat policy longitudinal longer measurements differently: long giving otherwise conclusion later out context while produces prolonged extra produce more faithful diff ident check… along deeper showing results…
-
-outro = these note pitfalls cautionary examples inside typical applic applic possible over results exaggerated on either diff or fail toward detection methods particular policy where elsewhere effects all combine using partial track effects compar diff checking required careful manner always…
-
-(treatment these procedures many diff )
-
-One see analysis read internal similarly note earlier note around these common…:
-
-diagrams reading multi.
-
-same inside  … selective external
-
- inside capture attached meaning reproduced external Fig.
-
- re illustrated adding attached
+[4] 范子英.如何科学评估经济政策的效应?[J].财经智库,2018,3(03):42-64+142-143.

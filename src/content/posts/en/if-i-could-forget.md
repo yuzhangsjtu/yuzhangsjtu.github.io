@@ -2,14 +2,14 @@
 title: "If I Could Forget"
 date: 2020-05-13T23:00:00+08:00
 category: { name: "Essay", slug: essay }
-tags: ["nightmare"]
-summary: "Every day is wrapped in a strong sense of unreality, and the author wishes they could simply forget."
+tags: ["Nightmare"]
+summary: "Every day feels like living in a dream. I really wish I could forget everything."
 ---
 
 Every day
 
-I'm enveloped in an intense feeling of unreality.
+wrapped in an overwhelming sense of unreality
 
-If only I could forget.
+if only I could forget
 
 ![](https://cdn.jsdelivr.net/gh/yuzhangnju/image/img/ZgnWrQXko3ND71F.jpg)

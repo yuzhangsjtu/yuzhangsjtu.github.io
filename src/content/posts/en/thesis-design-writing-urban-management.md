@@ -14,41 +14,45 @@ Affiliation: Department of Asian and Policy Studies, The Education University of
 
 ![](https://i.loli.net/2020/10/09/kDPtIUfqJWgxOHZ.png)
 
-I am actually a geographer by training; I have conducted research at the Institute of Geography.
+
+
+I am actually a geographer, and I have done research at the Institute of Geography.
+
+
 
 ### 1. What Is a Graduation Thesis
 
 ![](https://i.loli.net/2020/10/09/TKBPU6RfEC4SlgI.png)
 
-- A complete, standalone article
-- Original research: new theory, framework, experimental results, or methods
-- Demonstrates the degree candidate's mastery of the field's knowledge and grasp of scientific research methods
-- Evidence-based — distinct from opinion pieces and commentaries
-- Analytical — distilling insights to arrive at new discovery
+- A complete article
+- Original research: a new theory, framework, experimental results, or method
+- Reflects the degree candidate's mastery of knowledge in their field, and their grasp of scientific research methods
+- Evidence-based, distinct from opinions and commentary
+- Analytical — drawing insights out of facts — new discoveries
 
 ![](https://i.loli.net/2020/10/09/9RND8KFOvQ5pwC6.png)
 
-Word count for a journal article is generally around 8,000 (in English).
+A journal article is generally around 8,000 words (in English).
 
-The speaker enjoys reading doctoral dissertations because they are longer and each section offers detailed exposition.
+The speaker enjoys reading doctoral dissertations, because they are longer and each section provides detailed analysis.
 
 ![](https://i.loli.net/2020/10/09/SYXsnM2ihCwfxH7.png)
 
-Urban studies is a quintessentially interdisciplinary field!
+Urban studies is a quintessential interdisciplinary field!
 
-Sometimes the boundaries between different angles are very fuzzy!
+Sometimes the boundaries between the different angles are very blurry!
 
 ### 2. Choosing a Graduation Thesis Topic
 
 ![](https://i.loli.net/2020/10/09/WSHAZ6ChxznTObf.png)
 
-The professor is mostly glossing the slides…
+The professor is still mostly explaining the slides...
 
-One should not study topics like how to make a professor`s wife more elegant or how to please your girlfriend better...
+One must not study topics like how lovely the professor's wife is, or how to make your girlfriend more satisfied...
 
-In urban studies, from a geographic perspective, the focus is not so much on individuals, but on issues at a certain (large) scale.
+In urban studies, from a geographic perspective, the focus is not so much on the individual, but on issues at a certain (large) scale.
 
-Urban innovative practices: smart cities, eco-cities, urban shrinkage... and other emerging practices.
+Urban innovation practices: smart cities, eco-cities, urban shrinkage... and other new practices.
 
 ![](https://i.loli.net/2020/10/09/t7OvXkcVrgsTMlm.png)
 
@@ -56,110 +60,156 @@ A classic study of urban villages ↑; the author is now a professor in the Scho
 
 ![](https://i.loli.net/2020/10/09/EbvWhlP97MqHocZ.png)
 
-A paradox observed in everyday life: why do urban villages appear in a great metropolis?
+A contradiction discovered in everyday life: why do urban villages appear in a major metropolis?
 
-The author probably began pondering this question as an undergraduate—starting from personal curiosity.
+The author may have been concerned with this question since their undergraduate years, starting from themselves.
 
 ![](https://i.loli.net/2020/10/09/qYnGDHM3VaE78lP.png)
 
-Professor Huang Yasheng argues that the entrepreneurial climate of the 1980s was freer than that of the 1990s.
+Professor Huang Yasheng argues that the entrepreneurial environment of the 1980s was freer than that of the 1990s.
 
-Why can't India catch up with China? Because China has Shanghai, and India only has Mumbai. (Indian Prime Minister)
+Why can't India catch up with China? Because China has Shanghai, while India only has Mumbai. (the Indian Prime Minister)
 
-Professor Huang noticed that Shanghai has a huge economic aggregate, yet private-sector innovation is weak, lagging behind Jiangsu and Zhejiang. Indeed? → An itch for scholarly inquiry was sparked.
+Professor Huang noticed that Shanghai has a very large total economic output, yet weak private-sector innovation, falling short of Jiangsu and Zhejiang. ??? → A research interest was sparked.
 
 ![](https://i.loli.net/2020/10/09/lnhkH9MYXRJjKfO.png)
 
-The reason being, Shanghai's entrepreneurial spirit is very weak. Did Shanghai’s capitalists move to Hong Kong around the time of the founding of the PRC, leaving a puzzle for the researcher?
+The reason: Shanghai's entrepreneurial spirit is very weak. ??? Did Shanghai's capitalists move to Hong Kong at the founding of the PRC?
 
-Fascinating topic choice.
+A very interesting topic choice.
 
-Shanghai’s business policies tend to favor state-owned enterprises and large corporations.
+Shanghai's business policies favor state-owned and large enterprises.
 
 ![](https://i.loli.net/2020/10/09/L2bn7O6ptGdFwKI.png)
 
-Getting inspiration from High-Impact journals, haha~
+Journal-inspiration-driven, haha~
 
-This is a common pathway, but does it maybe yield limited originality?
+This is the common path, but perhaps originality is limited?
 
-**Theories in the social sciences are more often about evolution than revolution**
+**Theories in the social sciences are more about evolution than revolution**
 
-- Market Transition Theory: Under planned economy, human capital is less valuable, political capital is stronger; under marketization, human capital gradually strengthens while political capital weakens. Disagreement: after China`s market reforms, political capital did NOT weaken — is it because of systemic influences, the possibility that factor markets reformed more slowly leading to policy capture?
-- Are high-end service economies refuting the hypothesis that more middle-income populations emerge in global cities? Professional or Social — political leaning ideas get reinforced: social polarization appears (read: the middle-class is decreasingly hired geographically relative to top firms, as proven now through in-home care for prosperous dual movers creating servant-economy like dependencies around entire agri-ecos). Multiple alternative–relevant EU work found time serial mismatch ≠ breaking middle hypothesis? Therefore, the Euro comparison suggests `national` welfare narratives exert buffering to polarization mechanisms on-top financial regulatory limits separate of regional dynamic case comped—scholars caution a conclusion they read. Gentrification in the end… what forces drive relocations.
-- Why do better-off incomers price push regions that weaker earn systems gent—some argue preexisting that housing slope data shows—has the scarcity premium for green near center tilted mostly as explained at moves costs when underlying family norm premium stays stagnant.
+- Market transition theory: under a planned economy, the value of human capital is low while political capital is stronger; under marketization, human capital gradually strengthens while political capital becomes weaker and weaker. A dissenting view: after China's marketization, political capital did not weaken (because factor markets were not liberalized???).
+- The middle class of global cities? Social polarization appears (jobs cluster among the elite and the low-income). In Europe, middle-tier positions did not disappear; rather, employment in the elite class increased. That is, the very top grew larger. It is a process of elitization, not a process of bipolarization. → The polarization of farmers?
+- The question of gentrification, and its driving forces. Land rent? The rent gap, the profit motive. Or is it the human factor? Those who move in have a distinctive aesthetic preference. Interest-driven or culture-driven?
 
 
 
-Foreign theories → tested abroad → introduced domestically → tested at home.
+Foreign theory → foreign verification → domestic introduction → domestic verification.
 
-Haha~ if the results diverge, then a brand new explanatory framework can be proposed? The classic playbook!
+Haha~ if the results differ, a new explanatory framework? The same old playbook.
 
 
 
 ![](https://i.loli.net/2020/10/09/VFJ37N6e2jxmvLi.png)
 
-Another major work from Professor Huang Youqin!
+Another great work from Professor Huang Youqin!
 
-**Using housing to test the market transition theory**
+**Using housing to test market transition theory**
 
-By what kind of housing people occupy, is human capital or political capital more important? Truly extraordinary.
+What kind of housing people live in — is human capital more important, or is political capital? Awesome.
 
 ### 3. Research Design for the Graduation Thesis
 
 ![](https://i.loli.net/2020/10/09/FPslj1bKdSLR2rQ.png)
 
-**Research design ≠ Research methodology**
+**Research design ≠ research method**
 
-(Suddenly recalled that *Designing Social Inquiry: Scientific Inference in Qualitative Research*, famously joined fields on conceptual premises where "Unit Fixed Research" assumptions resemble more careful across approaches to avoid data type variable limit for tracing processes inside mixed institutional, so new ge researcher and used it tool framework testing: 201Chinese translated by / whose carefully refined translation of control limits & levels at for empirical cross case infer new readers, kept adjusting intro shifts scholars newly adapting prof....Chen like professor known within comp regime own inner typ that much more delicate ge models what)
+(Suddenly realized that the book *Designing Social Inquiry* was translated by Professor Chen Shuo...)
 
-One’s basic understanding influences case selection + effect – stance to for XX themes intersecting structures test limits present…
+One's philosophical stance influences the entry point into a given topic.
 
 ![](https://i.loli.net/2020/10/09/2VkHarzfWexnuZs.png)
 
-Beijing, population regulation, pushing the floating population outward… sigh, a term displacing low-high end their so fate results reflect choosing researcher long discomfort stays beneath text not speech quick policy reading worker turn cycle…
+Beijing, population control, pushing the floating population outward, sigh, expelling the low-end population...
 
-Restricting `note–system rem mind how geography have real see geographic do test knowledge pursuit find measure...some actually prefer to nurture subjective rich understanding yield hermeneut frames constructivist life all across sectors meanings post role analyzing rich thick case profiles — often ge prof sees his own pull split last pillar his deep insider backst.
-
-Ge critically–inside `prow real feelings many examples position...While inner observational ways tap meaning personal link interpretive thematic pull cultural or produced constraints sector.
+Sigh, what geography does is exactly the work of **positivism**... whereas what I observe inwardly is the latter two.
 
 ![](https://i.loli.net/2020/10/09/L85jZO7JUyFSesI.png)
 
-Emphasis on institutions vs stresses distinct personal ability for navigate edge.
+Emphasizing institutions versus emphasizing the individual.
 
 ![](https://i.loli.net/2020/10/09/kKdVF2qW96BXPRU.png)
 
-Rank-size rule — the quintessential epistemology-shaped theorizing paradigm; describing what pattern exists scale — test mathematically consistent gradient distribution measure: facts accounting lens games.
+The rank-size rule — a quintessential knowledge-type theorizing paradigm, describing what something is like — **playing the numbers game**.
 
-Interpretive theorization — pivoting: why models face agglom reality breaking off simpler structural constraint?
+Interpretive theorizing — why something is the way it is — **playing the word game**.
 
-That 2oo9 (often top most land-regional mark d-data reshape)/ key which counts flows making pure gradients shifts somewhat `big push against new ge outcome profile: then writing to playing.
+That 2009 article, measuring urban population, haha, a numbers game~ facts.
 
-Agg next that UC thesis lead late f using verbal resource agent tracing lines prof dept colleagues shows themselves morph adapted result see which turns reasoning internal structure argument break re-en:— showing urbanization refined what state-typed or governance forces process result beyond push shaping adapt iter inside…  
+A 2010 UCB professor: can governments be urbanized too??? Population and land have been urbanized, but what about government? Urbanization is not the result of government decisions; on the contrary, urbanization drove government decisions. — a word game.
 
-Words forming capture test: loop shaping causation realign frames results chain playing alternate models.
+### 4. Writing the Graduation Thesis
 
-### 对称讲解答完了进入行篇
+![](https://i.loli.net/2020/10/09/I3YBlJZp8EzAkDU.png)
 
-### as read left stay in mapping path into final outlining within bigger  
+![](https://i.loli.net/2020/10/09/anRsDy5L7kWVdN3.png)
 
-to bridge crosswork use write each section way reflect design prof tone: details for t throughout remains into fine produce text.
+**theoretical strawman**
 
-## Guide Chapter break layout simple check
+Professor Philip Huang sets up his strawman superbly! The third hand? Neither market nor government.
 
-keep struct only fine produce also.
+This kind of writing makes it very easy for people to remember the viewpoint and the analytical framework; close reading recommended.
 
-Test: guide each micro part break method bridge one form thesis plan accordingly flows entire...
+![](https://i.loli.net/2020/10/09/8bGuWcafNLlXg36.png)
 
-Out: produce nice to easier fine delivery slide m mention standard ratio conceptual end reference
+![](https://i.loli.net/2020/10/09/sGWlmj8xXQytaiz.png)
 
-hold
+![](https://i.loli.net/2020/10/09/q8gUKW9lurSCDT5.png)
 
-end example write base. Al-ready you seen source, hold skip in mention sample
+![](https://i.loli.net/2020/10/09/gjWEBlqeLor15Zt.png)
 
-Transition set as reference author framework familiar contrast HSH classic book scholar key exact play style opening dummy known straw highlight what this dynamic entry by non replace builds insight contri built beyond as prime work setup → recall.
+![](https://i.loli.net/2020/10/09/dPNqw3SHxoGcrMu.png)
 
-Recommend reading through open positioning inside before deploy structure style.
+Logic: what exactly is this paragraph trying to say?? Put a summary sentence at the beginning, haha.
 
-Data reflection loop. Q loop exchange pattern methodological sometimes internal before strong conceptual line variable fit can miss real real importance.
+![](https://i.loli.net/2020/10/09/MfZ8LO79UnyKPTA.png)
 
-Speaking large insight hearing translation lecture note density learned end captures lighter outline note diff trans adj style rem across length answer internal stay after adding single para learned built ease format drift optional styles adapt end place inside match but careful none! preserve valid answer use simple direct elegant per ensure nice to l preserve text!
+![](https://i.loli.net/2020/10/09/wmJ4zduKbkHEVpc.png)
+
+![](https://i.loli.net/2020/10/09/qA89yNDpRjbBtTX.png)
+
+![](https://i.loli.net/2020/10/09/wX2YOcsyiKE1QUz.png)
+
+![](https://i.loli.net/2020/10/09/HOKZ4NJhzvQ9Xey.png)
+
+![](https://i.loli.net/2020/10/09/rBfP3sCAazoin6U.png)
+
+![](https://i.loli.net/2020/10/09/emyxN4SuHXQFDYs.png)
+
+
+
+Q&A:
+
+Q1: May I ask, is acquiring a philosophical stance a matter of everyday study?
+
+A1: Yes. When I was doing my PhD, I took many courses and grasped various viewpoints. You can learn it from everyday reading of papers; I don't recommend specifically reading philosophical works.
+
+
+
+Q2: If the question you want to study has no existing theory, how do you do a literature review?
+
+A2: Create your own theory, but not out of thin air — it must be a synthesis or reflection on existing experience, and there is also an interdisciplinary knowledge gap.
+
+
+
+Q3: Professor, your PhD is in human geography. Is human geography a natural science or a social science? What is the difference between studying urban management from a human geography perspective and studying urban issues from a public administration perspective? Thank you, professor.
+
+A3: I consider it a social science. This is a very good question, haha~ and also hard to answer. The disciplinary boundaries are very blurry; scholars from both fields might publish in the same journals — so where does the difference in angle lie? Geographers pay more attention to space, scale, heterogeneity, and the interconnection of scales, such as the urban scale, the community scale, the national scale — keywords being scale, place, space. Public administration places more emphasis on the governmental perspective, such as the government's measures, why such measures are taken; it is not too sensitive to scale. In terms of methods and paradigms, both have the knowledge type and the interpretive type. Sometimes it is not necessary to distinguish disciplinary positions too sharply; sometimes crossing disciplines can bring different inspiration. Questions that human geography cares about may not be of concern to public administration. In summary, it mainly comes down to a different understanding of scale.
+
+
+
+Q4: Tips for organizing and managing literature.
+
+A4: You need to make some trade-offs. Look for authoritative journals. Also, read more good papers.
+
+
+
+Q5: There are many micro databases, and I want to do quantitative research; how do I find a topic?
+
+A5: Data is not a viewpoint; you need to let the data speak. First be clear about which body of theory you want to converse with, then do the research design. Sometimes it is a back-and-forth process between the data and the model. Some people pull a few variables out of a micro database, see how significant they are, and then go looking for a theory — this is not so good, and it easily leads to plausible-but-false conclusions. Also, there is the issue of handling the sample.
+
+
+
+The professor's PPT style is so similar to mine...
+
+You can still hear a lot of things from outside your own discipline; it's more efficient than reading the literature (but less deep).

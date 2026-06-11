@@ -1,10 +1,14 @@
 ---
-title: "QJE — Women and the Plough: On the Origins of Gender Roles"
+title: "QJE — Women and the Plough: Plough Agriculture and the Origins of Women's Gender Roles"
 date: 2024-02-20T20:00:00+08:00
 category: { name: "Research Notes", slug: research }
 tags: ["HIBL", "Origins"]
-summary: "Regions with a history of plough agriculture tend to have lower female labor force participation and less support for gender equality."
+summary: "Regions that historically used the plough have lower female labor force participation and weaker endorsement of gender equality."
 ---
+
+> What role should women play in society? In some cultures, women, like men, are free to participate in affairs outside the household, while other societies hold that women should stay at home. What are the origins of these differences in women's gender roles?
+>
+> In her 1970 book, Boserup proposed that pre-industrial agricultural practices shaped the origins of gender roles, namely that plough agriculture produced a division in which "men work outside, women work at home." The three authors of this paper confirm that this relationship is causal. By comparing differences in gender attitudes and labor participation among immigrants with different agricultural histories who now reside in the same country, their research further shows that the influence of historical agricultural practices on gender attitudes persists to this day.
 
 **Title:** On the Origins of Gender Roles: Women and the Plough
 
@@ -12,71 +16,71 @@ summary: "Regions with a history of plough agriculture tend to have lower female
 
 **Authors:**
 
-- Alberto Alesina, a professor at Harvard University, made significant contributions to political economy and other fields and was widely considered a strong candidate for the Nobel Memorial Prize in Economic Sciences. He passed away unexpectedly from heart disease in 2020. His Google Scholar h-index reaches 141;
-- Paola Giuliano, a professor at UCLA Anderson School of Management, has an extensive body of work on gender, family, and immigration topics;
-- Nathan Nunn, the undisputed GOAT of potato studies, is a co-editor of the QJE.
+- Alberto Alesina, a professor at Harvard University, made significant contributions in fields such as political economy and was considered a strong candidate for the Nobel Memorial Prize in Economic Sciences. He passed away unexpectedly from a heart attack in 2020. His Google Scholar h-index reached as high as 141;
+- Paola Giuliano, a professor at UCLA Anderson School of Management, has produced extensive work in fields such as gender, family, and immigration;
+- Nathan Nunn, the GOAT of potato studies, is one of the editors of the QJE.
 
-**Online Publication Date:** 14 May 2013
+**Online Date:** 14 May 2013
 
 <br/>
 
 **Background:** 
 
-- What is the natural role of women in society? Different societies have different answers. Why do these differences exist? Or rather, what are the origins of variations in gender equality across societies?
-- Differences in gender norms across societies can sometimes be vast. For example, in the World Values Survey, stating agreement with the idea that “when jobs are scarce, men should have more right to a job than women” varied dramatically across societies, from only 3.6% in Iceland to a staggering 99.6% in Egypt.
-- Boserup, in her 1970 book, proposed that differences in pre-industrial agricultural practices shaped the origins of gender roles. In societies where plough cultivation was dominant, gender inequality was more severe.
+- What is the natural role of women in society? Different societies offer different answers. Why do such differences exist? In other words, what are the origins of the differences in gender equality across societies?
+- Differences in gender norms across societies are sometimes very large. For example, in the World Values Survey, regarding the statement "When jobs are scarce, men should have more right to a job than women," the proportion of respondents who agreed varied widely across societies, from only 3.6% in Iceland to 99.6% in Egypt.
+- In her 1970 book, Boserup proposed that differences in pre-industrial agricultural practices shaped the origins of gender roles. In societies dominated by plough agriculture, gender inequality was more severe.
 
 **Aims:**
 
-- Integrating data from anthropology, physical geography, value measurements, and economic activities to analyse the relationship between plough use and gender-equitable attitudes;
-- Addressing potential reverse-causality problems and challenges to the causal relationship posed by competing hypotheses;
-- Confirming the mechanism: what is it, and what are its components? Are gender norms originating from plough agriculture perpetuated solely through culture itself, or does the use of the plough further influence gender roles by shaping institutions, policies, and markets beyond the household?
+- Combining data from anthropology, physical geography, value measurement, and economic activity to analyze the relationship between the use of the plough and attitudes toward gender equality;
+- Addressing potential reverse-causality problems and the challenges that competing hypotheses pose to the causal relationship;
+- Confirming what the mechanism is and what mechanisms exist: are the gender norms originating from plough agriculture transmitted solely through culture itself, or does the use of the plough also further influence gender roles by affecting institutions, policies, and markets outside the household?
 
 **Characteristics of Plough Agriculture:**
 
-- Requires significant upper-body strength, including grip strength and explosive power;
-- Involves using and controlling animals; the work cannot be interrupted casually at any moment;
-- Land preparation, accounting for roughly one-third of agricultural activities, takes place outdoors;
-- When the plough is used, the need for weeding is lower, during which time it is more convenient for women to stay at home (caring for children).
+- Requires considerable upper-body strength, including grip strength and explosive power;
+- Requires the use and control of animals, and the work cannot be interrupted at will;
+- Land preparation accounts for about one-third of agricultural activity, and this activity takes place outdoors;
+- When the plough is used, the demand for weeding is lower, in which case it is easier for women to stay at home (caring for children).
 
-> The above characteristics give men a labour advantage in plough-using societies. The counterpart to plough cultivation is shifting cultivation. Shifting cultivation primarily uses hoes, spades, etc., placing lower demands on physical strength and allowing women to participate more in outdoor labour.
+> The above characteristics give men a labor advantage in plough-using societies. The counterpart to plough cultivation is shifting cultivation. Shifting cultivation mainly uses hoes, spades, and the like, which place lower demands on strength, allowing women to participate more in outdoor labor.
 
-**Possible Transmission Pathways for Societal Gender Norms:**
+**Possible Pathways for the Transmission of Societal Gender Norms:**
 
-- Cultural norms of gender inequality get reinforced by policies, laws, and institutions, such as those establishing unequal property rights, voting rights, and parental leave systems;
-- These cultural norms may also foster mutually reinforcing interactions with the industrial structure. For instance, societies with greater gender inequality might be more prone to developing capital-intensive industries. In turn, these capital-intensive industries lower the relative cost of maintaining gender inequality, thereby perpetuating unequal gender concepts;
-- Path dependence: Gender norms constitute a form of decision-making experience. If past experience indicates this arrangement of gender roles was practically effective, the same arrangement will likely be followed in subsequent decisions (as it is simpler).
+- Cultural norms of gender inequality are reinforced by policies, laws, and institutions, such as those establishing unequal property rights, voting rights, and parental leave;
+- These cultural norms may also form a mutually reinforcing relationship with the industrial structure. For example, societies with greater gender inequality are more likely to develop capital-intensive industries, and capital-intensive industries in turn make maintaining gender inequality relatively less costly, thereby perpetuating unequal gender attitudes;
+- Path dependence: gender norms constitute a kind of decision-making experience. If past experience indicates that such an arrangement of gender roles was effective in practice, then the same arrangement will be retained in subsequent decisions (it is easier).
 
 **Data:** 
 
 - Plough use and other data:
-  - Sourced from Murdock's global Ethnographic Atlas, the same dataset used in “[EJ-Solar Eclipses and the Origins of Critical Thinking and Complexity](https://yuzhang.net/2024/01/22/20240122-EJ-%E6%97%A5%E9%A3%9F%E4%B8%8E%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4%E5%8F%8A%E5%A4%8D%E6%9D%82%E6%80%A7%E7%9A%84%E8%B5%B7%E6%BA%90/)”, encompasses 1,265 ethnic groups;
-  - Primary independent variable: historical use of the plough. Plough use within ethnic groups is categorized into three mutually exclusive scenarios: the plough was absent, the plough was introduced at a later historical date, the plough was used aboriginally. In this study, the absence of plough use is coded as 0, and plough use (whether aboriginal or introduced later) is coded as 1;
-  - Gender division of labour: rated on a scale of 1-5, with higher values indicating greater participation by women in agriculture;
-  - Whether large domestic animals were kept, settlement density, level of political complexity;
-  - Proportion of land suitable for crop cultivation within a 200 km radius of the settlement centroid;
-  - Geographic matching of historical data on plough use with contemporary linguistic region data;
+  - Sourced from the global Ethnographic Atlas constructed by Murdock — the same dataset used in "[EJ — Solar Eclipses and the Origins of Critical Thinking and Complexity](https://yuzhang.net/2024/01/22/20240122-EJ-%E6%97%A5%E9%A3%9F%E4%B8%8E%E6%89%B9%E5%88%A4%E6%80%A7%E6%80%9D%E7%BB%B4%E5%8F%8A%E5%A4%8D%E6%9D%82%E6%80%A7%E7%9A%84%E8%B5%B7%E6%BA%90/)" — containing 1,265 ethnic groups;
+  - Primary independent variable: historical use of the plough. The use of the plough within an ethnic group is divided into three mutually exclusive scenarios: the plough was not used, the plough was introduced later, and the plough was used from the beginning. In this study, never having used the plough is coded as 0, and using the plough (whether indigenous or introduced later) is coded as 1;
+  - Gender division of labor: 1-5, with higher values indicating greater participation by women in agriculture;
+  - Whether large animals were domesticated, settlement density, political complexity;
+  - The proportion of land suitable for growing crops within a 200 km radius of the settlement centroid;
+  - Geographic matching of the historical data on plough use with present-day linguistic-region data;
   - Other physical geography data, etc.
 
 - Primary dependent variables:
-  - Country-level: female labour force participation rate, proportion of firms with female ownership, proportion of political positions held by women;
-  - Sub-national level: whether a female individual is in the labour force, and from answers to two questions relating to women’s gender roles (“When jobs are scarce, men should have more right to a job than women,” and that “Men make better political leaders than women”).
+  - Country level: female labor force participation rate, the proportion of firms with female ownership, and the proportion of political positions held by women;
+  - Sub-national level: whether a woman is in the labor force, and two questions related to women's gender roles (whether men should have more right to a job than women when jobs are scarce, and whether men make better political leaders than women);
 
-- International census data: from which it is possible to extract variables on labour force participation, ethnicity, employment, etc.;
-- Data from the Current Population Survey (USA) and the European Social Survey: include information regarding immigrant labour participation, parents’ country of birth, and other demographic details. The European Social Survey also contains value data on gender norms.
+- International census data: from which variables such as labor force participation, ethnicity, and employment can be extracted;
+- Data from the Current Population Survey (USA) and the European Social Survey: covering immigrants' labor participation, parents' country of birth, and other demographic information; the European Social Survey also contains value data on gender norms.
 
 **Results:**
 
-- Cross-national analysis indicates significantly lower female labour force participation, lower proportion of firms with female ownership, and lower proportion of political positions held by women in regions that historically used the plough;
-- Sub-nationally, analysis of data from the World Values Survey shows that individuals hailing from regions that historically employed the plough exhibit lower female labour participation rates, are more likely to concur that men should have more right to a job when work is scarce, and also more prone to espouse the view that men are better political leaders than women.
-- Even after introducing further control variables and eliminating competing hypotheses regarding factors that could potentially influence gender norms — such as the occurrence of warfare, communism, large-scale immigration, oil reserves, and religious influence— the conclusions persist;
-- Data collected from surveys administered to children of immigrants indicates that when institutional conditions and scenarios affecting market employment are largely constant as a governing factor, the respective ancestral immigrant heritage of these individuals (whether she or he originates from plough-using societies) serves as a significant independent explanatory factor regarding gender normative attitudinal positions and observable force of participation taking in labour in an urbanised host-country environment for arranging items to.
+- Cross-national analysis shows that in regions that historically used the plough, the female labor force participation rate, the proportion of firms with female ownership, and the proportion of political positions held by women are all significantly lower;
+- Sub-national analysis based on World Values Survey data shows that individuals from regions that historically used the plough have lower female labor participation rates, are more likely to agree with the idea that men should have more right to a job when jobs are scarce, and are also more likely to agree with the view that men make better political leaders than women;
+- After adding more control variables and ruling out competing hypotheses about factors that might influence gender attitudes — such as war, communism and large-scale immigration, oil reserves, and religion — the conclusions still hold;
+- Data from surveys of the children of immigrants show that, when the institutional environment, market employment conditions, and so on are held the same, an individual's immigrant background (whether they come from a plough-using society) has explanatory power for their gender norms and labor participation in the new society.
 
-**A Side Commentary:**
+**Extra:**
 
-- The workload that went into this article is staggering, and seemingly also *gestures subtly* towards providing additional discussion points useful for decipherment and precise exposition analysis relating prominently toward probat origins arising specifically from forms now commonly designated increasingly across diversified contemporary analyst subcultural framing contexts lately as proto-paternalistic directive-hierarchical hector vibes;
-- Stories of historical economic-development preconditions pertaining diffusely toward foundational branching classification investigations into things associated somewhere drawing upon `matters inception-level' demonstrably proceed toward conferring emergent causal-arising traction consistently yield perhaps significantly also extremely great intellectually compelling fascinate-power captivate…Fascinating discourse!
-- Mechanisms largely lack illuminated specification area deliver definitive features relative sharply comprehensively mapping position-tested phenomenological constituting structural mediator systematic empirically object quantified articulations hence region touch arguable original path-dependence replication persistent cultural norm trait survivorship constitute possible probable apparently straightforward standard fairly primary inherently appealing natural conventionalized holding interpretation obvious foremost line explanatory plausible intuitive satisfying sensible likely leading position across presented narrative architecture lacking full accounting yielding solid grounds entirely precise terminable checking confirming mechanisms exhaustive presentments producing alternatively new contribution augment specific supplementary finer additional dimensionally descriptive explanatory procedural layer insight unit brought scheme past currently generally accumulated discourse conversation direction forward contemporary insight margins extended component incremental deposit foundation…not manifest present offered offered-shown exhibition made present .mechanisms somewhat within sphere scope delivery handling result output this part partial deficit remainder continue inquiry later subsequent work project for remainder latter filling deeper completion further reach definitively finishing area .
+- The amount of work that went into this paper is enormous, and it seems to indirectly answer the origins of "daddy vibes" as well;
+- Origin questions are really interesting;
+- The mechanism is not clearly explained. On the question of mechanism, the paper seems to offer no new findings, and the existing argument from cultural persistence remains the most natural explanation.
 
 **Original Article Information:**
 
