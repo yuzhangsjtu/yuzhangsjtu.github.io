@@ -56,7 +56,9 @@ const setupHeader = () => {
 
   const render = (y: number) => {
     const menuOpacity = 1 - headerBgOpacity(y)
-    const scrolledPast = y > 160
+    // The resting nav is now fully transparent text, so the solid pill must
+    // appear before content can slide underneath it (was 160).
+    const scrolledPast = y > 64
     const solid = shouldFloat || (!fadeMode && scrolledPast)
 
     if (shouldFloat) {

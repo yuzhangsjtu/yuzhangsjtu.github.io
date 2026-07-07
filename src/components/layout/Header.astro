@@ -1,7 +1,8 @@
 ---
 // Ported from components/layout/header/{Header,internal/*}.tsx.
 // Backend-driven parts (UserAuth, Activity, OwnerStatus, live state,
-// dropdown mega-menus) are removed; markup/classes are otherwise verbatim.
+// dropdown mega-menus) are removed. The desktop nav is restyled away from
+// the Shiro segmented-control look — see the nav block below.
 import type { Locale } from '~/i18n/config'
 import { localizePath, unlocalizePath, useTranslations } from '~/i18n'
 import { siteConfig, localizedSite } from '~/site.config'
@@ -107,7 +108,13 @@ const { avatar } = siteConfig.user
                   : 'text-neutral-7',
               ]}
             >
-              <i class={`${section.icon} text-icon-md text-neutral-6`} />
+              <i
+                class:list={[
+                  section.icon,
+                  'text-icon-md',
+                  isActive(section.path) ? 'text-accent' : 'text-neutral-6',
+                ]}
+              />
               <span>{section.title}</span>
             </a>
           ))
@@ -152,7 +159,11 @@ const { avatar } = siteConfig.user
   </div>
 </div>
 
-<!-- Floating centered nav (HeaderContent.tsx → ForDesktop) -->
+<!-- Floating centered nav. Diverges from the Shiro port: the segmented-control
+     pill (glass box, item dividers, raised active card + icon) is replaced by
+     bare letter-spaced text on the paper; the active page carries the site's
+     accent underline (same language as .yohaku-link--underline) and a soft
+     paper pill only materializes once scrolled (.nav-solid). -->
 <div
   id="header-nav-portal"
   class="yohaku-page-right-inset pointer-events-none fixed inset-x-0 top-4 z-10 mr-[var(--removed-body-scroll-bar-size)] hidden justify-center lg:flex transition-[opacity,transform] duration-200"
@@ -160,60 +171,30 @@ const { avatar } = siteConfig.user
   <nav
     id="header-nav-root"
     class:list={[
-      'relative',
-      'rounded-sm',
-      'bg-white/[0.38] dark:bg-neutral-900/[0.38] backdrop-blur-lg',
-      'border border-[rgba(200,180,160,0.08)] dark:border-neutral-700/20',
-      'pointer-events-auto duration-200',
+      'relative rounded-full',
+      'border border-transparent',
+      'pointer-events-auto',
+      'transition-[background-color,border-color,box-shadow,backdrop-filter] duration-300',
     ]}
   >
-    <ul class="flex list-none items-center px-2 font-medium text-neutral-9">
+    <ul class="flex list-none items-center gap-0.5 px-3 text-copy-14">
       {
-        headerMenuConfig.map((section, index) => (
-          <>
-            {index > 0 && (
-              <li aria-hidden class="contents">
-                <div class="h-3.5 w-px shrink-0 bg-gradient-to-b from-transparent via-black/[0.06] to-transparent dark:via-white/[0.06]" />
-              </li>
-            )}
-            <li class="contents">
-              <a
-                href={localizePath(locale, section.path)}
-                class:list={[
-                  'relative z-[1] block whitespace-nowrap px-3 py-1.5 transition-colors duration-200',
-                  isActive(section.path)
-                    ? 'text-neutral-9'
-                    : 'text-neutral-7 hover:text-neutral-9',
-                ]}
-              >
-                {
-                  isActive(section.path) && (
-                    <span
-                      aria-hidden
-                      class:list={[
-                        'pointer-events-none absolute inset-[2px] rounded-[2px]',
-                        'bg-white shadow-[0_1px_4px_rgba(0,0,0,0.10),0_0_0_0.5px_rgba(0,0,0,0.06)]',
-                        'dark:bg-white/[0.12] dark:shadow-[0_1px_4px_rgba(0,0,0,0.3),0_0_0_0.5px_rgba(255,255,255,0.05)]',
-                      ]}
-                    />
-                  )
-                }
-                <span class="relative flex items-center">
-                  {
-                    isActive(section.path) && (
-                      <span
-                        aria-hidden
-                        class="mr-2 inline-flex w-[1em] shrink-0 items-center justify-center"
-                      >
-                        <i class={section.icon} />
-                      </span>
-                    )
-                  }
-                  <span>{section.title}</span>
-                </span>
-              </a>
-            </li>
-          </>
+        headerMenuConfig.map((section) => (
+          <li class="contents">
+            <a
+              href={localizePath(locale, section.path)}
+              aria-current={isActive(section.path) ? 'page' : undefined}
+              class:list={[
+                'nav-item relative block whitespace-nowrap px-2.5 py-1.5 tracking-[0.05em]',
+                'transition-colors duration-200',
+                isActive(section.path)
+                  ? 'nav-active font-medium text-neutral-9'
+                  : 'text-neutral-6 hover:text-neutral-9',
+              ]}
+            >
+              <span class="nav-label">{section.title}</span>
+            </a>
+          </li>
         ))
       }
     </ul>
@@ -221,18 +202,38 @@ const { avatar } = siteConfig.user
 </div>
 
 <style>
-  /* Solid nav state (HeaderContent.tsx `solid` classes) */
+  /* Active/hover marker: the site's accent underline (mirrors
+     .yohaku-link--underline) — 1px line grows from the left on hover,
+     held full-width on the active page. */
+  .nav-label {
+    background-image: linear-gradient(var(--color-accent), var(--color-accent));
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 500ms ease;
+  }
+  .nav-item:hover .nav-label {
+    background-size: 100% 1px;
+    transition: background-size 250ms ease;
+  }
+  .nav-active .nav-label {
+    background-size: 100% 1px;
+  }
+
+  /* Scrolled state: warm paper pill fades in under the text. */
   #header-nav-root.nav-solid {
-    background-color: #fff;
+    background-color: rgb(254 254 251 / 0.88);
+    border-color: rgb(0 0 0 / 0.05);
+    backdrop-filter: blur(12px);
     box-shadow:
-      0 6px 20px -10px rgba(0, 0, 0, 0.12),
-      0 2px 6px -3px rgba(0, 0, 0, 0.06);
-    backdrop-filter: none;
+      0 1px 2px rgba(0, 0, 0, 0.04),
+      0 6px 20px -8px rgba(0, 0, 0, 0.1);
   }
   :global([data-theme='dark']) #header-nav-root.nav-solid {
-    background-color: var(--color-neutral-900, #171717);
+    background-color: rgb(23 23 23 / 0.85);
+    border-color: rgb(255 255 255 / 0.06);
     box-shadow:
-      0 6px 20px -10px rgba(0, 0, 0, 0.4),
-      0 2px 6px -3px rgba(0, 0, 0, 0.25);
+      0 1px 2px rgba(0, 0, 0, 0.2),
+      0 6px 20px -8px rgba(0, 0, 0, 0.35);
   }
 </style>
