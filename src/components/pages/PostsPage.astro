@@ -6,7 +6,7 @@ import type { Locale } from '~/i18n/config'
 import { useTranslations } from '~/i18n'
 import type { PostEntry } from '~/lib/content'
 import BaseLayout from '~/layouts/BaseLayout.astro'
-import WiderContainer from '~/components/layout/WiderContainer.astro'
+import NormalContainer from '~/components/layout/NormalContainer.astro'
 import PostFeaturedCard from '~/components/modules/post/PostFeaturedCard.astro'
 import PostListItem from '~/components/modules/post/PostListItem.astro'
 import ListPaginationNav from '~/components/ui/ListPaginationNav.astro'
@@ -35,46 +35,38 @@ const totalPages = Math.max(page.lastPage, 1)
 ---
 
 <BaseLayout locale={locale} title={t('page_title_posts')}>
-  <WiderContainer>
-    <div
-      class="grid gap-10 lg:grid-cols-[minmax(0,1fr)_17rem] xl:grid-cols-[minmax(0,1fr)_18rem] xl:gap-16"
-    >
-      <div class="min-w-0">
-        <div class="text-label-12 uppercase tracking-[4px] text-neutral-5">
-          Blog
-        </div>
-        <h1 class="mt-2.5 text-title-28 font-normal text-neutral-9">
-          {t('posts_heading')}
-        </h1>
-
-        {featuredPost && <PostFeaturedCard locale={locale} post={featuredPost} />}
-
-        <div
-          aria-hidden
-          class="mt-5 h-[1.25rem] border-b border-black/[0.06] pb-3 dark:border-white/[0.06]"
-        >
-        </div>
-
-        <div>
-          {listItems.map((item) => <PostListItem locale={locale} post={item} />)}
-        </div>
-
-        <ListPaginationNav
-          ariaLabel="Pagination"
-          hasNext={!!page.url.next}
-          hasPrev={!!page.url.prev}
-          nextHref={page.url.next}
-          nextLabel={t('pagination_next')}
-          prevHref={page.url.prev}
-          prevLabel={t('pagination_prev')}
-          info={t('pagination_page_info', {
-            current: page.currentPage,
-            total: totalPages,
-          })}
-        />
-      </div>
-
-      <div></div>
+  <NormalContainer>
+    <div class="text-label-12 uppercase tracking-[4px] text-neutral-5">
+      Blog
     </div>
-  </WiderContainer>
+    <h1 class="mt-2.5 text-title-28 font-normal text-neutral-9">
+      {t('posts_heading')}
+    </h1>
+
+    {featuredPost && <PostFeaturedCard locale={locale} post={featuredPost} />}
+
+    <div
+      aria-hidden
+      class="mt-5 h-[1.25rem] border-b border-black/[0.06] pb-3 dark:border-white/[0.06]"
+    >
+    </div>
+
+    <div>
+      {listItems.map((item) => <PostListItem locale={locale} post={item} />)}
+    </div>
+
+    <ListPaginationNav
+      ariaLabel="Pagination"
+      hasNext={!!page.url.next}
+      hasPrev={!!page.url.prev}
+      nextHref={page.url.next}
+      nextLabel={t('pagination_next')}
+      prevHref={page.url.prev}
+      prevLabel={t('pagination_prev')}
+      info={t('pagination_page_info', {
+        current: page.currentPage,
+        total: totalPages,
+      })}
+    />
+  </NormalContainer>
 </BaseLayout>
